@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dacrab&color=blueviolet" alt="Profile views">
+  <img src="https://komarev.com/ghpvc/?username=dacrab&color=blueviolet&style=flat-square" alt="Profile views">
 </p>
 
 ## About Me
@@ -45,23 +45,23 @@ Here are some of my pinned projects:
 ## 🌈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=radical" alt="Vaggelis's GitHub stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight" alt="Vaggelis's GitHub stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dacrab&theme=radical" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dacrab&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
 ## 📊 Most Used Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=radical" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight" alt="Top Languages"/>
 </p>
 
 ## 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=dacrab&theme=react-dark" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dacrab&theme=react-dark" alt="Contribution Graph"/>
 </p>
 
 ## 🏆 GitHub Trophies
