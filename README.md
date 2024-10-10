@@ -4,19 +4,6 @@
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+profile!;I'm+a+passionate+solo+developer;Always+learning+new+things&font=Fira%20Code&center=true&width=380&height=50">
 </p>
 
-<p align="center">
-  <a href="https://www.instagram.com/killcrb/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="https://github.com/dacrab">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dacrab&color=blueviolet&style=flat-square" alt="Profile views">
-</p>
-
 ## About Me
 
 I'm a solo developer 🚀 passionate about coding & creating projects. From C calculators to HTML/CSS websites, I love exploring various technologies and bringing ideas to life. I'm always open to feedback & collaboration! 😊
@@ -42,7 +29,7 @@ Here are some of my pinned projects:
 3. [Portfolio](https://github.com/dacrab/portfolio) - My personal portfolio built with vanilla JavaScript, HTML, and CSS.
 4. [Calculator](https://github.com/dacrab/calculator-js-html-css) - A calculator application made using HTML, CSS, and JavaScript.
 
-## 🌈 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight" alt="Vaggelis's GitHub stats"/>
@@ -52,19 +39,13 @@ Here are some of my pinned projects:
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dacrab&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
-## 📊 Most Used Languages
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight" alt="Top Languages"/>
 </p>
 
-## 📈 Contribution Graph
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dacrab&theme=react-dark" alt="Contribution Graph"/>
 </p>
-
-## 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=dacrab&theme=darkhub&no-frame=true&margin-w=15" alt="GitHub Trophies"/>
@@ -79,15 +60,34 @@ Here are some of my pinned projects:
   <a href="https://github.com/dacrab">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <a href="https://www.linkedin.com/in/vkavouras/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
 </p>
 
 <p align="center">I'm always excited to collaborate on new projects or discuss tech. Feel free to reach out!</p>
 
+## 📈 Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=dacrab&color=blueviolet&style=flat-square&unique=true" alt="Profile views">
+</p>
+
 ---
+
+## 🏆 Badges
 
 <p align="center">
   <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
   <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg"/>
 </p>
 
-⭐️ From [dacrab](https://github.com/dacrab)
+<p align="center">
+  <a href="https://github.com/dacrab">
+    <img src="https://img.shields.io/badge/Created%20by-dacrab-blue?style=for-the-badge&logo=github&logoColor=white" alt="Created by dacrab" width="200" height="40"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Created+by+dacrab;GitHub+Enthusiast;Code+Craftsman" alt="Typing SVG" />
+</p>
