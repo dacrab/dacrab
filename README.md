@@ -13,21 +13,24 @@ I'm a solo developer 🚀 passionate about coding & creating projects. From C ca
 ## 🛠️ Skills
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+  <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcn&logoColor=white" alt="shadcn/ui"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 </p>
+
 
 ## 🚀 Projects
 
 Here are some of my pinned projects:
 
-1. [RecipeSwap](https://github.com/dacrab/RecipeSwap) - A simple cooking blog made with HTML and CSS.
-2. [Cooking Website with PHP](https://github.com/dacrab/Cooking-Website-with-PHP-) - A cooking website created using HTML, CSS, and PHP.
-3. [Portfolio](https://github.com/dacrab/portfolio) - My personal portfolio built with vanilla JavaScript, HTML, and CSS.
-4. [Calculator](https://github.com/dacrab/calculator-js-html-css) - A calculator application made using HTML, CSS, and JavaScript.
+1. [Argicon](https://argicon.gr) - A sleek, multi-language architecture studio site showcasing portfolio, services, and case studies with minimalist design, built in Next.js and Framer Motion.
+2. [DesignDash](https://designdash.gr) - A responsive architecture portfolio with light/dark mode, bilingual (EN/GR) support, and animated UI, powered by Next.js, Tailwind, and Resend API.
+3. [Portfolio](https://github.com/dacrab/portfolio) - My personal portfolio built with NextJS, TailwindCSS and TypeScript.[Live Demo](https://dacrab.github.io/)
+4. [clubOS](https://github.com/dacrab/clubos) - A full-featured POS and booking system for sports facilities, built with Next.js, Supabase, and shadcn/ui. Includes role-based dashboards, real-time inventory, and financial reporting. [Live Demo](https://clubos.vercel.app/)
 
 ## 📊 GitHub Stats
 
