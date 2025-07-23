@@ -1,13 +1,13 @@
 # Hi there 👋 I'm Vaggelis Kavouras
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+profile!;I'm+a+passionate+solo+developer;Always+learning+new+things&font=Fira%20Code&center=true&width=380&height=50">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+my+GitHub+profile!;I'm+a+passionate+solo+developer;Always+learning+new+things&font=Fira%40Code&center=true">
 </p>
 
 ## About Me
 
-I'm a solo developer 🚀 passionate about coding & creating projects. From C calculators to HTML/CSS websites, I love exploring various technologies and bringing ideas to life. I'm always open to feedback & collaboration! 😊
-
+I'm a solo developer from 🇬🇷 Greece with a passion for building modern web apps. I started with C and static websites — and now I create type-safe, full-stack, real-time apps using cutting-edge tools like Supabase, Next.js, and Tailwind CSS.
+I enjoy clean design, scalable code, and collaborating with like-minded devs. Always learning. Always shipping.
 🌍 Based in Greece
 
 ## 🛠️ Skills
@@ -22,36 +22,28 @@ I'm a solo developer 🚀 passionate about coding & creating projects. From C ca
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 </p>
 
-
 ## 🚀 Projects
+| Project                                       | Description                                                                                                                     |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 🎯 [**Argicon**](https://argicon.gr)          | Sleek architecture studio site with multilingual support and Framer Motion animations.                                          |
+| 🧱 [**DesignDash**](https://designdash.gr)    | Bilingual architecture portfolio with light/dark mode, built with Next.js and Tailwind CSS.                                     |
+| 🧑‍💼 [**clubOS**](https://clubos.vercel.app) | POS and booking system for sports facilities with real-time data, RBAC, and analytics. [Repo](https://github.com/dacrab/clubos) |
+| 🌐 [**Portfolio**](https://dacrab.github.io/) | My personal developer portfolio built with Next.js, TailwindCSS, and TypeScript. [Repo](https://github.com/dacrab/portfolio)    |
 
-Here are some of my pinned projects:
-
-1. [Argicon](https://argicon.gr) - A sleek, multi-language architecture studio site showcasing portfolio, services, and case studies with minimalist design, built in Next.js and Framer Motion.
-2. [DesignDash](https://designdash.gr) - A responsive architecture portfolio with light/dark mode, bilingual (EN/GR) support, and animated UI, powered by Next.js, Tailwind, and Resend API.
-3. [Portfolio](https://github.com/dacrab/portfolio) - My personal portfolio built with NextJS, TailwindCSS and TypeScript.[Live Demo](https://dacrab.github.io/)
-4. [clubOS](https://github.com/dacrab/clubos) - A full-featured POS and booking system for sports facilities, built with Next.js, Supabase, and shadcn/ui. Includes role-based dashboards, real-time inventory, and financial reporting. [Live Demo](https://clubos.vercel.app/)
 
 ## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight" alt="Vaggelis's GitHub stats"/>
 </p>
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dacrab&theme=tokyonight" alt="GitHub Streak"/>
 </p>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight" alt="Top Languages"/>
 </p>
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dacrab&theme=react-dark" alt="Contribution Graph"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dacrab&theme=darkhub&no-frame=true&margin-w=15" alt="GitHub Trophies"/>
 </p>
 
 ## 🤝 Let's Connect!
@@ -66,31 +58,4 @@ Here are some of my pinned projects:
   <a href="https://www.linkedin.com/in/vkavouras/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-</p>
-
-<p align="center">I'm always excited to collaborate on new projects or discuss tech. Feel free to reach out!</p>
-
-## 📈 Profile Views
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=dacrab&color=blueviolet&style=flat-square&unique=true" alt="Profile views">
-</p>
-
----
-
-## 🏆 Badges
-
-<p align="center">
-  <img src="https://forthebadge.com/images/badges/built-with-love.svg"/>
-  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/dacrab">
-    <img src="https://img.shields.io/badge/Created%20by-dacrab-blue?style=for-the-badge&logo=github&logoColor=white" alt="Created by dacrab" width="200" height="40"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Created+by+dacrab;GitHub+Enthusiast;Code+Craftsman" alt="Typing SVG" />
 </p>
