@@ -51,9 +51,13 @@ I enjoy clean design, scalable code, and collaborating with like-minded devs. Al
 {{ end }}
 
 ## 🌱 My latest projects
-{{ range recentRepos 3 }}
+{{ if .recentRepos }}
+{{ range .recentRepos }}
 - [{{ .Name }}]({{ .URL }}) - {{ .Description }}
 {{- end }}
+{{ else }}
+- No recent projects found.
+{{ end }}
 
 ## 🔨 My recent Pull Requests
 {{ range recentPullRequests 5 }}
