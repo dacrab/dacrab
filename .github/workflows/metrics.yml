@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GH_PAT }}  # REQUIRED for your account
-          user: dacrab  # 👈 Your GitHub username
+          token: ${{ secrets.TOKEN }}
+          user: dacrab
           
           # Display configuration
           template: classic
