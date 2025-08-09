@@ -42,30 +42,22 @@ I enjoy clean design, scalable code, and collaborating with like-minded devs. Al
 ![GitHub Metrics](./github-metrics.svg)
 
 ## 👷 What I'm currently working on
-{{ if .recentContributions }}
-{{ range .recentContributions }}
+{{ range recentContributions "dacrab" 5 }}
 - [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
 {{- end }}
-{{ else }}
-- No recent contributions found.
-{{ end }}
 
 ## 🌱 My latest projects
-{{ if .recentRepos }}
-{{ range .recentRepos }}
+{{ range recentRepos "dacrab" 3 }}
 - [{{ .Name }}]({{ .URL }}) - {{ .Description }}
 {{- end }}
-{{ else }}
-- No recent projects found.
-{{ end }}
 
 ## 🔨 My recent Pull Requests
-{{ range recentPullRequests 5 }}
+{{ range recentPullRequests "dacrab" 5 }}
 - [{{ .Title }}]({{ .URL }}) on [{{ .Repo.Name }}]({{ .Repo.URL }})
 {{- end }}
 
 ## ⭐ Recent Stars
-{{ range recentStars 5 }}
+{{ range recentStars "dacrab" 5 }}
 - [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
 {{- end }}
 
