@@ -42,9 +42,13 @@ I enjoy clean design, scalable code, and collaborating with like-minded devs. Al
 ![GitHub Metrics](./github-metrics.svg)
 
 ## 👷 What I'm currently working on
-{{ range recentContributions 5 }}
+{{ if .recentContributions }}
+{{ range .recentContributions }}
 - [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
 {{- end }}
+{{ else }}
+- No recent contributions found.
+{{ end }}
 
 ## 🌱 My latest projects
 {{ range recentRepos 3 }}
