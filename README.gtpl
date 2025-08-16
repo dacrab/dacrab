@@ -37,10 +37,6 @@ I enjoy clean design, scalable code, and collaborating with like-minded devs. Al
 
 [![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=dacrab&theme=react-dark)](https://github.com/dacrab)
 
-## 📈 Detailed GitHub Metrics
-
-![GitHub Metrics](./github-metrics.svg)
-
 ## 👷 What I'm currently working on
 {{ range recentContributions 5 }}
 - [{{ .Repo.Name }}]({{ .Repo.URL }}) - {{ .Repo.Description }}
