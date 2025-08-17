@@ -114,13 +114,13 @@ Features: Responsive, Modern, Fast
 ## 🔥 Recent Activity
 
 ### 📝 Latest Repository Updates
-**1.** [ioannislo](https://github.com/dacrab/ioannislo) 🔷 `TypeScript`  
-Portfolio  
-⭐ 0 · 🍴 0 · Updated 2 days ago
+**1.** [ioannislo](https://github.com/dacrab/ioannislo) 📁 `Astro`  
+Portfolio for a friend following the brutalistic aeshetic  
+⭐ 0 · 🍴 0 · Updated 10 hours ago
 
 **2.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
 Custom POS system made using NextJS & Supabase  
-⭐ 0 · 🍴 0 · Updated 7 days ago
+⭐ 0 · 🍴 0 · Updated 8 days ago
 
 **3.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
@@ -128,7 +128,7 @@ My config for th Ghostty terminal
 
 **4.** [craftops](https://github.com/dacrab/craftops) 🔵 `Go`  
 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨  
-⭐ 0 · 🍴 0 · Updated 13 days ago
+⭐ 0 · 🍴 0 · Updated 14 days ago
 
 ### ⭐ Recently Starred
 - [**neon**](https://github.com/neondatabase/neon) by [neondatabase](https://github.com/neondatabase) 🦀  
@@ -153,7 +153,7 @@ My config for th Ghostty terminal
 | ➡️ **Following** | **5** |
 | ⭐ **Total Stars Earned** | **53** |
 | 🍴 **Total Forks** | **3** |
-| 💻 **Languages Used** | **8** |
+| 💻 **Languages Used** | **9** |
 
 </div>
 
@@ -187,6 +187,6 @@ My config for th Ghostty terminal
 
 ![Profile Views](https://komarev.com/ghpvc/?username=dacrab&style=for-the-badge&color=58A6FF)
 
-*🕒 Last updated: Saturday, August 16, 2025 at 05:23 PM (Europe/Athens)*
+*🕒 Last updated: Sunday, August 17, 2025 at 09:12 AM (Europe/Athens)*
 
 </div>
