@@ -2,7 +2,7 @@
 
 # Hello World! 👋 I'm Vaggelis Kavouras
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+from+Greece+🇬🇷;Building+Modern+Web+Applications;Always+Learning+%26+Shipping!;TypeScript+%7C+React+%7C+Next.js+Enthusiast;20+Commits+in+2025!)](https://github.com/dacrab)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+from+Greece+🇬🇷;Building+Modern+Web+Applications;Always+Learning+%26+Shipping!;TypeScript+%7C+React+%7C+Next.js+Enthusiast;19+Commits+in+2025!)](https://github.com/dacrab)
 
 ---
 
@@ -12,7 +12,7 @@
 
 I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting modern, type-safe web applications. My journey started with **C** and static websites, and now I build full-stack, real-time applications using cutting-edge technologies.
 
-- 🔭 Currently working on **clubos**
+- 🔭 Currently working on **dacrab**
 - 🌱 Learning advanced **TypeScript patterns** and **system design**
 - 💡 Love **clean code**, **scalable architecture**, and **developer experience**
 - 🎯 Always shipping **production-ready** applications
@@ -119,17 +119,17 @@ Features: Responsive, Modern, Fast
 
 ## 🌱 My latest projects
 
-**1.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
-Custom POS system made using NextJS & Supabase  
-⭐ 0 · 🍴 0 · Updated 2 hours ago
-
-**2.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
+**1.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
 No description provided  
 ⭐ 0 · 🍴 0 · Updated 3 hours ago
 
+**2.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
+Custom POS system made using NextJS & Supabase  
+⭐ 0 · 🍴 0 · Updated 6 hours ago
+
 **3.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
 Portfolio for a friend following the brutalistic aeshetic  
-⭐ 0 · 🍴 0 · Updated 4 hours ago
+⭐ 0 · 🍴 0 · Updated 8 hours ago
 
 **4.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
@@ -170,7 +170,7 @@ My config for th Ghostty terminal
 | 📚 **Public Repositories** | **22** | 👥 **Followers** | **15** |
 | ➡️ **Following** | **5** | ⭐ **Total Stars Earned** | **53** |
 | 🍴 **Total Forks** | **3** | 💻 **Languages Used** | **11** |
-| 🔥 **Commits This Year** | **20** | 📈 **Profile Views** | ![Profile Views](https://komarev.com/ghpvc/?username=dacrab&style=flat-square&color=58A6FF) |
+| 🔥 **Commits This Year** | **19** | 📈 **Profile Views** | ![Profile Views](https://komarev.com/ghpvc/?username=dacrab&style=flat-square&color=58A6FF) |
 
 </div>
 
@@ -204,6 +204,6 @@ My config for th Ghostty terminal
 
 💫
 
-*🕒 Last updated: Sunday, August 17, 2025 at 07:21 PM (Europe/Athens)*
+*🕒 Last updated: Sunday, August 17, 2025 at 11:20 PM (Europe/Athens)*
 
 </div>
