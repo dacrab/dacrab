@@ -1,18 +1,18 @@
-# Hello World! 👋 I'm Vaggelis Kavouras
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer+from+Greece+🇬🇷;Building+Modern+Web+Applications;Always+Learning+%26+Shipping!;TypeScript+%7C+React+%7C+Next.js+Enthusiast)](https://github.com/dacrab)
+# Hello World! 👋 I'm Vaggelis Kavouras
 
-</div>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+from+Greece+🇬🇷;Building+Modern+Web+Applications;Always+Learning+%26+Shipping!;TypeScript+%7C+React+%7C+Next.js+Enthusiast;20+Commits+in+2025!)](https://github.com/dacrab)
 
 ---
+
+</div>
 
 ## 🚀 About Me
 
 I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting modern, type-safe web applications. My journey started with **C** and static websites, and now I build full-stack, real-time applications using cutting-edge technologies.
 
-- 🔭 Currently working on **ioannislo**
+- 🔭 Currently working on **dacrab**
 - 🌱 Learning advanced **TypeScript patterns** and **system design**
 - 💡 Love **clean code**, **scalable architecture**, and **developer experience**
 - 🎯 Always shipping **production-ready** applications
@@ -111,26 +111,42 @@ Features: Responsive, Modern, Fast
 
 ---
 
-## 🔥 Recent Activity
+## 👷 Check out what I'm currently working on
 
-### 📝 Latest Repository Updates
-**1.** [ioannislo](https://github.com/dacrab/ioannislo) 📁 `Astro`  
+**1.** [ioannislo](https://github.com/dacrab/ioannislo) - Active development
+**2.** [dacrab](https://github.com/dacrab/dacrab) - Active development
+
+## 🌱 My latest projects
+
+**1.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
+No description provided  
+⭐ 0 · 🍴 0 · Updated Just now
+
+**2.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
 Portfolio for a friend following the brutalistic aeshetic  
-⭐ 0 · 🍴 0 · Updated 10 hours ago
+⭐ 0 · 🍴 0 · Updated 1 hour ago
 
-**2.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
+**3.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
 Custom POS system made using NextJS & Supabase  
 ⭐ 0 · 🍴 0 · Updated 8 days ago
 
-**3.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
+**4.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
-⭐ 6 · 🍴 0 · Updated 9 days ago
+⭐ 6 · 🍴 0 · Updated 10 days ago
 
-**4.** [craftops](https://github.com/dacrab/craftops) 🔵 `Go`  
+**5.** [craftops](https://github.com/dacrab/craftops) 🔵 `Go`  
 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨  
 ⭐ 0 · 🍴 0 · Updated 14 days ago
 
-### ⭐ Recently Starred
+## 🔨 My recent Pull Requests
+
+- [Test](https://github.com/dacrab/ioannislo/pull/1) on [dacrab/ioannislo](https://api.github.com/repos/dacrab/ioannislo)
+- [Update README.md](https://github.com/ChrisTitusTech/mybash/pull/108) on [ChrisTitusTech/mybash](https://api.github.com/repos/ChrisTitusTech/mybash)
+- [🚀 Major refactor: Streamline repository and optimize scripts](https://github.com/yuaotian/go-cursor-help/pull/568) on [yuaotian/go-cursor-help](https://api.github.com/repos/yuaotian/go-cursor-help)
+- [删除多个脚本和配置文件以简化项目结构，提升可维护性。移除不再使用的构建配置、下载链接和���限管理功能，确保代码库整洁并为未来的功能扩展打下基础。](https://github.com/yuaotian/go-cursor-help/pull/548) on [yuaotian/go-cursor-help](https://api.github.com/repos/yuaotian/go-cursor-help)
+
+## ⭐ Recent Stars
+
 - [**neon**](https://github.com/neondatabase/neon) by [neondatabase](https://github.com/neondatabase) 🦀  
   Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.
 - [**remote-jobs**](https://github.com/remoteintech/remote-jobs) by [remoteintech](https://github.com/remoteintech) 🟨  
@@ -139,6 +155,8 @@ My config for th Ghostty terminal
   Export and Import your DB from your Free SupaBase Account
 - [**gemini-cli**](https://github.com/google-gemini/gemini-cli) by [google-gemini](https://github.com/google-gemini) 🔷  
   An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [**Fedora-42-Post-Install-Guide**](https://github.com/devangshekhawat/Fedora-42-Post-Install-Guide) by [devangshekhawat](https://github.com/devangshekhawat) 📁  
+  Things to do after installing Fedora 42
 
 ---
 
@@ -146,14 +164,12 @@ My config for th Ghostty terminal
 
 <div align="center">
 
-| Metric | Value |
-|:---:|:---:|
-| 📚 **Public Repositories** | **22** |
-| 👥 **Followers** | **15** |
-| ➡️ **Following** | **5** |
-| ⭐ **Total Stars Earned** | **53** |
-| 🍴 **Total Forks** | **3** |
-| 💻 **Languages Used** | **9** |
+| Metric | Value | Metric | Value |
+|:---:|:---:|:---:|:---:|
+| 📚 **Public Repositories** | **22** | 👥 **Followers** | **15** |
+| ➡️ **Following** | **5** | ⭐ **Total Stars Earned** | **53** |
+| 🍴 **Total Forks** | **3** | 💻 **Languages Used** | **11** |
+| 🔥 **Commits This Year** | **20** | 📈 **Profile Views** | ![Profile Views](https://komarev.com/ghpvc/?username=dacrab&style=flat-square&color=58A6FF) |
 
 </div>
 
@@ -185,8 +201,8 @@ My config for th Ghostty terminal
 
 ### ✨ **"Code is poetry written in logic"** ✨
 
-![Profile Views](https://komarev.com/ghpvc/?username=dacrab&style=for-the-badge&color=58A6FF)
+💫
 
-*🕒 Last updated: Sunday, August 17, 2025 at 09:12 AM (Europe/Athens)*
+*🕒 Last updated: Sunday, August 17, 2025 at 04:21 PM (Europe/Athens)*
 
 </div>
