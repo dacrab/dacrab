@@ -133,7 +133,7 @@ async function generateReadme() {
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+from+Greece+🇬🇷;Building+Modern+Web+Applications;Always+Learning+%26+Shipping!;TypeScript+%7C+React+%7C+Next.js+Enthusiast;${totalCommitsThisYear}+Commits+in+${new Date().getFullYear()}!)](https://github.com/dacrab)
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+---
 
 </div>
 
@@ -147,7 +147,7 @@ I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting mode
 - 🎯 Always shipping **production-ready** applications
 - 📍 Based in **Greece** 🇬🇷
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 ## 🛠️ Tech Stack & Tools
 
@@ -163,7 +163,7 @@ I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting mode
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 ## 📊 GitHub Analytics
 
@@ -181,7 +181,7 @@ I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting mode
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 ## 🏗️ Featured Projects
 
@@ -238,7 +238,7 @@ Features: Responsive, Modern, Fast
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 ## 👷 Check out what I'm currently working on
 
@@ -273,7 +273,7 @@ Features: Responsive, Modern, Fast
     });
     
     readme += `
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 ## 📊 Profile Stats
 
@@ -288,7 +288,7 @@ Features: Responsive, Modern, Fast
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 ## 🤝 Let's Connect & Collaborate!
 
@@ -302,7 +302,7 @@ Features: Responsive, Modern, Fast
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 <div align="center">
 
@@ -310,13 +310,13 @@ Features: Responsive, Modern, Fast
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+---
 
 <div align="center">
 
 ### ✨ **"Code is poetry written in logic"** ✨
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+💫
 
 *🕒 Last updated: ${timeString} (Europe/Athens)*
 
