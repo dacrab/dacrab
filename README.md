@@ -12,7 +12,7 @@
 
 I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting modern, type-safe web applications. My journey started with **C** and static websites, and now I build full-stack, real-time applications using cutting-edge technologies.
 
-- 🔭 Currently working on **dacrab**
+- 🔭 Currently working on **clubos**
 - 🌱 Learning advanced **TypeScript patterns** and **system design**
 - 💡 Love **clean code**, **scalable architecture**, and **developer experience**
 - 🎯 Always shipping **production-ready** applications
@@ -113,22 +113,23 @@ Features: Responsive, Modern, Fast
 
 ## 👷 Check out what I'm currently working on
 
-**1.** [ioannislo](https://github.com/dacrab/ioannislo) - Active development
+**1.** [clubos](https://github.com/dacrab/clubos) - Active development
 **2.** [dacrab](https://github.com/dacrab/dacrab) - Active development
+**3.** [ioannislo](https://github.com/dacrab/ioannislo) - Active development
 
 ## 🌱 My latest projects
 
-**1.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
-No description provided  
-⭐ 0 · 🍴 0 · Updated Just now
-
-**2.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
-Portfolio for a friend following the brutalistic aeshetic  
-⭐ 0 · 🍴 0 · Updated 1 hour ago
-
-**3.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
+**1.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
 Custom POS system made using NextJS & Supabase  
-⭐ 0 · 🍴 0 · Updated 8 days ago
+⭐ 0 · 🍴 0 · Updated 2 hours ago
+
+**2.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
+No description provided  
+⭐ 0 · 🍴 0 · Updated 3 hours ago
+
+**3.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
+Portfolio for a friend following the brutalistic aeshetic  
+⭐ 0 · 🍴 0 · Updated 4 hours ago
 
 **4.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
@@ -136,14 +137,14 @@ My config for th Ghostty terminal
 
 **5.** [craftops](https://github.com/dacrab/craftops) 🔵 `Go`  
 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨  
-⭐ 0 · 🍴 0 · Updated 14 days ago
+⭐ 0 · 🍴 0 · Updated 15 days ago
 
 ## 🔨 My recent Pull Requests
 
 - [Test](https://github.com/dacrab/ioannislo/pull/1) on [dacrab/ioannislo](https://api.github.com/repos/dacrab/ioannislo)
 - [Update README.md](https://github.com/ChrisTitusTech/mybash/pull/108) on [ChrisTitusTech/mybash](https://api.github.com/repos/ChrisTitusTech/mybash)
 - [🚀 Major refactor: Streamline repository and optimize scripts](https://github.com/yuaotian/go-cursor-help/pull/568) on [yuaotian/go-cursor-help](https://api.github.com/repos/yuaotian/go-cursor-help)
-- [删除多个脚本和配置文件以简化项目结构，提升可维护性。移除不再使用的构建配置、下载链接和���限管理功能，确保代码库整洁并为未来的功能扩展打下基础。](https://github.com/yuaotian/go-cursor-help/pull/548) on [yuaotian/go-cursor-help](https://api.github.com/repos/yuaotian/go-cursor-help)
+- [删除多个脚本和配置文件以简化项目结构，提升可维护性。移除不再使用的构建配置、下载链接和权限管理功能，确保代码库整洁并为未来的功能扩展打下基础。](https://github.com/yuaotian/go-cursor-help/pull/548) on [yuaotian/go-cursor-help](https://api.github.com/repos/yuaotian/go-cursor-help)
 
 ## ⭐ Recent Stars
 
@@ -203,6 +204,6 @@ My config for th Ghostty terminal
 
 💫
 
-*🕒 Last updated: Sunday, August 17, 2025 at 04:21 PM (Europe/Athens)*
+*🕒 Last updated: Sunday, August 17, 2025 at 07:21 PM (Europe/Athens)*
 
 </div>
