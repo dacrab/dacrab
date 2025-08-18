@@ -32,7 +32,7 @@ Go to your repository **Settings → Secrets and variables → Actions** and add
 
 | Secret Name | Description | Required |
 |-------------|-------------|----------|
-| `GITHUB_TOKEN` | GitHub Personal Access Token (for API & metrics) | ✅ Required |
+| `README_TOKEN` | GitHub Personal Access Token (for API & metrics) | ✅ Required |
 | `WAKATIME_API_KEY` | WakaTime API key for coding stats | ⚠️ Optional |
 
 ### 2. **GitHub Token Setup**
