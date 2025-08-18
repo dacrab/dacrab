@@ -112,7 +112,7 @@
 
 <div align="center">
   
-**🎯 Interested in collaboration?** [**Let's build something amazing together!**](mailto:hello@dacrab.dev)
+**🎯 Interested in collaboration?** [**Let's build something amazing together!**](mailto:vkavouras@proton.me)
 
 </div>
 
@@ -155,7 +155,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vkavouras/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/killcrb/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@dacrab.dev)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vkavouras@proton.me)
 
 **💬 Open to collaborations, freelance projects, and interesting conversations!**
 

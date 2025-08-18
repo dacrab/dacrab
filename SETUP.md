@@ -161,7 +161,7 @@ theme: {
 Having issues? 
 - 🐛 [Create an issue](https://github.com/dacrab/dacrab/issues)
 - 💬 [Start a discussion](https://github.com/dacrab/dacrab/discussions)
-- 📧 [Email me](mailto:hello@dacrab.dev)
+- 📧 [Email me](mailto:vkavouras@proton.me)
 
 ---
 
