@@ -58,6 +58,12 @@ jobs:
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
           
+      - name: 🔄 Sync with remote changes
+        run: |
+          git config --global user.name "Dynamic README Bot"
+          git config --global user.email "actions@github.com"
+          git pull origin main --rebase
+          
       - name: 🚀 Dynamic Template Rendering  
         uses: varunsridharan/action-dynamic-readme@main
         with:
