@@ -59,6 +59,7 @@ jobs:
           plugin_achievements_threshold: C
           
       - name: 🔥 Get GitHub Activity
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -67,6 +68,7 @@ jobs:
           MAX_LINES: 8
           
       - name: ⏰ Get WakaTime Stats (Optional)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         uses: athul/waka-readme@master
         continue-on-error: true
         with:
