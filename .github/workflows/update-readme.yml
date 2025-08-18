@@ -1,40 +1,86 @@
-name: Update README
+name: 🔄 Update Dynamic README
 
 on:
-  push:
-    branches: [main]
   schedule:
-    - cron: "0 */4 * * *"  # Every 4 hours for more frequent updates
+    # Update README every 6 hours
+    - cron: '0 */6 * * *'
   workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   update-readme:
+    name: Update README with fresh data
     runs-on: ubuntu-latest
     permissions:
       contents: write
       
     steps:
-      - name: Checkout
+      - name: 🔽 Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: 📊 Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
         with:
-          node-version: '18'
+          filename: github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: dacrab
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Athens
+          config_twemoji: yes
+          config_gemoji: yes
+          plugin_lines: yes
+          plugin_lines_sections: base
+          plugin_lines_repositories_limit: 4
+          plugin_languages: yes
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+          plugin_languages_sections: most-used
+          plugin_languages_colors: github
+          plugin_languages_threshold: 0%
+          plugin_languages_details: bytes-size, percentage
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
+          plugin_repositories: yes
+          plugin_repositories_featured: dacrab/clubos, dacrab/dacrab.github.io
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
           
-      - name: Generate Enhanced Dynamic README
+      - name: 🔥 Get GitHub Activity
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # Run the enhanced script
-          node generate-readme.js
-          
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '📄 Auto-update README with enhanced design'
-          file_pattern: 'README.md'
-          commit_user_name: 'readme-bot'
-          commit_user_email: 'actions@github.com'
+          COMMIT_MSG: 'Update GitHub Activity'
+          MAX_LINES: 8
+          
+      - name: ⏰ Get WakaTime Stats (Optional)
+        uses: athul/waka-readme@master
+        continue-on-error: true
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          TIME_RANGE: last_7_days
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: true
+          
+      - name: 🚀 Dynamic Template Rendering  
+        uses: varunsridharan/action-dynamic-readme@main
+        with:
+          files: |
+            README.template.md=README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
