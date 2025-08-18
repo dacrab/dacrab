@@ -1,0 +1,39 @@
+{
+  "name": "dacrab-dynamic-readme",
+  "version": "2.0.0",
+  "description": "Dynamic GitHub profile README with automated updates",
+  "main": "scripts/readme-generator.js",
+  "scripts": {
+    "generate": "node scripts/readme-generator.js",
+    "dev": "node scripts/readme-generator.js",
+    "setup": "node scripts/setup.js",
+    "clean": "rm -rf .cache && rm -f README.md.backup",
+    "validate": "node scripts/validate-config.js"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "readme",
+    "automation",
+    "dynamic"
+  ],
+  "author": {
+    "name": "Vaggelis Kavouras",
+    "email": "vkavouras@proton.me",
+    "url": "https://dacrab.github.io"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dacrab/dacrab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dacrab/dacrab/issues"
+  },
+  "homepage": "https://github.com/dacrab/dacrab#readme"
+}
