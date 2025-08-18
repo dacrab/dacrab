@@ -12,7 +12,7 @@
 
 I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting modern, type-safe web applications. My journey started with **C** and static websites, and now I build full-stack, real-time applications using cutting-edge technologies.
 
-- 🔭 Currently working on **dacrab**
+- 🔭 Currently working on **dacrab.github.io**
 - 🌱 Learning advanced **TypeScript patterns** and **system design**
 - 💡 Love **clean code**, **scalable architecture**, and **developer experience**
 - 🎯 Always shipping **production-ready** applications
@@ -113,31 +113,32 @@ Features: Responsive, Modern, Fast
 
 ## 👷 Check out what I'm currently working on
 
-**1.** [clubos](https://github.com/dacrab/clubos) - Active development
-**2.** [dacrab](https://github.com/dacrab/dacrab) - Active development
-**3.** [ioannislo](https://github.com/dacrab/ioannislo) - Active development
+**1.** [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Active development
+**2.** [clubos](https://github.com/dacrab/clubos) - Active development
+**3.** [dacrab](https://github.com/dacrab/dacrab) - Active development
+**4.** [ioannislo](https://github.com/dacrab/ioannislo) - Active development
 
 ## 🌱 My latest projects
 
-**1.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
+**1.** [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) 🚀 `Astro`  
+Portfolio built using Astro and LightningCSS  
+⭐ 0 · 🍴 0 · Updated 4 hours ago
+
+**2.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
 No description provided  
-⭐ 0 · 🍴 0 · Updated 3 hours ago
+⭐ 0 · 🍴 0 · Updated 5 hours ago
 
-**2.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
+**3.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
 Custom POS system made using NextJS & Supabase  
-⭐ 0 · 🍴 0 · Updated 6 hours ago
+⭐ 0 · 🍴 0 · Updated 11 hours ago
 
-**3.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
+**4.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
 Portfolio for a friend following the brutalistic aeshetic  
-⭐ 0 · 🍴 0 · Updated 8 hours ago
+⭐ 0 · 🍴 0 · Updated 14 hours ago
 
-**4.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
+**5.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
 ⭐ 6 · 🍴 0 · Updated 10 days ago
-
-**5.** [craftops](https://github.com/dacrab/craftops) 🔵 `Go`  
-🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨  
-⭐ 0 · 🍴 0 · Updated 15 days ago
 
 ## 🔨 My recent Pull Requests
 
@@ -204,6 +205,6 @@ My config for th Ghostty terminal
 
 💫
 
-*🕒 Last updated: Sunday, August 17, 2025 at 11:20 PM (Europe/Athens)*
+*🕒 Last updated: Monday, August 18, 2025 at 04:45 AM (Europe/Athens)*
 
 </div>
