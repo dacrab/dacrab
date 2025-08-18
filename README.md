@@ -12,7 +12,7 @@
 
 I'm a **solo developer** from 🇬🇷 **Greece** passionate about crafting modern, type-safe web applications. My journey started with **C** and static websites, and now I build full-stack, real-time applications using cutting-edge technologies.
 
-- 🔭 Currently working on **dacrab.github.io**
+- 🔭 Currently working on **dacrab**
 - 🌱 Learning advanced **TypeScript patterns** and **system design**
 - 💡 Love **clean code**, **scalable architecture**, and **developer experience**
 - 🎯 Always shipping **production-ready** applications
@@ -120,21 +120,21 @@ Features: Responsive, Modern, Fast
 
 ## 🌱 My latest projects
 
-**1.** [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) 🚀 `Astro`  
-Portfolio built using Astro and LightningCSS  
-⭐ 0 · 🍴 0 · Updated 4 hours ago
-
-**2.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
+**1.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
 No description provided  
-⭐ 0 · 🍴 0 · Updated 5 hours ago
+⭐ 0 · 🍴 0 · Updated 54 minutes ago
+
+**2.** [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) 🚀 `Astro`  
+Portfolio built using Astro and LightningCSS  
+⭐ 0 · 🍴 0 · Updated 6 hours ago
 
 **3.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
 Custom POS system made using NextJS & Supabase  
-⭐ 0 · 🍴 0 · Updated 11 hours ago
+⭐ 0 · 🍴 0 · Updated 14 hours ago
 
 **4.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
 Portfolio for a friend following the brutalistic aeshetic  
-⭐ 0 · 🍴 0 · Updated 14 hours ago
+⭐ 0 · 🍴 0 · Updated 17 hours ago
 
 **5.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
@@ -205,6 +205,6 @@ My config for th Ghostty terminal
 
 💫
 
-*🕒 Last updated: Monday, August 18, 2025 at 04:45 AM (Europe/Athens)*
+*🕒 Last updated: Monday, August 18, 2025 at 07:37 AM (Europe/Athens)*
 
 </div>
