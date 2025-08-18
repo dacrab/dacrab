@@ -81,14 +81,3 @@ jobs:
           COMMIT_MSG: 'Update GitHub Activity'
           MAX_LINES: 8
           
-      - name: ⏰ Get WakaTime Stats (Optional)
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        uses: athul/waka-readme@master
-        continue-on-error: true
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
-          TIME_RANGE: last_7_days
-          SHOW_TIME: true
-          SHOW_MASKED_TIME: true

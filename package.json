@@ -2,13 +2,11 @@
   "name": "dacrab-dynamic-readme",
   "version": "2.0.0",
   "description": "Dynamic GitHub profile README with automated updates",
-  "main": "scripts/readme-generator.js",
+  "main": "scripts/setup.js",
   "scripts": {
-    "generate": "node scripts/readme-generator.js",
-    "dev": "node scripts/readme-generator.js",
     "setup": "node scripts/setup.js",
-    "clean": "rm -rf .cache && rm -f README.md.backup",
-    "validate": "node scripts/validate-config.js"
+    "clean": "rm -rf .cache && rm -f README.md.backup && rm -f *.temp",
+    "test": "echo 'GitHub Actions workflow handles all updates automatically!'"
   },
   "keywords": [
     "github",

@@ -51,3 +51,11 @@ coverage/
 
 # nyc test coverage
 .nyc_output/
+
+# Test files
+test-*.sh
+*.test.js
+*.temp
+
+# GitHub workflow generated files
+github-metrics.svg.backup
