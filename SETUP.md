@@ -26,15 +26,11 @@ This repository uses a modern, automated system to keep your GitHub profile READ
 
 ## 🛠️ Quick Setup
 
-### 1. **Configure GitHub Secrets (Optional)**
+### 1. **Zero Configuration Required!**
 
-The workflow uses GitHub's built-in `GITHUB_TOKEN` automatically - no setup required! 
+The workflow uses GitHub's built-in `GITHUB_TOKEN` automatically - **no secrets or setup needed!**
 
-**Optional secrets:**
-
-| Secret Name | Description | Required |
-|-------------|-------------|----------|
-| `WAKATIME_API_KEY` | WakaTime API key for coding stats | ⚠️ Optional |
+🎉 **Ready to use out of the box!**
 
 ### 2. **Run Setup Script**
 
@@ -52,13 +48,7 @@ Edit `config.js` to personalize:
 - Skills and technologies
 - Theme colors
 
-### 4. **Test Locally** (Optional)
-
-```bash
-npm run generate
-```
-
-### 5. **Deploy**
+### 4. **Deploy**
 
 Simply push to your repository:
 
@@ -132,17 +122,16 @@ theme: {
 - **📊 GitHub Statistics**: Real-time stats, language breakdown, contribution graphs
 - **⚡ Recent Activity**: Latest commits, PRs, and repository activity
 
-- **⏰ Coding Time**: WakaTime integration for time tracking
+
 - **🏆 Achievements**: GitHub achievements and milestones
 
 ## 🛠️ Available Commands
 
 | Command | Description |
 |---------|-------------|
-| `npm run generate` | Generate README locally |
-| `npm run setup` | Validate configuration |
+| `npm run setup` | Validate configuration and setup |
 | `npm run clean` | Clean cache and temporary files |
-| `npm run validate` | Validate configuration file |
+| `npm test` | Show workflow status information |
 
 ## 🔧 Troubleshooting
 

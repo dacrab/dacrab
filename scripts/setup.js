@@ -27,10 +27,9 @@ console.log(`${isGitRepo ? '✅' : '⚠️'} Git repository: ${isGitRepo ? 'Dete
 
 // Check for required files
 const requiredFiles = [
-  'config.js',
   'README.template.md',
   '.github/workflows/update-readme.yml',
-  'scripts/readme-generator.js'
+  'package.json'
 ];
 
 console.log('\n📁 Checking required files:');
@@ -48,30 +47,10 @@ if (!allFilesExist) {
 }
 
 // Check environment variables
-console.log('\n🔐 Environment variables needed:');
+console.log('\n🎉 No secrets or environment variables needed!');
+console.log('✅ GitHub Actions uses built-in GITHUB_TOKEN automatically');
 
-const requiredSecrets = [
-  { name: 'GITHUB_TOKEN', description: 'GitHub Personal Access Token (for API requests)', required: true },
-  { name: 'METRICS_TOKEN', description: 'GitHub token for metrics generation', required: true },
-  { name: 'WAKATIME_API_KEY', description: 'WakaTime API key for coding stats', required: false }
-];
-
-let secretsConfigured = 0;
-
-requiredSecrets.forEach(secret => {
-  const isSet = process.env[secret.name];
-  const status = isSet ? '✅ Set' : (secret.required ? '❌ Missing' : '⚠️ Optional');
-  console.log(`${status} ${secret.name} - ${secret.description}`);
-  if (isSet) secretsConfigured++;
-});
-
-// Create .env.example file
-const envExample = requiredSecrets
-  .map(s => `${s.name}=your_${s.name.toLowerCase()}_here`)
-  .join('\n');
-
-fs.writeFileSync('.env.example', envExample);
-console.log('\n📄 Created .env.example file for reference');
+let secretsConfigured = 1; // Always configured since GITHUB_TOKEN is built-in
 
 // Check GitHub Actions workflow
 const workflowFile = '.github/workflows/update-readme.yml';
@@ -84,21 +63,15 @@ if (fs.existsSync(workflowFile)) {
 // Summary
 console.log('\n📋 Setup Summary:');
 console.log(`✅ Required files: ${allFilesExist ? 'All present' : 'Some missing'}`);
-console.log(`🔐 Secrets configured: ${secretsConfigured}/${requiredSecrets.filter(s => s.required).length} required`);
+console.log(`🔐 Secrets: ✅ No setup required (uses built-in GITHUB_TOKEN)`);
 
-if (allFilesExist && secretsConfigured >= requiredSecrets.filter(s => s.required).length) {
-  console.log('\n🎉 Setup complete! You can now run:');
-  console.log('   npm run generate  - Generate README locally');
+if (allFilesExist) {
+  console.log('\n🎉 Setup complete! Your repository is ready to go:');
   console.log('   git push          - Trigger GitHub Actions workflow');
+  console.log('   Manual trigger    - Go to Actions tab → Run workflow');
+  console.log('   Automatic updates - Every 6 hours via scheduled workflow');
 } else {
-  console.log('\n⚠️ Setup incomplete. Please:');
-  if (!allFilesExist) {
-    console.log('   - Ensure all required files are present');
-  }
-  if (secretsConfigured < requiredSecrets.filter(s => s.required).length) {
-    console.log('   - Configure required GitHub secrets');
-    console.log('   - Go to: Repository Settings → Secrets and variables → Actions');
-  }
+  console.log('\n⚠️ Setup incomplete. Please ensure all required files are present.');
 }
 
 console.log('\n📚 Documentation: https://github.com/dacrab/dacrab#readme');

@@ -133,21 +133,6 @@
 
 ---
 
-## ⏰ Weekly Development Breakdown
-
-> *Coding time tracked via WakaTime*
-
-<div align="center">
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-*💻 Coding stats refresh daily • [Setup WakaTime](https://wakatime.com) to track your time*
-
-</div>
-
----
-
 ## 🤝 Let's Connect!
 
 <div align="center">
