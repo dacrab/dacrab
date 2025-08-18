@@ -84,84 +84,67 @@
 
 ## 💼 Featured Projects
 
+> Building innovative solutions with modern technology stacks
+
+### 🚀 **Primary Projects**
+
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
-<h3>🧑‍💼 <a href="https://clubos.vercel.app">clubOS</a></h3>
-<p><strong>Sports Facility Management System</strong></p>
+| 🧑‍💼 **clubOS** | 🌐 **Portfolio** |
+|:---:|:---:|
+| [![clubOS](https://img.shields.io/badge/clubOS-Sports_Facility_Management-00C7B7?style=for-the-badge&logoColor=white)](https://clubos.vercel.app) | [![Portfolio](https://img.shields.io/badge/Portfolio-Personal_Website-FF5D01?style=for-the-badge&logoColor=white)](https://dacrab.github.io) |
+| **🔧 Stack:** Next.js 14, Supabase, TypeScript<br/>**🎯 Focus:** Real-time POS, RBAC, Analytics<br/>**📊 Status:** 🚧 Active Development | **🔧 Stack:** Astro, TypeScript, TailwindCSS<br/>**🎯 Focus:** Fast, SEO Optimized, Modern UI<br/>**📊 Status:** ✅ Production Ready |
+| [![Repo](https://img.shields.io/badge/🔗_Source-181717?style=flat-square&logo=github)](https://github.com/dacrab/clubos) [![Demo](https://img.shields.io/badge/🌐_Live-00C7B7?style=flat-square&logo=vercel)](https://clubos.vercel.app) | [![Repo](https://img.shields.io/badge/🔗_Source-181717?style=flat-square&logo=github)](https://github.com/dacrab/dacrab.github.io) [![Demo](https://img.shields.io/badge/🌐_Live-FF5D01?style=flat-square&logo=astro)](https://dacrab.github.io) |
 
-```typescript
-Tech: Next.js 14 + Supabase + TypeScript
-Features: Real-time POS, RBAC, Analytics
-Status: 🚧 Active Development
-```
+</div>
 
-[![Repo](https://img.shields.io/badge/View_Code-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab/clubos)
-[![Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://clubos.vercel.app)
+### 🏢 **Client Projects**
 
-</td>
-<td width="50%">
-<h3>🌐 <a href="https://dacrab.github.io">Portfolio</a></h3>
-<p><strong>Personal Developer Website</strong></p>
+<div align="center">
 
-```typescript
-Tech: Astro + TypeScript + TailwindCSS
-Features: Fast, SEO Optimized, Modern UI
-Status: ✅ Production
-```
+| 🎯 **Argicon** | 🧱 **DesignDash** |
+|:---:|:---:|
+| Architecture Studio Website | Architecture Portfolio |
+| **⚡ Features:** Multilingual, Framer Motion<br/>**🛠️ Tech:** Next.js, i18n, Animations<br/>**🎨 Specialty:** Interactive Design | **⚡ Features:** Portfolio Gallery, Dark Mode<br/>**🛠️ Tech:** Next.js, TailwindCSS<br/>**🎨 Specialty:** Responsive Design |
+| [![Live Site](https://img.shields.io/badge/🌐_Visit_Site-00C7B7?style=flat-square&logo=vercel)](https://argicon.gr) | [![Live Site](https://img.shields.io/badge/🌐_Visit_Site-00C7B7?style=flat-square&logo=vercel)](https://designdash.gr) |
 
-[![Repo](https://img.shields.io/badge/View_Code-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab/dacrab.github.io)
-[![Demo](https://img.shields.io/badge/Live_Demo-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](https://dacrab.github.io)
+</div>
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-<h3>🎯 <a href="https://argicon.gr">Argicon</a></h3>
-<p><strong>Architecture Studio Website</strong></p>
-
-```typescript
-Tech: Next.js + Framer Motion + i18n
-Features: Multilingual, Smooth Animations
-Status: ✅ Production
-```
-
-[![Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://argicon.gr)
-
-</td>
-<td width="50%">
-<h3>🧱 <a href="https://designdash.gr">DesignDash</a></h3>
-<p><strong>Architecture Portfolio</strong></p>
-
-```typescript  
-Tech: Next.js + TailwindCSS + Dark Mode
-Features: Portfolio Gallery, Responsive
-Status: ✅ Production
-```
-
-[![Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://designdash.gr)
-
-</td>
-</tr>
-</table>
+<div align="center">
+  
+**🎯 Interested in collaboration?** [**Let's build something amazing together!**](mailto:hello@dacrab.dev)
 
 </div>
 
 ---
 
-## ⚡ Recent Activity
+## ⚡ Recent GitHub Activity
+
+> *Latest contributions and repository updates*
+
+<div align="center">
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
+
+*📊 Activity updates automatically every 6 hours*
+
+</div>
 
 ---
 
 ## ⏰ Weekly Development Breakdown
 
+> *Coding time tracked via WakaTime*
+
+<div align="center">
+
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
+*💻 Coding stats refresh daily • [Setup WakaTime](https://wakatime.com) to track your time*
+
+</div>
 
 ---
 
