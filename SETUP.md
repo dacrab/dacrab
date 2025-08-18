@@ -26,24 +26,17 @@ This repository uses a modern, automated system to keep your GitHub profile READ
 
 ## 🛠️ Quick Setup
 
-### 1. **Configure GitHub Secrets**
+### 1. **Configure GitHub Secrets (Optional)**
 
-Go to your repository **Settings → Secrets and variables → Actions** and add:
+The workflow uses GitHub's built-in `GITHUB_TOKEN` automatically - no setup required! 
+
+**Optional secrets:**
 
 | Secret Name | Description | Required |
 |-------------|-------------|----------|
-| `README_TOKEN` | GitHub Personal Access Token (for API & metrics) | ✅ Required |
 | `WAKATIME_API_KEY` | WakaTime API key for coding stats | ⚠️ Optional |
 
-### 2. **GitHub Token Setup**
-
-1. Go to [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
-2. Generate a new token with these scopes:
-   - `public_repo` - Access public repositories
-   - `read:user` - Read user profile data
-   - `user:email` - Access user email addresses
-
-### 3. **Run Setup Script**
+### 2. **Run Setup Script**
 
 ```bash
 npm run setup
@@ -51,7 +44,7 @@ npm run setup
 
 This will validate your configuration and check all requirements.
 
-### 4. **Customize Your Profile**
+### 3. **Customize Your Profile**
 
 Edit `config.js` to personalize:
 - Your information and social links
@@ -59,13 +52,13 @@ Edit `config.js` to personalize:
 - Skills and technologies
 - Theme colors
 
-### 5. **Test Locally** (Optional)
+### 4. **Test Locally** (Optional)
 
 ```bash
 npm run generate
 ```
 
-### 6. **Deploy**
+### 5. **Deploy**
 
 Simply push to your repository:
 
