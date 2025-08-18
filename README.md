@@ -122,19 +122,19 @@ Features: Responsive, Modern, Fast
 
 **1.** [dacrab](https://github.com/dacrab/dacrab) 🟨 `JavaScript`  
 No description provided  
-⭐ 0 · 🍴 0 · Updated 54 minutes ago
+⭐ 0 · 🍴 0 · Updated 3 hours ago
 
 **2.** [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) 🚀 `Astro`  
 Portfolio built using Astro and LightningCSS  
-⭐ 0 · 🍴 0 · Updated 6 hours ago
+⭐ 0 · 🍴 0 · Updated 10 hours ago
 
 **3.** [clubos](https://github.com/dacrab/clubos) 🔷 `TypeScript`  
 Custom POS system made using NextJS & Supabase  
-⭐ 0 · 🍴 0 · Updated 14 hours ago
+⭐ 0 · 🍴 0 · Updated 18 hours ago
 
 **4.** [ioannislo](https://github.com/dacrab/ioannislo) 🚀 `Astro`  
 Portfolio for a friend following the brutalistic aeshetic  
-⭐ 0 · 🍴 0 · Updated 17 hours ago
+⭐ 0 · 🍴 0 · Updated 20 hours ago
 
 **5.** [ghostty-config](https://github.com/dacrab/ghostty-config) 🐚 `Shell`  
 My config for th Ghostty terminal  
@@ -205,6 +205,6 @@ My config for th Ghostty terminal
 
 💫
 
-*🕒 Last updated: Monday, August 18, 2025 at 07:37 AM (Europe/Athens)*
+*🕒 Last updated: Monday, August 18, 2025 at 11:28 AM (Europe/Athens)*
 
 </div>
