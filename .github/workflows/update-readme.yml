@@ -117,8 +117,8 @@ jobs:
       - name: 📝 Commit and Push Changes
         if: steps.changes.outputs.has_changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "vkavouras@proton.me"
+          git config --local user.name "Vaggelis Kavouras"
           
           git add .
           git commit -m "🚀 Auto-update profile README
