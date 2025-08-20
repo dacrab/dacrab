@@ -1,14 +1,11 @@
 {
-  "name": "atomic-dynamic-readme",
-  "version": "4.0.0",
-  "description": "Race-condition-free dynamic GitHub profile README with atomic operations",
+  "name": "dynamic-github-readme",
+  "version": "5.0.0",
+  "description": "🚀 Fully dynamic GitHub profile README - No JavaScript, pure GitHub Actions!",
   "type": "module",
-  "main": "scripts/setup.js",
   "scripts": {
-    "generate": "node scripts/readme-generator.js",
-    "clean": "rm -rf .cache profile-3d-contrib && rm -f README.md.backup && rm -f *.temp && rm -f *.lock",
-    "test": "npm run generate",
-    "dev": "npm run generate && echo '✅ Development test complete'"
+    "setup": "echo '✅ No setup needed! Just configure your repository variables and push to GitHub.'",
+    "help": "echo '📖 Check README.md for setup instructions. This template uses only GitHub Actions - no local dependencies!'"
   },
   "keywords": [
     "github",
@@ -16,9 +13,9 @@
     "readme",
     "automation",
     "dynamic",
-    "atomic",
-    "race-condition-free",
-    "3d-contribution-graph"
+    "github-actions",
+    "template",
+    "no-code"
   ],
   "author": {
     "name": "Dynamic README Generator",
@@ -33,10 +30,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/user/user.git"
+    "url": "git+https://github.com/dacrab/dacrab.git"
   },
   "bugs": {
-    "url": "https://github.com/user/user/issues"
+    "url": "https://github.com/dacrab/dacrab/issues"
   },
-  "homepage": "https://github.com/user/user#readme"
+  "homepage": "https://github.com/dacrab/dacrab#readme"
 }
