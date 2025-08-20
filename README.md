@@ -1,6 +1,16 @@
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/97808411?v=4" width="150" height="150" style="border-radius: 50%; border: 3px solid #58A6FF;" />
+
+# 👋 Hello, I'm Vaggelis kavouras
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&height=60&lines=Full-Stack+Developer;Open+Source+Enthusiast;Building+Amazing+Projects;Always+Learning+New+Technologies)](https://github.com/dacrab)
+
+> *doin my best*
+
+**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** • **👥 15 Followers**
+
 </div>
+
+---
 
 ### Socials
 
@@ -52,5 +62,5 @@
 ### 📫 How to reach me:
   - Website  : <https://dacrab.github.io>
   - LinkedIn : <https://www.linkedin.com/in/vkavouras/>
-  - Email    : <mailto:vkavouras@proton.me>
+  - Email    : <vkavouras@proton.me>
   - GitHub   : <https://github.com/dacrab>
