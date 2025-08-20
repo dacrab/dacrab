@@ -9,7 +9,7 @@ on:
       force_update:
         description: 'Force update even if no changes detected'
         required: false
-        default: 'false'
+        default: false
         type: boolean
   push:
     branches: [ main, master ]
@@ -31,6 +31,24 @@ jobs:
     permissions:
       contents: write
       
+    # Environment variables with defaults
+    env:
+      THEME_PRIMARY_COLOR: ${{ vars.THEME_PRIMARY_COLOR || '58A6FF' }}
+      THEME_BG_COLOR: ${{ vars.THEME_BG_COLOR || '0D1117' }}
+      THEME_TEXT_COLOR: ${{ vars.THEME_TEXT_COLOR || 'C3D1D9' }}
+      MAX_REPOS: ${{ vars.MAX_REPOS || '6' }}
+      MAX_LANGUAGES: ${{ vars.MAX_LANGUAGES || '8' }}
+      USER_TAGLINE: ${{ vars.USER_TAGLINE || 'Building amazing projects with modern technologies' }}
+      USER_QUOTE: ${{ vars.USER_QUOTE || 'Code is poetry written in logic' }}
+      CONTACT_MESSAGE: ${{ vars.CONTACT_MESSAGE || 'Open to collaborations and interesting conversations!' }}
+      USER_TIMEZONE: ${{ vars.USER_TIMEZONE || 'Etc/UTC' }}
+      FEATURED_REPOSITORIES: ${{ vars.FEATURED_REPOSITORIES || github.repository }}
+      USER_EMAIL: ${{ vars.USER_EMAIL || '' }}
+      LINKEDIN_URL: ${{ vars.LINKEDIN_URL || '' }}
+      TWITTER_URL: ${{ vars.TWITTER_URL || '' }}
+      INSTAGRAM_URL: ${{ vars.INSTAGRAM_URL || '' }}
+      YOUTUBE_URL: ${{ vars.YOUTUBE_URL || '' }}
+      
     steps:
       - name: 🔽 Checkout Repository
         uses: actions/checkout@v4
@@ -49,19 +67,19 @@ jobs:
           echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
           echo "repository=${{ github.repository }}" >> $GITHUB_OUTPUT
           
-          # Set theme colors with defaults
-          echo "primary_color=${{ vars.THEME_PRIMARY_COLOR || '58A6FF' }}" >> $GITHUB_OUTPUT
-          echo "bg_color=${{ vars.THEME_BG_COLOR || '0D1117' }}" >> $GITHUB_OUTPUT
-          echo "text_color=${{ vars.THEME_TEXT_COLOR || 'C3D1D9' }}" >> $GITHUB_OUTPUT
+          # Set theme colors from environment variables
+          echo "primary_color=$THEME_PRIMARY_COLOR" >> $GITHUB_OUTPUT
+          echo "bg_color=$THEME_BG_COLOR" >> $GITHUB_OUTPUT
+          echo "text_color=$THEME_TEXT_COLOR" >> $GITHUB_OUTPUT
           
-          # Set content limits with defaults
-          echo "max_repos=${{ vars.MAX_REPOS || '6' }}" >> $GITHUB_OUTPUT
-          echo "max_languages=${{ vars.MAX_LANGUAGES || '8' }}" >> $GITHUB_OUTPUT
+          # Set content limits from environment variables
+          echo "max_repos=$MAX_REPOS" >> $GITHUB_OUTPUT
+          echo "max_languages=$MAX_LANGUAGES" >> $GITHUB_OUTPUT
           
-          # Set custom messages with defaults
-          echo "user_tagline=${{ vars.USER_TAGLINE || 'Building amazing projects with modern technologies' }}" >> $GITHUB_OUTPUT
-          echo "user_quote=${{ vars.USER_QUOTE || 'Code is poetry written in logic' }}" >> $GITHUB_OUTPUT
-          echo "contact_message=${{ vars.CONTACT_MESSAGE || 'Open to collaborations and interesting conversations!' }}" >> $GITHUB_OUTPUT
+          # Set custom messages from environment variables
+          echo "user_tagline=$USER_TAGLINE" >> $GITHUB_OUTPUT
+          echo "user_quote=$USER_QUOTE" >> $GITHUB_OUTPUT
+          echo "contact_message=$CONTACT_MESSAGE" >> $GITHUB_OUTPUT
           
           echo "🎯 Dynamic variables set for: $USERNAME"
       
@@ -94,7 +112,7 @@ jobs:
           user: ${{ steps.vars.outputs.username }}
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: ${{ vars.USER_TIMEZONE || 'Etc/UTC' }}
+          config_timezone: ${{ env.USER_TIMEZONE }}
           config_twemoji: yes
           config_gemoji: yes
           config_display: large
@@ -117,7 +135,7 @@ jobs:
           plugin_activity_load: 500
           plugin_activity_visibility: all
           plugin_repositories: yes
-          plugin_repositories_featured: ${{ vars.FEATURED_REPOSITORIES || github.repository }}
+          plugin_repositories_featured: ${{ env.FEATURED_REPOSITORIES }}
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_achievements: yes
@@ -202,24 +220,24 @@ jobs:
             SOCIAL_LINKS="[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)]($WEBSITE)"$'\n'
           fi
           
-          # Add social links from variables
-          if [ -n "${{ vars.LINKEDIN_URL }}" ]; then
-            SOCIAL_LINKS="${SOCIAL_LINKS}[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](${{ vars.LINKEDIN_URL }})"$'\n'
+          # Add social links from environment variables
+          if [ -n "$LINKEDIN_URL" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]($LINKEDIN_URL)"$'\n'
           fi
-          if [ -n "${{ vars.TWITTER_URL }}" ]; then
-            SOCIAL_LINKS="${SOCIAL_LINKS}[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](${{ vars.TWITTER_URL }})"$'\n'
+          if [ -n "$TWITTER_URL" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]($TWITTER_URL)"$'\n'
           fi
-          if [ -n "$TWITTER_USERNAME" ] && [ -z "${{ vars.TWITTER_URL }}" ]; then
+          if [ -n "$TWITTER_USERNAME" ] && [ -z "$TWITTER_URL" ]; then
             SOCIAL_LINKS="${SOCIAL_LINKS}[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/$TWITTER_USERNAME)"$'\n'
           fi
-          if [ -n "${{ vars.INSTAGRAM_URL }}" ]; then
-            SOCIAL_LINKS="${SOCIAL_LINKS}[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](${{ vars.INSTAGRAM_URL }})"$'\n'
+          if [ -n "$INSTAGRAM_URL" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]($INSTAGRAM_URL)"$'\n'
           fi
-          if [ -n "${{ vars.YOUTUBE_URL }}" ]; then
-            SOCIAL_LINKS="${SOCIAL_LINKS}[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](${{ vars.YOUTUBE_URL }})"$'\n'
+          if [ -n "$YOUTUBE_URL" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]($YOUTUBE_URL)"$'\n'
           fi
-          if [ -n "${{ vars.USER_EMAIL }}" ]; then
-            SOCIAL_LINKS="${SOCIAL_LINKS}[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:${{ vars.USER_EMAIL }})"$'\n'
+          if [ -n "$USER_EMAIL" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:$USER_EMAIL)"$'\n'
           fi
           
           # Always add GitHub link
@@ -303,7 +321,7 @@ jobs:
           fi
           
       - name: 📝 Commit and Push Changes
-        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
+        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action [Bot]"
@@ -346,5 +364,5 @@ jobs:
           echo "### 🔧 Generation Details" >> $GITHUB_STEP_SUMMARY
           echo "- **Changes Detected:** ${{ steps.changes.outputs.has_changes || 'unknown' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Force Update:** ${{ github.event.inputs.force_update || 'false' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Force Update:** ${{ github.event.inputs.force_update || false }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
