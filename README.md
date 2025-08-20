@@ -1,150 +1,96 @@
-# 🚀 Dynamic GitHub Profile README - No JavaScript!
+<div align="center">
 
-**Zero dependencies, pure GitHub Actions magic!** ✨
+# 👋 Hello, I'm Vaggelis kavouras
 
-This is a completely **JavaScript-free** approach to generating dynamic GitHub profile READMEs. No Node.js, no npm, no dependencies - just pure GitHub Actions and shell scripting.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=900&height=80&lines=Building%20amazing%20projects;Always%20learning%20new%20technologies;Open%20to%20collaboration!)](https://github.com/dacrab)
 
-## ⚡ Quick Features
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/u/97808411?v=4" width="150" height="150" style="border-radius: 50%; border: 4px solid #58A6FF; margin: 20px 0;" />
+</div>
 
-- 🚫 **Zero Dependencies** - No JavaScript, Node.js, or build steps
-- 🚀 **Pure GitHub Actions** - Uses only marketplace actions and shell scripts
-- 🔄 **Fully Dynamic** - Auto-detects everything from GitHub context
-- 🎨 **Rich Visualizations** - 3D contribution graphs and comprehensive metrics
-- ⚙️ **Environment Configurable** - Customize via repository variables
-- ⚡ **Super Fast** - Generates in under 2 minutes
+> *doin my best*
 
-## 🛠️ Quick Setup
+📍 **Greece** • 📅 **Coding since 2022** • 📊 **23** repositories • 👥 **15** followers • **5** following • 🌐 [**Website**](dacrab.github.io)
 
-1. **Use this template** or fork this repository
-2. **Rename** repository to `your-username` (same as your GitHub username)
-3. **Optionally configure** via repository variables (see [SETUP.md](SETUP.md))
-4. **Push** and watch the magic happen!
+</div>
 
-Your README will automatically update every 6 hours with your latest:
-- Profile information and stats
-- Repository activity and languages
-- 3D contribution graphs
-- GitHub metrics and achievements
-- Social links (if configured)
+---
 
-## 🎯 What Makes This Different
+### Socials
 
-### ❌ Traditional Approach (Complex)
-- Requires Node.js and dependencies
-- Complex JavaScript build process
-- Hardcoded usernames and projects
-- Slower generation times
-- Dependency security concerns
+[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](dacrab.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vkavouras/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/killcrb/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vkavouras@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab)
 
-### ✅ Our Approach (Simple)
-- **Zero dependencies** - pure GitHub Actions
-- **Auto-detects everything** - no hardcoding
-- **Lightning fast** - no build steps
-- **Secure** - uses only official GitHub tools
-- **Maintainable** - simple shell scripts
+---
 
-## 📁 File Structure
+### GitHub Stats
 
-```
-your-username/              # Repository (matches your GitHub username)
-├── README.gtpl            # Template file (customize this!)
-├── README.md              # Generated file (this file)
-├── .github/workflows/
-│   └── update-readme.yml  # GitHub Actions workflow (pure shell + actions)
-├── package.json           # Minimal metadata (no dependencies!)
-└── SETUP.md              # Detailed setup instructions
-```
+<div align="center">
 
-## 🎨 Customization
+![GitHub Metrics](./github-metrics.svg)
 
-All customization is done via **GitHub Repository Variables**:
+![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg)
 
-| Variable | Purpose | Default |
-|----------|---------|---------|
-| `USER_EMAIL` | Contact email | Auto-detected |
-| `LINKEDIN_URL` | LinkedIn profile | None |
-| `TWITTER_URL` | Twitter profile | Auto-detected |
-| `THEME_PRIMARY_COLOR` | Main color (hex) | `58A6FF` |
-| `USER_TAGLINE` | Your tagline | Auto-generated |
-| `MAX_REPOS` | Repos to show | `6` |
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C3D1D9&icon_color=58A6FF&count_private=true&include_all_commits=true&custom_title=Vaggelis kavouras's%20GitHub%20Stats" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=dacrab&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&dates=C3D1D9" />
 
-See [SETUP.md](SETUP.md) for complete configuration options.
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C3D1D9&langs_count=12&card_width=600&custom_title=Vaggelis kavouras's%20Most%20Used%20Languages" />
 
-## 🔄 How It Works
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dacrab&custom_title=Vaggelis kavouras's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true)](https://github.com/dacrab)
 
-1. **GitHub Actions** triggers on schedule or push
-2. **Auto-detection** gets username from repository context
-3. **GitHub CLI** fetches your profile data via API
-4. **Shell scripts** process and format the data
-5. **Marketplace actions** generate 3D graphs and metrics
-6. **Template processing** replaces variables in `README.gtpl`
-7. **Smart commits** only when changes are detected
+</div>
 
-**No JavaScript anywhere!** 🎉
+### 👷 Check out what I'm currently working on
 
-## ⚡ Performance Comparison
+* [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
+* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance...
+* [ElysianVista](https://github.com/dacrab/ElysianVista) - No description available
+* [ioannislo](https://github.com/dacrab/ioannislo) - Portfolio for a friend following the brutalistic aeshetic
+* [dacrab](https://github.com/dacrab/dacrab) - No description available
 
-| Approach | Generation Time | Dependencies | Setup Complexity | Maintenance |
-|----------|----------------|--------------|------------------|-------------|
-| **This (No JS)** | ~1-2 minutes | **0** | **Very Simple** | **Minimal** |
-| Traditional JS | ~3-5 minutes | 20-50+ | Complex | High |
+### 🌱 My latest projects
 
-## 🚨 Migration Guide
+* [ElysianVista](https://github.com/dacrab/ElysianVista) - No description available
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
+* [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
 
-Moving from a JavaScript-based generator?
+### 🔨 My recent Pull Requests
 
-1. **Backup** your current README.md
-2. **Copy** this repository structure to your profile repo
-3. **Edit** `README.gtpl` with any custom content
-4. **Set** repository variables for personalization
-5. **Push** and let GitHub Actions handle the rest!
+* [dacrab subdomain](https://github.com/is-a-dev/register/pull/25480) on [register](https://github.com/is-a-dev/register)
+* [Test](https://github.com/dacrab/ioannislo/pull/1) on [ioannislo](https://github.com/dacrab/ioannislo)
+* [🚀 Major refactor: Streamline repository and optimize scripts](https://github.com/yuaotian/go-cursor-help/pull/568) on [go-cursor-help](https://github.com/yuaotian/go-cursor-help)
 
-No complex migration needed - just copy and go! 🚀
+### ⭐ Recent Stars
 
-## 🆚 Comparison with Popular Solutions
+* [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling...
+* [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
+* [operator888/Supabase-DB-Export-Import](https://github.com/operator888/Supabase-DB-Export-Import) - Export and Import your DB from your Free SupaBase Account
+* [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your termi...
 
-| Feature | This Repo | readme-scribe | github-readme-generator |
-|---------|-----------|---------------|-------------------------|
-| Dependencies | **0** | 15+ npm packages | 20+ npm packages |
-| Setup Time | **2 minutes** | 10+ minutes | 15+ minutes |
-| Customization | Repository Variables | Code editing | Code editing |
-| Auto-detection | **Full** | Partial | Minimal |
-| Security | **GitHub only** | External APIs | External APIs |
-| Speed | **Fast** | Medium | Slow |
+### 🛠️ Technologies & Tools
 
-## 🤝 Contributing
-
-Found this useful? Here's how you can help:
-
-- ⭐ **Star this repository**
-- 🐛 **Report issues** you encounter
-- 💡 **Suggest improvements** 
-- 🔄 **Share with others** who might find it useful
-
-## 📊 What You Get
-
-When you use this template, your README will automatically include:
-
-- **Dynamic Profile Header** with your avatar and bio
-- **Animated Typing Effect** with personalized messages
-- **Profile Statistics** (followers, repos, coding since date)
-- **3D Contribution Graph** (beautiful visualization)
-- **GitHub Metrics** (comprehensive stats and achievements)
-- **Top Languages Chart** (based on your actual code)
-- **Recent Activity Feed** (latest commits and contributions)
-- **Social Links** (auto-detected and configurable)
-- **Repository Showcase** (your best projects highlighted)
-
-All generated automatically with **zero configuration required**!
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-666666?style=for-the-badge&logoColor=white)
 
 ---
 
 <div align="center">
 
-**🎉 Built with ❤️ for the GitHub community**
+### ✨ *"Code is poetry written in logic"* ✨
 
-*No JavaScript, No Dependencies, No Problems!*
+*🕒 This README updates automatically every 6 hours*
 
-**[📖 Setup Guide](SETUP.md) • [🐛 Report Issues](https://github.com/dacrab/dacrab/issues) • [💡 Suggest Features](https://github.com/dacrab/dacrab/discussions)**
+⭐ **Star** some repositories if you find them interesting!
+
+**💬 Open to collaborations and interesting conversations!**
 
 </div>
