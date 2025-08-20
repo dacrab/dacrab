@@ -30,26 +30,19 @@
 
 <div align="center">
 
-![GitHub Metrics](./github-metrics.svg)
+<img width="100%" src="./github-metrics.svg" alt="GitHub Metrics" />
 
-![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg)
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C3D1D9&icon_color=58A6FF&count_private=true&include_all_commits=true&custom_title=Vaggelis kavouras's%20GitHub%20Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=dacrab&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&dates=C3D1D9" />
-
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C3D1D9&langs_count=12&card_width=600&custom_title=Vaggelis kavouras's%20Most%20Used%20Languages" />
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dacrab&custom_title=Vaggelis kavouras's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true)](https://github.com/dacrab)
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C3D1D9&langs_count=12&hide=html,css,scss&custom_title=Vaggelis kavouras's%20Most%20Used%20Languages" />
 
 </div>
 
 ### 👷 Check out what I'm currently working on
 
+* [dacrab](https://github.com/dacrab/dacrab) - No description available
 * [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
 * [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance...
 * [ElysianVista](https://github.com/dacrab/ElysianVista) - No description available
 * [ioannislo](https://github.com/dacrab/ioannislo) - Portfolio for a friend following the brutalistic aeshetic
-* [dacrab](https://github.com/dacrab/dacrab) - No description available
 
 ### 🌱 My latest projects
 

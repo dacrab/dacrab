@@ -26,16 +26,9 @@
 
 <div align="center">
 
-![GitHub Metrics](./github-metrics.svg)
+<img width="100%" src="./github-metrics.svg" alt="GitHub Metrics" />
 
-![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg)
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&icon_color={{PRIMARY_COLOR}}&count_private=true&include_all_commits=true&custom_title={{USER_NAME}}'s%20GitHub%20Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background={{BG_COLOR}}&stroke={{PRIMARY_COLOR}}&ring={{PRIMARY_COLOR}}&fire=FF6B6B&currStreakLabel={{PRIMARY_COLOR}}&dates={{TEXT_COLOR}}" />
-
-<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&langs_count=12&card_width=600&custom_title={{USER_NAME}}'s%20Most%20Used%20Languages" />
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username={{USERNAME}}&custom_title={{USER_NAME}}'s%20Contribution%20Graph&bg_color={{BG_COLOR}}&color={{PRIMARY_COLOR}}&line={{PRIMARY_COLOR}}&point=FFFFFF&area=true&hide_border=true)](https://github.com/{{USERNAME}})
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&langs_count=12&hide=html,css,scss&custom_title={{USER_NAME}}'s%20Most%20Used%20Languages" />
 
 </div>
 
