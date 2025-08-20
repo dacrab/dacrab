@@ -21,7 +21,7 @@ export default {
     linkedin: 'https://www.linkedin.com/in/vkavouras/',
     instagram: 'https://www.instagram.com/killcrb/',
     website: 'https://dacrab.github.io',
-    email: 'mailto:vkavouras@proton.me'
+    email: 'vkavouras@proton.me'
   },
 
   // 📊 Content Settings (ChrisTitusTech Style)
