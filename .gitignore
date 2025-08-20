@@ -60,8 +60,9 @@ test-*.sh
 # GitHub workflow generated files
 github-metrics.svg.backup
 
-# 3D Contribution Graph cache
-profile-3d-contrib/
+# Note: profile-3d-contrib/ is now committed to display in README
+# but we ignore backup files
+profile-3d-contrib/*.backup
 
 # Template backups
 *.gtpl.backup
