@@ -374,7 +374,6 @@ class ProfileReadmeGenerator {
       .replace(/\{\{USER_NAME\}\}/g, profile.name)
       .replace(/\{\{USER_BIO\}\}/g, profile.bio || 'Passionate developer building amazing projects')
       .replace(/\{\{REPO_COUNT\}\}/g, profile.public_repos)
-      .replace(/\{\{FOLLOWERS_COUNT\}\}/g, profile.followers)
       .replace(/\{\{AVATAR_URL\}\}/g, profile.avatar_url)
       .replace(/\{\{SOCIAL_LINKS\}\}/g, socialLinks)
       .replace(/\{\{WORKING_ON\}\}/g, workingOn)
