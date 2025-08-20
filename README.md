@@ -125,14 +125,6 @@
 <div align="center">
 
 <!--START_SECTION:activity-->
-1. 🔒 Closed issue [#1113](https://github.com/ChrisTitusTech/linutil/issues/1113) in [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-2. ❗ Opened issue [#1113](https://github.com/ChrisTitusTech/linutil/issues/1113) in [ChrisTitusTech/linutil](https://github.com/ChrisTitusTech/linutil)
-3. 🗣 Commented on [#567](https://github.com/yuaotian/go-cursor-help/issues/567#issuecomment-3188454747) in [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help)
-4. 🗣 Commented on [#567](https://github.com/yuaotian/go-cursor-help/issues/567#issuecomment-3187929806) in [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help)
-5. ❗ Opened issue [#642](https://github.com/miurla/morphic/issues/642) in [miurla/morphic](https://github.com/miurla/morphic)
-6. 🗣 Commented on [#3535](https://github.com/ChrisTitusTech/winutil/issues/3535#issuecomment-3167700531) in [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
-7. ❗ Opened issue [#1719](https://github.com/kirodotdev/Kiro/issues/1719) in [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro)
-8. 🎉 Merged PR [#1](https://github.com/dacrab/friends-portfolio/pull/1) in [dacrab/friends-portfolio](https://github.com/dacrab/friends-portfolio)
 <!--END_SECTION:activity-->
 
 *📊 Activity updates automatically every 6 hours*
