@@ -45,7 +45,6 @@ jobs:
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           repositories_batch: 100
-          repositories_excluded:
           repositories_skipped:
           
           # Activity configuration
