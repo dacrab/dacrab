@@ -59,3 +59,10 @@ test-*.sh
 
 # GitHub workflow generated files
 github-metrics.svg.backup
+
+# 3D Contribution Graph cache
+profile-3d-contrib/
+
+# Template backups
+*.gtpl.backup
+README.template.md

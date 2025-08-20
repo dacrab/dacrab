@@ -1,37 +1,42 @@
 {
-  "name": "dacrab-dynamic-readme",
-  "version": "2.0.0",
-  "description": "Dynamic GitHub profile README with automated updates",
+  "name": "atomic-dynamic-readme",
+  "version": "4.0.0",
+  "description": "Race-condition-free dynamic GitHub profile README with atomic operations",
+  "type": "module",
   "main": "scripts/setup.js",
   "scripts": {
-    "setup": "node scripts/setup.js",
-    "clean": "rm -rf .cache && rm -f README.md.backup && rm -f *.temp",
-    "test": "echo 'GitHub Actions workflow handles all updates automatically!'"
+    "generate": "node scripts/readme-generator.js",
+    "clean": "rm -rf .cache profile-3d-contrib && rm -f README.md.backup && rm -f *.temp && rm -f *.lock",
+    "test": "npm run generate",
+    "dev": "npm run generate && echo '✅ Development test complete'"
   },
   "keywords": [
     "github",
     "profile",
     "readme",
     "automation",
-    "dynamic"
+    "dynamic",
+    "atomic",
+    "race-condition-free",
+    "3d-contribution-graph"
   ],
   "author": {
-    "name": "Vaggelis Kavouras",
-    "email": "vkavouras@proton.me",
-    "url": "https://dacrab.github.io"
+    "name": "Dynamic README Generator",
+    "email": "noreply@github.com",
+    "url": "https://github.com"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "dependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/dacrab/dacrab.git"
+    "url": "https://github.com/user/user.git"
   },
   "bugs": {
-    "url": "https://github.com/dacrab/dacrab/issues"
+    "url": "https://github.com/user/user/issues"
   },
-  "homepage": "https://github.com/dacrab/dacrab#readme"
+  "homepage": "https://github.com/user/user#readme"
 }
