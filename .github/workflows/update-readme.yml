@@ -1,180 +1,70 @@
-name: 🚀 Update Profile README
-
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+name: Metrics
 on:
-  schedule:
-    # Update every 6 hours
-    - cron: '0 */6 * * *'
+  # Schedule updates (every 3 hours)
+  schedule: [{cron: "0 */3 * * *"}]
+  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
-  push:
-    branches: [ main ]
-    paths: 
-      - 'config.js'
-      - 'README.gtpl'
-      - 'scripts/**'
-
-concurrency:
-  group: profile-readme-update
-  cancel-in-progress: true
-
+  push: {branches: ["master", "main"]}
 jobs:
-  update-readme:
-    name: 🚀 Generate Profile README
+  github-metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
     permissions:
       contents: write
-      
+    concurrency:
+      group: metrics-update
+      cancel-in-progress: true
     steps:
-      - name: 🔽 Checkout Repository
-        uses: actions/checkout@v4
+      - name: Cache dependencies
+        uses: actions/cache@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: 🟢 Setup Node.js
-        uses: actions/setup-node@v4
+          path: ~/.cache
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/lockfiles') }}
+      - uses: lowlighter/metrics@latest
         with:
-          node-version: '20'
-          cache: 'npm'
-          
-      - name: 📦 Install Dependencies
-        run: npm install
-        
-      - name: 📊 Generate Beautiful Metrics with Official Action
-        uses: lowlighter/metrics@v3.34
-        with:
-          filename: github-metrics.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          #  - read:user
+          #  - read:org
+          #  - repo
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
+          token: ${{ secrets.GH_PAT }}
+
+          # Options
+          user: dacrab
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Athens
-          config_twemoji: yes
-          config_gemoji: yes
-          config_display: large
-          config_output: svg
           
-          # 🈷️ Languages plugin - Advanced language analysis
+          # Repositories configuration (like ChrisTitusTech)
+          repositories_forks: yes
+          repositories_affiliations: owner
+          repositories_batch: 100
+          
+          # Activity configuration
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_visibility: all
+          plugin_activity_timestamps: yes
+          plugin_activity_filter: all
+          
+          # Languages plugin
           plugin_languages: yes
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_load: 500
-          plugin_languages_recent_days: 30
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 12
-          plugin_languages_indepth: no
+          plugin_languages_analysis_timeout: 15
           
-          # 📰 Activity plugin - Recent GitHub activity
-          plugin_activity: yes
-          plugin_activity_days: 30
-          plugin_activity_filter: all
-          plugin_activity_limit: 8
-          plugin_activity_load: 500
-          plugin_activity_visibility: all
-          
-          # 💡 Habits plugin - Coding patterns and statistics
-          plugin_habits: yes
-          plugin_habits_from: 500
-          plugin_habits_days: 30
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_trim: no
-          
-          # ✨ Stargazers plugin - Repository stargazer analysis
-          plugin_stargazers: yes
-          plugin_stargazers_charts: yes
-          plugin_stargazers_charts_type: classic
-          
-          # 🌟 Stars plugin - Recently starred repositories
-          plugin_stars: yes
-          plugin_stars_limit: 4
-          
-          # 🧑‍🤝‍🧑 People plugin - Followers and following
-          plugin_people: yes
-          plugin_people_types: followers
-          plugin_people_limit: 24
-          plugin_people_identicons: no
-          plugin_people_size: 28
-          plugin_people_thanks: yes
-          
-          # 📓 Repositories plugin - Featured repositories
-          plugin_repositories: yes
-          plugin_repositories_featured: ${{ github.repository }}
-          plugin_repositories_order: featured, pinned, recent
-          plugin_repositories_forks: no
-          plugin_repositories_affiliations: owner
-          
-          # 🏆 Achievements plugin - GitHub achievements
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          
-          # 📅 Isometric calendar - Beautiful commit calendar
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          
-          # 👨‍💻 Lines of code - Code contribution analysis
-          plugin_lines: yes
-          plugin_lines_sections: base
-          plugin_lines_repositories_limit: 4
-          plugin_lines_history_limit: 1
-          
-          # 🏅 Contributors - Repository contributors
-          plugin_contributors: yes
-          plugin_contributors_base: contributions
-          plugin_contributors_head: master
-          plugin_contributors_ignored: github-actions[bot], dependabot[bot]
-          plugin_contributors_contributions: yes
-          plugin_contributors_sections: contributors
-          plugin_contributors_categories: 0
-          
-        continue-on-error: true
-        
-      - name: 🚀 Generate Profile README
-        run: |
-          echo "🚀 Generating README for ${{ github.repository_owner }}..."
-          npm run generate
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: 🔥 Update Recent GitHub Activity
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: '🔄 Update GitHub Activity'
-          MAX_LINES: 5
-        continue-on-error: true
-          
-      - name: 🔍 Check for Changes
-        id: changes
-        run: |
-          git add .
-          if git diff --staged --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "📝 No changes detected"
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "📝 Changes detected - updating profile README"
-          fi
-          
-      - name: 📝 Commit and Push Changes
-        if: steps.changes.outputs.has_changes == 'true'
-        run: |
-          git config --local user.email "vkavouras@proton.me"
-          git config --local user.name "Vaggelis Kavouras"
-          
-          git add .
-          git commit -m "🚀 Auto-update profile README
-
-          📊 Updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')  
-          🎯 Profile: ${{ github.repository_owner }}
-          ⚡ Generated with official Metrics v3.34 from GitHub Marketplace"
-          
-          git push origin main
-          
-          echo "✅ Profile README updated successfully!"
+          # Other useful plugins
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_gists: yes
