@@ -368,9 +368,13 @@ class ProfileReadmeGenerator {
     console.log('📄 Processing README template...');
     const template = await readFile('README.gtpl', 'utf8');
 
-    // Generate final README (ChrisTitusTech style - simple placeholders)
+    // Generate final README (ChrisTitusTech style with beautiful header)
     const readme = template
       .replace(/\{\{USERNAME\}\}/g, this.config.profile.username)
+      .replace(/\{\{USER_NAME\}\}/g, profile.name)
+      .replace(/\{\{USER_BIO\}\}/g, profile.bio || 'Passionate developer building amazing projects')
+      .replace(/\{\{REPO_COUNT\}\}/g, profile.public_repos)
+      .replace(/\{\{FOLLOWERS_COUNT\}\}/g, profile.followers)
       .replace(/\{\{AVATAR_URL\}\}/g, profile.avatar_url)
       .replace(/\{\{SOCIAL_LINKS\}\}/g, socialLinks)
       .replace(/\{\{WORKING_ON\}\}/g, workingOn)

@@ -1,6 +1,16 @@
 <div align="center">
-  <img src="{{AVATAR_URL}}" width="150" height="150" style="border-radius: 50%; border: 3px solid #58A6FF;" />
+
+# 👋 Hello, I'm {{USER_NAME}}
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&height=60&lines=Full-Stack+Developer;Open+Source+Enthusiast;Building+Amazing+Projects;Always+Learning+New+Technologies)](https://github.com/{{USERNAME}})
+
+> *{{USER_BIO}}*
+
+**📍 Greece** • **💻 Coding since 2022** • **🚀 {{REPO_COUNT}} Public Repos** • **👥 {{FOLLOWERS_COUNT}} Followers**
+
 </div>
+
+---
 
 ### Socials
 
