@@ -40,7 +40,7 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm install
         
-      - name: 📊 Generate GitHub Metrics
+      - name: 📊 Generate Beautiful GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
@@ -51,21 +51,65 @@ jobs:
           config_timezone: Europe/Athens
           config_twemoji: yes
           config_gemoji: yes
+          config_display: large
+          
+          # 🈷️ Languages plugin
           plugin_languages: yes
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 500
+          plugin_languages_recent_days: 30
           plugin_languages_sections: most-used
           plugin_languages_colors: github
+          plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 12
-          plugin_languages_threshold: 0%
+          
+          # 📰 Activity plugin  
           plugin_activity: yes
           plugin_activity_days: 30
           plugin_activity_filter: all
           plugin_activity_limit: 8
           plugin_activity_load: 500
+          plugin_activity_visibility: all
+          
+          # 📓 Repositories plugin
           plugin_repositories: yes
+          plugin_repositories_featured: ${{ github.repository }}
           plugin_repositories_order: featured, pinned, recent
           plugin_repositories_forks: no
           plugin_repositories_affiliations: owner
+          
+          # 💡 Habits plugin (coding patterns)
+          plugin_habits: yes
+          plugin_habits_from: 500
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          
+          # 🏆 Notable contributions
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_repositories: yes
+          plugin_notable_indepth: yes
+          
+          # ✨ Stargazers plugin  
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: classic
+          
+          # 🌟 Stars plugin (recently starred)
+          plugin_stars: yes
+          plugin_stars_limit: 6
+          
+          # 🧑‍🤝‍🧑 People plugin (followers/following)
+          plugin_people: yes
+          plugin_people_types: followers
+          plugin_people_limit: 28
+          plugin_people_identicons: no
+          plugin_people_size: 28
+          plugin_people_thanks: yes
+          
         continue-on-error: true
         
       - name: 🚀 Generate Profile README
@@ -107,7 +151,7 @@ jobs:
 
           📊 Updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')  
           🎯 Profile: ${{ github.repository_owner }}
-          ⚡ Generated with JavaScript + clean config"
+          ⚡ Generated with beautiful metrics from lowlighter/metrics"
           
           git push origin main
           
