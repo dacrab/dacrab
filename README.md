@@ -1,8 +1,8 @@
 <div align="center">
 
-# 👋 Hello, I'm Vaggelis Kavouras
+# 👋 Hello, I'm Vaggelis kavouras
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Full-Stack+Developer+from+Greece+🇬🇷;Building+Modern+Web+Applications;TypeScript+%7C+React+%7C+Next.js+Enthusiast;Always+Learning+%26+Shipping!)](https://github.com/dacrab)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=doin my best;Building amazing projects;Always learning new technologies;Open to collaboration!)](https://github.com/dacrab)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=dacrab&style=for-the-badge&color=58A6FF&label=Profile+Views)](https://github.com/dacrab)
 [![GitHub followers](https://img.shields.io/github/followers/dacrab?style=for-the-badge&color=58A6FF&labelColor=1e1e2e)](https://github.com/dacrab?tab=followers)
@@ -14,40 +14,26 @@
 
 ## 🚀 About Me
 
-> **Solo Developer** passionate about crafting modern, type-safe web applications
+> doin my best
 
-- 🔭 Currently working on **[clubOS](https://github.com/dacrab/clubos)** - Sports Facility Management System
-- 🌱 Learning **Advanced TypeScript Patterns** & **System Architecture**  
-- 💡 Passionate about **Clean Code**, **Scalable Architecture** & **Developer Experience**
-- 🎯 Building **production-ready** applications with modern tech stack
-- 📍 Based in **Greece** 🇬🇷
-- 💬 Ask me about **React**, **Next.js**, **TypeScript**, **Supabase**
+- 📍 Based in **Greece**
+- 📊 **23** public repositories
+- 👥 **15** followers • **5** following
+- 🌐 Check out my [website](dacrab.github.io)
 
 ---
 
-## 🛠️ Tech Stack
 
-<div align="center">
+### 🛠️ Technologies I Use
 
-### Frontend
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### Backend & Database  
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### Tools & Deployment
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-666666?style=for-the-badge&logo=shell&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-666666?style=for-the-badge&logo=powershell&logoColor=white)
 
 ---
 
@@ -55,7 +41,7 @@
 
 <div align="center">
 
-![GitHub Metrics](https://raw.githubusercontent.com/dacrab/dacrab/main/github-metrics.svg)
+![GitHub Metrics](./github-metrics.svg)
 
 </div>
 
@@ -82,39 +68,69 @@
 
 ---
 
-## 💼 Featured Projects
-
-> Building innovative solutions with modern technology stacks
-
-### 🚀 **Primary Projects**
+## 🎯 What I'm currently working on
 
 <div align="center">
 
-| 🧑‍💼 **clubOS** | 🌐 **Portfolio** |
-|:---:|:---:|
-| [![clubOS](https://img.shields.io/badge/clubOS-Sports_Facility_Management-00C7B7?style=for-the-badge&logoColor=white)](https://clubos.vercel.app) | [![Portfolio](https://img.shields.io/badge/Portfolio-Personal_Website-FF5D01?style=for-the-badge&logoColor=white)](https://dacrab.github.io) |
-| **🔧 Stack:** Next.js 14, Supabase, TypeScript<br/>**🎯 Focus:** Real-time POS, RBAC, Analytics<br/>**📊 Status:** 🚧 Active Development | **🔧 Stack:** Astro, TypeScript, TailwindCSS<br/>**🎯 Focus:** Fast, SEO Optimized, Modern UI<br/>**📊 Status:** ✅ Production Ready |
-| [![Repo](https://img.shields.io/badge/🔗_Source-181717?style=flat-square&logo=github)](https://github.com/dacrab/clubos) [![Demo](https://img.shields.io/badge/🌐_Live-00C7B7?style=flat-square&logo=vercel)](https://clubos.vercel.app) | [![Repo](https://img.shields.io/badge/🔗_Source-181717?style=flat-square&logo=github)](https://github.com/dacrab/dacrab.github.io) [![Demo](https://img.shields.io/badge/🌐_Live-FF5D01?style=flat-square&logo=astro)](https://dacrab.github.io) |
+<!--RECENT_ACTIVITY:start-->
+<!--RECENT_ACTIVITY:end-->
 
 </div>
 
-### 🏢 **Client Projects**
+---
+
+## ⭐ Recently starred repositories
 
 <div align="center">
 
-| 🎯 **Argicon** | 🧱 **DesignDash** |
-|:---:|:---:|
-| Architecture Studio Website | Architecture Portfolio |
-| **⚡ Features:** Multilingual, Framer Motion<br/>**🛠️ Tech:** Next.js, i18n, Animations<br/>**🎨 Specialty:** Interactive Design | **⚡ Features:** Portfolio Gallery, Dark Mode<br/>**🛠️ Tech:** Next.js, TailwindCSS<br/>**🎨 Specialty:** Responsive Design |
-| [![Live Site](https://img.shields.io/badge/🌐_Visit_Site-00C7B7?style=flat-square&logo=vercel)](https://argicon.gr) | [![Live Site](https://img.shields.io/badge/🌐_Visit_Site-00C7B7?style=flat-square&logo=vercel)](https://designdash.gr) |
+<!--RECENTLY_STARRED:start-->
+<!--RECENTLY_STARRED:end-->
 
 </div>
 
-<div align="center">
-  
-**🎯 Interested in collaboration?** [**Let's build something amazing together!**](mailto:vkavouras@proton.me)
+---
 
-</div>
+## 💼 My Work
+
+
+### 🚀 Featured Repositories
+
+
+### [dacrab](https://github.com/dacrab/dacrab)
+No description available
+
+**Language:** JavaScript | **Stars:** ⭐ 0 | **Forks:** 🍴 0  
+**Topics:** None | **Updated:** 8/20/2025
+
+### [dacrab.github.io](https://github.com/dacrab/dacrab.github.io)
+Portfolio built using Astro and LightningCSS
+
+**Language:** Astro | **Stars:** ⭐ 0 | **Forks:** 🍴 0  
+**Topics:** None | **Updated:** 8/20/2025
+
+### [clubos](https://github.com/dacrab/clubos)
+Custom POS system made using NextJS & Supabase
+
+**Language:** TypeScript | **Stars:** ⭐ 0 | **Forks:** 🍴 0  
+**Topics:** None | **Updated:** 8/19/2025
+
+### [craftops](https://github.com/dacrab/craftops)
+🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨
+
+**Language:** Go | **Stars:** ⭐ 0 | **Forks:** 🍴 0  
+**Topics:** None | **Updated:** 8/19/2025
+
+### [ioannislo](https://github.com/dacrab/ioannislo)
+Portfolio for a friend following the brutalistic aeshetic
+
+**Language:** Astro | **Stars:** ⭐ 0 | **Forks:** 🍴 0  
+**Topics:** portfolio | **Updated:** 8/19/2025
+
+### [ElysianVista](https://github.com/dacrab/ElysianVista)
+No description available
+
+**Language:** TypeScript | **Stars:** ⭐ 0 | **Forks:** 🍴 0  
+**Topics:** None | **Updated:** 8/18/2025
 
 ---
 
@@ -137,12 +153,13 @@
 
 <div align="center">
 
+[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](dacrab.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vkavouras/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/killcrb/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vkavouras@proton.me)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab)
 
-**💬 Open to collaborations, freelance projects, and interesting conversations!**
+**💬 Open to collaborations and interesting conversations!**
 
 </div>
 
@@ -150,7 +167,13 @@
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dacrab&custom_title=Vaggelis's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true)](https://github.com/dacrab)
+## 🎯 3D Contribution Graph
+
+![3D Contribution Graph](./profile-3d-contrib/profile-night-rainbow.svg)
+
+---
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=dacrab&custom_title=Vaggelis kavouras's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true)](https://github.com/dacrab)
 
 ---
 

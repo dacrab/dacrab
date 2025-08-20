@@ -1,32 +1,80 @@
-name: 🔄 Update Dynamic README
+name: 🔄 Atomic README Update
 
 on:
   schedule:
-    # Update README every 6 hours
+    # Update every 6 hours
     - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
     branches: [ main ]
+    paths: 
+      - 'config.js'
+      - 'README.gtpl'
+      - 'scripts/**'
+
+# Prevent concurrent runs
+concurrency:
+  group: readme-update
+  cancel-in-progress: false
 
 jobs:
   update-readme:
-    name: Update README with fresh data
+    name: 🚀 Generate Dynamic README
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
     permissions:
       contents: write
       
     steps:
-      - name: 🔽 Checkout repository
+      - name: 🔒 Acquire Lock
+        id: lock
+        run: |
+          echo "lock_id=$(date +%s)-${{ github.run_id }}" >> $GITHUB_OUTPUT
+          echo "🔒 Lock acquired: $(date +%s)-${{ github.run_id }}"
+          
+      - name: 🔽 Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
           
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: 📦 Install Dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+          
+      - name: 🔄 Sync Remote Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git fetch origin main
+          git reset --hard origin/main
+          
+      - name: 🎯 Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+        continue-on-error: true
+        
       - name: 📊 Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          user: dacrab
+          user: ${{ github.repository_owner }}
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Athens
@@ -50,34 +98,80 @@ jobs:
           plugin_activity_load: 300
           plugin_activity_visibility: all
           plugin_repositories: yes
-          plugin_repositories_featured: dacrab/clubos, dacrab/dacrab.github.io
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
-          
-      - name: 🔄 Sync with remote changes
+        continue-on-error: true
+        
+      - name: 🚀 Generate Dynamic README
+        id: generate
         run: |
-          git config --global user.name "Dynamic README Bot"
-          git config --global user.email "actions@github.com"
-          git pull origin main --rebase
-          
-      - name: 🚀 Dynamic Template Rendering  
-        uses: varunsridharan/action-dynamic-readme@main
-        with:
-          files: |
-            README.template.md=README.md
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: 🔥 Get GitHub Activity
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+          echo "🚀 Starting README generation..."
+          node scripts/readme-generator.js
+          echo "generation_status=success" >> $GITHUB_OUTPUT
+        continue-on-error: false
+        
+      - name: 🔥 Update GitHub Activity
         uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: 'Update GitHub Activity'
+          COMMIT_MSG: '🔄 Update GitHub Activity'
           MAX_LINES: 8
+        continue-on-error: true
+        
+      - name: 🔍 Check for Changes
+        id: changes
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "📝 No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected"
+            git status --porcelain
+          fi
           
+      - name: 📝 Commit and Push Changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Create atomic commit
+          git add .
+          git commit -m "🔄 Auto-update README with latest data
+          
+          - Updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          - Lock ID: ${{ steps.lock.outputs.lock_id }}
+          - Generation: ${{ steps.generate.outputs.generation_status }}"
+          
+          # Push with retry logic
+          for i in {1..3}; do
+            if git push origin main; then
+              echo "✅ Push successful on attempt $i"
+              break
+            else
+              echo "⚠️ Push failed on attempt $i, retrying..."
+              git pull --rebase origin main
+              sleep $((i * 2))
+            fi
+          done
+          
+      - name: 🔓 Release Lock
+        if: always()
+        run: |
+          echo "🔓 Lock released: ${{ steps.lock.outputs.lock_id }}"
+          
+      - name: 📊 Summary
+        if: always()
+        run: |
+          echo "## 📊 Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Lock ID:** ${{ steps.lock.outputs.lock_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Generation Status:** ${{ steps.generate.outputs.generation_status || 'failed' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes Detected:** ${{ steps.changes.outputs.has_changes || 'unknown' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
