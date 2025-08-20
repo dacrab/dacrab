@@ -2,7 +2,15 @@
 
 # 👋 Hello, I'm {{USER_NAME}}
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color={{PRIMARY_COLOR}}&center=true&vCenter=true&multiline=true&width=800&height=100&lines={{TYPING_LINES}})](https://github.com/{{USERNAME}})
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color={{PRIMARY_COLOR}}&center=true&vCenter=true&multiline=true&width=900&height=120&lines={{TYPING_LINES}})](https://github.com/{{USERNAME}})
+
+<div align="center">
+  <img src="{{AVATAR_URL}}" width="150" height="150" style="border-radius: 50%; border: 4px solid #{{PRIMARY_COLOR}}; margin: 20px 0;" />
+</div>
+
+> *{{USER_BIO}}*
+
+{{PROFILE_STATS}}
 
 [![Profile Views](https://komarev.com/ghpvc/?username={{USERNAME}}&style=for-the-badge&color={{PRIMARY_COLOR}}&label=Profile+Views)](https://github.com/{{USERNAME}})
 [![GitHub followers](https://img.shields.io/github/followers/{{USERNAME}}?style=for-the-badge&color={{PRIMARY_COLOR}}&labelColor=1e1e2e)](https://github.com/{{USERNAME}}?tab=followers)
@@ -12,19 +20,13 @@
 
 ---
 
-## 🚀 About Me
-
-> {{USER_BIO}}
-
-{{ABOUT_SECTION}}
-
----
+## 🛠️ Technologies & Tools
 
 {{TECH_STACK}}
 
 ---
 
-## 📊 GitHub Analytics
+# 📊 GitHub Analytics & Insights
 
 <div align="center">
 
@@ -34,22 +36,10 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&icon_color={{PRIMARY_COLOR}}&count_private=true&include_all_commits=true&custom_title={{USER_NAME}}'s%20GitHub%20Stats" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background={{BG_COLOR}}&stroke={{PRIMARY_COLOR}}&ring={{PRIMARY_COLOR}}&fire=FF6B6B&currStreakLabel={{PRIMARY_COLOR}}&dates={{TEXT_COLOR}}" />
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username={{USERNAME}}&show_icons=true&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&icon_color={{PRIMARY_COLOR}}&count_private=true)](https://github.com/{{USERNAME}})
-
-</td>
-<td width="50%">
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user={{USERNAME}}&theme=tokyonight&hide_border=true&background={{BG_COLOR}}&stroke={{PRIMARY_COLOR}}&ring={{PRIMARY_COLOR}}&fire=FF6B6B&currStreakLabel={{PRIMARY_COLOR}})](https://github.com/{{USERNAME}})
-
-</td>
-</tr>
-</table>
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&langs_count=10)](https://github.com/{{USERNAME}})
+<img width="70%" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&theme=tokyonight&hide_border=true&bg_color={{BG_COLOR}}&title_color={{PRIMARY_COLOR}}&text_color={{TEXT_COLOR}}&langs_count=12&card_width=600&custom_title={{USER_NAME}}'s%20Most%20Used%20Languages" />
 
 </div>
 
@@ -78,6 +68,8 @@
 ---
 
 ## 💼 My Work
+
+Visit my [GitHub profile](https://github.com/{{USERNAME}}) to see all my projects!
 
 {{FEATURED_PROJECTS}}
 

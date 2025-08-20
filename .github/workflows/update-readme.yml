@@ -1,65 +1,89 @@
-name: 🔄 Atomic README Update
+name: 🚀 Dynamic README (No JavaScript!)
 
 on:
   schedule:
-    # Update every 6 hours
+    # Update every 6 hours - fully customizable
     - cron: '0 */6 * * *'
   workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: 'false'
+        type: boolean
   push:
-    branches: [ main ]
+    branches: [ main, master ]
     paths: 
-      - 'config.js'
       - 'README.gtpl'
-      - 'scripts/**'
+      - '.github/workflows/update-readme.yml'
 
 # Prevent concurrent runs
 concurrency:
-  group: readme-update
-  cancel-in-progress: false
+  group: readme-update-${{ github.repository }}
+  cancel-in-progress: true
 
 jobs:
   update-readme:
     name: 🚀 Generate Dynamic README
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     
     permissions:
       contents: write
       
     steps:
-      - name: 🔒 Acquire Lock
-        id: lock
-        run: |
-          echo "lock_id=$(date +%s)-${{ github.run_id }}" >> $GITHUB_OUTPUT
-          echo "🔒 Lock acquired: $(date +%s)-${{ github.run_id }}"
-          
       - name: 🔽 Checkout Repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: 🟢 Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          
-
-          
-      - name: 🔄 Sync Remote Changes
+      
+      - name: 📊 Set Dynamic Variables
+        id: vars
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git fetch origin main
-          git reset --hard origin/main
+          # Auto-detect username and repository info
+          USERNAME="${{ github.repository_owner }}"
+          REPO_NAME="${{ github.event.repository.name }}"
           
+          echo "username=$USERNAME" >> $GITHUB_OUTPUT
+          echo "repo_name=$REPO_NAME" >> $GITHUB_OUTPUT
+          echo "repository=${{ github.repository }}" >> $GITHUB_OUTPUT
+          
+          # Set theme colors with defaults
+          echo "primary_color=${{ vars.THEME_PRIMARY_COLOR || '58A6FF' }}" >> $GITHUB_OUTPUT
+          echo "bg_color=${{ vars.THEME_BG_COLOR || '0D1117' }}" >> $GITHUB_OUTPUT
+          echo "text_color=${{ vars.THEME_TEXT_COLOR || 'C3D1D9' }}" >> $GITHUB_OUTPUT
+          
+          # Set content limits with defaults
+          echo "max_repos=${{ vars.MAX_REPOS || '6' }}" >> $GITHUB_OUTPUT
+          echo "max_languages=${{ vars.MAX_LANGUAGES || '8' }}" >> $GITHUB_OUTPUT
+          
+          # Set custom messages with defaults
+          echo "user_tagline=${{ vars.USER_TAGLINE || 'Building amazing projects with modern technologies' }}" >> $GITHUB_OUTPUT
+          echo "user_quote=${{ vars.USER_QUOTE || 'Code is poetry written in logic' }}" >> $GITHUB_OUTPUT
+          echo "contact_message=${{ vars.CONTACT_MESSAGE || 'Open to collaborations and interesting conversations!' }}" >> $GITHUB_OUTPUT
+          
+          echo "🎯 Dynamic variables set for: $USERNAME"
+      
       - name: 🎯 Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: ${{ steps.vars.outputs.username }}
         with:
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: ${{ steps.vars.outputs.username }}
+          SETTING_JSON: |
+            {
+              "type": "normal",
+              "backgroundType": "Night",
+              "backgroundColor": "#${{ steps.vars.outputs.bg_color }}",
+              "foregroundColor": "#${{ steps.vars.outputs.primary_color }}",
+              "strongColor": "#c9d1d9",
+              "weakColor": "#21262d",
+              "radarColor": "#${{ steps.vars.outputs.primary_color }}",
+              "growingAnimation": true,
+              "contribColors": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+            }
         continue-on-error: true
         
       - name: 📊 Generate GitHub Metrics
@@ -67,47 +91,46 @@ jobs:
         with:
           filename: github-metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
+          user: ${{ steps.vars.outputs.username }}
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Athens
+          config_timezone: ${{ vars.USER_TIMEZONE || 'Etc/UTC' }}
           config_twemoji: yes
           config_gemoji: yes
+          config_display: large
           plugin_lines: yes
           plugin_lines_sections: base
-          plugin_lines_repositories_limit: 4
+          plugin_lines_repositories_limit: ${{ steps.vars.outputs.max_repos }}
           plugin_languages: yes
           plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_load: 300
-          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 500
+          plugin_languages_recent_days: 30
           plugin_languages_sections: most-used
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: ${{ steps.vars.outputs.max_languages }}
           plugin_activity: yes
-          plugin_activity_days: 14
+          plugin_activity_days: 30
           plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
+          plugin_activity_limit: 8
+          plugin_activity_load: 500
           plugin_activity_visibility: all
           plugin_repositories: yes
+          plugin_repositories_featured: ${{ vars.FEATURED_REPOSITORIES || github.repository }}
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_discussions: yes
+          plugin_discussions_categories: yes
         continue-on-error: true
         
-      - name: 🚀 Generate Dynamic README
-        id: generate
-        run: |
-          echo "🚀 Starting README generation..."
-          node scripts/readme-generator.js
-          echo "generation_status=success" >> $GITHUB_OUTPUT
-        continue-on-error: false
-        
-      - name: 🔥 Update GitHub Activity
+      - name: 🔥 Update Recent GitHub Activity
         uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -115,11 +138,161 @@ jobs:
           COMMIT_MSG: '🔄 Update GitHub Activity'
           MAX_LINES: 8
         continue-on-error: true
-        
-      - name: 🔍 Check for Changes
+      
+      - name: 🎨 Generate Dynamic Content
+        id: content
+        run: |
+          USERNAME="${{ steps.vars.outputs.username }}"
+          
+          # Get user profile data using GitHub CLI
+          echo "📊 Fetching user profile for $USERNAME..."
+          
+          USER_DATA=$(gh api /users/$USERNAME --jq '{
+            name: .name // "'$USERNAME'",
+            bio: .bio // "${{ steps.vars.outputs.user_tagline }}",
+            location: .location // "",
+            company: .company // "",
+            blog: .blog // "",
+            twitter: .twitter_username // "",
+            followers: .followers,
+            following: .following,
+            public_repos: .public_repos,
+            avatar_url: .avatar_url,
+            created_at: .created_at
+          }')
+          
+          # Extract user data
+          USER_NAME=$(echo "$USER_DATA" | jq -r '.name')
+          USER_BIO=$(echo "$USER_DATA" | jq -r '.bio')
+          AVATAR_URL=$(echo "$USER_DATA" | jq -r '.avatar_url')
+          LOCATION=$(echo "$USER_DATA" | jq -r '.location // ""')
+          COMPANY=$(echo "$USER_DATA" | jq -r '.company // ""')
+          WEBSITE=$(echo "$USER_DATA" | jq -r '.blog // ""')
+          FOLLOWERS=$(echo "$USER_DATA" | jq -r '.followers')
+          FOLLOWING=$(echo "$USER_DATA" | jq -r '.following')
+          PUBLIC_REPOS=$(echo "$USER_DATA" | jq -r '.public_repos')
+          TWITTER_USERNAME=$(echo "$USER_DATA" | jq -r '.twitter // ""')
+          CREATED_YEAR=$(echo "$USER_DATA" | jq -r '.created_at' | cut -d'-' -f1)
+          
+          # Generate typing animation lines
+          TYPING_LINES="${USER_BIO};Building amazing projects;Always learning new technologies"
+          if [ -n "$COMPANY" ]; then
+            TYPING_LINES="${TYPING_LINES};Working at ${COMPANY}"
+          fi
+          TYPING_LINES="${TYPING_LINES};Open to collaboration!"
+          
+          # URL encode typing lines
+          ENCODED_TYPING=$(echo "$TYPING_LINES" | sed 's/ /%20/g' | sed 's/;/%3B/g')
+          
+          # Generate profile stats
+          PROFILE_STATS="📅 **Coding since $CREATED_YEAR** • 📊 **$PUBLIC_REPOS** repositories • 👥 **$FOLLOWERS** followers • **$FOLLOWING** following"
+          if [ -n "$LOCATION" ]; then
+            PROFILE_STATS="📍 **$LOCATION** • $PROFILE_STATS"
+          fi
+          if [ -n "$COMPANY" ]; then
+            PROFILE_STATS="🏢 **$COMPANY** • $PROFILE_STATS"
+          fi
+          if [ -n "$WEBSITE" ]; then
+            PROFILE_STATS="$PROFILE_STATS • 🌐 [**Website**]($WEBSITE)"
+          fi
+          
+          # Generate social links
+          SOCIAL_LINKS=""
+          if [ -n "$WEBSITE" ]; then
+            SOCIAL_LINKS="[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)]($WEBSITE)"$'\n'
+          fi
+          
+          # Add social links from variables
+          if [ -n "${{ vars.LINKEDIN_URL }}" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](${{ vars.LINKEDIN_URL }})"$'\n'
+          fi
+          if [ -n "${{ vars.TWITTER_URL }}" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](${{ vars.TWITTER_URL }})"$'\n'
+          fi
+          if [ -n "$TWITTER_USERNAME" ] && [ -z "${{ vars.TWITTER_URL }}" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/$TWITTER_USERNAME)"$'\n'
+          fi
+          if [ -n "${{ vars.INSTAGRAM_URL }}" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](${{ vars.INSTAGRAM_URL }})"$'\n'
+          fi
+          if [ -n "${{ vars.YOUTUBE_URL }}" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](${{ vars.YOUTUBE_URL }})"$'\n'
+          fi
+          if [ -n "${{ vars.USER_EMAIL }}" ]; then
+            SOCIAL_LINKS="${SOCIAL_LINKS}[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:${{ vars.USER_EMAIL }})"$'\n'
+          fi
+          
+          # Always add GitHub link
+          SOCIAL_LINKS="${SOCIAL_LINKS}[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/$USERNAME)"
+          
+          # Save outputs
+          echo "user_name=$USER_NAME" >> $GITHUB_OUTPUT
+          echo "user_bio=$USER_BIO" >> $GITHUB_OUTPUT
+          echo "avatar_url=$AVATAR_URL" >> $GITHUB_OUTPUT
+          echo "typing_lines=$ENCODED_TYPING" >> $GITHUB_OUTPUT
+          echo "profile_stats<<EOF" >> $GITHUB_OUTPUT
+          echo "$PROFILE_STATS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "social_links<<EOF" >> $GITHUB_OUTPUT
+          echo "$SOCIAL_LINKS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "✅ Dynamic content generated for $USER_NAME (@$USERNAME)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🎯 Process README Template
+        run: |
+          echo "🎨 Processing README template..."
+          
+          # Read the template
+          TEMPLATE=$(cat README.gtpl)
+          
+          # Replace all dynamic variables
+          echo "$TEMPLATE" | \
+          sed "s|{{USERNAME}}|${{ steps.vars.outputs.username }}|g" | \
+          sed "s|{{USER_NAME}}|${{ steps.content.outputs.user_name }}|g" | \
+          sed "s|{{USER_BIO}}|${{ steps.content.outputs.user_bio }}|g" | \
+          sed "s|{{PRIMARY_COLOR}}|${{ steps.vars.outputs.primary_color }}|g" | \
+          sed "s|{{BG_COLOR}}|${{ steps.vars.outputs.bg_color }}|g" | \
+          sed "s|{{TEXT_COLOR}}|${{ steps.vars.outputs.text_color }}|g" | \
+          sed "s|{{TYPING_LINES}}|${{ steps.content.outputs.typing_lines }}|g" | \
+          sed "s|{{AVATAR_URL}}|${{ steps.content.outputs.avatar_url }}|g" | \
+          sed "s|{{QUOTE}}|${{ steps.vars.outputs.user_quote }}|g" | \
+          sed "s|{{CONTACT_MESSAGE}}|${{ steps.vars.outputs.contact_message }}|g" | \
+          sed "s|{{WORKING_ON}}|What I'm currently working on|g" | \
+          sed "s|{{RECENT_STARS}}|Recently starred repositories|g" \
+          > README_temp.md
+          
+          # Replace profile stats (multiline)
+          awk -v stats="${{ steps.content.outputs.profile_stats }}" \
+          '{gsub(/{{PROFILE_STATS}}/, stats); print}' README_temp.md > README_temp2.md
+          
+          # Replace social links (multiline) 
+          awk -v social="${{ steps.content.outputs.social_links }}" \
+          '{gsub(/{{SOCIAL_LINKS}}/, social); print}' README_temp2.md > README_temp3.md
+          
+          # Add tech stack section
+          TECH_STACK="![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=${{ steps.vars.outputs.username }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=${{ steps.vars.outputs.bg_color }}&title_color=${{ steps.vars.outputs.primary_color }}&text_color=${{ steps.vars.outputs.text_color }})"
+          
+          awk -v tech="$TECH_STACK" \
+          '{gsub(/{{TECH_STACK}}/, tech); print}' README_temp3.md > README_temp4.md
+          
+          # Add featured projects section
+          FEATURED_PROJECTS="Visit my [GitHub profile](https://github.com/${{ steps.vars.outputs.username }}) to see all my projects!"
+          
+          awk -v projects="$FEATURED_PROJECTS" \
+          '{gsub(/{{FEATURED_PROJECTS}}/, projects); print}' README_temp4.md > README.md
+          
+          # Clean up temp files
+          rm -f README_temp*.md
+          
+          echo "✅ README.md generated successfully!"
+          
+      - name: 🔍 Check for Changes  
         id: changes
         run: |
-          git add .
+          git add README.md github-metrics.svg profile-3d-contrib/
           if git diff --staged --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "📝 No changes detected"
@@ -130,41 +303,48 @@ jobs:
           fi
           
       - name: 📝 Commit and Push Changes
-        if: steps.changes.outputs.has_changes == 'true'
+        if: steps.changes.outputs.has_changes == 'true' || github.event.inputs.force_update == 'true'
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.name "GitHub Action [Bot]"
           
-          # Create atomic commit
           git add .
-          git commit -m "🔄 Auto-update README with latest data
           
+          # Create commit message
+          commit_message="🚀 Auto-update README for @${{ steps.vars.outputs.username }}
+
+          📊 Dynamic generation completed (No JavaScript!):
+          - Repository: ${{ steps.vars.outputs.repository }}
           - Updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-          - Lock ID: ${{ steps.lock.outputs.lock_id }}
-          - Generation: ${{ steps.generate.outputs.generation_status }}"
+          - Trigger: ${{ github.event_name }}
+          - User: ${{ steps.content.outputs.user_name }}
           
-          # Push with retry logic
-          for i in {1..3}; do
-            if git push origin main; then
-              echo "✅ Push successful on attempt $i"
-              break
-            else
-              echo "⚠️ Push failed on attempt $i, retrying..."
-              git pull --rebase origin main
-              sleep $((i * 2))
-            fi
-          done
+          ✨ Powered by GitHub Actions only - no dependencies!"
           
-      - name: 🔓 Release Lock
-        if: always()
-        run: |
-          echo "🔓 Lock released: ${{ steps.lock.outputs.lock_id }}"
+          git commit -m "$commit_message"
+          git push origin ${{ github.ref_name }}
+          
+          echo "✅ Changes pushed successfully!"
           
       - name: 📊 Summary
         if: always()
         run: |
-          echo "## 📊 Workflow Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- **Lock ID:** ${{ steps.lock.outputs.lock_id }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Generation Status:** ${{ steps.generate.outputs.generation_status || 'failed' }}" >> $GITHUB_STEP_SUMMARY
+          echo "## 🚀 Dynamic README Generation Complete!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🎯 Repository Information" >> $GITHUB_STEP_SUMMARY
+          echo "- **Repository:** \`${{ steps.vars.outputs.repository }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Owner:** [@${{ steps.vars.outputs.username }}](https://github.com/${{ steps.vars.outputs.username }})" >> $GITHUB_STEP_SUMMARY
+          echo "- **User Name:** ${{ steps.content.outputs.user_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### ✨ Features" >> $GITHUB_STEP_SUMMARY
+          echo "- ✅ **Zero Dependencies** - Pure GitHub Actions" >> $GITHUB_STEP_SUMMARY
+          echo "- 🚀 **Fully Dynamic** - Auto-detects everything" >> $GITHUB_STEP_SUMMARY
+          echo "- 🎨 **Rich Visualizations** - 3D graphs and metrics" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔧 **Environment Configurable** - Repository variables" >> $GITHUB_STEP_SUMMARY
+          echo "- ⚡ **Fast Generation** - No build steps needed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🔧 Generation Details" >> $GITHUB_STEP_SUMMARY
           echo "- **Changes Detected:** ${{ steps.changes.outputs.has_changes || 'unknown' }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Force Update:** ${{ github.event.inputs.force_update || 'false' }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Completed:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
