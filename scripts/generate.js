@@ -157,7 +157,7 @@ class ProfileReadmeGenerator {
     
     // Search for recent PRs by the user
     const searchQuery = `author:${this.config.profile.username} is:pr created:>=${new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]}`;
-    const prs = await this.fetchFromGitHub(`/search/issues?q=${encodeURIComponent(searchQuery)}&sort=created&order=desc&per_page=5`);
+    const prs = await this.fetchFromGitHub(`/search/issues?q=${encodeURIComponent(searchQuery)}&sort=created&order=desc&per_page=${this.config.content.maxPullRequests || 5}`);
     
     if (!prs || !prs.items) return [];
 
@@ -285,66 +285,60 @@ class ProfileReadmeGenerator {
   generateSocialLinks(profile) {
     const links = [];
     
-    if (profile.website) {
-      links.push(`[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](${profile.website})`);
-    }
-    
+    // ChrisTitusTech style social links using danielcranney icons
     const socialPlatforms = {
-      linkedin: { name: 'LinkedIn', color: '0077B5', logo: 'linkedin' },
-      twitter: { name: 'Twitter', color: '1DA1F2', logo: 'twitter' },
-      instagram: { name: 'Instagram', color: 'E4405F', logo: 'instagram' },
-      youtube: { name: 'YouTube', color: 'FF0000', logo: 'youtube' },
-      discord: { name: 'Discord', color: '7289DA', logo: 'discord' },
-      email: { name: 'Email', color: 'D14836', logo: 'gmail' }
+      github: 'github',
+      linkedin: 'linkedin', 
+      instagram: 'instagram',
+      website: null, // Website uses different handling
+      email: null // Email uses different handling
     };
 
     Object.entries(this.config.social).forEach(([platform, url]) => {
-      if (url && socialPlatforms[platform]) {
-        const { name, color, logo } = socialPlatforms[platform];
-        links.push(`[![${name}](https://img.shields.io/badge/${name}-${color}?style=for-the-badge&logo=${logo}&logoColor=white)](${url})`);
+      if (!url) return;
+      
+      if (platform === 'website') {
+        // Handle website separately
+        return;
+      }
+      
+      if (platform === 'email') {
+        // Handle email separately  
+        return;
+      }
+      
+      if (socialPlatforms[platform]) {
+        const iconName = socialPlatforms[platform];
+        links.push(`<a href="${url}" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/${iconName}-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/${iconName}.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/${iconName}.svg" width="32" height="32" /> </picture> </a>`);
       }
     });
 
-    if (profile.twitter_username && !this.config.social.twitter) {
-      links.push(`[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/${profile.twitter_username})`);
+    return `<p align="left"> ${links.join(' ')} </p>`;
+  }
+
+  generateContactInfo() {
+    const contacts = [];
+    
+    if (this.config.social.website) {
+      contacts.push(`  - Website  : <${this.config.social.website}>`);
+    }
+    
+    if (this.config.social.linkedin) {
+      contacts.push(`  - LinkedIn : <${this.config.social.linkedin}>`);
+    }
+    
+    if (this.config.social.email) {
+      contacts.push(`  - Email    : <${this.config.social.email}>`);
+    }
+    
+    if (this.config.social.github) {
+      contacts.push(`  - GitHub   : <${this.config.social.github}>`);
     }
 
-    links.push(`[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/${this.config.profile.username})`);
-
-    return links.join('\n');
+    return contacts.join('\n');
   }
 
-  generateProfileStats(profile) {
-    const stats = [];
-    
-    if (profile.company) stats.push(`🏢 **${profile.company}**`);
-    if (profile.location) stats.push(`📍 **${profile.location}**`);
-    
-    const year = new Date(profile.created_at).getFullYear();
-    stats.push(`📅 **Coding since ${year}**`);
-    stats.push(`📊 **${profile.public_repos}** repositories`);
-    stats.push(`👥 **${profile.followers}** followers • **${profile.following}** following`);
-    
-    if (profile.website) stats.push(`🌐 [**Website**](${profile.website})`);
 
-    return stats.join(' • ');
-  }
-
-  generateTypingLines(profile) {
-    const lines = [
-      profile.bio,
-      'Building amazing projects',
-      'Always learning new technologies'
-    ];
-    
-    if (profile.company) lines.push(`Working at ${profile.company}`);
-    lines.push('Open to collaboration!');
-    
-    return lines
-      .filter(line => line && line.trim())
-      .map(line => encodeURIComponent(line))
-      .join(';');
-  }
 
   async generateReadme() {
     console.log('\n🚀 Starting profile README generation...\n');
@@ -361,40 +355,30 @@ class ProfileReadmeGenerator {
       this.getLanguageStats()
     ]);
 
-    // Generate content sections
-    const typingLines = this.generateTypingLines(profile);
-    const profileStats = this.generateProfileStats(profile);
+    // Generate content sections (ChrisTitusTech style)
     const workingOn = this.generateCurrentlyWorkingOn(currentWork);
     const latestProjectsContent = this.generateLatestProjects(latestProjects);
     const recentPRsContent = this.generateRecentPullRequests(recentPRs);
     const recentStarsContent = this.generateRecentStars(recentStars);
     const techStack = this.generateTechStack(languages);
     const socialLinks = this.generateSocialLinks(profile);
+    const contactInfo = this.generateContactInfo();
 
     // Read template
     console.log('📄 Processing README template...');
     const template = await readFile('README.gtpl', 'utf8');
 
-    // Generate final README
+    // Generate final README (ChrisTitusTech style - simple placeholders)
     const readme = template
       .replace(/\{\{USERNAME\}\}/g, this.config.profile.username)
-      .replace(/\{\{USER_NAME\}\}/g, profile.name)
-      .replace(/\{\{USER_BIO\}\}/g, profile.bio)
-      .replace(/\{\{PRIMARY_COLOR\}\}/g, this.config.theme.primaryColor)
-      .replace(/\{\{BG_COLOR\}\}/g, this.config.theme.backgroundColor)
-      .replace(/\{\{TEXT_COLOR\}\}/g, this.config.theme.textColor)
-      .replace(/\{\{TYPING_LINES\}\}/g, typingLines)
       .replace(/\{\{AVATAR_URL\}\}/g, profile.avatar_url)
-      .replace(/\{\{PROFILE_STATS\}\}/g, profileStats)
-      .replace(/\{\{TECH_STACK\}\}/g, techStack)
-      .replace(/\{\{FEATURED_PROJECTS\}\}/g, latestProjectsContent)
       .replace(/\{\{SOCIAL_LINKS\}\}/g, socialLinks)
-      .replace(/\{\{CONTACT_MESSAGE\}\}/g, this.config.messages.contactMessage)
-      .replace(/\{\{QUOTE\}\}/g, this.config.messages.quote)
       .replace(/\{\{WORKING_ON\}\}/g, workingOn)
       .replace(/\{\{LATEST_PROJECTS\}\}/g, latestProjectsContent)
       .replace(/\{\{RECENT_PRS\}\}/g, recentPRsContent)
-      .replace(/\{\{RECENT_STARS\}\}/g, recentStarsContent);
+      .replace(/\{\{RECENT_STARS\}\}/g, recentStarsContent)
+      .replace(/\{\{TECH_STACK\}\}/g, techStack)
+      .replace(/\{\{CONTACT_INFO\}\}/g, contactInfo);
 
     // Write README
     await writeFile('README.md', readme, 'utf8');
