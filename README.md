@@ -1,40 +1,14 @@
 <div align="center">
-
-# 👋 Hello, I'm Vaggelis kavouras
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=900&height=80&lines=Building%20amazing%20projects;Always%20learning%20new%20technologies;Open%20to%20collaboration!)](https://github.com/dacrab)
-
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/97808411?v=4" width="150" height="150" style="border-radius: 50%; border: 4px solid #58A6FF; margin: 20px 0;" />
+  <img src="https://avatars.githubusercontent.com/u/97808411?v=4" width="150" height="150" style="border-radius: 50%; border: 3px solid #58A6FF;" />
 </div>
-
-> *doin my best*
-
-📍 **Greece** • 📅 **Coding since 2022** • 📊 **23** repositories • 👥 **15** followers • **5** following • 🌐 [**Website**](dacrab.github.io)
-
-</div>
-
----
 
 ### Socials
 
-[![Website](https://img.shields.io/badge/Website-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](dacrab.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vkavouras/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/killcrb/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vkavouras@proton.me)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dacrab)
-
----
+<p align="left"> <a href="https://github.com/dacrab" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/vkavouras/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> </p>
 
 ### GitHub Stats
 
-<div align="center">
-
-<img width="100%" src="./github-metrics.svg" alt="GitHub Metrics" />
-
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C3D1D9&langs_count=12&hide=html,css,scss&custom_title=Vaggelis kavouras's%20Most%20Used%20Languages" />
-
-</div>
+<p align="left"><img src="https://raw.githubusercontent.com/dacrab/dacrab/main/github-metrics.svg" /></p>
 
 ### 👷 Check out what I'm currently working on
 
@@ -62,6 +36,7 @@
 * [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
 * [operator888/Supabase-DB-Export-Import](https://github.com/operator888/Supabase-DB-Export-Import) - Export and Import your DB from your Free SupaBase Account
 * [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your termi...
+* [devangshekhawat/Fedora-42-Post-Install-Guide](https://github.com/devangshekhawat/Fedora-42-Post-Install-Guide) - Things to do after installing Fedora 42
 
 ### 🛠️ Technologies & Tools
 
@@ -74,16 +49,8 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-666666?style=for-the-badge&logoColor=white)
 
----
-
-<div align="center">
-
-### ✨ *"Code is poetry written in logic"* ✨
-
-*🕒 This README updates automatically every 6 hours*
-
-⭐ **Star** some repositories if you find them interesting!
-
-**💬 Open to collaborations and interesting conversations!**
-
-</div>
+### 📫 How to reach me:
+  - Website  : <https://dacrab.github.io>
+  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>
+  - Email    : <mailto:vkavouras@proton.me>
+  - GitHub   : <https://github.com/dacrab>
