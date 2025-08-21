@@ -6,7 +6,7 @@
 
 > *doin my best*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** • **👥 15 Followers**
+**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
 
 </div>
 
@@ -22,15 +22,15 @@
 
 ### 👷 Check out what I'm currently working on
 
-* [dacrab](https://github.com/dacrab/dacrab) - No description available
+* [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 * [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
 * [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance...
-* [ElysianVista](https://github.com/dacrab/ElysianVista) - No description available
+* [ElysianVista](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
 * [ioannislo](https://github.com/dacrab/ioannislo) - Portfolio for a friend following the brutalistic aeshetic
 
 ### 🌱 My latest projects
 
-* [ElysianVista](https://github.com/dacrab/ElysianVista) - No description available
+* [ElysianVista](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
 
