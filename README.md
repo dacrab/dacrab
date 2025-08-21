@@ -6,7 +6,7 @@
 
 > *doin my best*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 24 Public Repos** •
 
 </div>
 
@@ -23,16 +23,17 @@
 ### 👷 Check out what I'm currently working on
 
 * [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
-* [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
-* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance...
-* [ElysianVista](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
-* [ioannislo](https://github.com/dacrab/ioannislo) - Portfolio for a friend following the brutalistic aeshetic
+* [register](https://github.com/is-a-dev/register) - Grab your own sweet-looking '.is-a.dev' subdomain.
+* [register](https://github.com/dacrab/register) - Grab your own sweet-looking '.is-a.dev' subdomain.
+* [clubos](https://github.com/dacrab/clubos) - DEMO POS system made using NextJS & NeonDB
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 
 ### 🌱 My latest projects
 
+* [ubuntu](https://github.com/dacrab/ubuntu) - Ubuntu Server -> Desktop
 * [ElysianVista](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [clubos](https://github.com/dacrab/clubos) - Custom POS system made using NextJS & Supabase
+* [clubos](https://github.com/dacrab/clubos) - DEMO POS system made using NextJS & NeonDB
 
 ### 🔨 My recent Pull Requests
 
@@ -51,10 +52,10 @@
 ### 🛠️ Technologies & Tools
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-666666?style=for-the-badge&logoColor=white)
