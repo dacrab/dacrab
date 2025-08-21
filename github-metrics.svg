@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1306" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1498" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.repository,footer{display:flex;flex-direction:column}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;justify-content:flex-end;padding:0 4px}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.categories{display:flex;align-items:center;justify-content:space-around;margin-top:4px}.audit.text{min-width:42px}.audit svg{margin:0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1118 Commits
+                            1122 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -94,7 +94,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                             </svg>
-                            33 issue comments
+                            34 issue comments
                         </div>
                     </section>
                     <section>
@@ -435,18 +435,18 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 2.65mb of code in 1007 edited files across 192 commits over last 13 days</small>
+                <small>estimation from 3.64mb of code in 1426 edited files across 207 commits over last 13 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="252.18920735465574" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="252.18920735465574" y="0" width="87.88327960808941" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="340.0724869627452" y="0" width="56.33875194389725" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="396.41123890664244" y="0" width="34.58284560416356" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="430.994084510806" y="0" width="25.689151876975483" height="8" fill="#ff5a03"/>
-                    <rect mask="url(#languages-bar)" x="456.68323638778145" y="0" width="3.316763612218567" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="276.2872477134788" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="276.2872477134788" y="0" width="99.68029175974442" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="375.9675394732232" y="0" width="39.056315413675996" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="415.0238548868992" y="0" width="24.86806417200165" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="439.89191905890084" y="0" width="17.808765437617467" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="457.7006844965183" y="0" width="2.2993155034816817" height="8" fill="#336790"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -458,8 +458,8 @@
                                 TSX
                             </div>
                             <small>
-                                <div>943 kB</div>
-                                <div>54.82%</div>
+                                <div>1.49 MB</div>
+                                <div>60.06%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -471,7 +471,7 @@
                             </div>
                             <small>
                                 <div>210 kB</div>
-                                <div>12.25%</div>
+                                <div>8.49%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -483,7 +483,7 @@
                             </div>
                             <small>
                                 <div>96.1 kB</div>
-                                <div>5.58%</div>
+                                <div>3.87%</div>
                             </small>
                         </div>
                     </section>
@@ -496,8 +496,8 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>328 kB</div>
-                                <div>19.11%</div>
+                                <div>538 kB</div>
+                                <div>21.67%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -508,8 +508,8 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>129 kB</div>
-                                <div>7.52%</div>
+                                <div>134 kB</div>
+                                <div>5.41%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -521,7 +521,7 @@
                             </div>
                             <small>
                                 <div>12.4 kB</div>
-                                <div>0.72%</div>
+                                <div>0.5%</div>
                             </small>
                         </div>
                     </section>
@@ -581,6 +581,222 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 11 commits in
+                                        <span class="repo">dacrab/clubos</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#8682d76</div>
+                                        <div class="message">chore: Update GitHub workflows with mock environment variables for CI
+
+- Added mock environment variables for database and Stack Auth configuration in main.yml and weekly-maintenance.yml.
+- Improved clarity in CI build verification steps by ensuring consistent environment setup.
+- Enhanced feedback messages for database schema checks to indicate when the schema is up to date.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b55c21b</div>
+                                        <div class="message">chore: Refactor GitHub workflows for build verification and dependency analysis
+
+- Renamed and simplified build workflow to focus on verification, reducing timeout from 20 to 10 minutes.
+- Removed performance analysis steps, as Vercel handles build performance.
+- Added quick build verification step to ensure project compiles successfully.
+- Updated dependency analysis workflow to streamline checks and improve clarity in reporting.
+- Cleaned up unused code and ensured consistent naming conventions across workflows.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e709ac4</div>
+                                        <div class="message">🗄️ feat: update database schema migrations
+
+- Drop foreign key constraint on categories table
+- Generated by drizzle-kit for schema consistency</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3954843</div>
+                                        <div class="message">chore: Refactor configuration and workflows for improved clarity and maintenance
+
+- Simplified package patterns in renovate.json for better readability.
+- Updated GitHub workflows to enhance clarity in naming and descriptions, ensuring better understanding of their purpose.
+- Improved formatting consistency across various workflow files and scripts.
+- Enhanced error handling and fallback UI in Stack Auth configuration for better user experience.
+- Cleaned up unused code and ensured proper formatting in components and scripts.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d034692</div>
+                                        <div class="message">chore: Remove deprecated workflows and files to streamline project maintenance
+
+- Deleted outdated GitHub workflows for CI, security analysis, performance monitoring, and auto-merge.
+- Removed the dependabot configuration file and associated README documentation to reduce clutter.
+- Cleaned up package.json by eliminating the unused security audit script.
+- Enhanced the auto-format workflow to prevent conflicts with other workflows and improve efficiency.
+- Updated the weekly maintenance workflow for better health checks and reporting.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f0c6abc</div>
+                                        <div class="message">fix(ci): Resolve security audit and lockfile issues</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#61fd067</div>
+                                        <div class="message">Update dependencies in bun.lock and package.json for improved functionality and security
+
+- Bump versions for lucide-react, react-day-picker, and eslint-plugin-unused-imports to their latest releases.
+- Add a new script for security auditing in package.json to enhance project security practices.
+- Ensure consistent dependency management across the project.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#87b16c9</div>
+                                        <div class="message">Implement conditional Stack Auth configuration and improve error handling
+
+- Added checks for Stack Auth configuration in layout and handler components.
+- Provided fallback UI when Stack Auth is not configured, enhancing user experience during CI builds.
+- Updated Stack Auth initialization to include a mock implementation for environments without configuration, ensuring robust error handling.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f313698</div>
+                                        <div class="message">Enhance project configuration and clean up codebase
+
+- Updated ESLint configuration in .eslintrc.cjs for improved linting rules.
+- Refreshed bun.lock to ensure consistent dependency management.
+- Added new GitHub workflows for automating tasks such as CI, security checks, and performance monitoring.
+- Cleaned up various components and scripts by ensuring proper formatting and removing unused code.
+- Improved documentation in README.md and .github/README.md for better developer experience.
+- Refactored several components and hooks for enhanced modularity and maintainability.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f0f7e21</div>
+                                        <div class="message">Remove unused ESLint configuration file to streamline project setup and maintain clean codebase.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#9d1f40c</div>
+                                        <div class="message">🚀 feat: Complete migration from Supabase to local database architecture
+
+✨ Major Changes:
+• Migrate from Supabase to Drizzle ORM with local database
+• Replace Supabase Auth with Stack Auth integration
+• Restructure API routes with comprehensive CRUD operations
+• Implement robust database services layer
+
+🗃️ Database &amp; ORM:
+• Add Drizzle ORM configuration and schema definitions
+• Create database migration system with initial schema
+• Implement dedicated service layers for all entities
+• Add proper database indexing and relationships
+
+🔐 Authentication:
+• Integrate Stack Auth for modern authentication flow
+• Add Stack Auth handlers and configuration
+• Update all auth-related components and hooks
+• Implement proper session management
+
+🛠️ API Architecture:
+• Create comprehensive REST API endpoints
+• Add proper error handling and validation
+• Implement standardized response formats
+• Add support for appointments, bookings, and enhanced sales
+
+🎨 Component Improvements:
+• Update all dashboard components for new data layer
+• Enhance UI components with better error states
+• Improve loading states and user feedback
+• Refactor hooks for optimized data fetching
+
+🧹 Code Quality:
+• Remove deprecated Supabase dependencies
+• Clean up unused components and utilities
+• Update TypeScript types for new schema
+• Improve code organization and modularity
+
+📝 Configuration:
+• Update environment configuration
+• Enhance ESLint rules and formatting
+• Update package dependencies
+• Add proper development tooling
+
+This migration provides a more maintainable, scalable, and self-contained
+architecture while preserving all existing functionality.</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">21 Aug 2025, 12:07:47</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#25480 dacrab subdomain</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by dacrab in <span class="repo">is-a-dev/register</span></div>
+                                    <div class="comment">from where? the profile readme , or delete it as a repo?</div>
+                                </div>
+                                <div class="timestamp">21 Aug 2025, 11:12:53</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 2 commits in
+                                        <span class="repo">dacrab/dacrab</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#cefd4a3</div>
+                                        <div class="message">Update github-metrics.svg to reflect recent activity and metrics changes
+
+- Adjusted SVG dimensions for better layout
+- Updated commit count from 1101 to 1105
+- Revised memory usage from 581 MB to 582 MB
+- Modified recent languages statistics and their respective percentages
+- Enhanced recent activity section with new commit details and timestamps
+- Cleaned up unused elements and ensured SVG structure is modular and clear</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f07bf25</div>
+                                        <div class="message">🤖 Add automatic README content updates + beautiful header improvements
+
+✨ New Features:
+- Created auto-update workflow for dynamic content (.github/workflows/update-dynamic-content.yml)
+- Runs every 6 hours to update: working on, recent PRs, stars, tech stack
+- Only commits when there are actual changes
+- Manual trigger available via GitHub Actions UI
+
+🎨 Header Improvements:
+- Removed ugly square avatar image
+- Added beautiful typing animation with rotating developer phrases
+- Clean personal greeting + professional bio
+- Live stats: Greece, coding since 2022, repo count
+- User removed followers count for cleaner look
+
+🔧 Technical Updates:
+- Updated README template with new header design
+- Modified generator script for new placeholders
+- Separate workflows: metrics (SVG) + dynamic content (README sections)
+
+Now both your metrics AND content will auto-update! 🚀</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">21 Aug 2025, 11:11:09</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 2 commits in
                                         <span class="repo">dacrab/dacrab</span>
                                     </div>
@@ -633,86 +849,12 @@
                                 <div class="timestamp">20 Aug 2025, 22:12:45</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/dacrab</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#82ce419</div>
-                                        <div class="message">🎯 Clean up workflow - remove invalid repositories_excluded parameter
-
-- Removed repositories_excluded (not a valid input parameter)
-- Workflow now successfully processes 30+ repositories
-- Fixed language detection showing 22 unique languages
-- All functionality working as expected</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">20 Aug 2025, 22:12:08</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/dacrab</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#5f1a968</div>
-                                        <div class="message">🐛 Fix repository detection in GitHub metrics - expand affiliations &amp; add debugging
-
-- Expand repositories_affiliations to include collaborator, organization_member
-- Add empty exclusion lists to prevent filtering
-- Enable debug mode for better troubleshooting
-- Enhanced language detection with recent activity tracking
-- Should now show all 23+ repositories instead of just 1</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">20 Aug 2025, 22:08:42</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/dacrab</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#a021c8d</div>
-                                        <div class="message">🗑️ Remove ChrisTitusTech embedded repository - no longer needed</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">20 Aug 2025, 22:02:16</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 21 Aug 2025, 18:26:35 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 21 Aug 2025, 21:32:53 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
