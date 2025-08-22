@@ -6,7 +6,7 @@
 
 > *doin my best*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 24 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
 
 </div>
 
