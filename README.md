@@ -22,11 +22,11 @@
 
 ### 👷 Check out what I'm currently working on
 
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [ubuntu](https://github.com/dacrab/ubuntu) - Ubuntu Server -> Desktop
 * [clubos](https://github.com/dacrab/clubos) - [DEMO] POS system made using NextJS & NeonDB
 * [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 * [register](https://github.com/is-a-dev/register) - Grab your own sweet-looking '.is-a.dev' subdomain.
-* [register](https://github.com/dacrab/register) - Grab your own sweet-looking '.is-a.dev' subdomain.
 
 ### 🌱 My latest projects
 
