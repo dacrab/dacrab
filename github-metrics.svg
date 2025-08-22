@@ -435,7 +435,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 3.72mb of code in 1437 edited files across 225 commits over last 13 days</small>
+                <small>estimation from 3.74mb of code in 1440 edited files across 229 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -588,6 +588,56 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
+                                        <div class="sha">#ae3edb6</div>
+                                        <div class="message">Update ubuntu-debloat.sh to replace SDDM with LightDM for KDE installation
+
+- Changed the display manager from SDDM to LightDM in both minimal and full installation modes for KDE.
+- Ensured consistency in the installation process while maintaining adherence to the KISS principle.</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">21 Aug 2025, 18:06:59</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/ubuntu</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#c98dd41</div>
+                                        <div class="message">Enhance README.md and ubuntu-debloat.sh for improved clarity and functionality
+
+- Updated README to reflect changes in desktop environment options and the installation process for Firefox via Flatpak.
+- Revised ubuntu-debloat.sh to streamline the installation of desktop environments and improve package management functions.
+- Added detailed logging and error handling for better user experience and reliability.
+- Consolidated user prompts and installation summaries, ensuring adherence to the KISS principle and maintaining a clean codebase.</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">21 Aug 2025, 17:54:13</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/ubuntu</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
                                         <div class="sha">#475ed35</div>
                                         <div class="message">Update README.md and ubuntu-debloat.sh to enhance Firefox installation process and clarify desktop environment options
 
@@ -651,64 +701,12 @@
                                 <div class="timestamp">21 Aug 2025, 15:35:34</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/ubuntu</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#564ebe6</div>
-                                        <div class="message">Refactor ubuntu-debloat.sh for enhanced functionality and user experience
-
-- Improved error handling and logging throughout the script for better clarity and reliability.
-- Streamlined the display manager setup process with additional checks and logging.
-- Enhanced package management functions to dynamically handle installation and removal of desktop environments and their dependencies.
-- Consolidated logic for removing Snap packages and related directories, ensuring a cleaner system.
-- Added support for disabling auto-reboot after setup, providing users with more control.
-- Cleaned up code and removed unused functions to maintain simplicity and adhere to the KISS principle.</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">21 Aug 2025, 15:04:44</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/ubuntu</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#35d5575</div>
-                                        <div class="message">Refactor service disabling logic in ubuntu-debloat.sh for improved readability
-
-- Simplified the disabling of unnecessary server services by removing the array and using a direct loop.
-- Enhanced code clarity while maintaining functionality and adhering to the KISS principle.</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">21 Aug 2025, 14:46:11</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Aug 2025, 06:42:20 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 22 Aug 2025, 09:36:11 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
