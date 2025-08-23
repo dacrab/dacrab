@@ -62,7 +62,7 @@ class ProfileReadmeGenerator {
     return {
       username: this.config.profile.username,
       name: this.config.profile.name || profile.name || this.config.profile.username,
-      bio: this.config.profile.bio || profile.bio || this.config.messages.aboutMe,
+      bio: this.config.profile.bio || profile.bio || 'Passionate developer building amazing projects',
       location: this.config.profile.location || profile.location || '',
       company: this.config.profile.company || profile.company || '',
       website: this.config.profile.website || profile.blog || '',
