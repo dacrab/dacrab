@@ -4,9 +4,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&height=60&lines=Full-Stack+Developer;Open+Source+Enthusiast;Building+Amazing+Projects;Always+Learning+New+Technologies)](https://github.com/dacrab)
 
-> *doin my best*
+> *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 22 Public Repos** •
 
 </div>
 
@@ -23,17 +23,16 @@
 ### 👷 Check out what I'm currently working on
 
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [ubuntu](https://github.com/dacrab/ubuntu) - Ubuntu Server -> Desktop
 * [clubos](https://github.com/dacrab/clubos) - [DEMO] POS system made using NextJS & NeonDB
 * [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 * [register](https://github.com/is-a-dev/register) - Grab your own sweet-looking '.is-a.dev' subdomain.
 
 ### 🌱 My latest projects
 
-* [ubuntu](https://github.com/dacrab/ubuntu) - Ubuntu Server -> Desktop
 * [ElysianVista](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [clubos](https://github.com/dacrab/clubos) - [DEMO] POS system made using NextJS & NeonDB
+* [cursor-reset](https://github.com/dacrab/cursor-reset) - Bash and Powershell scripts to resolve the "Too many free trials" error on Cursor AI
 
 ### 🔨 My recent Pull Requests
 
@@ -45,17 +44,17 @@
 
 * [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling...
 * [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
-* [operator888/Supabase-DB-Export-Import](https://github.com/operator888/Supabase-DB-Export-Import) - Export and Import your DB from your Free SupaBase Account
 * [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your termi...
 * [devangshekhawat/Fedora-42-Post-Install-Guide](https://github.com/devangshekhawat/Fedora-42-Post-Install-Guide) - Things to do after installing Fedora 42
+* [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor A...
 
 ### 🛠️ Technologies & Tools
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-666666?style=for-the-badge&logoColor=white)
