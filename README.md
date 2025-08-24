@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 22 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
 
 </div>
 
@@ -32,7 +32,6 @@
 * [ElysianVista](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [clubos](https://github.com/dacrab/clubos) - [DEMO] POS system made using NextJS & NeonDB
-* [cursor-reset](https://github.com/dacrab/cursor-reset) - Bash and Powershell scripts to resolve the "Too many free trials" error on Cursor AI
 
 ### 🔨 My recent Pull Requests
 
