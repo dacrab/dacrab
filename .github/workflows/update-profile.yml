@@ -139,21 +139,48 @@ jobs:
           # Contact info
           CONTACT_INFO="  - Website  : <https://dacrab.github.io>\n  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>\n  - Email    : <vkavouras@proton.me>\n  - GitHub   : <https://github.com/dacrab>"
           
-          # Generate README from template
+          # Generate README from template using a more reliable approach
           cp README.gtpl README.md
+          
+          # Simple replacements first
           sed -i "s/{{USERNAME}}/dacrab/g" README.md
           sed -i "s/{{USER_NAME}}/$USER_NAME/g" README.md
           sed -i "s/{{USER_BIO}}/$USER_BIO/g" README.md
           sed -i "s/{{REPO_COUNT}}/$REPO_COUNT/g" README.md
           
-          # Use printf for multiline replacements
-          printf '%s\n' "g/{{SOCIAL_LINKS}}/s/.*/$SOCIAL_LINKS/" w | ed -s README.md
-          printf '%s\n' "g/{{WORKING_ON}}/s/.*/$(echo "$WORKING_ON" | sed 's/[[\.*^$()+?{|]/\\&/g')/" w | ed -s README.md
-          printf '%s\n' "g/{{LATEST_PROJECTS}}/s/.*/$(echo "$LATEST_PROJECTS" | sed 's/[[\.*^$()+?{|]/\\&/g')/" w | ed -s README.md
-          printf '%s\n' "g/{{RECENT_PRS}}/s/.*/$(echo "$RECENT_PRS" | sed 's/[[\.*^$()+?{|]/\\&/g')/" w | ed -s README.md
-          printf '%s\n' "g/{{RECENT_STARS}}/s/.*/$(echo "$RECENT_STARS" | sed 's/[[\.*^$()+?{|]/\\&/g')/" w | ed -s README.md
-          printf '%s\n' "g/{{TECH_STACK}}/s/.*/$(echo "$TECH_STACK" | sed 's/[[\.*^$()+?{|]/\\&/g')/" w | ed -s README.md
-          printf '%s\n' "g/{{CONTACT_INFO}}/s/.*/$(echo "$CONTACT_INFO" | sed 's/[[\.*^$()+?{|]/\\&/g')/" w | ed -s README.md
+          # Create temporary files for multiline content
+          echo "$SOCIAL_LINKS" > /tmp/social_links.txt
+          echo "$WORKING_ON" > /tmp/working_on.txt
+          echo "$LATEST_PROJECTS" > /tmp/latest_projects.txt
+          echo "$RECENT_PRS" > /tmp/recent_prs.txt
+          echo "$RECENT_STARS" > /tmp/recent_stars.txt
+          echo "$TECH_STACK" > /tmp/tech_stack.txt
+          echo "$CONTACT_INFO" > /tmp/contact_info.txt
+          
+          # Use awk for reliable multiline replacements
+          awk '
+          BEGIN { 
+            while ((getline line < "/tmp/social_links.txt") > 0) social_links = social_links line "\n";
+            while ((getline line < "/tmp/working_on.txt") > 0) working_on = working_on line "\n";
+            while ((getline line < "/tmp/latest_projects.txt") > 0) latest_projects = latest_projects line "\n";
+            while ((getline line < "/tmp/recent_prs.txt") > 0) recent_prs = recent_prs line "\n";
+            while ((getline line < "/tmp/recent_stars.txt") > 0) recent_stars = recent_stars line "\n";
+            while ((getline line < "/tmp/tech_stack.txt") > 0) tech_stack = tech_stack line "\n";
+            while ((getline line < "/tmp/contact_info.txt") > 0) contact_info = contact_info line "\n";
+          }
+          {
+            gsub(/{{SOCIAL_LINKS}}/, social_links);
+            gsub(/{{WORKING_ON}}/, working_on);
+            gsub(/{{LATEST_PROJECTS}}/, latest_projects);
+            gsub(/{{RECENT_PRS}}/, recent_prs);
+            gsub(/{{RECENT_STARS}}/, recent_stars);
+            gsub(/{{TECH_STACK}}/, tech_stack);
+            gsub(/{{CONTACT_INFO}}/, contact_info);
+            print;
+          }' README.md > README_tmp.md && mv README_tmp.md README.md
+          
+          # Cleanup temporary files
+          rm -f /tmp/social_links.txt /tmp/working_on.txt /tmp/latest_projects.txt /tmp/recent_prs.txt /tmp/recent_stars.txt /tmp/tech_stack.txt /tmp/contact_info.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           
