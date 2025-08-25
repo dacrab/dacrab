@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+          
       - name: Generate GitHub metrics SVG
         uses: lowlighter/metrics@latest
         with:
@@ -139,48 +139,44 @@ jobs:
           # Contact info
           CONTACT_INFO="  - Website  : <https://dacrab.github.io>\n  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>\n  - Email    : <vkavouras@proton.me>\n  - GitHub   : <https://github.com/dacrab>"
           
-          # Generate README from template using a more reliable approach
+          # Generate README from template using Python for reliable multiline replacement
           cp README.gtpl README.md
           
-          # Simple replacements first
-          sed -i "s/{{USERNAME}}/dacrab/g" README.md
-          sed -i "s/{{USER_NAME}}/$USER_NAME/g" README.md
-          sed -i "s/{{USER_BIO}}/$USER_BIO/g" README.md
-          sed -i "s/{{REPO_COUNT}}/$REPO_COUNT/g" README.md
+          # Export variables so Python can access them
+          export USER_NAME USER_BIO REPO_COUNT SOCIAL_LINKS WORKING_ON LATEST_PROJECTS RECENT_PRS RECENT_STARS TECH_STACK CONTACT_INFO
           
-          # Create temporary files for multiline content
-          echo "$SOCIAL_LINKS" > /tmp/social_links.txt
-          echo "$WORKING_ON" > /tmp/working_on.txt
-          echo "$LATEST_PROJECTS" > /tmp/latest_projects.txt
-          echo "$RECENT_PRS" > /tmp/recent_prs.txt
-          echo "$RECENT_STARS" > /tmp/recent_stars.txt
-          echo "$TECH_STACK" > /tmp/tech_stack.txt
-          echo "$CONTACT_INFO" > /tmp/contact_info.txt
+          # Use Python for all replacements to handle multiline content properly
+          python3 << 'EOF'
+          import re
+          import os
           
-          # Use awk for reliable multiline replacements
-          awk '
-          BEGIN { 
-            while ((getline line < "/tmp/social_links.txt") > 0) social_links = social_links line "\n";
-            while ((getline line < "/tmp/working_on.txt") > 0) working_on = working_on line "\n";
-            while ((getline line < "/tmp/latest_projects.txt") > 0) latest_projects = latest_projects line "\n";
-            while ((getline line < "/tmp/recent_prs.txt") > 0) recent_prs = recent_prs line "\n";
-            while ((getline line < "/tmp/recent_stars.txt") > 0) recent_stars = recent_stars line "\n";
-            while ((getline line < "/tmp/tech_stack.txt") > 0) tech_stack = tech_stack line "\n";
-            while ((getline line < "/tmp/contact_info.txt") > 0) contact_info = contact_info line "\n";
+          # Read the template
+          with open('README.md', 'r') as f:
+              content = f.read()
+          
+          # Get environment variables
+          replacements = {
+              '{{USERNAME}}': 'dacrab',
+              '{{USER_NAME}}': os.environ.get('USER_NAME', 'Vaggelis Kavouras'),
+              '{{USER_BIO}}': os.environ.get('USER_BIO', 'Passionate developer building amazing projects'),
+              '{{REPO_COUNT}}': os.environ.get('REPO_COUNT', '23'),
+              '{{SOCIAL_LINKS}}': os.environ.get('SOCIAL_LINKS', ''),
+              '{{WORKING_ON}}': os.environ.get('WORKING_ON', ''),
+              '{{LATEST_PROJECTS}}': os.environ.get('LATEST_PROJECTS', ''),
+              '{{RECENT_PRS}}': os.environ.get('RECENT_PRS', ''),
+              '{{RECENT_STARS}}': os.environ.get('RECENT_STARS', ''),
+              '{{TECH_STACK}}': os.environ.get('TECH_STACK', ''),
+              '{{CONTACT_INFO}}': os.environ.get('CONTACT_INFO', '')
           }
-          {
-            gsub(/{{SOCIAL_LINKS}}/, social_links);
-            gsub(/{{WORKING_ON}}/, working_on);
-            gsub(/{{LATEST_PROJECTS}}/, latest_projects);
-            gsub(/{{RECENT_PRS}}/, recent_prs);
-            gsub(/{{RECENT_STARS}}/, recent_stars);
-            gsub(/{{TECH_STACK}}/, tech_stack);
-            gsub(/{{CONTACT_INFO}}/, contact_info);
-            print;
-          }' README.md > README_tmp.md && mv README_tmp.md README.md
           
-          # Cleanup temporary files
-          rm -f /tmp/social_links.txt /tmp/working_on.txt /tmp/latest_projects.txt /tmp/recent_prs.txt /tmp/recent_stars.txt /tmp/tech_stack.txt /tmp/contact_info.txt
+          # Replace all placeholders
+          for placeholder, value in replacements.items():
+              content = content.replace(placeholder, value)
+          
+          # Write the result
+          with open('README.md', 'w') as f:
+              f.write(content)
+          EOF
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           
