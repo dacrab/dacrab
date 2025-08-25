@@ -83,25 +83,25 @@ jobs:
           WORKING_ON=$(echo "$EVENTS" | jq -r '
             [.[] | select(.type == "PushEvent" or .type == "PullRequestEvent" or .type == "CreateEvent") 
              | .repo.name] | unique | .[0:4] | 
-            map("* [\(split("/")[1])](https://github.com/\(.)) - \(. as $repo | 
-              if $repo == "dacrab/dacrab" then "My custom dynamic GitHub profile"
-              elif $repo == "dacrab/dacrab.github.io" then "Portfolio built with Astro"
-              elif $repo == "dacrab/clubos" then "POS system demo using Next.js & NeonDB"
+            map("* [" + (. | split("/")[1]) + "](https://github.com/" + . + ") - " + 
+              (if . == "dacrab/dacrab" then "My custom dynamic GitHub profile"
+              elif . == "dacrab/dacrab.github.io" then "Portfolio built with Astro"
+              elif . == "dacrab/clubos" then "POS system demo using Next.js & NeonDB"
               else "Recent project"
-              end)") | join("\n")')
+              end)) | join("\n")')
           
           # Get latest repositories (newest created, non-forked)
           REPOS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab/repos?sort=created&direction=desc&per_page=5")
           LATEST_PROJECTS=$(echo "$REPOS" | jq -r '
-            [.[] | select(.fork == false and .size > 0) | .[0:3]] |
-            map("* [**\(.name)**](\(.html_url)) - \(.description // "No description available")") | join("\n")')
+            [.[] | select(.fork == false and .size > 0)] | .[0:3] |
+            map("* [**" + .name + "**](" + .html_url + ") - " + (.description // "No description available")) | join("\n")')
           
           # Get recent pull requests (last 30 days)
           CUTOFF_DATE=$(date -d "30 days ago" +%Y-%m-%d)
           PRS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/search/issues?q=author:dacrab+type:pr+created:>${CUTOFF_DATE}&sort=created&order=desc&per_page=5")
           RECENT_PRS=$(echo "$PRS" | jq -r '
-            if .items | length > 0 then
-              [.items[0:5]] | map("* [\(.title | if length > 60 then .[0:60] + "..." else . end)](\(.html_url)) on [\(.repository_url | split("/")[-1])](\(.repository_url))") | join("\n")
+            if (.items // []) | length > 0 then
+              (.items // [])[0:5] | map("* [" + (.title | if length > 60 then .[0:60] + "..." else . end) + "](" + .html_url + ") on [" + (.repository_url | split("/") | .[-1]) + "](" + .repository_url + ")") | join("\n")
             else
               "* No recent pull requests - time to contribute! 🔀"
             end')
@@ -109,8 +109,8 @@ jobs:
           # Get recently starred repositories
           STARS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab/starred?sort=created&direction=desc&per_page=5")
           RECENT_STARS=$(echo "$STARS" | jq -r '
-            if . | length > 0 then
-              [.[0:5]] | map("* [\(.owner.login)/\(.name)](\(.html_url)) - \(.description // "No description available" | if length > 80 then .[0:80] + "..." else . end)") | join("\n")
+            if length > 0 then
+              .[0:5] | map("* [" + .owner.login + "/" + .name + "](" + .html_url + ") - " + ((.description // "No description available") | if length > 80 then .[0:80] + "..." else . end)) | join("\n")
             else
               "* No recent stars - discover some awesome repos! ⭐"
             end')
@@ -120,17 +120,17 @@ jobs:
           TECH_STACK=$(echo "$LANG_REPOS" | jq -r '
             [.[] | select(.fork == false and .language != null and .size > 0) | .language] |
             group_by(.) | map({language: .[0], count: length}) | sort_by(.count) | reverse | .[0:8] |
-            map(.language as $lang |
-              if $lang == "JavaScript" then "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)"
-              elif $lang == "TypeScript" then "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)"
-              elif $lang == "Python" then "![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white)"
-              elif $lang == "PHP" then "![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)"
-              elif $lang == "Astro" then "![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)"
-              elif $lang == "CSS" then "![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)"
-              elif $lang == "HTML" then "![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logoColor=white)"
-              elif $lang == "Shell" then "![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)"
-              elif $lang == "Go" then "![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)"
-              else "![\($lang)](https://img.shields.io/badge/\($lang | @uri)-666666?style=for-the-badge&logoColor=white)"
+            map(
+              if .language == "JavaScript" then "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)"
+              elif .language == "TypeScript" then "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)"
+              elif .language == "Python" then "![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white)"
+              elif .language == "PHP" then "![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)"
+              elif .language == "Astro" then "![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)"
+              elif .language == "CSS" then "![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)"
+              elif .language == "HTML" then "![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logoColor=white)"
+              elif .language == "Shell" then "![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)"
+              elif .language == "Go" then "![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)"
+              else "![" + .language + "](https://img.shields.io/badge/" + (.language | @uri) + "-666666?style=for-the-badge&logoColor=white)"
               end) | join("\n")')
           
           # Social links
