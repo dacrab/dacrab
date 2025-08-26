@@ -22,10 +22,10 @@
 
 ### 👷 Check out what I'm currently working on
 
+* [winutil](https://github.com/ChrisTitusTech/winutil) - Recent project
 * [clubos](https://github.com/dacrab/clubos) - POS system demo using Next.js & NeonDB
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
-* [register](https://github.com/dacrab/register) - Recent project
 
 ### 🌱 My latest projects
 
