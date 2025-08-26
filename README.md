@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 22 Public Repos** •
 
 </div>
 
@@ -55,8 +55,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-666666?style=for-the-badge&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-666666?style=for-the-badge&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
 
 ### 📫 How to reach me:
   - Website  : <https://dacrab.github.io>\n  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>\n  - Email    : <vkavouras@proton.me>\n  - GitHub   : <https://github.com/dacrab>
