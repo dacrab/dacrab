@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 22 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
 
 </div>
 
