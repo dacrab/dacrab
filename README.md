@@ -41,11 +41,11 @@
 
 ### ⭐ Recent Stars
 
+* [Prat011/free-cluely](https://github.com/Prat011/free-cluely) - Open Source version of Cluely
 * [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscaling...
 * [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs) - A list of semi to fully remote-friendly companies (jobs) in tech.
 * [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your termi...
 * [devangshekhawat/Fedora-42-Post-Install-Guide](https://github.com/devangshekhawat/Fedora-42-Post-Install-Guide) - Things to do after installing Fedora 42
-* [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) - [Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor A...
 
 ### 🛠️ Technologies & Tools
 
