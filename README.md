@@ -37,7 +37,6 @@
 
 * [Enhance UI and functionality across various components](https://github.com/ChrisTitusTech/winutil/pull/3558) on [winutil](https://api.github.com/repos/ChrisTitusTech/winutil)
 * [dacrab subdomain](https://github.com/is-a-dev/register/pull/25480) on [register](https://api.github.com/repos/is-a-dev/register)
-* [Test](https://github.com/dacrab/ioannislo/pull/1) on [ioannislo](https://api.github.com/repos/dacrab/ioannislo)
 
 ### ⭐ Recent Stars
 
