@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 19 Public Repos** •
 
 </div>
 
@@ -23,15 +23,15 @@
 ### 👷 Check out what I'm currently working on
 
 * [winutil](https://github.com/ChrisTitusTech/winutil) - Recent project
-* [clubos](https://github.com/dacrab/clubos) - POS system demo using Next.js & NeonDB
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
+* [omarchy](https://github.com/dacrab/omarchy) - Recent project
 
 ### 🌱 My latest projects
 
-* [**ElysianVista**](https://github.com/dacrab/ElysianVista) - Real Estate Managment app using BHVR framework
 * [**dacrab.github.io**](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [**clubos**](https://github.com/dacrab/clubos) - [DEMO] POS system made using NextJS & NeonDB
+* [**ghostty-config**](https://github.com/dacrab/ghostty-config) - My config for th Ghostty terminal
+* [**craftops**](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨
 
 ### 🔨 My recent Pull Requests
 
@@ -48,7 +48,6 @@
 
 ### 🛠️ Technologies & Tools
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
@@ -56,6 +55,7 @@
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-666666?style=for-the-badge&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-666666?style=for-the-badge&logoColor=white)
 
 ### 📫 How to reach me:
   - Website  : <https://dacrab.github.io>\n  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>\n  - Email    : <vkavouras@proton.me>\n  - GitHub   : <https://github.com/dacrab>
