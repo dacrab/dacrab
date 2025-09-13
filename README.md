@@ -25,7 +25,7 @@
 * [winutil](https://github.com/ChrisTitusTech/winutil) - Recent project
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
-* [omarchy](https://github.com/dacrab/omarchy) - Recent project
+* [dotfiles](https://github.com/dacrab/dotfiles) - Recent project
 
 ### 🌱 My latest projects
 
