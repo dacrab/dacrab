@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1185" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1253" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.name{white-space:nowrap}.organization.contributions{margin:0 8px;flex-wrap:wrap}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.repository,footer{display:flex;flex-direction:column}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;justify-content:flex-end;padding:0 4px}.repository{width:100%;margin:6px 0}.repository .name{display:flex;align-items:center;justify-content:space-between;width:440px}.repository .name span:first-child{color:#58a6ff}.repository .name span:last-child{color:#666;font-size:10px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.contributions{margin:0 8px;flex-wrap:wrap}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.repository,footer{display:flex;flex-direction:column}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;justify-content:flex-end;padding:0 4px}.repository{width:100%;margin:6px 0}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -435,7 +435,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 78.5kb of code in 47 edited files across 10 commits over last 6 days</small>
+                <small>estimation from 119kb of code in 75 edited files across 20 commits over last 6 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -523,181 +523,246 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#7f9f76b</div>
-                                        <div class="message">🐛 Fix Hyprland configuration errors
+                                        <div class="sha">#eb9d9a0</div>
+                                        <div class="message">refactoring and logic simplification</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">13 Sept 2025, 00:40:07</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#fbe7c67</div>
+                                        <div class="message">🎨 Integrate Starship with Material You theming
 
-🔧 Fixed Issues:
+✨ Dynamic Starship Colors:
+
+🔧 New Script:
+• Created generate_starship_colors script
+• Extracts colors from matugen-generated Hyprland colors.conf
+• Generates dynamic starship.toml with Material You colors
+• Maintains exact same layout, only colors change
+
+🎨 Color Integration:
+• Background colors: inactive_border → active_border → text
+• Accent color: pinned window border color
+• Automatic alpha value removal for Starship compatibility
+• Template-based generation for consistency
+
+🔄 Wallpaper Integration:
+• Added Starship color generation to wallpaper script
+• Automatically updates when cycling wallpapers
+• Seamless integration with existing matugen workflow
+• No manual intervention required
+
+📚 Documentation:
+• Updated mybash-stow README with Material You features
+• Detailed explanation of dynamic theming process
+• Clear integration workflow documentation
+
+✅ Benefits:
+• Starship prompt matches Hyprland theme perfectly
+• Colors automatically adapt to wallpaper changes
+• Consistent Material You design across all components
+• Professional, cohesive desktop experience
+
+🎯 How It Works:
+1. wallpaper cycle → matugen generates colors
+2. generate_starship_colors extracts colors from colors.conf
+3. starship.toml updated with new Material You colors
+4. Prompt instantly reflects new theme
+
+Your Starship prompt now dynamically matches your wallpaper! 🚀</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">13 Sept 2025, 00:36:02</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#9cc1ec5</div>
+                                        <div class="message">🐚 Integrate mybash configuration as git submodule
+
+✨ New Integration:
+
+🔗 Git Submodule Approach:
+• Added mybash as git submodule from dacrab/mybash
+• Maintains separate repository for bash configuration
+• Clean separation of concerns
+
+📁 Stow-Compatible Structure:
+• Created mybash-stow/ directory for Stow management
+• Proper file organization for symlink creation
+• Compatible with existing dotfiles workflow
+
+🐚 MyBash Features:
+• Custom .bashrc with aliases and functions
+• Starship prompt configuration
+• Professional shell experience
+• Easy management with Stow
+
+📚 Documentation:
+• Updated main README with mybash integration
+• Added mybash-stow/README.md with detailed instructions
+• Clear installation and update procedures
+• Git submodule management guide
+
+🛠️ Installation:
+• stow mybash-stow - Install bash configuration
+• stow hypr hyprpanel rofi mybash-stow - Install all
+• Automatic symlink creation for .bashrc and starship.toml
+
+✅ Benefits:
+• Unified dotfiles management
+• Maintains mybash repository independence
+• Easy updates from original repo
+• Professional shell configuration
+• Clean git history and organization
+
+🎯 How It Works:
+1. mybash/ contains the original repository (submodule)
+2. mybash-stow/ contains Stow-compatible structure
+3. Updates: git submodule update → copy files → commit
+4. Installation: stow mybash-stow → symlinks created</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">13 Sept 2025, 00:29:16</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#d36fed5</div>
+                                        <div class="message">🎨 Integrate Material You theming with matugen
+
+✨ New Features:
+
+🎨 Material You Theming:
+• Integrated matugen for dynamic color generation
+• Colors automatically extracted from wallpapers
+• Material Design 3 color schemes
+• Seamless Hyprland integration
+
+🔧 Configuration Updates:
+• Added colors.conf sourcing to hyprland.conf
+• Removed hardcoded colors from look_and_feel.conf
+• Updated matugen config to focus on Hyprland only
+• Disabled problematic GTK templates
+
+📸 Enhanced Wallpaper Script:
+• Automatic color generation on wallpaper change
+• Material You color extraction from images
+• Dynamic theme updates with each wallpaper
+• Error handling for matugen operations
+
+📁 Git Management:
+• Added last_wallpaper to .gitignore
+• Added colors.conf to .gitignore (generated file)
+• Proper file organization for dynamic content
+
+📚 Documentation:
+• Added comprehensive Material You section to README
+• Explained color generation process
+• Documented customization options
+• Clear usage instructions
+
+✅ Benefits:
+• Dynamic theming that adapts to wallpapers
+• Professional Material Design aesthetics
+• Automatic color coordination
+• Enhanced visual experience
+• No manual color management needed
+
+🎯 How It Works:
+1. Wallpaper changes trigger matugen
+2. Colors extracted using Material You algorithms
+3. Hyprland colors.conf updated automatically
+4. Configuration reloads to apply new colors
+5. Seamless visual transitions</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">13 Sept 2025, 00:19:20</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#340a009</div>
+                                        <div class="message">🚫 Remove unsupported gestures configuration
+
+🐛 Fixed Remaining Errors:
 
 📱 Gestures Configuration:
-• Changed workspace_swipe = true → workspace_swipe = on
-• Hyprland 0.51.0 requires 'on' instead of 'true' for boolean values
-• All other gesture options remain valid
+• Removed gestures.conf from being sourced in hyprland.conf
+• Renamed gestures.conf to gestures.conf.disabled
+• Gestures are not supported in Hyprland 0.51.0
+• workspace_swipe and related options don't exist in this version
 
-🖼️ Hyprpaper Configuration:
-• Removed invalid preload and wallpaper options from config file
-• hyprpaper doesn't use a traditional config file format
-• Added documentation explaining hyprpaper is controlled via hyprctl
-• Removed hyprpaper.conf from being sourced in main config
-• Wallpaper management handled by our wallpaper script
+📚 Documentation Updates:
+• Updated README.md to reflect gestures are disabled
+• Added note about version compatibility
+• Explained why gestures configuration is not used
 
 ✅ Results:
+• All configuration errors resolved
 • Configuration reloads successfully without errors
-• All monitors working properly
-• Wallpaper script functioning correctly
-• Display script working as expected
-• No more 'Config error' messages
+• All functionality preserved (monitors, wallpapers, displays)
+• Clean, error-free Hyprland setup
 
 🎯 Benefits:
-• Clean, error-free Hyprland configuration
+• No more 'Config error' messages
 • Proper compatibility with Hyprland 0.51.0
-• Clear documentation for hyprpaper usage
-• All functionality preserved and working</div>
+• Clear documentation about version limitations
+• All other features working perfectly</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">13 Sept 2025, 00:03:42</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/dotfiles</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#54c5093</div>
-                                        <div class="message">🔧 Consolidate and improve utility scripts
-
-✨ New Consolidated Scripts:
-
-📸 wallpaper - Unified wallpaper management:
-• Consolidates cycle_wallpaper.sh + restore_wallpaper.sh
-• Commands: cycle, restore, list, current, set &lt;path&gt;
-• Colorized output with status indicators
-• Error handling and retry logic
-• Support for PNG, JPG, WEBP formats
-• Maintains state across sessions
-
-🖥️ display - Unified display management:
-• Replaces toggle-edp.sh with enhanced functionality
-• Commands: toggle, status, list, enable &lt;name&gt;, disable &lt;name&gt;
-• Persistent state management
-• Automatic config file updates
-• Colorized output with status indicators
-• Support for multiple displays
-
-🔄 Updated References:
-• autostart.conf: wallpaper restore
-• keybindings.conf: wallpaper cycle, display toggle
-• README.md: Updated documentation
-
-🚀 Benefits:
-• Cleaner script organization (2 files vs 3)
-• Better error handling and user feedback
-• More functionality per script
-• Consistent command-line interface
-• Professional colorized output
-• Comprehensive help and usage information
-
-✅ Tested and working:
-• All commands function correctly
-• Configuration reloads successfully
-• Keybindings work as expected</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">13 Sept 2025, 00:01:19</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/dotfiles</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#86a2379</div>
-                                        <div class="message">🎨 Reorganize Hyprland configuration for better maintainability
-
-✨ New Structure:
-- Split monolithic hyprland.conf into modular config files
-- Organized configs/ directory by functionality:
-  • monitors.conf - Display setup
-  • programs.conf - Application variables
-  • environment.conf - Environment variables
-  • autostart.conf - Startup applications
-  • look_and_feel.conf - Visual appearance &amp; animations
-  • layout.conf - Window layout settings
-  • input.conf - Keyboard/mouse configuration
-  • gestures.conf - Touchpad gestures
-  • devices.conf - Device-specific settings
-  • keybindings.conf - All keyboard shortcuts
-  • window_rules.conf - Window behavior rules
-  • hyprpaper.conf - Wallpaper configuration
-  • last_wallpaper - Wallpaper state
-
-- Moved scripts/ to dedicated directory:
-  • cycle_wallpaper.sh - Wallpaper cycling
-  • restore_wallpaper.sh - Startup wallpaper restore
-  • toggle-edp.sh - Display toggle utility
-
-- Updated all file references and paths
-- Added comprehensive README.md documentation
-- Tested configuration reload successfully
-
-🚀 Benefits:
-- Better maintainability and organization
-- Easier to find and modify specific settings
-- Cleaner git history and conflict resolution
-- Modular approach for team collaboration
-- Clear separation of concerns</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">12 Sept 2025, 23:56:25</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Created new
-                      branch
-                                        <span class="code">main</span>
-                                        in
-                                        <span class="repo">dacrab/dotfiles</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">12 Sept 2025, 23:18:11</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Created new
-                      repository
-                                        <span class="repo">dacrab/dotfiles</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">12 Sept 2025, 23:17:54</div>
+                                <div class="timestamp">13 Sept 2025, 00:11:21</div>
                             </section>
                         </div>
                     </section>
@@ -705,7 +770,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Sept 2025, 15:22:55 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 13 Sept 2025, 21:15:55 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
