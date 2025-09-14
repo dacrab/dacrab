@@ -36,14 +36,14 @@
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -435,7 +435,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 119kb of code in 75 edited files across 20 commits over last 6 days</small>
+                <small>estimation from 121kb of code in 81 edited files across 22 commits over last 6 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -509,6 +509,67 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#8996d0b</div>
+                                        <div class="message">🔧 Fix hyprpaper startup and wallpaper restoration
+
+🐛 Hyprpaper Issues Fixed:
+
+🔍 Root Cause:
+• Hyprpaper was crashing on startup due to missing config file
+• Error: 'Could not find config in HOME, XDG_CONFIG_HOME, XDG_CONFIG_DIRS or /etc/hypr'
+• Required explicit config file path specification
+
+✅ Solutions Implemented:
+
+📁 Configuration Setup:
+• Created ~/.config/hyprpaper/ directory
+• Added hyprpaper.conf with proper wallpaper paths
+• Updated autostart to use explicit config: hyprpaper -c ~/.config/hyprpaper/hyprpaper.conf
+• Added hyprpaper config to dotfiles repository
+
+🔄 Autostart Fix:
+• Modified autostart.conf to specify config file path
+• Ensures hyprpaper starts correctly on boot
+• Prevents crashes and missing wallpaper issues
+
+🧪 Testing Results:
+• Hyprpaper now starts successfully
+• Wallpaper restoration works on boot
+• Wallpaper cycling functions properly
+• Material You colors generate correctly
+
+📚 Documentation:
+• Added comprehensive troubleshooting section
+• Included solutions for common wallpaper issues
+• Added script debugging guidance
+• Clear step-by-step problem resolution
+
+🎯 Benefits:
+• Wallpapers now display correctly after reboot
+• Reliable autostart functionality
+• Better error handling and debugging
+• Professional troubleshooting documentation
+
+Your wallpapers will now show up properly after every reboot! 🖼️✨</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">13 Sept 2025, 11:11:28</div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -719,58 +780,12 @@ Your Starship prompt now dynamically matches your wallpaper! 🚀</div>
                                 <div class="timestamp">13 Sept 2025, 00:19:20</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/dotfiles</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#340a009</div>
-                                        <div class="message">🚫 Remove unsupported gestures configuration
-
-🐛 Fixed Remaining Errors:
-
-📱 Gestures Configuration:
-• Removed gestures.conf from being sourced in hyprland.conf
-• Renamed gestures.conf to gestures.conf.disabled
-• Gestures are not supported in Hyprland 0.51.0
-• workspace_swipe and related options don't exist in this version
-
-📚 Documentation Updates:
-• Updated README.md to reflect gestures are disabled
-• Added note about version compatibility
-• Explained why gestures configuration is not used
-
-✅ Results:
-• All configuration errors resolved
-• Configuration reloads successfully without errors
-• All functionality preserved (monitors, wallpapers, displays)
-• Clean, error-free Hyprland setup
-
-🎯 Benefits:
-• No more 'Config error' messages
-• Proper compatibility with Hyprland 0.51.0
-• Clear documentation about version limitations
-• All other features working perfectly</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">13 Sept 2025, 00:11:21</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Sept 2025, 21:15:55 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 14 Sept 2025, 04:04:20 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
