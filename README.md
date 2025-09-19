@@ -23,9 +23,9 @@
 ### 👷 Check out what I'm currently working on
 
 * [winutil](https://github.com/ChrisTitusTech/winutil) - Recent project
+* [clubOS-svelte](https://github.com/dacrab/clubOS-svelte) - Recent project
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
-* [dotfiles](https://github.com/dacrab/dotfiles) - Recent project
 
 ### 🌱 My latest projects
 
@@ -35,7 +35,6 @@
 ### 🔨 My recent Pull Requests
 
 * [Enhance UI and functionality across various components](https://github.com/ChrisTitusTech/winutil/pull/3558) on [winutil](https://api.github.com/repos/ChrisTitusTech/winutil)
-* [dacrab subdomain](https://github.com/is-a-dev/register/pull/25480) on [register](https://api.github.com/repos/is-a-dev/register)
 
 ### ⭐ Recent Stars
 
