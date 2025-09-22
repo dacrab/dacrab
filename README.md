@@ -24,8 +24,8 @@
 
 * [winutil](https://github.com/ChrisTitusTech/winutil) - Recent project
 * [clubOS-svelte](https://github.com/dacrab/clubOS-svelte) - Recent project
+* [coding-task](https://github.com/dacrab/coding-task) - Recent project
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
 
 ### 🌱 My latest projects
 
