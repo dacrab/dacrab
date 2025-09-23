@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1305" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1521" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -191,7 +191,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"/>
                                     </svg>
-                                    2 Forkers
+                                    3 Forkers
                                 </div>
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -435,7 +435,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 326kb of code in 175 edited files across 49 commits over last 10 days</small>
+                <small>estimation from 747kb of code in 374 edited files across 114 commits over last 10 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -581,51 +581,224 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/coding-task</span>
+                                        Pushed 5 commits in
+                                        <span class="repo">dacrab/craftops</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#60179c0</div>
-                                        <div class="message">chore: Update README and .env.example for clarity and conciseness
+                                        <div class="sha">#a139d8b</div>
+                                        <div class="message">ci: bump softprops/action-gh-release from 1 to 2 (#5)
 
-- Simplifies the README to focus on essential setup instructions and API usage.
-- Removes unnecessary sections and streamlines the documentation for better readability.
-- Updates .env.example by removing commented-out lines for maintenance store and cache prefix to reduce clutter.</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Sept 2025, 13:22:27</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">dacrab/coding-task</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#4a9c3b4</div>
-                                        <div class="message">feat: Implement Beauty Salon API with Docker
+Bumps [softprops/action-gh-release](https://github.com/softprops/action-gh-release) from 1 to 2.
+- [Release notes](https://github.com/softprops/action-gh-release/releases)
+- [Changelog](https://github.com/softprops/action-gh-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/softprops/action-gh-release/compare/v1...v2)
 
-- Sets up a complete Laravel 12 application served by Nginx and PHP-FPM, fully containerized with Docker.
-- Implements RESTful API endpoints for listing available appointment slots, booking, and canceling.
-- Includes a robust database schema with migrations and seeders for specialists, services, and appointments.
-- Secures all API endpoints with Bearer Token authentication.
-- Adds optional features: feature tests with PHPUnit and a console command for sending appointment reminders.
-- Cleans the project by removing unused Laravel UI components and files.
-- Provides comprehensive documentation in README.md covering setup, architecture, and core logic.</div>
+---
+updated-dependencies:
+- dependency-name: softprops/action-gh-release
+  dependency-version: '2'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#419c6c4</div>
+                                        <div class="message">deps(deps): bump the minor-and-patch group with 11 updates (#4)
+
+Bumps the minor-and-patch group with 11 updates:
+
+| Package | From | To |
+| --- | --- | --- |
+| [github.com/BurntSushi/toml](https://github.com/BurntSushi/toml) | `1.3.2` | `1.5.0` |
+| [github.com/fatih/color](https://github.com/fatih/color) | `1.16.0` | `1.18.0` |
+| [github.com/schollz/progressbar/v3](https://github.com/schollz/progressbar) | `3.14.1` | `3.18.0` |
+| [github.com/spf13/cobra](https://github.com/spf13/cobra) | `1.8.0` | `1.9.1` |
+| [go.uber.org/zap](https://github.com/uber-go/zap) | `1.26.0` | `1.27.0` |
+| [github.com/mattn/go-colorable](https://github.com/mattn/go-colorable) | `0.1.13` | `0.1.14` |
+| [github.com/rivo/uniseg](https://github.com/rivo/uniseg) | `0.4.4` | `0.4.7` |
+| [github.com/spf13/pflag](https://github.com/spf13/pflag) | `1.0.5` | `1.0.6` |
+| [go.uber.org/multierr](https://github.com/uber-go/multierr) | `1.10.0` | `1.11.0` |
+| [golang.org/x/sys](https://github.com/golang/sys) | `0.15.0` | `0.29.0` |
+| [golang.org/x/term](https://github.com/golang/term) | `0.15.0` | `0.28.0` |
+
+
+Updates `github.com/BurntSushi/toml` from 1.3.2 to 1.5.0
+- [Release notes](https://github.com/BurntSushi/toml/releases)
+- [Commits](https://github.com/BurntSushi/toml/compare/v1.3.2...v1.5.0)
+
+Updates `github.com/fatih/color` from 1.16.0 to 1.18.0
+- [Release notes](https://github.com/fatih/color/releases)
+- [Commits](https://github.com/fatih/color/compare/v1.16.0...v1.18.0)
+
+Updates `github.com/schollz/progressbar/v3` from 3.14.1 to 3.18.0
+- [Release notes](https://github.com/schollz/progressbar/releases)
+- [Commits](https://github.com/schollz/progressbar/compare/v3.14.1...v3.18.0)
+
+Updates `github.com/spf13/cobra` from 1.8.0 to 1.9.1
+- [Release notes](https://github.com/spf13/cobra/releases)
+- [Commits](https://github.com/spf13/cobra/compare/v1.8.0...v1.9.1)
+
+Updates `go.uber.org/zap` from 1.26.0 to 1.27.0
+- [Release notes](https://github.com/uber-go/zap/releases)
+- [Changelog](https://github.com/uber-go/zap/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/uber-go/zap/compare/v1.26.0...v1.27.0)
+
+Updates `github.com/mattn/go-colorable` from 0.1.13 to 0.1.14
+- [Commits](https://github.com/mattn/go-colorable/compare/v0.1.13...v0.1.14)
+
+Updates `github.com/rivo/uniseg` from 0.4.4 to 0.4.7
+- [Release notes](https://github.com/rivo/uniseg/releases)
+- [Commits](https://github.com/rivo/uniseg/compare/v0.4.4...v0.4.7)
+
+Updates `github.com/spf13/pflag` from 1.0.5 to 1.0.6
+- [Release notes](https://github.com/spf13/pflag/releases)
+- [Commits](https://github.com/spf13/pflag/compare/v1.0.5...v1.0.6)
+
+Updates `go.uber.org/multierr` from 1.10.0 to 1.11.0
+- [Release notes](https://github.com/uber-go/multierr/releases)
+- [Changelog](https://github.com/uber-go/multierr/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/uber-go/multierr/compare/v1.10.0...v1.11.0)
+
+Updates `golang.org/x/sys` from 0.15.0 to 0.29.0
+- [Commits](https://github.com/golang/sys/compare/v0.15.0...v0.29.0)
+
+Updates `golang.org/x/term` from 0.15.0 to 0.28.0
+- [Commits](https://github.com/golang/term/compare/v0.15.0...v0.28.0)
+
+---
+updated-dependencies:
+- dependency-name: github.com/BurntSushi/toml
+  dependency-version: 1.5.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/fatih/color
+  dependency-version: 1.18.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/schollz/progressbar/v3
+  dependency-version: 3.18.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/spf13/cobra
+  dependency-version: 1.9.1
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: go.uber.org/zap
+  dependency-version: 1.27.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/mattn/go-colorable
+  dependency-version: 0.1.14
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+  dependency-group: minor-and-patch
+- dependency-name: github.com/rivo/uniseg
+  dependency-version: 0.4.7
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+  dependency-group: minor-and-patch
+- dependency-name: github.com/spf13/pflag
+  dependency-version: 1.0.6
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+  dependency-group: minor-and-patch
+- dependency-name: go.uber.org/multierr
+  dependency-version: 1.11.0
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: golang.org/x/sys
+  dependency-version: 0.29.0
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: golang.org/x/term
+  dependency-version: 0.28.0
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#77a7f77</div>
+                                        <div class="message">ci: bump actions/download-artifact from 4 to 5 (#3)
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 4 to 5.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2cfc596</div>
+                                        <div class="message">ci: bump actions/stale from 8 to 9 (#2)
+
+Bumps [actions/stale](https://github.com/actions/stale) from 8 to 9.
+- [Release notes](https://github.com/actions/stale/releases)
+- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/stale/compare/v8...v9)
+
+---
+updated-dependencies:
+- dependency-name: actions/stale
+  dependency-version: '9'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e069f28</div>
+                                        <div class="message">ci: bump codecov/codecov-action from 4 to 5 (#1)
+
+Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 4 to 5.
+- [Release notes](https://github.com/codecov/codecov-action/releases)
+- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/codecov/codecov-action/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: codecov/codecov-action
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">22 Sept 2025, 13:14:33</div>
+                                <div class="timestamp">22 Sept 2025, 18:32:24</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -636,17 +809,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">dacrab/dotfiles</span>
+                                        <span class="repo">dacrab/craftops</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#ec0f2c1</div>
-                                        <div class="message">chore: remember_float + keybindings; shellcheck fixes; starship/colors updates</div>
+                                        <div class="sha">#c2bc9f8</div>
+                                        <div class="message">readme updates</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">20 Sept 2025, 16:25:17</div>
+                                <div class="timestamp">22 Sept 2025, 18:25:16</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -657,17 +830,34 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">dacrab/mybash</span>
+                                        <span class="repo">dacrab/craftops</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3d74cbb</div>
-                                        <div class="message">chore(shell): apply shellcheck fixes and sync configs</div>
+                                        <div class="sha">#a139d8b</div>
+                                        <div class="message">ci: bump softprops/action-gh-release from 1 to 2 (#5)
+
+Bumps [softprops/action-gh-release](https://github.com/softprops/action-gh-release) from 1 to 2.
+- [Release notes](https://github.com/softprops/action-gh-release/releases)
+- [Changelog](https://github.com/softprops/action-gh-release/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/softprops/action-gh-release/compare/v1...v2)
+
+---
+updated-dependencies:
+- dependency-name: softprops/action-gh-release
+  dependency-version: '2'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">20 Sept 2025, 16:25:16</div>
+                                <div class="timestamp">22 Sept 2025, 18:22:00</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -677,22 +867,288 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">dacrab/clubOS-svelte</span>
+                                        Pushed 11 commits in
+                                        <span class="repo">dacrab/craftops</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">dependabot/github_actions/softprops/action-gh-release-2</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#7bc7e1b</div>
+                                        <div class="message">ci: resolve release workflow conflict; align with main (checksums+changelog)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#77a7f77</div>
+                                        <div class="message">ci: bump actions/download-artifact from 4 to 5 (#3)
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 4 to 5.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2cfc596</div>
+                                        <div class="message">ci: bump actions/stale from 8 to 9 (#2)
+
+Bumps [actions/stale](https://github.com/actions/stale) from 8 to 9.
+- [Release notes](https://github.com/actions/stale/releases)
+- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/stale/compare/v8...v9)
+
+---
+updated-dependencies:
+- dependency-name: actions/stale
+  dependency-version: '9'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#e069f28</div>
+                                        <div class="message">ci: bump codecov/codecov-action from 4 to 5 (#1)
+
+Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 4 to 5.
+- [Release notes](https://github.com/codecov/codecov-action/releases)
+- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/codecov/codecov-action/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: codecov/codecov-action
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#06bc986</div>
+                                        <div class="message">chore: update Go version and refine CI/CD workflows
+
+- Bump Go version from 1.22 to 1.23 across all configuration files and workflows.
+- Streamline golangci-lint settings by removing unnecessary exclusions and enhancing error handling.
+- Refactor CI workflows to improve structure and clarity, consolidating jobs and updating naming conventions.
+- Remove deprecated workflows and adjust security analysis to focus on critical vulnerabilities.
+- Enhance release workflow to simplify version handling and artifact management.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0fa58f5</div>
+                                        <div class="message">chore: enhance security workflow for Gosec and Trivy scans
+
+- Update Gosec installation process to handle failures and provide fallback options for binary download.
+- Implement conditional checks to create empty SARIF files for Gosec and Trivy if scans are not available.
+- Refine secret detection logic to exclude common false positives, improving accuracy in identifying potential secrets.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#11a2599</div>
+                                        <div class="message">chore: update Go version and refine golangci-lint configuration
+
+- Bump Go version from 1.21 to 1.22 across all workflows and configuration files.
+- Remove ineffassign linter due to excessive false positives and adjust related exclusion rules.
+- Enhance error handling exclusions for common functions in golangci-lint settings.
+- Streamline CI workflows to reflect the updated Go version and improve linting processes.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#eb52be6</div>
+                                        <div class="message">fix: resolve all workflow configuration issues
+
+- Fix golangci-lint deprecated check-shadowing config
+- Fix workflow permissions for dependency-review
+- Improve test coverage handling
+- Complete race condition elimination with sequential workflows</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#71b192e</div>
+                                        <div class="message">chore: refine golangci-lint configuration and CI coverage checks
+
+- Update .golangci.yml to enhance linter settings, marking critical linters for better visibility.
+- Adjust coverage check in CI workflow to provide warnings for low coverage in testable code, while avoiding failures for non-critical cases.
+- Streamline exclusion rules for linter checks to focus on relevant patterns and improve overall code quality.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#50a0ac9</div>
+                                        <div class="message">chore: update CI workflows and configuration for improved structure
+
+- Refactor CI/CD workflows to align with new naming conventions and structure.
+- Update required and optional status checks in kodiak.toml to reflect changes in CI pipeline.
+- Enhance maintenance workflow with new input options for operations and concurrency management.
+- Revise security workflow to include new input options for triggering scans and improve concurrency handling.
+- Streamline release workflow with additional input options for release types and force release capability.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a24d54d</div>
+                                        <div class="message">chore: update CI/CD workflows and golangci-lint configuration
+
+- Refactor .golangci.yml to enhance linter settings, enabling additional checks for improved code quality.
+- Remove deprecated GitHub Actions workflows and update remaining workflows to use the latest versions.
+- Streamline CI/CD processes by consolidating jobs and improving artifact handling.
+- Implement security and compliance checks, including license verification and vulnerability scanning.
+- Ensure all workflows are aligned with the latest best practices for Go development.</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">22 Sept 2025, 18:21:14</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/craftops</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3ecfec9</div>
-                                        <div class="message">feat(i18n): add new translation keys for discount, total, and products</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0e6d03d</div>
-                                        <div class="message">feat(ui): active sidebar highlight; consistent spacing via shadcn inputs; more polished header; treat -1 stock as ∞ across UI</div>
+                                        <div class="sha">#419c6c4</div>
+                                        <div class="message">deps(deps): bump the minor-and-patch group with 11 updates (#4)
+
+Bumps the minor-and-patch group with 11 updates:
+
+| Package | From | To |
+| --- | --- | --- |
+| [github.com/BurntSushi/toml](https://github.com/BurntSushi/toml) | `1.3.2` | `1.5.0` |
+| [github.com/fatih/color](https://github.com/fatih/color) | `1.16.0` | `1.18.0` |
+| [github.com/schollz/progressbar/v3](https://github.com/schollz/progressbar) | `3.14.1` | `3.18.0` |
+| [github.com/spf13/cobra](https://github.com/spf13/cobra) | `1.8.0` | `1.9.1` |
+| [go.uber.org/zap](https://github.com/uber-go/zap) | `1.26.0` | `1.27.0` |
+| [github.com/mattn/go-colorable](https://github.com/mattn/go-colorable) | `0.1.13` | `0.1.14` |
+| [github.com/rivo/uniseg](https://github.com/rivo/uniseg) | `0.4.4` | `0.4.7` |
+| [github.com/spf13/pflag](https://github.com/spf13/pflag) | `1.0.5` | `1.0.6` |
+| [go.uber.org/multierr](https://github.com/uber-go/multierr) | `1.10.0` | `1.11.0` |
+| [golang.org/x/sys](https://github.com/golang/sys) | `0.15.0` | `0.29.0` |
+| [golang.org/x/term](https://github.com/golang/term) | `0.15.0` | `0.28.0` |
+
+
+Updates `github.com/BurntSushi/toml` from 1.3.2 to 1.5.0
+- [Release notes](https://github.com/BurntSushi/toml/releases)
+- [Commits](https://github.com/BurntSushi/toml/compare/v1.3.2...v1.5.0)
+
+Updates `github.com/fatih/color` from 1.16.0 to 1.18.0
+- [Release notes](https://github.com/fatih/color/releases)
+- [Commits](https://github.com/fatih/color/compare/v1.16.0...v1.18.0)
+
+Updates `github.com/schollz/progressbar/v3` from 3.14.1 to 3.18.0
+- [Release notes](https://github.com/schollz/progressbar/releases)
+- [Commits](https://github.com/schollz/progressbar/compare/v3.14.1...v3.18.0)
+
+Updates `github.com/spf13/cobra` from 1.8.0 to 1.9.1
+- [Release notes](https://github.com/spf13/cobra/releases)
+- [Commits](https://github.com/spf13/cobra/compare/v1.8.0...v1.9.1)
+
+Updates `go.uber.org/zap` from 1.26.0 to 1.27.0
+- [Release notes](https://github.com/uber-go/zap/releases)
+- [Changelog](https://github.com/uber-go/zap/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/uber-go/zap/compare/v1.26.0...v1.27.0)
+
+Updates `github.com/mattn/go-colorable` from 0.1.13 to 0.1.14
+- [Commits](https://github.com/mattn/go-colorable/compare/v0.1.13...v0.1.14)
+
+Updates `github.com/rivo/uniseg` from 0.4.4 to 0.4.7
+- [Release notes](https://github.com/rivo/uniseg/releases)
+- [Commits](https://github.com/rivo/uniseg/compare/v0.4.4...v0.4.7)
+
+Updates `github.com/spf13/pflag` from 1.0.5 to 1.0.6
+- [Release notes](https://github.com/spf13/pflag/releases)
+- [Commits](https://github.com/spf13/pflag/compare/v1.0.5...v1.0.6)
+
+Updates `go.uber.org/multierr` from 1.10.0 to 1.11.0
+- [Release notes](https://github.com/uber-go/multierr/releases)
+- [Changelog](https://github.com/uber-go/multierr/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/uber-go/multierr/compare/v1.10.0...v1.11.0)
+
+Updates `golang.org/x/sys` from 0.15.0 to 0.29.0
+- [Commits](https://github.com/golang/sys/compare/v0.15.0...v0.29.0)
+
+Updates `golang.org/x/term` from 0.15.0 to 0.28.0
+- [Commits](https://github.com/golang/term/compare/v0.15.0...v0.28.0)
+
+---
+updated-dependencies:
+- dependency-name: github.com/BurntSushi/toml
+  dependency-version: 1.5.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/fatih/color
+  dependency-version: 1.18.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/schollz/progressbar/v3
+  dependency-version: 3.18.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/spf13/cobra
+  dependency-version: 1.9.1
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: go.uber.org/zap
+  dependency-version: 1.27.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: github.com/mattn/go-colorable
+  dependency-version: 0.1.14
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+  dependency-group: minor-and-patch
+- dependency-name: github.com/rivo/uniseg
+  dependency-version: 0.4.7
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+  dependency-group: minor-and-patch
+- dependency-name: github.com/spf13/pflag
+  dependency-version: 1.0.6
+  dependency-type: indirect
+  update-type: version-update:semver-patch
+  dependency-group: minor-and-patch
+- dependency-name: go.uber.org/multierr
+  dependency-version: 1.11.0
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: golang.org/x/sys
+  dependency-version: 0.29.0
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+- dependency-name: golang.org/x/term
+  dependency-version: 0.28.0
+  dependency-type: indirect
+  update-type: version-update:semver-minor
+  dependency-group: minor-and-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
+Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
+Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">19 Sept 2025, 00:51:28</div>
+                                <div class="timestamp">22 Sept 2025, 18:20:12</div>
                             </section>
                         </div>
                     </section>
@@ -700,7 +1156,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 23 Sept 2025, 03:59:36 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 23 Sept 2025, 09:20:54 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
