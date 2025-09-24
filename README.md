@@ -34,7 +34,7 @@
 
 ### 🔨 My recent Pull Requests
 
-* [Enhance UI and functionality across various components](https://github.com/ChrisTitusTech/winutil/pull/3558) on [winutil](https://api.github.com/repos/ChrisTitusTech/winutil)
+* No recent pull requests - time to contribute! 🔀
 
 ### ⭐ Recent Stars
 
