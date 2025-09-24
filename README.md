@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 20 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 19 Public Repos** •
 
 </div>
 
@@ -31,6 +31,7 @@
 
 * [**dacrab.github.io**](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [**ghostty-config**](https://github.com/dacrab/ghostty-config) - My config for th Ghostty terminal
+* [**craftops**](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨
 
 ### 🔨 My recent Pull Requests
 
