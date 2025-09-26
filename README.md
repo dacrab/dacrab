@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 19 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 21 Public Repos** •
 
 </div>
 
@@ -29,13 +29,13 @@
 
 ### 🌱 My latest projects
 
+* [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [**dacrab.github.io**](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [**ghostty-config**](https://github.com/dacrab/ghostty-config) - My config for th Ghostty terminal
-* [**craftops**](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, backups, and maintenance tasks with Discord notifications. Perfect for server admins wanting a hands-off management solution. ✨
+* [**clubos-legacy**](https://github.com/dacrab/clubos-legacy) - [DEMO] POS system made using NextJS & Supabase
 
 ### 🔨 My recent Pull Requests
 
-* No recent pull requests - time to contribute! 🔀
+* [refactor: streamline dashboard, sales/register flows, types ...](https://github.com/dacrab/clubos-legacy/pull/1) on [clubos-legacy](https://api.github.com/repos/dacrab/clubos-legacy)
 
 ### ⭐ Recent Stars
 
@@ -52,9 +52,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-666666?style=for-the-badge&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-666666?style=for-the-badge&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-666666?style=for-the-badge&logoColor=white)
 
 ### 📫 How to reach me:
   - Website  : <https://dacrab.github.io>\n  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>\n  - Email    : <vkavouras@proton.me>\n  - GitHub   : <https://github.com/dacrab>
