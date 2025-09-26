@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1758" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1558" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.label{background-color:#58a6ff30;color:#0366d6;padding:0 10px;font-weight:500;line-height:22px;margin:2px 5px;white-space:nowrap;border-radius:32px;font-size:12px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.label{background-color:#58a6ff30;color:#0366d6;padding:0 10px;font-weight:500;line-height:22px;margin:2px 5px;white-space:nowrap;border-radius:32px;font-size:12px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -43,7 +43,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            1290 Commits
+                            1296 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -127,7 +127,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                             </svg>
-                            Starred 45 repositories
+                            Starred 46 repositories
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -321,14 +321,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="258.0011366298363" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="258.0011366298363" y="0" width="97.99236461947925" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="355.99350124931556" y="0" width="44.42111098903084" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="400.4146122383464" y="0" width="12.612421368048619" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="413.02703360639504" y="0" width="12.364483249517496" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="425.39151685591247" y="0" width="12.031946465267785" height="8" fill="#222c37"/>
-                    <rect mask="url(#languages-bar)" x="437.42346332118024" y="0" width="11.437031210528545" height="8" fill="#ff5a03"/>
-                    <rect mask="url(#languages-bar)" x="448.8604945317088" y="0" width="11.139505468291196" height="8" fill="#aace60"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="256.8154031477436" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="256.8154031477436" y="0" width="97.3823996063334" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="354.197802754077" y="0" width="46.587705747161614" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="400.7855085012386" y="0" width="12.53391386600561" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="413.3194223672442" y="0" width="12.287519067490456" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="425.60694143473467" y="0" width="11.957052197613809" height="8" fill="#222c37"/>
+                    <rect mask="url(#languages-bar)" x="437.56399363234846" y="0" width="11.36584006293486" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="448.9298336952833" y="0" width="11.07016630471667" height="8" fill="#aace60"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -340,8 +340,8 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>1.89 MB</div>
-                                <div>56.09%</div>
+                                <div>1.90 MB</div>
+                                <div>55.83%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -352,8 +352,8 @@
                                 Svelte
                             </div>
                             <small>
-                                <div>326 kB</div>
-                                <div>9.66%</div>
+                                <div>344 kB</div>
+                                <div>10.13%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -365,7 +365,7 @@
                             </div>
                             <small>
                                 <div>90.7 kB</div>
-                                <div>2.69%</div>
+                                <div>2.67%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -377,7 +377,7 @@
                             </div>
                             <small>
                                 <div>83.9 kB</div>
-                                <div>2.49%</div>
+                                <div>2.47%</div>
                             </small>
                         </div>
                     </section>
@@ -391,7 +391,7 @@
                             </div>
                             <small>
                                 <div>719 kB</div>
-                                <div>21.3%</div>
+                                <div>21.17%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -403,7 +403,7 @@
                             </div>
                             <small>
                                 <div>92.5 kB</div>
-                                <div>2.74%</div>
+                                <div>2.72%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -415,7 +415,7 @@
                             </div>
                             <small>
                                 <div>88.3 kB</div>
-                                <div>2.62%</div>
+                                <div>2.6%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -427,7 +427,7 @@
                             </div>
                             <small>
                                 <div>81.7 kB</div>
-                                <div>2.42%</div>
+                                <div>2.41%</div>
                             </small>
                         </div>
                     </section>
@@ -587,6 +587,20 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Starred
+                                        <span class="repo">imputnet/helium</span>
+                                    </div>
+                                </div>
+                                <div class="timestamp">26 Sept 2025, 16:39:12</div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -956,159 +970,12 @@ Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
                                 <div class="timestamp">22 Sept 2025, 18:22:00</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 11 commits in
-                                        <span class="repo">dacrab/craftops</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">dependabot/github_actions/softprops/action-gh-release-2</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#7bc7e1b</div>
-                                        <div class="message">ci: resolve release workflow conflict; align with main (checksums+changelog)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#77a7f77</div>
-                                        <div class="message">ci: bump actions/download-artifact from 4 to 5 (#3)
-
-Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 4 to 5.
-- [Release notes](https://github.com/actions/download-artifact/releases)
-- [Commits](https://github.com/actions/download-artifact/compare/v4...v5)
-
----
-updated-dependencies:
-- dependency-name: actions/download-artifact
-  dependency-version: '5'
-  dependency-type: direct:production
-  update-type: version-update:semver-major
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
-Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
-Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2cfc596</div>
-                                        <div class="message">ci: bump actions/stale from 8 to 9 (#2)
-
-Bumps [actions/stale](https://github.com/actions/stale) from 8 to 9.
-- [Release notes](https://github.com/actions/stale/releases)
-- [Changelog](https://github.com/actions/stale/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/actions/stale/compare/v8...v9)
-
----
-updated-dependencies:
-- dependency-name: actions/stale
-  dependency-version: '9'
-  dependency-type: direct:production
-  update-type: version-update:semver-major
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
-Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
-Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#e069f28</div>
-                                        <div class="message">ci: bump codecov/codecov-action from 4 to 5 (#1)
-
-Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 4 to 5.
-- [Release notes](https://github.com/codecov/codecov-action/releases)
-- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/codecov/codecov-action/compare/v4...v5)
-
----
-updated-dependencies:
-- dependency-name: codecov/codecov-action
-  dependency-version: '5'
-  dependency-type: direct:production
-  update-type: version-update:semver-major
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
-Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;
-Co-authored-by: Vaggelis kavouras &lt;vaggeliskavouras6@gmail.com&gt;</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#06bc986</div>
-                                        <div class="message">chore: update Go version and refine CI/CD workflows
-
-- Bump Go version from 1.22 to 1.23 across all configuration files and workflows.
-- Streamline golangci-lint settings by removing unnecessary exclusions and enhancing error handling.
-- Refactor CI workflows to improve structure and clarity, consolidating jobs and updating naming conventions.
-- Remove deprecated workflows and adjust security analysis to focus on critical vulnerabilities.
-- Enhance release workflow to simplify version handling and artifact management.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0fa58f5</div>
-                                        <div class="message">chore: enhance security workflow for Gosec and Trivy scans
-
-- Update Gosec installation process to handle failures and provide fallback options for binary download.
-- Implement conditional checks to create empty SARIF files for Gosec and Trivy if scans are not available.
-- Refine secret detection logic to exclude common false positives, improving accuracy in identifying potential secrets.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#11a2599</div>
-                                        <div class="message">chore: update Go version and refine golangci-lint configuration
-
-- Bump Go version from 1.21 to 1.22 across all workflows and configuration files.
-- Remove ineffassign linter due to excessive false positives and adjust related exclusion rules.
-- Enhance error handling exclusions for common functions in golangci-lint settings.
-- Streamline CI workflows to reflect the updated Go version and improve linting processes.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#eb52be6</div>
-                                        <div class="message">fix: resolve all workflow configuration issues
-
-- Fix golangci-lint deprecated check-shadowing config
-- Fix workflow permissions for dependency-review
-- Improve test coverage handling
-- Complete race condition elimination with sequential workflows</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#71b192e</div>
-                                        <div class="message">chore: refine golangci-lint configuration and CI coverage checks
-
-- Update .golangci.yml to enhance linter settings, marking critical linters for better visibility.
-- Adjust coverage check in CI workflow to provide warnings for low coverage in testable code, while avoiding failures for non-critical cases.
-- Streamline exclusion rules for linter checks to focus on relevant patterns and improve overall code quality.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#50a0ac9</div>
-                                        <div class="message">chore: update CI workflows and configuration for improved structure
-
-- Refactor CI/CD workflows to align with new naming conventions and structure.
-- Update required and optional status checks in kodiak.toml to reflect changes in CI pipeline.
-- Enhance maintenance workflow with new input options for operations and concurrency management.
-- Revise security workflow to include new input options for triggering scans and improve concurrency handling.
-- Streamline release workflow with additional input options for release types and force release capability.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a24d54d</div>
-                                        <div class="message">chore: update CI/CD workflows and golangci-lint configuration
-
-- Refactor .golangci.yml to enhance linter settings, enabling additional checks for improved code quality.
-- Remove deprecated GitHub Actions workflows and update remaining workflows to use the latest versions.
-- Streamline CI/CD processes by consolidating jobs and improving artifact handling.
-- Implement security and compliance checks, including license verification and vulnerability scanning.
-- Ensure all workflows are aligned with the latest best practices for Go development.</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">22 Sept 2025, 18:21:14</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Sept 2025, 15:26:32 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 26 Sept 2025, 21:17:31 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
