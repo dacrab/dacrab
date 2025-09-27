@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1558" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1308" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}.label{background-color:#58a6ff30;color:#0366d6;padding:0 10px;font-weight:500;line-height:22px;margin:2px 5px;white-space:nowrap;border-radius:32px;font-size:12px}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}.no-wrap{white-space:nowrap}#metrics-end,.fill-width{width:100%}.no-margin-top{margin-top:0}.avatar{border-radius:50%;margin:0 6px}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.followup.legend{font-size:12px;flex-wrap:wrap}.followup.legend .field{width:46%;justify-content:flex-start;margin-left:8px}.followup.legend svg{margin:0 3px;width:14px;height:14px}.followup.legend svg:first-child{margin-left:0}.followup.legend svg:last-child{margin-right:0}.followup-title{white-space:initial}footer{margin-top:8px;font-size:10px;font-style:italic;color:#666;text-align:right;display:flex;flex-direction:column;justify-content:flex-end;padding:0 4px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -435,19 +435,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 1.54mb of code in 656 edited files across 121 commits over last 14 days</small>
+                <small>estimation from 1.61mb of code in 867 edited files across 129 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="348.98040288870914" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="348.98040288870914" y="0" width="43.37280041073531" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="392.35320329944443" y="0" width="41.97135993102747" height="8" fill="#f7523f"/>
-                    <rect mask="url(#languages-bar)" x="434.3245632304719" y="0" width="16.25080524462484" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="450.57536847509675" y="0" width="7.047307213538765" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="457.6226756886355" y="0" width="1.9306012331746256" height="8" fill="#878787"/>
-                    <rect mask="url(#languages-bar)" x="459.55327692181015" y="0" width="0.4467230781898585" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="348.20374590118377" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="348.20374590118377" y="0" width="43.27627410659701" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="391.48002000778075" y="0" width="41.87795253709776" height="8" fill="#f7523f"/>
+                    <rect mask="url(#languages-bar)" x="433.3579725448785" y="0" width="16.214639026288" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="449.57261157116653" y="0" width="7.03162340910354" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="456.6042349802701" y="0" width="1.9263046740399044" height="8" fill="#878787"/>
+                    <rect mask="url(#languages-bar)" x="458.53053965431" y="0" width="1.02373145111988" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="459.5542711054299" y="0" width="0.4457288945701106" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -460,7 +461,7 @@
                             </div>
                             <small>
                                 <div>626 kB</div>
-                                <div>75.87%</div>
+                                <div>75.7%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -472,7 +473,7 @@
                             </div>
                             <small>
                                 <div>75.3 kB</div>
-                                <div>9.12%</div>
+                                <div>9.1%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -490,13 +491,13 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#000080" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                JavaScript
+                                Lua
                             </div>
                             <small>
-                                <div>802 bytes</div>
-                                <div>0.1%</div>
+                                <div>1.84 kB</div>
+                                <div>0.22%</div>
                             </small>
                         </div>
                     </section>
@@ -510,7 +511,7 @@
                             </div>
                             <small>
                                 <div>77.8 kB</div>
-                                <div>9.43%</div>
+                                <div>9.41%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -522,7 +523,7 @@
                             </div>
                             <small>
                                 <div>29.1 kB</div>
-                                <div>3.53%</div>
+                                <div>3.52%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -535,6 +536,18 @@
                             <small>
                                 <div>3.47 kB</div>
                                 <div>0.42%</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                JavaScript
+                            </div>
+                            <small>
+                                <div>802 bytes</div>
+                                <div>0.1%</div>
                             </small>
                         </div>
                     </section>
@@ -601,11 +614,11 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#52b9160</div>
-                                        <div class="message">hypr: simplify animations; wallpaper: write hyprpaper.conf + matugen hook; remove last_wallpaper + restore; starship: generate from matugen colors while preserving layout; autostart: rely on hyprpaper.conf; bashrc: export STARSHIP_CONFIG</div>
+                                        <div class="sha">#f827413</div>
+                                        <div class="message">hypr: fix theme overlay sourcing error by adding placeholder and making current/theme a symlink; reapply nord</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">26 Sept 2025, 22:14:07</div>
+                                <div class="timestamp">27 Sept 2025, 01:27:33</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -616,17 +629,17 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
-                                        <span class="repo">dacrab/craftops</span>
+                                        <span class="repo">dacrab/dotfiles</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#0783e80</div>
-                                        <div class="message">initialize gitignore</div>
+                                        <div class="sha">#94deafb</div>
+                                        <div class="message">remove material-you: stop sourcing colors.conf; starship colors from active theme; rofi chooser: add fallback when rofi missing</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">26 Sept 2025, 20:33:36</div>
+                                <div class="timestamp">27 Sept 2025, 01:24:56</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -636,48 +649,18 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 5 commits in
-                                        <span class="repo">dacrab/clubOS</span>
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#5de4d40</div>
-                                        <div class="message">admin/users: implement PATCH endpoint for role/username/password updates and wire client; run lint format</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#19044fc</div>
-                                        <div class="message">login: remove bottom role pills; keep top quick-login only</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#92449a4</div>
-                                        <div class="message">refactor(login): extract resolveRedirectTarget\nchore: organize imports and formatting via ultracite fix\nfix(register): ensure newline at EOF</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cc56728</div>
-                                        <div class="message">refactor(login): integrate role-based redirect; remove dashboard redirect page\nfix(Sidebar): ensure single active item highlighting</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#48e08d5</div>
-                                        <div class="message">feat(login): i18n on login page, theme dropdown menu, client-side goto navigation to avoid full reload</div>
+                                        <div class="sha">#adad54f</div>
+                                        <div class="message">themes: import omarchy themes; hyprland: source active theme overlay; wallpaper: drop matugen hook and just reload; starship generator: wording</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">26 Sept 2025, 20:26:41</div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Starred
-                                        <span class="repo">imputnet/helium</span>
-                                    </div>
-                                </div>
-                                <div class="timestamp">26 Sept 2025, 16:39:12</div>
+                                <div class="timestamp">27 Sept 2025, 01:21:13</div>
                             </section>
                         </div>
                         <div class="row fill-width">
@@ -687,80 +670,39 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 14 commits in
-                                        <span class="repo">dacrab/clubOS-svelte</span>
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#7a931ae</div>
-                                        <div class="message">admin/registers: compute totals from closings or live orders; clickable row expands orders; add Total column; fix discounts/treats; compact header. ui/date-picker: add reusable DateRangePicker with quick presets; integrate on registers and orders; smaller label. orders: filter by date range. i18n: restore common.open (el: Ανοιχτό). stats-cards: more compact.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3a1da43</div>
-                                        <div class="message">Refine secretary bookings and update scheduling UX</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d464c81</div>
-                                        <div class="message">feat: register reconciliation, receipts, low-stock alerts, and reminders
-
-- Staff close: final cash input saved in closing notes via RPC; admin registers shows expected vs counted cash and difference.
-
-- Receipts: lightweight print utility and wired to RecentOrders.
-
-- Dashboard: proactive low-stock toast when stock &lt;= 3 (sampled).
-
-- Secretary: Send Reminder actions for appointments and football bookings (phone/email).
-
-- Polish: organize imports, fix lint/format, extract constants; all checks passing.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#70ed155</div>
-                                        <div class="message">refactor(sidebar): rebuild from scratch with plain anchors, role-gated links, active highlighting, and footer controls</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ae02786</div>
-                                        <div class="message">feat(admin/users): add ResetPasswordDialog; wire reset action (stub for Edge Function); polish actions</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f0720eb</div>
-                                        <div class="message">refactor: deduplicate ensure-open-session by using /register in orders flow</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#95e8152</div>
-                                        <div class="message">feat(dashboards): add compact KPI StatsCards to admin/staff/secretary</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2691bac</div>
-                                        <div class="message">feat(orders): extract NewSaleDialog component and use in orders page</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2cd692d</div>
-                                        <div class="message">refactor(admin/users): PageHeader + table polish; prep for Edge Function actions</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d92a7fc</div>
-                                        <div class="message">feat(admin/products): refactor to PageHeader/SearchBar/DataTable; add Add/Edit dialogs with storage upload; treat -1 stock as ∞</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c4c31c0</div>
-                                        <div class="message">feat(ui): generic DataTable built on shadcn table components</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7a2f695</div>
-                                        <div class="message">feat(ui): shared components PageHeader/PageContent/SearchBar/EmptyState/StatsCards for consistent UI</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#78f655b</div>
-                                        <div class="message">refactor(ui): remove remaining barrel imports; direct imports for table/card/dialog; fix i18n keys on users table</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d51cb64</div>
-                                        <div class="message">refactor(ui): move lang + destructive logout to sidebar; remove barrel imports for dialog/card/dropdown; direct component imports; cleanup layout header</div>
+                                        <div class="sha">#2c5c83f</div>
+                                        <div class="message">themes: add rofi chooser, theme set/next/bg-next scripts; keybind SUPER+T and SUPER+SHIFT+T; add starter nord theme and hook into wallpaper pipeline; fix theme-bg-next array length;</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">24 Sept 2025, 17:25:27</div>
+                                <div class="timestamp">27 Sept 2025, 01:15:03</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">dacrab/dotfiles</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#52b9160</div>
+                                        <div class="message">hypr: simplify animations; wallpaper: write hyprpaper.conf + matugen hook; remove last_wallpaper + restore; starship: generate from matugen colors while preserving layout; autostart: rely on hyprpaper.conf; bashrc: export STARSHIP_CONFIG</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">26 Sept 2025, 22:14:07</div>
                             </section>
                         </div>
                     </section>
@@ -768,7 +710,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 27 Sept 2025, 03:58:22 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 27 Sept 2025, 09:17:02 (timezone Europe/Athens) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
