@@ -6,7 +6,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 21 Public Repos** •
+**📍 Greece** • **💻 Coding since 2022** • **🚀 22 Public Repos** •
 
 </div>
 
@@ -29,9 +29,9 @@
 
 ### 🌱 My latest projects
 
+* [**perfly**](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [**dacrab.github.io**](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [**clubos-legacy**](https://github.com/dacrab/clubos-legacy) - [DEMO] POS system made using NextJS & Supabase
 
 ### 🔨 My recent Pull Requests
 
@@ -47,12 +47,12 @@
 
 ### 🛠️ Technologies & Tools
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-666666?style=for-the-badge&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-666666?style=for-the-badge&logoColor=white)
 
