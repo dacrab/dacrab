@@ -22,10 +22,10 @@
 
 ### 👷 Check out what I'm currently working on
 
+* [beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api) - Recent project
 * [clubOS](https://github.com/dacrab/clubOS) - Recent project
 * [clubOS-svelte](https://github.com/dacrab/clubOS-svelte) - Recent project
 * [coding-task](https://github.com/dacrab/coding-task) - Recent project
-* [craftops](https://github.com/dacrab/craftops) - Recent project
 
 ### 🌱 My latest projects
 
