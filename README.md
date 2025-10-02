@@ -35,6 +35,7 @@
 
 ### 🔨 My recent Pull Requests
 
+* [chore(deps): refresh bun.lock after dependency changes](https://github.com/dacrab/perfly/pull/15) on [perfly](https://api.github.com/repos/dacrab/perfly)
 * [refactor: streamline dashboard, sales/register flows, types ...](https://github.com/dacrab/clubos-legacy/pull/1) on [clubos-legacy](https://api.github.com/repos/dacrab/clubos-legacy)
 
 ### ⭐ Recent Stars
