@@ -23,6 +23,7 @@
 ### 👷 Check out what I'm currently working on
 
 * [designdash](https://github.com/dacrab/designdash) - Recent project
+* [perfly](https://github.com/dacrab/perfly) - Recent project
 
 ### 🌱 My latest projects
 
