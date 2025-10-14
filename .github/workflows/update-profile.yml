@@ -63,7 +63,6 @@ jobs:
           # Repositories configuration
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
-          repositories_visibility: public
           repositories_batch: 100
           
           # Activity configuration
