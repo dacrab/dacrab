@@ -119,8 +119,8 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 	events = gh_get(f"/users/{username}/events?per_page=50", token)
 	repos_newest = gh_get(f"/users/{username}/repos?sort=created&direction=desc&per_page=5", token)
 	stars = gh_get(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token)
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
-    prs = gh_get(f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5", token)
+	cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+	prs = gh_get(f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5", token)
 	repos_all = gh_get(f"/users/{username}/repos?per_page=100", token)
 
 	user_name = user.get("name") or env("FALLBACK_NAME", "Vaggelis Kavouras")
