@@ -16,6 +16,16 @@ on:
 jobs:
   update-profile:
     runs-on: ubuntu-latest
+    env:
+      GH_USERNAME: dacrab
+      GH_PAT: ${{ secrets.GH_PAT }}
+      CONTACT_INFO: |
+        - Website  : <https://dacrab.github.io>
+        - LinkedIn : <https://www.linkedin.com/in/vkavouras/>
+        - Email    : <vkavouras@proton.me>
+        - GitHub   : <https://github.com/dacrab>
+      SOCIAL_LINKS: >-
+        <p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a> <a href="https://www.linkedin.com/in/vkavouras/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></picture></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></picture></a></p>
     
     permissions:
       contents: write
@@ -27,6 +37,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+          
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
           
       - name: Generate GitHub metrics SVG
         uses: lowlighter/metrics@latest
@@ -57,133 +77,36 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
           plugin_languages_colors: github
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_analysis_timeout: 15
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
           
           # Additional plugins
           plugin_followup: yes
           plugin_followup_sections: repositories
           plugin_gists: yes
           
-      - name: Generate README from template
+      - name: Generate GitHub achievements SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: dacrab
+          template: classic
+          base: header
+          filename: github-metrics-achievements.svg
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+      - name: Generate README from template (Python)
         run: |
-          # Get user info from GitHub API
-          USER_DATA=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab")
-          USER_NAME=$(echo "$USER_DATA" | jq -r '.name // "Vaggelis Kavouras"')
-          USER_BIO=$(echo "$USER_DATA" | jq -r '.bio // "Passionate developer building amazing projects"')
-          REPO_COUNT=$(echo "$USER_DATA" | jq -r '.public_repos // "23"')
-          
-          # Get recent activity/events for "currently working on"
-          EVENTS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab/events?per_page=50")
-          WORKING_ON=$(echo "$EVENTS" | jq -r '
-            [.[] | select(.type == "PushEvent" or .type == "PullRequestEvent" or .type == "CreateEvent") 
-             | .repo.name] | unique | .[0:4] | 
-            map("* [" + (. | split("/")[1]) + "](https://github.com/" + . + ") - " + 
-              (if . == "dacrab/dacrab" then "My custom dynamic GitHub profile"
-              elif . == "dacrab/dacrab.github.io" then "Portfolio built with Astro"
-              elif . == "dacrab/clubos" then "POS system demo using Next.js & NeonDB"
-              else "Recent project"
-              end)) | join("\n")')
-          
-          # Get latest repositories (newest created, non-forked)
-          REPOS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab/repos?sort=created&direction=desc&per_page=5")
-          LATEST_PROJECTS=$(echo "$REPOS" | jq -r '
-            [.[] | select(.fork == false and .size > 0)] | .[0:3] |
-            map("* [**" + .name + "**](" + .html_url + ") - " + (.description // "No description available")) | join("\n")')
-          
-          # Get recent pull requests (last 30 days)
-          CUTOFF_DATE=$(date -d "30 days ago" +%Y-%m-%d)
-          PRS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/search/issues?q=author:dacrab+type:pr+created:>${CUTOFF_DATE}&sort=created&order=desc&per_page=5")
-          RECENT_PRS=$(echo "$PRS" | jq -r '
-            if (.items // []) | length > 0 then
-              (.items // [])[0:5] | map("* [" + (.title | if length > 60 then .[0:60] + "..." else . end) + "](" + .html_url + ") on [" + (.repository_url | split("/") | .[-1]) + "](" + .repository_url + ")") | join("\n")
-            else
-              "* No recent pull requests - time to contribute! 🔀"
-            end')
-          
-          # Get recently starred repositories
-          STARS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab/starred?sort=created&direction=desc&per_page=5")
-          RECENT_STARS=$(echo "$STARS" | jq -r '
-            if length > 0 then
-              .[0:5] | map("* [" + .owner.login + "/" + .name + "](" + .html_url + ") - " + ((.description // "No description available") | if length > 80 then .[0:80] + "..." else . end)) | join("\n")
-            else
-              "* No recent stars - discover some awesome repos! ⭐"
-            end')
-          
-          # Get language stats from repositories
-          LANG_REPOS=$(curl -s -H "Authorization: token ${{ secrets.GH_PAT }}" "https://api.github.com/users/dacrab/repos?per_page=100")
-          TECH_STACK=$(echo "$LANG_REPOS" | jq -r '
-            [.[] | select(.fork == false and .language != null and .size > 0) | .language] |
-            group_by(.) | map({language: .[0], count: length}) | sort_by(.count) | reverse | .[0:8] |
-            map(
-              if .language == "JavaScript" then "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)"
-              elif .language == "TypeScript" then "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)"
-              elif .language == "Python" then "![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white)"
-              elif .language == "PHP" then "![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)"
-              elif .language == "Astro" then "![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)"
-              elif .language == "CSS" then "![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)"
-              elif .language == "HTML" then "![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logoColor=white)"
-              elif .language == "Shell" then "![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)"
-              elif .language == "Go" then "![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)"
-              else "![" + .language + "](https://img.shields.io/badge/" + (.language | @uri) + "-666666?style=for-the-badge&logoColor=white)"
-              end) | join("\n")')
-          
-          # Social links
-          SOCIAL_LINKS='<p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a> <a href="https://www.linkedin.com/in/vkavouras/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></picture></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></picture></a></p>'
-          
-          # Contact info
-          CONTACT_INFO="  - Website  : <https://dacrab.github.io>\n  - LinkedIn : <https://www.linkedin.com/in/vkavouras/>\n  - Email    : <vkavouras@proton.me>\n  - GitHub   : <https://github.com/dacrab>"
-          
-          # Generate README from template using Python for reliable multiline replacement
-          cp README.gtpl README.md
-          
-          # Export variables so Python can access them
-          export USER_NAME USER_BIO REPO_COUNT SOCIAL_LINKS WORKING_ON LATEST_PROJECTS RECENT_PRS RECENT_STARS TECH_STACK CONTACT_INFO
-          
-          # Use Python for all replacements to handle multiline content properly
-          python3 << 'EOF'
-          import re
-          import os
-          
-          # Read the template
-          with open('README.md', 'r') as f:
-              content = f.read()
-          
-          # Get environment variables
-          replacements = {
-              '{{USERNAME}}': 'dacrab',
-              '{{USER_NAME}}': os.environ.get('USER_NAME', 'Vaggelis Kavouras'),
-              '{{USER_BIO}}': os.environ.get('USER_BIO', 'Passionate developer building amazing projects'),
-              '{{REPO_COUNT}}': os.environ.get('REPO_COUNT', '23'),
-              '{{SOCIAL_LINKS}}': os.environ.get('SOCIAL_LINKS', ''),
-              '{{WORKING_ON}}': os.environ.get('WORKING_ON', ''),
-              '{{LATEST_PROJECTS}}': os.environ.get('LATEST_PROJECTS', ''),
-              '{{RECENT_PRS}}': os.environ.get('RECENT_PRS', ''),
-              '{{RECENT_STARS}}': os.environ.get('RECENT_STARS', ''),
-              '{{TECH_STACK}}': os.environ.get('TECH_STACK', ''),
-              '{{CONTACT_INFO}}': os.environ.get('CONTACT_INFO', '')
-          }
-          
-          # Replace all placeholders
-          for placeholder, value in replacements.items():
-              content = content.replace(placeholder, value)
-          
-          # Write the result
-          with open('README.md', 'w') as f:
-              f.write(content)
-          EOF
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          python scripts/generate_readme.py
           
       - name: Check for changes
         id: git-check
         run: |
-          git add .
+          git add README.md github-metrics.svg github-metrics-achievements.svg || true
           if git diff --cached --exit-code; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -195,13 +118,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add README.md github-metrics.svg github-metrics-achievements.svg || true
           git commit -m "🔄 Auto-update profile content
           
           ✨ Updated:
-          - GitHub metrics SVG with latest activity and statistics
-          - README.md generated from template with current data
+          - GitHub metrics SVGs and README.md
           
-          Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           
           # Push with retry logic
           for i in {1..3}; do
