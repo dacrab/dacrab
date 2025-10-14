@@ -63,6 +63,7 @@ jobs:
           # Repositories configuration
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
+          repositories_visibility: public
           repositories_batch: 100
           
           # Activity configuration
@@ -99,6 +100,29 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
 
+      - name: Generate GitHub isocalendar SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: dacrab
+          template: classic
+          base: header
+          filename: github-metrics-isocalendar.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Generate GitHub habits SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: dacrab
+          template: classic
+          base: header
+          filename: github-metrics-habits.svg
+          plugin_habits: yes
+          plugin_habits_facts: true
+          plugin_habits_charts: true
+
       - name: Generate README from template (Python)
         run: |
           python scripts/generate_readme.py
@@ -106,7 +130,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add README.md github-metrics.svg github-metrics-achievements.svg || true
+          git add README.md github-metrics.svg github-metrics-achievements.svg github-metrics-isocalendar.svg github-metrics-habits.svg || true
           if git diff --cached --exit-code; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -118,11 +142,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md github-metrics.svg github-metrics-achievements.svg || true
+          git add README.md github-metrics.svg github-metrics-achievements.svg github-metrics-isocalendar.svg github-metrics-habits.svg || true
           git commit -m "🔄 Auto-update profile content
           
           ✨ Updated:
-          - GitHub metrics SVGs and README.md
+          - GitHub metrics SVGs (classic, achievements, isocalendar, habits) and README.md
           
           Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           
