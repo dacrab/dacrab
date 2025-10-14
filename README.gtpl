@@ -20,13 +20,15 @@
 ### GitHub Stats
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/{{USERNAME}}/{{USERNAME}}/main/github-metrics.svg" />
+  <img src="./github-metrics.svg" />
+  
 </p>
 
 ### 🏆 Achievements
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/{{USERNAME}}/{{USERNAME}}/main/github-metrics-achievements.svg" />
+  <img src="./github-metrics-achievements.svg" />
+  
 </p>
 
 ### 👷 Check out what I'm currently working on
