@@ -48,7 +48,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           
-      - name: Generate GitHub metrics SVG
+      - name: Generate GitHub metrics SVG (stable)
         uses: lowlighter/metrics@latest
         with:
           # Your GitHub token with required scopes
@@ -57,7 +57,7 @@ jobs:
           # Options
           user: dacrab
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, repositories, metadata
           config_timezone: Europe/Athens
           
           # Repositories configuration
@@ -65,15 +65,10 @@ jobs:
           repositories_affiliations: owner, collaborator, organization_member
           repositories_batch: 100
           
-          # Activity configuration
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_visibility: all
-          plugin_activity_timestamps: yes
-          plugin_activity_filter: all
+          # Disable activity to avoid occasional API edge errors
+          plugin_activity: no
           
-          # Languages plugin
+          # Languages plugin (keep only most-used)
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_limit: 8
@@ -83,44 +78,11 @@ jobs:
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_analysis_timeout: 15
           
-          # Additional plugins
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_gists: yes
+          # Additional plugins off for stability
+          plugin_followup: no
+          plugin_gists: no
           
-      - name: Generate GitHub achievements SVG
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GH_PAT }}
-          user: dacrab
-          template: classic
-          base: header
-          filename: github-metrics-achievements.svg
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-
-      - name: Generate GitHub isocalendar SVG
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GH_PAT }}
-          user: dacrab
-          template: classic
-          base: header
-          filename: github-metrics-isocalendar.svg
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Generate GitHub habits SVG
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GH_PAT }}
-          user: dacrab
-          template: classic
-          base: header
-          filename: github-metrics-habits.svg
-          plugin_habits: yes
-          plugin_habits_facts: true
-          plugin_habits_charts: true
+      # Removed extra SVG renders (achievements, isocalendar, habits) for simplicity
 
       - name: Generate README from template (Python)
         run: |
@@ -129,7 +91,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add README.md github-metrics.svg github-metrics-achievements.svg github-metrics-isocalendar.svg github-metrics-habits.svg || true
+          git add README.md github-metrics.svg || true
           if git diff --cached --exit-code; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -141,11 +103,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md github-metrics.svg github-metrics-achievements.svg github-metrics-isocalendar.svg github-metrics-habits.svg || true
+          git add README.md github-metrics.svg || true
           git commit -m "🔄 Auto-update profile content
           
           ✨ Updated:
-          - GitHub metrics SVGs (classic, achievements, isocalendar, habits) and README.md
+          - GitHub metrics SVG and README.md
           
           Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           
