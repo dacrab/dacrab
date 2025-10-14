@@ -31,6 +31,19 @@
   
 </p>
 
+### 🗓️ Commit Calendar
+
+<p align="left">
+  <img src="./github-metrics-isocalendar.svg" />
+  
+</p>
+
+### 📈 Coding Habits
+
+<p align="left">
+  <img src="./github-metrics-habits.svg" />
+  
+</p>
 ### 👷 Check out what I'm currently working on
 
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
