@@ -57,11 +57,11 @@
 
 ### 🛠️ Technologies & tools
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
-![Svelte](https://img.shields.io/badge/Svelte-666666?style=for-the-badge&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
+<img alt="PHP" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/php.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/javascript.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/typescript.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="Astro" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/astro.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="Shell" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gnubash.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="CSS" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/css3.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="Svelte" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/svelte.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
+<img alt="Go" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/go.svg" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />
