@@ -101,15 +101,20 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 	prs = gh_get(f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5", token)
 	# repos_all removed since TECH_STACK is not rendered
 
-	user_name = user.get("name") or env("FALLBACK_NAME", "Vaggelis Kavouras")
+	user_name = user.get("name") or env("FALLBACK_NAME", username)
 	user_bio = user.get("bio") or env("FALLBACK_BIO", "Passionate developer building amazing projects")
-	repo_count = str(user.get("public_repos", "23"))
+	repo_count = str(user.get("public_repos", "0"))
+	location = user.get("location") or env("FALLBACK_LOCATION", "📍 Unknown location")
+	coding_since_year = (user.get("created_at") or "").split("-")[0] or "Unknown"
+	coding_since = f"💻 Coding since {coding_since_year}"
 
 	replacements = {
 		"{{USERNAME}}": username,
 		"{{USER_NAME}}": user_name,
 		"{{USER_BIO}}": user_bio,
 		"{{REPO_COUNT}}": repo_count,
+		"{{LOCATION}}": location,
+		"{{CODING_SINCE}}": coding_since,
 		"{{SOCIAL_LINKS}}": env("SOCIAL_LINKS", ""),
 		"{{WORKING_ON}}": build_working_on(events, username),
 		"{{LATEST_PROJECTS}}": build_latest_projects(repos_newest),
