@@ -20,7 +20,7 @@
 ### GitHub Stats
 
 <p align="left">
-  <img src="./github-metrics.svg" />
+  <img src="./assets/github-metrics.svg" />
   
 </p>
 

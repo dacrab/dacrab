@@ -58,6 +58,7 @@ jobs:
           user: dacrab
           template: classic
           base: header, repositories, metadata
+          filename: assets/github-metrics.svg
           config_timezone: Europe/Athens
           
           # Repositories configuration
@@ -91,7 +92,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add README.md github-metrics.svg || true
+          git add README.md assets/github-metrics.svg || true
           if git diff --cached --exit-code; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -103,11 +104,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md github-metrics.svg || true
+          git add README.md assets/github-metrics.svg || true
           git commit -m "🔄 Auto-update profile content
           
           ✨ Updated:
-          - GitHub metrics SVG and README.md
+          - GitHub metrics SVG (assets/) and README.md
           
           Generated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           
