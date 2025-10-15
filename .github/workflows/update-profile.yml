@@ -10,6 +10,7 @@ on:
 jobs:
   update-profile:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       GH_USERNAME: ${{ github.repository_owner }}
       GH_TIMEZONE: Europe/Athens

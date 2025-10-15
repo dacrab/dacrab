@@ -2,13 +2,12 @@
 <div align="center">
 
   <h1 style="margin: 0; font-size: 2.2rem;">👋 Hey, I'm {{USER_NAME}}</h1>
-  
 
 </div>
 
 ---
 
-### Socials
+### Connect
 
 {{SOCIAL_LINKS}}
 
@@ -20,11 +19,11 @@
 
 ---
 
-### 👷 What I'm working on
+### 👷 Active projects
 
 {{WORKING_ON}}
 
-### 🌱 Latest projects
+### 🌱 Latest repositories
 
 {{LATEST_PROJECTS}}
 

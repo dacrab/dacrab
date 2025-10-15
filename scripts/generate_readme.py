@@ -85,9 +85,13 @@ def build_recent_prs(prs_payload: Any) -> str:
     lines = []
     for item in items[:5]:
         title = limit_text(item.get("title", "Untitled"), 60)
-        repo_url = item.get("repository_url", "")
-        repo_name = repo_url.split("/")[-1] if repo_url else "repo"
-        lines.append(f"* [{title}]({item.get('html_url')}) on [{repo_name}]({repo_url})")
+        api_repo_url = item.get("repository_url", "")
+        repo_name = api_repo_url.split("/")[-1] if api_repo_url else "repo"
+        # Convert API repo URL to github.com URL for nicer display links
+        repo_html_url = (
+            api_repo_url.replace("api.github.com/repos", "github.com") if api_repo_url else ""
+        )
+        lines.append(f"* [{title}]({item.get('html_url')}) on [{repo_name}]({repo_html_url})")
     
     return "\n".join(lines)
 
