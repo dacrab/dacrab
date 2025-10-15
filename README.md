@@ -2,25 +2,7 @@
 <div align="center">
 
   <h1 style="margin: 0; font-size: 2.2rem;">👋 Hey, I'm Vaggelis kavouras</h1>
-  <p style="margin: 14px 0 0;">
-    <strong>localhost:5173</strong>
-    <span> • </span>
-    <strong>💻 Coding since 2022</strong>
-    <span> • </span>
-    <strong>🚀 23 Public Repos</strong>
-  </p>
-
-  <p style="margin: 16px 0 0;">
-    <a href="https://github.com/dacrab">
-      <img alt="GitHub profile" src="https://img.shields.io/badge/GitHub-dacrab-181717?logo=github&logoColor=white" />
-    </a>
-  </p>
-
-  <p>
-    <a href="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&height=40&lines=Full-Stack+Developer;Open+Source+Enthusiast;Building+for+the+Web;Always+Learning">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&height=40&lines=Full-Stack+Developer;Open+Source+Enthusiast;Building+for+the+Web;Always+Learning" alt="Typing roles" />
-    </a>
-  </p>
+  
 
 </div>
 
