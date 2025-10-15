@@ -105,7 +105,7 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 	user_bio = user.get("bio") or env("FALLBACK_BIO", "Passionate developer building amazing projects")
 	repo_count = str(user.get("public_repos", "23"))
 
-		replacements = {
+	replacements = {
 		"{{USERNAME}}": username,
 		"{{USER_NAME}}": user_name,
 		"{{USER_BIO}}": user_bio,
