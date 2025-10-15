@@ -9,9 +9,6 @@ on:
   # Trigger on pushes to main
   push:
     branches: ["main", "master"]
-    paths: 
-      - '.github/workflows/update-profile.yml'
-      - 'README.gtpl'
 
 jobs:
   update-profile:
