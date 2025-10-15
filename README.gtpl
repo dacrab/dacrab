@@ -17,43 +17,40 @@
 
 {{SOCIAL_LINKS}}
 
-### GitHub Stats
+### 📊 Metrics
 
 <p align="left">
   <img src="./assets/github-metrics.svg" />
-  
 </p>
-
-### 🏆 Achievements
 
 <p align="left">
   <img src="./assets/github-metrics-achievements.svg" />
-  
 </p>
-
-### 🗓️ Commit Calendar
 
 <p align="left">
   <img src="./assets/github-metrics-isocalendar.svg" />
-  
 </p>
 <!-- Extra SVG sections removed to keep README lean and stable -->
-### 👷 Check out what I'm currently working on
+---
+
+### 👷 What I'm working on
 
 {{WORKING_ON}}
 
-### 🌱 My latest projects
+### 🌱 Latest projects
 
 {{LATEST_PROJECTS}}
 
-### 🔨 My recent Pull Requests
+### 🔨 Recent pull requests
 
 {{RECENT_PRS}}
 
-### ⭐ Recent Stars
+### ⭐ Recent stars
 
 {{RECENT_STARS}}
 
-### 🛠️ Technologies & Tools
+---
+
+### 🛠️ Technologies & tools
 
 {{TECH_STACK}}
