@@ -17,48 +17,43 @@
 
 <p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a> <a href="https://www.linkedin.com/in/vkavouras/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></picture></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></picture></a></p>
 
-### GitHub Stats
+### 📊 Metrics
 
 <p align="left">
   <img src="./assets/github-metrics.svg" />
-  
 </p>
-
-### 🏆 Achievements
 
 <p align="left">
   <img src="./assets/github-metrics-achievements.svg" />
-  
 </p>
-
-### 🗓️ Commit Calendar
 
 <p align="left">
   <img src="./assets/github-metrics-isocalendar.svg" />
-  
 </p>
 <!-- Extra SVG sections removed to keep README lean and stable -->
-### 👷 Check out what I'm currently working on
+---
+
+### 👷 What I'm working on
 
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
 * [cursor-reset](https://github.com/dacrab/cursor-reset) - Recent project
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
 * [clubOS](https://github.com/dacrab/clubOS) - POS system demo using Next.js & NeonDB
 
-### 🌱 My latest projects
+### 🌱 Latest projects
 
 * [**perfly**](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [**beauty-salon-scheduling-api**](https://github.com/dacrab/beauty-salon-scheduling-api) - Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: slots, book, cancel. Bearer auth. Seeders + tests.
 
-### 🔨 My recent Pull Requests
+### 🔨 Recent pull requests
 
 * [Refactor/shared UI primitives](https://github.com/dacrab/designdash/pull/19) on [designdash](https://api.github.com/repos/dacrab/designdash)
 * [UI: Remove window gaps, compact input, shrink-to-fit bar](https://github.com/iamsrikanthnani/pluely/pull/83) on [pluely](https://api.github.com/repos/iamsrikanthnani/pluely)
 * [chore(deps): refresh bun.lock after dependency changes](https://github.com/dacrab/perfly/pull/15) on [perfly](https://api.github.com/repos/dacrab/perfly)
 * [refactor: streamline dashboard, sales/register flows, typ...](https://github.com/dacrab/clubos-legacy/pull/1) on [clubos-legacy](https://api.github.com/repos/dacrab/clubos-legacy)
 
-### ⭐ Recent Stars
+### ⭐ Recent stars
 
 * [Achno/gowall](https://github.com/Achno/gowall) - A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's ,Tradi...
 * [imputnet/helium](https://github.com/imputnet/helium) - Private, fast, and honest web browser
@@ -66,7 +61,9 @@
 * [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 * [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
 
-### 🛠️ Technologies & Tools
+---
+
+### 🛠️ Technologies & tools
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)
