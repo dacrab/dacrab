@@ -97,8 +97,8 @@ def build_tech_stack(repos: Any) -> str:
     # sort languages by usage count desc
     ordered = sorted(language_counts.items(), key=lambda kv: kv[1], reverse=True)[:8]
 
-    # Map languages to simpleicons slugs (fallback to lowercased name)
-    slug_map = {
+    # Prefer colored icons from Devicon CDN; fallback to Simple Icons for unknowns
+    devicon_slug_map = {
         "JavaScript": "javascript",
         "TypeScript": "typescript",
         "Python": "python",
@@ -106,18 +106,25 @@ def build_tech_stack(repos: Any) -> str:
         "Astro": "astro",
         "CSS": "css3",
         "HTML": "html5",
-        "Shell": "gnubash",
+        "Shell": "bash",
         "Go": "go",
         "Svelte": "svelte",
-        "Java": "openjdk",
+        "Java": "java",
     }
-    icons = []
+    icons: list[str] = []
     for lang, _ in ordered:
-        slug = slug_map.get(lang, lang.lower())
-        # Use jsdelivr simple-icons CDN
-        icon_url = f"https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/{slug}.svg"
-        icons.append(f'<img alt="{lang}" src="{icon_url}" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />')
-    return "\n".join(icons)
+        dev_slug = devicon_slug_map.get(lang)
+        if dev_slug:
+            icon_url = f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{dev_slug}/{dev_slug}-original.svg"
+        else:
+            # Fallback monochrome if devicon is missing
+            si_slug = lang.lower()
+            icon_url = f"https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/{si_slug}.svg"
+        icons.append(
+            f'<img alt="{lang}" src="{icon_url}" width="28" height="28" style="display:inline-block;margin:0 10px 0 0;vertical-align:middle;" />'
+        )
+    # Join with spaces so icons render on one line
+    return " ".join(icons)
 
 
 def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:
