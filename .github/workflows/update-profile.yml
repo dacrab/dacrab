@@ -60,6 +60,27 @@ jobs:
           base: header, repositories, metadata
           filename: assets/github-metrics.svg
           config_timezone: Europe/Athens
+      - name: Generate GitHub achievements SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: dacrab
+          template: classic
+          base: header
+          filename: assets/github-metrics-achievements.svg
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+      - name: Generate GitHub isocalendar SVG
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GH_PAT }}
+          user: dacrab
+          template: classic
+          base: header
+          filename: assets/github-metrics-isocalendar.svg
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           
           # Repositories configuration
           repositories_forks: yes
@@ -92,7 +113,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add README.md assets/github-metrics.svg || true
+          git add README.md assets/github-metrics.svg assets/github-metrics-achievements.svg assets/github-metrics-isocalendar.svg || true
           if git diff --cached --exit-code; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
@@ -104,7 +125,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md assets/github-metrics.svg || true
+          git add README.md assets/github-metrics.svg assets/github-metrics-achievements.svg assets/github-metrics-isocalendar.svg || true
           git commit -m "🔄 Auto-update profile content
           
           ✨ Updated:
