@@ -110,6 +110,9 @@ def build_recent_stars(stars: Any) -> str:
 def build_social_links(username: str, user: Any) -> str:
     """Build social media links section."""
     website = (user.get("blog") or "").strip()
+    # Normalize website to include scheme for correct linking in README
+    if website and not (website.startswith("http://") or website.startswith("https://")):
+        website = f"https://{website}"
     twitter = (user.get("twitter_username") or "").strip()
     
     links = [
