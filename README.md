@@ -7,7 +7,7 @@
 
 > *Passionate developer building amazing projects*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 23 Public Repos** •
+**localhost:5173** • **💻 Coding since 2022** • **🚀 23 Public Repos**
 
 </div>
 
@@ -15,14 +15,14 @@
 
 ### Socials
 
-<p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a> <a href="https://www.linkedin.com/in/vkavouras/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></picture></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></picture></a></p>
+<p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a> <a href="dacrab.github.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/globe.svg" width="32" height="32" /></a></p>
 
 ### 📊 Metrics
 
 <p align="left">
   <img src="./assets/github-metrics.svg" />
 </p>
-<!-- Extra SVG sections removed to keep README lean and stable -->
+
 ---
 
 ### 👷 What I'm working on
@@ -40,6 +40,7 @@
 
 ### 🔨 Recent pull requests
 
+* [Feature/configurable user](https://github.com/dacrab/dacrab/pull/1) on [dacrab](https://api.github.com/repos/dacrab/dacrab)
 * [Refactor/shared UI primitives](https://github.com/dacrab/designdash/pull/19) on [designdash](https://api.github.com/repos/dacrab/designdash)
 * [UI: Remove window gaps, compact input, shrink-to-fit bar](https://github.com/iamsrikanthnani/pluely/pull/83) on [pluely](https://api.github.com/repos/iamsrikanthnani/pluely)
 * [chore(deps): refresh bun.lock after dependency changes](https://github.com/dacrab/perfly/pull/15) on [perfly](https://api.github.com/repos/dacrab/perfly)
