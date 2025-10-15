@@ -2,8 +2,6 @@
 <div align="center">
 
   <h1 style="margin: 0; font-size: 2.2rem;">👋 Hey, I'm {{USER_NAME}}</h1>
-  <p style="margin: 8px 0 0; color: #8b949e; font-size: 1.05rem;">{{USER_BIO}}</p>
-
   <p style="margin: 14px 0 0;">
     <strong>{{LOCATION}}</strong>
     <span> • </span>
