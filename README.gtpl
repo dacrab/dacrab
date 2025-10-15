@@ -24,6 +24,19 @@
   
 </p>
 
+### 🏆 Achievements
+
+<p align="left">
+  <img src="./assets/github-metrics-achievements.svg" />
+  
+</p>
+
+### 🗓️ Commit Calendar
+
+<p align="left">
+  <img src="./assets/github-metrics-isocalendar.svg" />
+  
+</p>
 <!-- Extra SVG sections removed to keep README lean and stable -->
 ### 👷 Check out what I'm currently working on
 
@@ -44,6 +57,3 @@
 ### 🛠️ Technologies & Tools
 
 {{TECH_STACK}}
-
-### 📫 How to reach me:
-{{CONTACT_INFO}}
