@@ -116,28 +116,22 @@ def build_social_links(username: str, user: Any) -> str:
     twitter = (user.get("twitter_username") or "").strip()
     
     links = [
-        f'<a href="https://github.com/{username}" target="_blank" rel="noreferrer">'
-        '<picture>'
-        '<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />'
-        '<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />'
-        '<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />'
-        '</picture></a>'
+        f'<a href="https://github.com/{username}" target="_blank" rel="noopener noreferrer">'
+        '<img alt="GitHub" src="https://cdn.simpleicons.org/github/181717" width="28" height="28" />'
+        '</a>'
     ]
     
     if twitter:
         links.append(
-            f'<a href="https://twitter.com/{twitter}" target="_blank" rel="noreferrer">'
-            '<picture>'
-            '<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" />'
-            '<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" />'
-            '<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" />'
-            '</picture></a>'
+            f'<a href="https://twitter.com/{twitter}" target="_blank" rel="noopener noreferrer">'
+            '<img alt="Twitter" src="https://cdn.simpleicons.org/twitter/1DA1F2" width="28" height="28" />'
+            '</a>'
         )
     
     if website:
         links.append(
-            f'<a href="{website}" target="_blank" rel="noreferrer">'
-            '<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/globe.svg" width="32" height="32" />'
+            f'<a href="{website}" target="_blank" rel="noopener noreferrer">'
+            '<img alt="Website" src="https://cdn.simpleicons.org/globe/0EA5E9" width="28" height="28" />'
             '</a>'
         )
     
