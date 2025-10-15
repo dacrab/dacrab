@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   # Trigger on pushes to main
   push:
-    branches: ["main", "master"]
+    branches: ["main", "master", "feature/**"]
 
 jobs:
   update-profile:
