@@ -99,25 +99,19 @@ def build_recent_stars(stars: Any) -> str:
 	return "\n".join(lines)
 
 
-def build_social_links(username: str) -> str:
-	website = env("WEBSITE_URL", "")
-	linkedin = env("LINKEDIN_URL", "")
-	instagram = env("INSTAGRAM_URL", "")
+def build_social_links(username: str, user: Any) -> str:
+	website = (user.get("blog") or "").strip()
+	twitter = (user.get("twitter_username") or "").strip()
 	parts: list[str] = []
 	# GitHub link always available
 	parts.append(
 		'<a href="https://github.com/%s" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a>'
 		% username
 	)
-	if linkedin:
+	if twitter:
 		parts.append(
-			'<a href="%s" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></picture></a>'
-			% linkedin
-		)
-	if instagram:
-		parts.append(
-			'<a href="%s" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></picture></a>'
-			% instagram
+			'<a href="https://twitter.com/%s" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></picture></a>'
+			% twitter
 		)
 	if website:
 		parts.append(
@@ -147,8 +141,8 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 	coding_since_year = (user.get("created_at") or "").split("-")[0] or "Unknown"
 	coding_since = f"💻 Coding since {coding_since_year}"
 
-	# Build socials dynamically (optional links come from envs)
-	social_links = build_social_links(username)
+	# Build socials dynamically from GitHub profile (blog, twitter)
+	social_links = build_social_links(username, user)
 
 	replacements = {
 		"{{USERNAME}}": username,
