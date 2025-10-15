@@ -89,29 +89,35 @@ def build_recent_stars(stars: Any) -> str:
 
 
 def build_tech_stack(repos: Any) -> str:
-	language_counts: Dict[str, int] = {}
-	for r in repos:
-		if not r.get("fork") and r.get("language") and r.get("size", 0) > 0:
-			lang = r["language"]
-			language_counts[lang] = language_counts.get(lang, 0) + 1
-	# sort languages by usage count desc
-	ordered = sorted(language_counts.items(), key=lambda kv: kv[1], reverse=True)[:8]
-	badge_map = {
-		"JavaScript": "![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=white)",
-		"TypeScript": "![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logoColor=white)",
-		"Python": "![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white)",
-		"PHP": "![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white)",
-		"Astro": "![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logoColor=white)",
-		"CSS": "![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)",
-		"HTML": "![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logoColor=white)",
-		"Shell": "![Shell](https://img.shields.io/badge/Shell-89e051?style=for-the-badge&logoColor=white)",
-		"Go": "![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)",
-	}
-	lines = []
-	for lang, _ in ordered:
-		badge = badge_map.get(lang) or f"![{lang}](https://img.shields.io/badge/{requests.utils.quote(lang)}-666666?style=for-the-badge&logoColor=white)"
-		lines.append(badge)
-	return "\n".join(lines)
+    language_counts: Dict[str, int] = {}
+    for r in repos:
+        if not r.get("fork") and r.get("language") and r.get("size", 0) > 0:
+            lang = r["language"]
+            language_counts[lang] = language_counts.get(lang, 0) + 1
+    # sort languages by usage count desc
+    ordered = sorted(language_counts.items(), key=lambda kv: kv[1], reverse=True)[:8]
+
+    # Map languages to simpleicons slugs (fallback to lowercased name)
+    slug_map = {
+        "JavaScript": "javascript",
+        "TypeScript": "typescript",
+        "Python": "python",
+        "PHP": "php",
+        "Astro": "astro",
+        "CSS": "css3",
+        "HTML": "html5",
+        "Shell": "gnubash",
+        "Go": "go",
+        "Svelte": "svelte",
+        "Java": "openjdk",
+    }
+    icons = []
+    for lang, _ in ordered:
+        slug = slug_map.get(lang, lang.lower())
+        # Use jsdelivr simple-icons CDN
+        icon_url = f"https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/{slug}.svg"
+        icons.append(f'<img alt="{lang}" src="{icon_url}" width="28" height="28" style="margin-right:8px;vertical-align:middle;" />')
+    return "\n".join(icons)
 
 
 def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:
