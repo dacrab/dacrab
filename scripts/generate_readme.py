@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 import os
 import sys
-import textwrap
-from dataclasses import dataclass
 from typing import Dict, Any
-import re
 from datetime import datetime, timedelta, timezone
 import requests
 
@@ -24,33 +21,7 @@ def gh_get(path: str, token: str) -> Any:
 	return resp.json()
 
 
-def normalize_slug(name: str) -> str:
-	"""Normalize language names to CDN icon slug candidates."""
-	slug = name.strip().lower()
-	slug = slug.replace(" ", "")
-	slug = slug.replace("+", "plusplus").replace("#", "sharp")
-	slug = slug.replace(".", "")
-	# Special common cases for devicon/simple-icons
-	if slug == "html":
-		return "html5"
-	if slug == "css":
-		return "css3"
-	if slug in {"shell", "sh"}:
-		return "bash"
-	if slug == "jupyternotebook":
-		return "jupyter"
-	return slug
-
-
-def pick_first_available(url_candidates: list[str]) -> str | None:
-	for url in url_candidates:
-		try:
-			res = requests.head(url, timeout=8)
-			if res.status_code < 400:
-				return url
-		except Exception:
-			pass
-	return None
+# Removed icon helpers along with the tech stack section
 
 
 def limit_text(text: str, max_len: int) -> str:
@@ -128,13 +99,13 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 	stars = gh_get(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token)
 	cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
 	prs = gh_get(f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5", token)
-    # repos_all removed since TECH_STACK is not rendered
+	# repos_all removed since TECH_STACK is not rendered
 
 	user_name = user.get("name") or env("FALLBACK_NAME", "Vaggelis Kavouras")
 	user_bio = user.get("bio") or env("FALLBACK_BIO", "Passionate developer building amazing projects")
 	repo_count = str(user.get("public_repos", "23"))
 
-	replacements = {
+		replacements = {
 		"{{USERNAME}}": username,
 		"{{USER_NAME}}": user_name,
 		"{{USER_BIO}}": user_bio,
@@ -144,8 +115,7 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 		"{{LATEST_PROJECTS}}": build_latest_projects(repos_newest),
 		"{{RECENT_PRS}}": build_recent_prs(prs),
 		"{{RECENT_STARS}}": build_recent_stars(stars),
-        # TECH_STACK removed
-        "{{CONTACT_INFO}}": env("CONTACT_INFO", ""),
+		# TECH_STACK removed and CONTACT_INFO unused
 	}
 
 	with open(template_path, "r", encoding="utf-8") as f:
