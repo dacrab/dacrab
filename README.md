@@ -2,8 +2,6 @@
 <div align="center">
 
   <h1 style="margin: 0; font-size: 2.2rem;">👋 Hey, I'm Vaggelis kavouras</h1>
-  <p style="margin: 8px 0 0; color: #8b949e; font-size: 1.05rem;">Passionate developer building amazing projects</p>
-
   <p style="margin: 14px 0 0;">
     <strong>localhost:5173</strong>
     <span> • </span>
@@ -30,7 +28,7 @@
 
 ### Socials
 
-<p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noreferrer"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></picture></a> <a href="https://dacrab.github.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/globe.svg" width="32" height="32" /></a></p>
+<p align="left"><a href="https://github.com/dacrab" target="_blank" rel="noopener noreferrer"><img alt="GitHub" src="https://cdn.simpleicons.org/github/181717" width="28" height="28" /></a> <a href="https://dacrab.github.io" target="_blank" rel="noopener noreferrer"><img alt="Website" src="https://cdn.simpleicons.org/globe/0EA5E9" width="28" height="28" /></a></p>
 
 ### 📊 Metrics
 
