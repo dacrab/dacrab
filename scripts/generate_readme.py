@@ -118,33 +118,7 @@ def build_recent_stars(stars: Any) -> str:
 	return "\n".join(lines)
 
 
-def build_tech_stack(repos: Any) -> str:
-    language_counts: Dict[str, int] = {}
-    for r in repos:
-        if not r.get("fork") and r.get("language") and r.get("size", 0) > 0:
-            lang = r["language"]
-            language_counts[lang] = language_counts.get(lang, 0) + 1
-    # sort languages by usage count desc
-    ordered = sorted(language_counts.items(), key=lambda kv: kv[1], reverse=True)[:8]
-
-    # Prefer colored icons from Devicon CDN; fallback to Simple Icons automatically
-    icons: list[str] = []
-    for lang, _ in ordered:
-        slug = normalize_slug(lang)
-        # Devicon candidates
-        dev_candidates = [
-            f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{slug}/{slug}-original.svg",
-            f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{slug}/{slug}-plain.svg",
-            f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{slug}/{slug}-original-wordmark.svg",
-        ]
-        url = pick_first_available(dev_candidates)
-        if url is None:
-            # Simple-icons fallback (monochrome)
-            url = f"https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/{slug}.svg"
-        icons.append(
-            f'<img alt="{lang}" src="{url}" width="28" height="28" style="display:inline-block;margin:0 10px 0 0;vertical-align:middle;" />'
-        )
-    return " ".join(icons)
+# Removed tech stack section rendering per user request
 
 
 def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:
@@ -154,7 +128,7 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 	stars = gh_get(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token)
 	cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
 	prs = gh_get(f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5", token)
-	repos_all = gh_get(f"/users/{username}/repos?per_page=100", token)
+    # repos_all removed since TECH_STACK is not rendered
 
 	user_name = user.get("name") or env("FALLBACK_NAME", "Vaggelis Kavouras")
 	user_bio = user.get("bio") or env("FALLBACK_BIO", "Passionate developer building amazing projects")
@@ -170,8 +144,8 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 		"{{LATEST_PROJECTS}}": build_latest_projects(repos_newest),
 		"{{RECENT_PRS}}": build_recent_prs(prs),
 		"{{RECENT_STARS}}": build_recent_stars(stars),
-		"{{TECH_STACK}}": build_tech_stack(repos_all),
-		"{{CONTACT_INFO}}": env("CONTACT_INFO", ""),
+        # TECH_STACK removed
+        "{{CONTACT_INFO}}": env("CONTACT_INFO", ""),
 	}
 
 	with open(template_path, "r", encoding="utf-8") as f:
