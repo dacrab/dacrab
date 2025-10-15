@@ -17,6 +17,7 @@ jobs:
       # Allow overriding username from repository variables or secrets; default to repo owner
       GH_USERNAME: ${{ vars.GH_USERNAME || secrets.GH_USERNAME || github.repository_owner }}
       GH_PAT: ${{ secrets.GH_PAT }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GH_TIMEZONE: ${{ vars.GH_TIMEZONE || 'Europe/Athens' }}
       WEBSITE_URL: ${{ vars.WEBSITE_URL }}
       LINKEDIN_URL: ${{ vars.LINKEDIN_URL }}
@@ -50,14 +51,14 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           # Your GitHub token with required scopes
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
           # Options
-          user: dacrab
+          user: ${{ env.GH_USERNAME }}
           template: classic
           base: header, repositories, metadata
           filename: assets/github-metrics.svg
-          config_timezone: Europe/Athens
+          config_timezone: ${{ env.GH_TIMEZONE }}
 
           # Repositories configuration
           repositories_forks: yes
