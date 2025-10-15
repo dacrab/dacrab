@@ -24,6 +24,19 @@
   
 </p>
 
+### 🏆 Achievements
+
+<p align="left">
+  <img src="./assets/github-metrics-achievements.svg" />
+  
+</p>
+
+### 🗓️ Commit Calendar
+
+<p align="left">
+  <img src="./assets/github-metrics-isocalendar.svg" />
+  
+</p>
 <!-- Extra SVG sections removed to keep README lean and stable -->
 ### 👷 Check out what I'm currently working on
 
@@ -63,9 +76,3 @@
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-666666?style=for-the-badge&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white)
-
-### 📫 How to reach me:
-- Website  : <https://dacrab.github.io>
-- LinkedIn : <https://www.linkedin.com/in/vkavouras/>
-- Email    : <vkavouras@proton.me>
-- GitHub   : <https://github.com/dacrab>
