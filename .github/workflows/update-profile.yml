@@ -67,6 +67,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_readme.py
           
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add README.md assets/github-metrics.svg || true
+          if git diff --cached --exit-code; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
       - name: Commit changes
         if: steps.git-check.outputs.changed == 'true'
         run: |
@@ -77,13 +87,3 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Check for changes
-        id: git-check
-        run: |
-          git add README.md assets/github-metrics.svg || true
-          if git diff --cached --exit-code; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
