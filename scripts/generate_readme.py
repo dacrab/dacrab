@@ -4,6 +4,7 @@ import sys
 import textwrap
 from dataclasses import dataclass
 from typing import Dict, Any
+import re
 from datetime import datetime, timedelta, timezone
 import requests
 
@@ -21,6 +22,35 @@ def gh_get(path: str, token: str) -> Any:
 	resp = requests.get(f"{GITHUB_API}{path}", headers=headers, timeout=30)
 	resp.raise_for_status()
 	return resp.json()
+
+
+def normalize_slug(name: str) -> str:
+	"""Normalize language names to CDN icon slug candidates."""
+	slug = name.strip().lower()
+	slug = slug.replace(" ", "")
+	slug = slug.replace("+", "plusplus").replace("#", "sharp")
+	slug = slug.replace(".", "")
+	# Special common cases for devicon/simple-icons
+	if slug == "html":
+		return "html5"
+	if slug == "css":
+		return "css3"
+	if slug in {"shell", "sh"}:
+		return "bash"
+	if slug == "jupyternotebook":
+		return "jupyter"
+	return slug
+
+
+def pick_first_available(url_candidates: list[str]) -> str | None:
+	for url in url_candidates:
+		try:
+			res = requests.head(url, timeout=8)
+			if res.status_code < 400:
+				return url
+		except Exception:
+			pass
+	return None
 
 
 def limit_text(text: str, max_len: int) -> str:
@@ -97,33 +127,23 @@ def build_tech_stack(repos: Any) -> str:
     # sort languages by usage count desc
     ordered = sorted(language_counts.items(), key=lambda kv: kv[1], reverse=True)[:8]
 
-    # Prefer colored icons from Devicon CDN; fallback to Simple Icons for unknowns
-    devicon_slug_map = {
-        "JavaScript": "javascript",
-        "TypeScript": "typescript",
-        "Python": "python",
-        "PHP": "php",
-        "Astro": "astro",
-        "CSS": "css3",
-        "HTML": "html5",
-        "Shell": "bash",
-        "Go": "go",
-        "Svelte": "svelte",
-        "Java": "java",
-    }
+    # Prefer colored icons from Devicon CDN; fallback to Simple Icons automatically
     icons: list[str] = []
     for lang, _ in ordered:
-        dev_slug = devicon_slug_map.get(lang)
-        if dev_slug:
-            icon_url = f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{dev_slug}/{dev_slug}-original.svg"
-        else:
-            # Fallback monochrome if devicon is missing
-            si_slug = lang.lower()
-            icon_url = f"https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/{si_slug}.svg"
+        slug = normalize_slug(lang)
+        # Devicon candidates
+        dev_candidates = [
+            f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{slug}/{slug}-original.svg",
+            f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{slug}/{slug}-plain.svg",
+            f"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{slug}/{slug}-original-wordmark.svg",
+        ]
+        url = pick_first_available(dev_candidates)
+        if url is None:
+            # Simple-icons fallback (monochrome)
+            url = f"https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/{slug}.svg"
         icons.append(
-            f'<img alt="{lang}" src="{icon_url}" width="28" height="28" style="display:inline-block;margin:0 10px 0 0;vertical-align:middle;" />'
+            f'<img alt="{lang}" src="{url}" width="28" height="28" style="display:inline-block;margin:0 10px 0 0;vertical-align:middle;" />'
         )
-    # Join with spaces so icons render on one line
     return " ".join(icons)
 
 
