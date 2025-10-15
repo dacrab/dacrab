@@ -7,7 +7,7 @@
 
 > *{{USER_BIO}}*
 
-**{{LOCATION}}** • **{{CODING_SINCE}}** • **🚀 {{REPO_COUNT}} Public Repos** •
+**{{LOCATION}}** • **{{CODING_SINCE}}** • **🚀 {{REPO_COUNT}} Public Repos**
 
 </div>
 
@@ -22,7 +22,7 @@
 <p align="left">
   <img src="./assets/github-metrics.svg" />
 </p>
-<!-- Extra SVG sections removed to keep README lean and stable -->
+
 ---
 
 ### 👷 What I'm working on
