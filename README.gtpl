@@ -22,14 +22,6 @@
 <p align="left">
   <img src="./assets/github-metrics.svg" />
 </p>
-
-<p align="left">
-  <img src="./assets/github-metrics-achievements.svg" />
-</p>
-
-<p align="left">
-  <img src="./assets/github-metrics-isocalendar.svg" />
-</p>
 <!-- Extra SVG sections removed to keep README lean and stable -->
 ---
 
