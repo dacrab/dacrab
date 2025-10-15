@@ -62,6 +62,9 @@ jobs:
           plugin_gists: no
 
       - name: Generate README
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_readme.py
           
       - name: Commit changes
