@@ -7,7 +7,7 @@
 
 > *{{USER_BIO}}*
 
-**📍 Greece** • **💻 Coding since 2022** • **🚀 {{REPO_COUNT}} Public Repos** •
+**{{LOCATION}}** • **{{CODING_SINCE}}** • **🚀 {{REPO_COUNT}} Public Repos** •
 
 </div>
 
