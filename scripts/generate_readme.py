@@ -118,12 +118,9 @@ def build_social_links(username: str, user: Any) -> str:
     if website and not (website.startswith("http://") or website.startswith("https://")):
         website = f"https://{website}"
     twitter = (user.get("twitter_username") or "").strip()
+    show_github = (env("SHOW_GITHUB_LINK", "").strip().lower() in {"1", "true", "yes"})
     
-    links = [
-        f'<a href="https://github.com/{username}" target="_blank" rel="noopener noreferrer">'
-        '<img alt="GitHub" src="https://cdn.simpleicons.org/github/181717" width="28" height="28" />'
-        '</a>'
-    ]
+    links: list[str] = []
     
     if twitter:
         links.append(
@@ -136,6 +133,13 @@ def build_social_links(username: str, user: Any) -> str:
         links.append(
             f'<a href="{website}" target="_blank" rel="noopener noreferrer">'
             '<img alt="Website" src="https://cdn.simpleicons.org/globe/0EA5E9" width="28" height="28" />'
+            '</a>'
+        )
+    
+    if show_github:
+        links.append(
+            f'<a href="https://github.com/{username}" target="_blank" rel="noopener noreferrer">'
+            '<img alt="GitHub" src="https://cdn.simpleicons.org/github/181717" width="28" height="28" />'
             '</a>'
         )
     
