@@ -40,9 +40,3 @@
 ### ⭐ Recent stars
 
 {{RECENT_STARS}}
-
----
-
-### 🛠️ Technologies & tools
-
-{{TECH_STACK}}
