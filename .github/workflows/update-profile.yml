@@ -15,16 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Allow overriding username from repository variables or secrets; default to repo owner
-      GH_USERNAME: ${{ vars.GH_USERNAME || secrets.GH_USERNAME || github.repository_owner }}
-      GH_PAT: ${{ secrets.GH_PAT }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      GH_TIMEZONE: ${{ vars.GH_TIMEZONE || 'Europe/Athens' }}
-      WEBSITE_URL: ${{ vars.WEBSITE_URL }}
-      LINKEDIN_URL: ${{ vars.LINKEDIN_URL }}
-      INSTAGRAM_URL: ${{ vars.INSTAGRAM_URL }}
-      WORKING_ON_LIMIT: ${{ vars.WORKING_ON_LIMIT }}
-      LATEST_PROJECTS_LIMIT: ${{ vars.LATEST_PROJECTS_LIMIT }}
-      PRS_DAYS: ${{ vars.PRS_DAYS }}
+      GH_USERNAME: ${{ github.repository_owner }}
+      GH_TIMEZONE: Europe/Athens
     
     permissions:
       contents: write
@@ -59,12 +51,12 @@ jobs:
           base: header, repositories, metadata
           filename: assets/github-metrics.svg
           config_timezone: ${{ env.GH_TIMEZONE }}
-
+          
           # Repositories configuration
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           repositories_batch: 100
-
+          
           # Disable activity to avoid occasional API edge errors
           plugin_activity: no
 
