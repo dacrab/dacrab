@@ -130,7 +130,8 @@ def build_social_links(username: str, user: Any, token: str) -> str:
         "devto": ("devdotto", "0A0A0A", "DEV"),
         "medium": ("medium", "12100E", "Medium"),
         "bluesky": ("bluesky", "0285FF", "Bluesky"),
-        "website": ("globe", "0EA5E9", "Website"),
+        # default website fallback icon uses Google Chrome brand
+        "website": ("googlechrome", "4285F4", "Website"),
         "github": ("github", "181717", "GitHub"),
     }
 
@@ -169,9 +170,35 @@ def build_social_links(username: str, user: Any, token: str) -> str:
 
     links: list[str] = []
 
-    # Website from profile
+    # Website from profile (choose icon by domain, fallback to Chrome)
     if website:
+        try:
+            host = urlparse(website).netloc.lower().lstrip("www.")
+        except Exception:
+            host = ""
+        site_icon_map = {
+            "github.io": ("github", "181717", "GitHub Pages"),
+            "github.com": ("github", "181717", "GitHub"),
+            "gitlab.com": ("gitlab", "FC6D26", "GitLab"),
+            "vercel.app": ("vercel", "000000", "Vercel"),
+            "netlify.app": ("netlify", "00C7B7", "Netlify"),
+            "pages.dev": ("cloudflare", "F38020", "Cloudflare Pages"),
+            "medium.com": ("medium", "12100E", "Medium"),
+            "dev.to": ("devdotto", "0A0A0A", "DEV"),
+            "notion.site": ("notion", "000000", "Notion"),
+            "notion.so": ("notion", "000000", "Notion"),
+            "wordpress.com": ("wordpress", "21759B", "WordPress"),
+            "blogspot.com": ("blogger", "FF5722", "Blogger"),
+            "hashnode.dev": ("hashnode", "2962FF", "Hashnode"),
+            "hashnode.com": ("hashnode", "2962FF", "Hashnode"),
+            "substack.com": ("substack", "FF6719", "Substack"),
+            "about.me": ("aboutdotme", "00A98F", "About.me"),
+        }
         slug, color, alt = icons["website"]
+        for domain, icon in site_icon_map.items():
+            if host.endswith(domain):
+                slug, color, alt = icon
+                break
         links.append(
             f'<a href="{website}" target="_blank" rel="noopener noreferrer">'
             f'<img alt="{alt}" src="https://cdn.simpleicons.org/{slug}/{color}" width="28" height="28" />'
