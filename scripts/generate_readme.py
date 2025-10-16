@@ -63,6 +63,8 @@ def build_working_on(events: Any, username: str, token: str, limit: int = 4) -> 
         name = repo.split("/")[-1]
         try:
             data = gh_get(f"/repos/{repo}", token) or {}
+            if data.get("private"):
+                continue
             desc = limit_text(data.get("description") or "No description available", 80)
             lines.append(f"* [{name}](https://github.com/{repo}) - {desc}")
         except Exception:
@@ -72,14 +74,17 @@ def build_working_on(events: Any, username: str, token: str, limit: int = 4) -> 
 
 
 def build_latest_projects(repos: Any, limit: int = 3) -> str:
-    items = [r for r in repos if not r.get("fork") and r.get("size", 0) > 0][:limit]
+    items = [
+        r for r in repos
+        if not r.get("fork") and not r.get("private") and r.get("size", 0) > 0
+    ][:limit]
     return "\n".join(
         f"* [**{r['name']}**]({r['html_url']}) - {r.get('description') or 'No description available'}"
         for r in items
     )
 
 
-def build_recent_prs(prs_payload: Any) -> str:
+def build_recent_prs(prs_payload: Any, token: str) -> str:
     items = (prs_payload or {}).get("items", [])
     if not items:
         return "* No recent pull requests - time to contribute! 🔀"
@@ -89,6 +94,15 @@ def build_recent_prs(prs_payload: Any) -> str:
         title = limit_text(item.get("title", "Untitled"), 60)
         api_repo_url = item.get("repository_url", "")
         repo_name = api_repo_url.split("/")[-1] if api_repo_url else "repo"
+        # Skip private repositories
+        try:
+            if api_repo_url:
+                path = api_repo_url.replace("https://api.github.com", "")
+                repo_meta = gh_get(path, token) or {}
+                if repo_meta.get("private"):
+                    continue
+        except Exception:
+            pass
         # Convert API repo URL to github.com URL for nicer display links
         repo_html_url = (
             api_repo_url.replace("api.github.com/repos", "github.com") if api_repo_url else ""
@@ -309,7 +323,7 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
     social_links = build_social_links(username, user, token)
     working_on = build_working_on(events, username, token, env_int("WORKING_ON_LIMIT", 4))
     latest_projects = build_latest_projects(repos_newest, env_int("LATEST_PROJECTS_LIMIT", 3))
-    recent_prs = build_recent_prs(prs)
+    recent_prs = build_recent_prs(prs, token)
     recent_stars = build_recent_stars(stars)
 
     # Template replacements
