@@ -9,7 +9,7 @@
 
 ### Connect
 
-<p align="left"><a href="https://dacrab.is-a.dev" target="_blank" rel="noopener noreferrer"><img alt="Website" src="https://cdn.simpleicons.org/globe/0EA5E9" width="28" height="28" /></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/E4405F" width="28" height="28" /></a> <a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer"><img alt="Proton" src="https://cdn.simpleicons.org/protonmail/6D4AFF" width="28" height="28" /></a></p>
+<p align="left"><a href="https://dacrab.is-a.dev" target="_blank" rel="noopener noreferrer"><img alt="Website" src="https://cdn.simpleicons.org/googlechrome/4285F4" width="28" height="28" /></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/E4405F" width="28" height="28" /></a> <a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer"><img alt="Proton" src="https://cdn.simpleicons.org/protonmail/6D4AFF" width="28" height="28" /></a></p>
 
 ### 📊 Metrics
 
