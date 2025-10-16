@@ -48,7 +48,7 @@ def limit_text(text: str, max_len: int) -> str:
     return text if len(text) <= max_len else text[: max_len - 3] + "..."
 
 
-def build_working_on(events: Any, username: str, token: str, limit: int = 4) -> str:
+def build_working_on(events: Any, token: str, limit: int = 4) -> str:
     repos = []
     for event in events:
         if event.get("type") in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
@@ -311,29 +311,19 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
         token,
     )
 
-    # Extract user data
+    # Extract user data (only fields used by template)
     user_name = user.get("name") or env("FALLBACK_NAME", username)
-    user_bio = user.get("bio") or env("FALLBACK_BIO", "Passionate developer building amazing projects")
-    repo_count = str(user.get("public_repos", "0"))
-    location = user.get("location") or env("FALLBACK_LOCATION", "📍 Unknown location")
-    coding_since_year = (user.get("created_at") or "").split("-")[0] or "Unknown"
-    coding_since = f"💻 Coding since {coding_since_year}"
 
     # Build sections
     social_links = build_social_links(username, user, token)
-    working_on = build_working_on(events, username, token, env_int("WORKING_ON_LIMIT", 4))
+    working_on = build_working_on(events, token, env_int("WORKING_ON_LIMIT", 4))
     latest_projects = build_latest_projects(repos_newest, env_int("LATEST_PROJECTS_LIMIT", 3))
     recent_prs = build_recent_prs(prs, token)
     recent_stars = build_recent_stars(stars)
 
     # Template replacements
     replacements = {
-        "{{USERNAME}}": username,
         "{{USER_NAME}}": user_name,
-        "{{USER_BIO}}": user_bio,
-        "{{REPO_COUNT}}": repo_count,
-        "{{LOCATION}}": location,
-        "{{CODING_SINCE}}": coding_since,
         "{{SOCIAL_LINKS}}": social_links,
         "{{WORKING_ON}}": working_on,
         "{{LATEST_PROJECTS}}": latest_projects,
