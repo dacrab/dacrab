@@ -48,7 +48,7 @@ def limit_text(text: str, max_len: int) -> str:
     return text if len(text) <= max_len else text[: max_len - 3] + "..."
 
 
-def build_working_on(events: Any, username: str, limit: int = 4) -> str:
+def build_working_on(events: Any, username: str, token: str, limit: int = 4) -> str:
     repos = []
     for event in events:
         if event.get("type") in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
@@ -61,7 +61,12 @@ def build_working_on(events: Any, username: str, limit: int = 4) -> str:
     lines = []
     for repo in repos:
         name = repo.split("/")[-1]
-        lines.append(f"* [{name}](https://github.com/{repo})")
+        try:
+            data = gh_get(f"/repos/{repo}", token) or {}
+            desc = limit_text(data.get("description") or "No description available", 80)
+            lines.append(f"* [{name}](https://github.com/{repo}) - {desc}")
+        except Exception:
+            lines.append(f"* [{name}](https://github.com/{repo})")
     
     return "\n".join(lines)
 
@@ -302,7 +307,7 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
 
     # Build sections
     social_links = build_social_links(username, user, token)
-    working_on = build_working_on(events, username, env_int("WORKING_ON_LIMIT", 4))
+    working_on = build_working_on(events, username, token, env_int("WORKING_ON_LIMIT", 4))
     latest_projects = build_latest_projects(repos_newest, env_int("LATEST_PROJECTS_LIMIT", 3))
     recent_prs = build_recent_prs(prs)
     recent_stars = build_recent_stars(stars)
