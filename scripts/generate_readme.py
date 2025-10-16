@@ -199,6 +199,42 @@ def build_social_links(username: str, user: Any, token: str) -> str:
                 "</a>"
             )
 
+    # Email (public or primary for self)
+    email = (user.get("email") or "").strip()
+    if not email:
+        try:
+            me = gh_get("/user", token) or {}
+            if (me.get("login") or "").lower() == username.lower():
+                emails = gh_get("/user/emails", token) or []
+                primary = next((e.get("email") for e in emails if e.get("primary")), None)
+                verified = next((e.get("email") for e in emails if e.get("verified")), None)
+                email = primary or verified or (emails[0].get("email") if emails else "")
+        except Exception:
+            pass
+
+    if email:
+        domain = email.split("@")[-1].lower()
+        email_icons = {
+            "gmail.com": ("gmail", "EA4335", "Gmail"),
+            "googlemail.com": ("gmail", "EA4335", "Gmail"),
+            "outlook.com": ("microsoftoutlook", "0078D4", "Outlook"),
+            "hotmail.com": ("microsoftoutlook", "0078D4", "Outlook"),
+            "live.com": ("microsoftoutlook", "0078D4", "Outlook"),
+            "office365.com": ("microsoftoutlook", "0078D4", "Outlook"),
+            "yahoo.com": ("yahoo", "6001D2", "Yahoo Mail"),
+            "proton.me": ("protonmail", "6D4AFF", "Proton"),
+            "protonmail.com": ("protonmail", "6D4AFF", "Proton"),
+            "icloud.com": ("icloud", "3693F3", "iCloud Mail"),
+            "me.com": ("icloud", "3693F3", "iCloud Mail"),
+            "mac.com": ("icloud", "3693F3", "iCloud Mail"),
+        }
+        slug, color, alt = email_icons.get(domain, ("minutemailer", "0EA5E9", "Email"))
+        links.append(
+            f'<a href="mailto:{email}" target="_blank" rel="noopener noreferrer">'
+            f'<img alt="{alt}" src="https://cdn.simpleicons.org/{slug}/{color}" width="28" height="28" />'
+            "</a>"
+        )
+
     if show_github:
         slug, color, alt = icons["github"]
         links.append(
