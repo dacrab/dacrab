@@ -23,7 +23,6 @@
 
 * [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [designdash](https://github.com/dacrab/designdash) - No description available
 
 ### 🌱 Latest repositories
 
@@ -34,7 +33,6 @@
 ### 🔨 Recent pull requests
 
 * [Feature/configurable user](https://github.com/dacrab/dacrab/pull/1) on [dacrab](https://github.com/dacrab/dacrab)
-* [Refactor/shared UI primitives](https://github.com/dacrab/designdash/pull/19) on [designdash](https://github.com/dacrab/designdash)
 * [UI: Remove window gaps, compact input, shrink-to-fit bar](https://github.com/iamsrikanthnani/pluely/pull/83) on [pluely](https://github.com/iamsrikanthnani/pluely)
 * [chore(deps): refresh bun.lock after dependency changes](https://github.com/dacrab/perfly/pull/15) on [perfly](https://github.com/dacrab/perfly)
 * [refactor: streamline dashboard, sales/register flows, typ...](https://github.com/dacrab/clubos-legacy/pull/1) on [clubos-legacy](https://github.com/dacrab/clubos-legacy)
