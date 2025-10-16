@@ -21,9 +21,9 @@
 
 ### 👷 Active projects
 
-* [dacrab](https://github.com/dacrab/dacrab)
-* [clubOS](https://github.com/dacrab/clubOS)
-* [designdash](https://github.com/dacrab/designdash)
+* [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
+* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [designdash](https://github.com/dacrab/designdash) - No description available
 
 ### 🌱 Latest repositories
 
