@@ -21,8 +21,8 @@
 
 ### 👷 Active projects
 
-* [clubOS](https://github.com/dacrab/clubOS) - POS system demo using Next.js & NeonDB
 * [dacrab](https://github.com/dacrab/dacrab) - My custom dynamic GitHub profile
+* [clubOS](https://github.com/dacrab/clubOS) - POS system demo using Next.js & NeonDB
 * [cursor-reset](https://github.com/dacrab/cursor-reset) - Recent project
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built with Astro
 
