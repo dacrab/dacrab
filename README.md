@@ -20,8 +20,8 @@
 
 ### 👷 Active projects
 
-* [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 
 ### 🌱 Latest repositories
 
