@@ -20,6 +20,7 @@
 
 ### 👷 Active projects
 
+* [perfly](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
 
