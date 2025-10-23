@@ -22,7 +22,6 @@
 
 * [perfly](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 
 ### 🌱 Latest repositories
 
