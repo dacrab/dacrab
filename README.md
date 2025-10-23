@@ -20,8 +20,8 @@
 
 ### 👷 Active projects
 
-* [perfly](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
+* [ashell](https://github.com/MalpenZibo/ashell) - A ready to go Wayland status bar for Hyprland
+* [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
 
 ### 🌱 Latest repositories
 
@@ -31,10 +31,10 @@
 
 ### 🔨 Recent pull requests
 
+* [CI: Copr automation + Nix build fix + Wayland compatibility](https://github.com/MalpenZibo/ashell/pull/297) on [ashell](https://github.com/MalpenZibo/ashell)
+* [Copr build automation: SRPM build + Copr trigger](https://github.com/MalpenZibo/ashell/pull/296) on [ashell](https://github.com/MalpenZibo/ashell)
 * [Feature/configurable user](https://github.com/dacrab/dacrab/pull/1) on [dacrab](https://github.com/dacrab/dacrab)
 * [UI: Remove window gaps, compact input, shrink-to-fit bar](https://github.com/iamsrikanthnani/pluely/pull/83) on [pluely](https://github.com/iamsrikanthnani/pluely)
-* [chore(deps): refresh bun.lock after dependency changes](https://github.com/dacrab/perfly/pull/15) on [perfly](https://github.com/dacrab/perfly)
-* [refactor: streamline dashboard, sales/register flows, typ...](https://github.com/dacrab/clubos-legacy/pull/1) on [clubos-legacy](https://github.com/dacrab/clubos-legacy)
 
 ### ⭐ Recent stars
 
