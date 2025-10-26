@@ -20,6 +20,7 @@
 
 ### 👷 Active projects
 
+* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
 
