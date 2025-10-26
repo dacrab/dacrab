@@ -20,8 +20,8 @@
 
 ### 👷 Active projects
 
+* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
-* [ashell](https://github.com/MalpenZibo/ashell) - A ready to go Wayland status bar for Hyprland
 
 ### 🌱 Latest repositories
 
