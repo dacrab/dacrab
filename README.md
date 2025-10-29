@@ -20,8 +20,8 @@
 
 ### 👷 Active projects
 
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
 
 ### 🌱 Latest repositories
