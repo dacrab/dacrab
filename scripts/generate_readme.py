@@ -164,7 +164,7 @@ def normalize_lang_name(lang_name: str) -> str | None:
 def create_social_icon_link(url: str, icon_name: str, alt: str) -> str:
     """Create HTML link with skillicons.dev icon (colorful and consistent)."""
     return (
-        f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 18px; display: inline-block;">'
+        f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 24px; display: inline-block;">'
         f'<img alt="{alt}" src="{SKILLICONS_BASE}?i={icon_name}" width="{SOCIAL_ICON_SIZE}" height="{SOCIAL_ICON_SIZE}" style="transition: transform 0.2s;" />'
         "</a>"
     )
