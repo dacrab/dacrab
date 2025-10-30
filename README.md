@@ -7,13 +7,13 @@
 
 ### 💻 Top Languages
 
-<p align="left"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,unity" alt="Top Languages" /></p>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,unity" alt="Top Languages" /></div>
 
 ### 📊 Metrics
 
-<p align="left">
+<div align="center">
   <img src="./assets/github-metrics.svg" />
-</p>
+</div>
 
 ---
 
@@ -49,6 +49,6 @@
 
 <div align="center">
   <p>
-    <a href="https://dacrab.is-a.dev" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img alt="Website" src="https://cdn.simpleicons.org/googlechrome/4285F4" width="40" height="40" style="transition: transform 0.2s;" /></a><a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/E4405F" width="40" height="40" style="transition: transform 0.2s;" /></a><a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img alt="Proton" src="https://cdn.simpleicons.org/protonmail/6D4AFF" width="40" height="40" style="transition: transform 0.2s;" /></a>
+    <a href="https://dacrab.is-a.dev" target="_blank" rel="noopener noreferrer" style="margin: 0 12px; display: inline-block;"><img alt="Website" src="https://skillicons.dev/icons?i=chrome" width="48" height="48" style="transition: transform 0.2s;" /></a><a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer" style="margin: 0 12px; display: inline-block;"><img alt="Instagram" src="https://skillicons.dev/icons?i=instagram" width="48" height="48" style="transition: transform 0.2s;" /></a><a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer" style="margin: 0 12px; display: inline-block;"><img alt="Proton" src="https://skillicons.dev/icons?i=proton" width="48" height="48" style="transition: transform 0.2s;" /></a>
   </p>
 </div>
