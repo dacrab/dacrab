@@ -15,7 +15,8 @@ MAX_REPOS_FOR_LANGUAGES = 100
 MAX_REPOS_FETCH = 200
 REPOS_PER_PAGE = 100
 DEFAULT_PR_DAYS = 30
-ICON_SIZE = 28
+ICON_SIZE = 32  # Larger default size for better visibility
+SOCIAL_ICON_SIZE = 40  # Larger size for social icons
 SKILLICONS_BASE = "https://skillicons.dev/icons"
 SIMPLICONS_BASE = "https://cdn.simpleicons.org"
 
@@ -161,11 +162,12 @@ def normalize_lang_name(lang_name: str) -> str | None:
     return None
 
 
-def create_icon_link(url: str, slug: str, color: str, alt: str) -> str:
-    """Create HTML link with icon image."""
+def create_icon_link(url: str, slug: str, color: str, alt: str, size: int = None) -> str:
+    """Create HTML link with colorful icon image."""
+    icon_size = size or ICON_SIZE
     return (
-        f'<a href="{url}" target="_blank" rel="noopener noreferrer">'
-        f'<img alt="{alt}" src="{SIMPLICONS_BASE}/{slug}/{color}" width="{ICON_SIZE}" height="{ICON_SIZE}" />'
+        f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">'
+        f'<img alt="{alt}" src="{SIMPLICONS_BASE}/{slug}/{color}" width="{icon_size}" height="{icon_size}" style="transition: transform 0.2s;" />'
         "</a>"
     )
 
@@ -407,7 +409,7 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             if host.endswith(domain):
                 slug, color, alt = icon
                 break
-        links.append(create_icon_link(website, slug, color, alt))
+        links.append(create_icon_link(website, slug, color, alt, SOCIAL_ICON_SIZE))
 
     # Build icons from socials
     for s in socials:
@@ -424,7 +426,7 @@ def build_social_links(username: str, user: Any, token: str) -> str:
                 pass
         if provider in icons:
             slug, color, alt = icons[provider]
-            links.append(create_icon_link(url, slug, color, alt))
+            links.append(create_icon_link(url, slug, color, alt, SOCIAL_ICON_SIZE))
 
     # Email (public or primary for self)
     email = (user.get("email") or "").strip()
@@ -456,13 +458,24 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             "mac.com": ("icloud", "3693F3", "iCloud Mail"),
         }
         slug, color, alt = email_icons.get(domain, ("minutemailer", "0EA5E9", "Email"))
-        links.append(create_icon_link(f"mailto:{email}", slug, color, alt))
+        links.append(create_icon_link(f"mailto:{email}", slug, color, alt, SOCIAL_ICON_SIZE))
 
     if show_github:
         slug, color, alt = icons["github"]
-        links.append(create_icon_link(f"https://github.com/{username}", slug, color, alt))
+        links.append(create_icon_link(f"https://github.com/{username}", slug, color, alt, SOCIAL_ICON_SIZE))
 
-    return f'<p align="left">{" ".join(links)}</p>' if links else ""
+    if not links:
+        return ""
+    
+    # Professional centered layout with better spacing
+    icons_html = "".join(links)
+    return (
+        '<div align="center">\n'
+        '  <p>\n'
+        f'    {icons_html}\n'
+        '  </p>\n'
+        '</div>'
+    )
 
 
 def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:
