@@ -402,7 +402,8 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             "substack.com": ("substack", "Substack"),
             "about.me": ("aboutme", "About.me"),
         }
-        icon_name, alt = icons.get("website", ("chrome", "Website"))
+        icon_name = icons.get("website", "chrome")
+        alt = "Website"
         for domain, (icon, alt_text) in site_icon_map.items():
             if host.endswith(domain):
                 icon_name, alt = icon, alt_text
