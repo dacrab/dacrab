@@ -20,61 +20,37 @@ SKILLICONS_BASE = "https://skillicons.dev/icons"
 SIMPLICONS_BASE = "https://cdn.simpleicons.org"
 
 
-# Language mapping for skillicons.dev
+# Curated language-to-skillicon slug mapping (mainstream only)
 LANGUAGE_MAPPING = {
-    "JavaScript": "javascript",
+    # Web and scripting
     "TypeScript": "ts",
+    "JavaScript": "javascript",
     "Python": "python",
-    "Java": "java",
-    "C++": "cpp",
+    "PHP": "php",
+    "Ruby": "ruby",
+    "Shell": "bash",
+    "PowerShell": "powershell",
+    "HTML": "html",
+    "CSS": "css",
+    "Markdown": "markdown",
+    "JSON": "json",
+
+    # Systems and general purpose
     "C": "c",
+    "C++": "cpp",
     "C#": "cs",
     "Go": "go",
     "Rust": "rust",
-    "PHP": "php",
-    "Ruby": "ruby",
-    "Swift": "swift",
+    "Java": "java",
     "Kotlin": "kotlin",
+    "Swift": "swift",
     "Dart": "dart",
-    "Scala": "scala",
-    "Shell": "bash",
-    "PowerShell": "powershell",
     "R": "r",
-    "MATLAB": "matlab",
-    # skillicons uses objc
+    "Scala": "scala",
     "Objective-C": "objc",
-    "Vue": "vue",
-    "React": "react",
-    "Angular": "angular",
-    "Svelte": "svelte",
-    "HTML": "html",
-    "CSS": "css",
-    "SCSS": "sass",
-    "Less": "less",
-    "Sass": "sass",
-    "Markdown": "markdown",
-    "TeX": "latex",
     "Lua": "lua",
-    "Perl": "perl",
-    "Haskell": "haskell",
-    "Clojure": "clojure",
-    "Elixir": "elixir",
-    "Erlang": "erlang",
-    "Elm": "elm",
-    "OCaml": "ocaml",
-    "F#": "fsharp",
-    "Zig": "zig",
-    "Nim": "nim",
-    "Crystal": "crystal",
-    "Julia": "julia",
-    "Dockerfile": "docker",
-    "Makefile": "makefile",
-    "CMake": "cmake",
-    "Nix": "nix",
-    "YAML": "yaml",
-    "JSON": "json",
-    "SQL": "sql",
-    # skillicons uses postgres (not postgresql)
+
+    # Databases (when present in Linguist language list)
     "PostgreSQL": "postgres",
     "MySQL": "mysql",
     "MongoDB": "mongodb",
@@ -112,12 +88,13 @@ LANGUAGE_MAPPING = {
     "shaderlab": "unity",  # Unity's shader language (lowercase variant)
     "HLSL": "hlsl",
     "GLSL": "glsl",
-    "Jupyter Notebook": "jupyter",  # Jupyter notebooks
-    "GDScript": "godot",  # Godot game engine
-    "Solidity": "solidity",  # Ethereum smart contracts
-    "Assembly": "assembly",  # Assembly language
-    "Fortran": "fortran",  # Fortran
-    "COBOL": "cobol",  # COBOL
+    "ShaderLab": "unity",
+    
+    # Frontend meta-languages frequently reported by Linguist
+    "Svelte": "svelte",
+    "SCSS": "sass",
+    "Sass": "sass",
+    "Less": "less",
 }
 
 
