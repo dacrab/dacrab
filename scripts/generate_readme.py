@@ -106,6 +106,9 @@ LANGUAGE_MAPPING = {
     "GitHub": "github",
     "GitLab": "gitlab",
     "Linux": "linux",
+    "ShaderLab": "unity",  # Unity's shader language
+    "HLSL": "unity",  # Unity shader language
+    "GLSL": "opengl",  # OpenGL Shading Language
 }
 
 
@@ -152,13 +155,16 @@ def limit_text(text: str, max_len: int) -> str:
     return text if len(text) <= max_len else text[: max_len - 3] + "..."
 
 
-def normalize_lang_name(lang_name: str) -> str:
-    """Convert GitHub language name to skillicons.dev format."""
+def normalize_lang_name(lang_name: str) -> str | None:
+    """Convert GitHub language name to skillicons.dev format.
+    
+    Returns None if the language doesn't have a valid icon mapping.
+    """
     mapped = LANGUAGE_MAPPING.get(lang_name)
     if mapped:
         return mapped
-    # Fallback: lowercase, replace spaces with hyphens, remove dots, replace + with plus
-    return lang_name.lower().replace(" ", "-").replace(".", "").replace("+", "plus")
+    # Return None for unmapped languages to filter them out
+    return None
 
 
 def create_icon_link(url: str, slug: str, color: str, alt: str) -> str:
@@ -294,10 +300,16 @@ def build_top_languages(username: str, token: str, limit: int = 8) -> str:
         return "<p align=\"left\">No language data available</p>"
     
     # Sort by bytes and get top languages
-    sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)[:limit]
+    sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)
     
-    # Map to skillicons.dev format
-    icon_names = [normalize_lang_name(lang_name) for lang_name, _ in sorted_langs]
+    # Map to skillicons.dev format, filtering out unmapped languages
+    icon_names = []
+    for lang_name, _ in sorted_langs:
+        icon_name = normalize_lang_name(lang_name)
+        if icon_name:
+            icon_names.append(icon_name)
+            if len(icon_names) >= limit:
+                break
     
     if not icon_names:
         return "<p align=\"left\">No languages found</p>"
