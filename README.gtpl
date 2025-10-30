@@ -11,9 +11,9 @@
 
 ### 📊 Metrics
 
-<p align="left">
+<div align="center">
   <img src="./assets/github-metrics.svg" />
-</p>
+</div>
 
 ---
 
