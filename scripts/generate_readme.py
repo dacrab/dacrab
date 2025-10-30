@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Generate README.md from template using GitHub API data."""
 import os
 import sys
 import json
@@ -7,15 +8,114 @@ from urllib.parse import urlparse
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
+# Constants
 GITHUB_API = "https://api.github.com"
 RECENT_LIMIT = 5
+MAX_REPOS_FOR_LANGUAGES = 100
+MAX_REPOS_FETCH = 200
+REPOS_PER_PAGE = 100
+DEFAULT_PR_DAYS = 30
+ICON_SIZE = 28
+SKILLICONS_BASE = "https://skillicons.dev/icons"
+SIMPLICONS_BASE = "https://cdn.simpleicons.org"
+
+
+# Language mapping for skillicons.dev
+LANGUAGE_MAPPING = {
+    "JavaScript": "javascript",
+    "TypeScript": "typescript",
+    "Python": "python",
+    "Java": "java",
+    "C++": "cpp",
+    "C": "c",
+    "C#": "csharp",
+    "Go": "go",
+    "Rust": "rust",
+    "PHP": "php",
+    "Ruby": "ruby",
+    "Swift": "swift",
+    "Kotlin": "kotlin",
+    "Dart": "dart",
+    "Scala": "scala",
+    "Shell": "bash",
+    "PowerShell": "powershell",
+    "R": "r",
+    "MATLAB": "matlab",
+    "Objective-C": "objectivec",
+    "Vue": "vue",
+    "React": "react",
+    "Angular": "angular",
+    "Svelte": "svelte",
+    "HTML": "html5",
+    "CSS": "css3",
+    "SCSS": "sass",
+    "Less": "less",
+    "Sass": "sass",
+    "Markdown": "markdown",
+    "TeX": "latex",
+    "Lua": "lua",
+    "Perl": "perl",
+    "Haskell": "haskell",
+    "Clojure": "clojure",
+    "Elixir": "elixir",
+    "Erlang": "erlang",
+    "Elm": "elm",
+    "OCaml": "ocaml",
+    "F#": "fsharp",
+    "Zig": "zig",
+    "Nim": "nim",
+    "Crystal": "crystal",
+    "Julia": "julia",
+    "Dockerfile": "docker",
+    "Makefile": "makefile",
+    "CMake": "cmake",
+    "Nix": "nix",
+    "YAML": "yaml",
+    "JSON": "json",
+    "SQL": "sql",
+    "PostgreSQL": "postgresql",
+    "MySQL": "mysql",
+    "MongoDB": "mongodb",
+    "Redis": "redis",
+    "GraphQL": "graphql",
+    "Node.js": "nodejs",
+    "Deno": "deno",
+    "Bun": "bun",
+    "Next.js": "nextjs",
+    "Nuxt": "nuxt",
+    "Tailwind CSS": "tailwindcss",
+    "Astro": "astro",
+    "SvelteKit": "svelte",
+    "Laravel": "laravel",
+    "Django": "django",
+    "Flask": "flask",
+    "FastAPI": "fastapi",
+    "Rails": "rails",
+    "Spring": "spring",
+    "NestJS": "nestjs",
+    "Supabase": "supabase",
+    "Firebase": "firebase",
+    "Vercel": "vercel",
+    "Netlify": "netlify",
+    "AWS": "amazonaws",
+    "Azure": "azure",
+    "GCP": "googlecloud",
+    "Kubernetes": "kubernetes",
+    "Terraform": "terraform",
+    "Git": "git",
+    "GitHub": "github",
+    "GitLab": "gitlab",
+    "Linux": "linux",
+}
 
 
 def env(name: str, default: str = "") -> str:
+    """Get environment variable with default value."""
     return os.getenv(name) or default
 
 
 def env_int(name: str, default: int) -> int:
+    """Get integer environment variable with default value."""
     value = os.getenv(name)
     if not value or not value.strip().isdigit():
         return default
@@ -26,12 +126,15 @@ def env_int(name: str, default: int) -> int:
 
 
 def env_bool(name: str, default: bool = False) -> bool:
+    """Get boolean environment variable with default value."""
     value = os.getenv(name)
     if value is None:
         return default
     return value.strip().lower() in {"1", "true", "yes", "y", "on"}
 
+
 def gh_get(path: str, token: str) -> Any:
+    """Fetch data from GitHub API."""
     req = Request(
         f"{GITHUB_API}{path}",
         headers={
@@ -45,10 +148,30 @@ def gh_get(path: str, token: str) -> Any:
 
 
 def limit_text(text: str, max_len: int) -> str:
+    """Truncate text to max length with ellipsis."""
     return text if len(text) <= max_len else text[: max_len - 3] + "..."
 
 
+def normalize_lang_name(lang_name: str) -> str:
+    """Convert GitHub language name to skillicons.dev format."""
+    mapped = LANGUAGE_MAPPING.get(lang_name)
+    if mapped:
+        return mapped
+    # Fallback: lowercase, replace spaces with hyphens, remove dots, replace + with plus
+    return lang_name.lower().replace(" ", "-").replace(".", "").replace("+", "plus")
+
+
+def create_icon_link(url: str, slug: str, color: str, alt: str) -> str:
+    """Create HTML link with icon image."""
+    return (
+        f'<a href="{url}" target="_blank" rel="noopener noreferrer">'
+        f'<img alt="{alt}" src="{SIMPLICONS_BASE}/{slug}/{color}" width="{ICON_SIZE}" height="{ICON_SIZE}" />'
+        "</a>"
+    )
+
+
 def build_working_on(events: Any, token: str, limit: int = 4) -> str:
+    """Build list of repositories user is actively working on."""
     repos = []
     for event in events:
         if event.get("type") in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
@@ -70,14 +193,17 @@ def build_working_on(events: Any, token: str, limit: int = 4) -> str:
         except Exception:
             lines.append(f"* [{name}](https://github.com/{repo})")
     
-    return "\n".join(lines)
+    return "\n".join(lines) if lines else "* No active projects"
 
 
 def build_latest_projects(repos: Any, limit: int = 3) -> str:
+    """Build list of latest repositories."""
     items = [
         r for r in repos
         if not r.get("fork") and not r.get("private") and r.get("size", 0) > 0
     ][:limit]
+    if not items:
+        return "* No repositories found"
     return "\n".join(
         f"* [**{r['name']}**]({r['html_url']}) - {r.get('description') or 'No description available'}"
         for r in items
@@ -85,6 +211,7 @@ def build_latest_projects(repos: Any, limit: int = 3) -> str:
 
 
 def build_recent_prs(prs_payload: Any, token: str) -> str:
+    """Build list of recent pull requests."""
     items = (prs_payload or {}).get("items", [])
     if not items:
         return "* No recent pull requests - time to contribute! 🔀"
@@ -94,6 +221,7 @@ def build_recent_prs(prs_payload: Any, token: str) -> str:
         title = limit_text(item.get("title", "Untitled"), 60)
         api_repo_url = item.get("repository_url", "")
         repo_name = api_repo_url.split("/")[-1] if api_repo_url else "repo"
+        
         # Skip private repositories
         try:
             if api_repo_url:
@@ -103,16 +231,18 @@ def build_recent_prs(prs_payload: Any, token: str) -> str:
                     continue
         except Exception:
             pass
+        
         # Convert API repo URL to github.com URL for nicer display links
         repo_html_url = (
             api_repo_url.replace("api.github.com/repos", "github.com") if api_repo_url else ""
         )
         lines.append(f"* [{title}]({item.get('html_url')}) on [{repo_name}]({repo_html_url})")
     
-    return "\n".join(lines)
+    return "\n".join(lines) if lines else "* No recent pull requests - time to contribute! 🔀"
 
 
 def build_recent_stars(stars: Any) -> str:
+    """Build list of recently starred repositories."""
     if not stars:
         return "* No recent stars - discover some awesome repos! ⭐"
     
@@ -126,7 +256,59 @@ def build_recent_stars(stars: Any) -> str:
     return "\n".join(lines)
 
 
+def build_top_languages(username: str, token: str, limit: int = 8) -> str:
+    """Build top languages section using skillicons.dev."""
+    # Fetch repositories (paginated)
+    repos = []
+    page = 1
+    
+    while len(repos) < MAX_REPOS_FETCH:
+        try:
+            page_repos = gh_get(
+                f"/users/{username}/repos?sort=updated&per_page={REPOS_PER_PAGE}&page={page}",
+                token
+            )
+            if not page_repos:
+                break
+            repos.extend([r for r in page_repos if not r.get("fork") and not r.get("private")])
+            if len(page_repos) < REPOS_PER_PAGE:
+                break
+            page += 1
+        except Exception:
+            break
+    
+    # Aggregate languages from repositories
+    language_bytes: dict[str, int] = {}
+    for repo in repos[:MAX_REPOS_FOR_LANGUAGES]:
+        repo_name = repo.get("full_name", "")
+        if not repo_name:
+            continue
+        try:
+            langs = gh_get(f"/repos/{repo_name}/languages", token) or {}
+            for lang, bytes_count in langs.items():
+                language_bytes[lang] = language_bytes.get(lang, 0) + bytes_count
+        except Exception:
+            continue
+    
+    if not language_bytes:
+        return "<p align=\"left\">No language data available</p>"
+    
+    # Sort by bytes and get top languages
+    sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)[:limit]
+    
+    # Map to skillicons.dev format
+    icon_names = [normalize_lang_name(lang_name) for lang_name, _ in sorted_langs]
+    
+    if not icon_names:
+        return "<p align=\"left\">No languages found</p>"
+    
+    # Use skillicons.dev combined format
+    icon_list = ",".join(icon_names)
+    return f'<p align="left"><img src="{SKILLICONS_BASE}?i={icon_list}" alt="Top Languages" /></p>'
+
+
 def build_social_links(username: str, user: Any, token: str) -> str:
+    """Build social links section with icons."""
     website = (user.get("blog") or "").strip()
     # Normalize website to include scheme for correct linking in README
     if website and not (website.startswith("http://") or website.startswith("https://")):
@@ -134,6 +316,7 @@ def build_social_links(username: str, user: Any, token: str) -> str:
     twitter = (user.get("twitter_username") or "").strip()
     show_github = env_bool("SHOW_GITHUB_LINK", False)
 
+    # Social platform icons configuration: (slug, color_hex, alt_text)
     icons = {
         "x": ("x", "000000", "X"),
         "twitter": ("x", "000000", "X"),
@@ -218,11 +401,7 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             if host.endswith(domain):
                 slug, color, alt = icon
                 break
-        links.append(
-            f'<a href="{website}" target="_blank" rel="noopener noreferrer">'
-            f'<img alt="{alt}" src="https://cdn.simpleicons.org/{slug}/{color}" width="28" height="28" />'
-            "</a>"
-        )
+        links.append(create_icon_link(website, slug, color, alt))
 
     # Build icons from socials
     for s in socials:
@@ -239,11 +418,7 @@ def build_social_links(username: str, user: Any, token: str) -> str:
                 pass
         if provider in icons:
             slug, color, alt = icons[provider]
-            links.append(
-                f'<a href="{url}" target="_blank" rel="noopener noreferrer">'
-                f'<img alt="{alt}" src="https://cdn.simpleicons.org/{slug}/{color}" width="28" height="28" />'
-                "</a>"
-            )
+            links.append(create_icon_link(url, slug, color, alt))
 
     # Email (public or primary for self)
     email = (user.get("email") or "").strip()
@@ -275,24 +450,17 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             "mac.com": ("icloud", "3693F3", "iCloud Mail"),
         }
         slug, color, alt = email_icons.get(domain, ("minutemailer", "0EA5E9", "Email"))
-        links.append(
-            f'<a href="mailto:{email}" target="_blank" rel="noopener noreferrer">'
-            f'<img alt="{alt}" src="https://cdn.simpleicons.org/{slug}/{color}" width="28" height="28" />'
-            "</a>"
-        )
+        links.append(create_icon_link(f"mailto:{email}", slug, color, alt))
 
     if show_github:
         slug, color, alt = icons["github"]
-        links.append(
-            f'<a href="https://github.com/{username}" target="_blank" rel="noopener noreferrer">'
-            f'<img alt="{alt}" src="https://cdn.simpleicons.org/{slug}/{color}" width="28" height="28" />'
-            "</a>"
-        )
+        links.append(create_icon_link(f"https://github.com/{username}", slug, color, alt))
 
     return f'<p align="left">{" ".join(links)}</p>' if links else ""
 
 
 def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:
+    """Generate README.md from template using GitHub API data."""
     # Fetch GitHub data
     user = gh_get(f"/users/{username}", token)
     events = gh_get(f"/users/{username}/events?per_page=50", token)
@@ -304,31 +472,26 @@ def generate_readme(template_path: str, output_path: str, username: str, token: 
     )
     
     # Calculate PR cutoff date
-    prs_days = env_int("PRS_DAYS", 30)
+    prs_days = env_int("PRS_DAYS", DEFAULT_PR_DAYS)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=prs_days)).strftime("%Y-%m-%d")
     prs = gh_get(
         f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page={RECENT_LIMIT}",
         token,
     )
 
-    # Extract user data (only fields used by template)
-    user_name = user.get("name") or env("FALLBACK_NAME", username)
+    # Extract only first name
+    full_name = user.get("name") or env("FALLBACK_NAME", username)
+    user_name = full_name.split()[0] if full_name else username
 
     # Build sections
-    social_links = build_social_links(username, user, token)
-    working_on = build_working_on(events, token, env_int("WORKING_ON_LIMIT", 4))
-    latest_projects = build_latest_projects(repos_newest, env_int("LATEST_PROJECTS_LIMIT", 3))
-    recent_prs = build_recent_prs(prs, token)
-    recent_stars = build_recent_stars(stars)
-
-    # Template replacements
     replacements = {
         "{{USER_NAME}}": user_name,
-        "{{SOCIAL_LINKS}}": social_links,
-        "{{WORKING_ON}}": working_on,
-        "{{LATEST_PROJECTS}}": latest_projects,
-        "{{RECENT_PRS}}": recent_prs,
-        "{{RECENT_STARS}}": recent_stars,
+        "{{TOP_LANGUAGES}}": build_top_languages(username, token, env_int("TOP_LANGUAGES_LIMIT", 8)),
+        "{{SOCIAL_LINKS}}": build_social_links(username, user, token),
+        "{{WORKING_ON}}": build_working_on(events, token, env_int("WORKING_ON_LIMIT", 4)),
+        "{{LATEST_PROJECTS}}": build_latest_projects(repos_newest, env_int("LATEST_PROJECTS_LIMIT", 3)),
+        "{{RECENT_PRS}}": build_recent_prs(prs, token),
+        "{{RECENT_STARS}}": build_recent_stars(stars),
     }
 
     # Generate README
