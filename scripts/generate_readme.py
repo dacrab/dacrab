@@ -23,7 +23,8 @@ SIMPLICONS_BASE = "https://cdn.simpleicons.org"
 # Language mapping for skillicons.dev
 LANGUAGE_MAPPING = {
     "JavaScript": "javascript",
-    "TypeScript": "typescript",
+    # Use official skillicons slugs per https://github.com/tandpfun/skill-icons#readme
+    "TypeScript": "ts",
     "Python": "python",
     "Java": "java",
     "C++": "cpp",
@@ -41,13 +42,14 @@ LANGUAGE_MAPPING = {
     "PowerShell": "powershell",
     "R": "r",
     "MATLAB": "matlab",
-    "Objective-C": "objectivec",
+    # skillicons uses objc
+    "Objective-C": "objc",
     "Vue": "vue",
     "React": "react",
     "Angular": "angular",
     "Svelte": "svelte",
-    "HTML": "html5",
-    "CSS": "css3",
+    "HTML": "html",
+    "CSS": "css",
     "SCSS": "sass",
     "Less": "less",
     "Sass": "sass",
@@ -73,7 +75,8 @@ LANGUAGE_MAPPING = {
     "YAML": "yaml",
     "JSON": "json",
     "SQL": "sql",
-    "PostgreSQL": "postgresql",
+    # skillicons uses postgres (not postgresql)
+    "PostgreSQL": "postgres",
     "MySQL": "mysql",
     "MongoDB": "mongodb",
     "Redis": "redis",
@@ -83,7 +86,7 @@ LANGUAGE_MAPPING = {
     "Bun": "bun",
     "Next.js": "nextjs",
     "Nuxt": "nuxt",
-    "Tailwind CSS": "tailwindcss",
+    "Tailwind CSS": "tailwind",
     "Astro": "astro",
     "SvelteKit": "svelte",
     "Laravel": "laravel",
@@ -108,8 +111,8 @@ LANGUAGE_MAPPING = {
     "Linux": "linux",
     "ShaderLab": "unity",  # Unity's shader language
     "shaderlab": "unity",  # Unity's shader language (lowercase variant)
-    "HLSL": "unity",  # Unity shader language
-    "GLSL": "opengl",  # OpenGL Shading Language
+    "HLSL": "hlsl",
+    "GLSL": "glsl",
     "Jupyter Notebook": "jupyter",  # Jupyter notebooks
     "GDScript": "godot",  # Godot game engine
     "Solidity": "solidity",  # Ethereum smart contracts
