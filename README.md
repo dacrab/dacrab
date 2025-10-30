@@ -45,6 +45,10 @@
 * [Prat011/free-cluely](https://github.com/Prat011/free-cluely) - Cluely - The invisible desktop assistant that provides real-time insights, an...
 * [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
-### Connect
+### 💬 Connect with me
 
-<p align="left"><a href="https://dacrab.is-a.dev" target="_blank" rel="noopener noreferrer"><img alt="Website" src="https://cdn.simpleicons.org/googlechrome/4285F4" width="28" height="28" /></a> <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/E4405F" width="28" height="28" /></a> <a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer"><img alt="Proton" src="https://cdn.simpleicons.org/protonmail/6D4AFF" width="28" height="28" /></a></p>
+<div align="center">
+  <p>
+    <a href="https://dacrab.is-a.dev" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img alt="Website" src="https://cdn.simpleicons.org/googlechrome/4285F4" width="40" height="40" style="transition: transform 0.2s;" /></a><a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img alt="Instagram" src="https://cdn.simpleicons.org/instagram/E4405F" width="40" height="40" style="transition: transform 0.2s;" /></a><a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;"><img alt="Proton" src="https://cdn.simpleicons.org/protonmail/6D4AFF" width="40" height="40" style="transition: transform 0.2s;" /></a>
+  </p>
+</div>
