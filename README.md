@@ -20,8 +20,8 @@
 
 ### 👷 Active projects
 
-* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
+* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 
 ### 🌱 Latest repositories
