@@ -107,8 +107,15 @@ LANGUAGE_MAPPING = {
     "GitLab": "gitlab",
     "Linux": "linux",
     "ShaderLab": "unity",  # Unity's shader language
+    "shaderlab": "unity",  # Unity's shader language (lowercase variant)
     "HLSL": "unity",  # Unity shader language
     "GLSL": "opengl",  # OpenGL Shading Language
+    "Jupyter Notebook": "jupyter",  # Jupyter notebooks
+    "GDScript": "godot",  # Godot game engine
+    "Solidity": "solidity",  # Ethereum smart contracts
+    "Assembly": "assembly",  # Assembly language
+    "Fortran": "fortran",  # Fortran
+    "COBOL": "cobol",  # COBOL
 }
 
 
@@ -159,10 +166,18 @@ def normalize_lang_name(lang_name: str) -> str | None:
     """Convert GitHub language name to skillicons.dev format.
     
     Returns None if the language doesn't have a valid icon mapping.
+    Handles case-insensitive matching.
     """
+    # Try exact match first
     mapped = LANGUAGE_MAPPING.get(lang_name)
     if mapped:
         return mapped
+    
+    # Try case-insensitive match
+    for key, value in LANGUAGE_MAPPING.items():
+        if key.lower() == lang_name.lower():
+            return value
+    
     # Return None for unmapped languages to filter them out
     return None
 
