@@ -390,19 +390,20 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             "gitlab.com": ("gitlab", "GitLab"),
             "vercel.app": ("vercel", "Vercel"),
             "netlify.app": ("netlify", "Netlify"),
-            "pages.dev": ("cloudflare", "Cloudflare Pages"),
+            "pages.dev": ("cloudflare", "Website"),
             "medium.com": ("medium", "Medium"),
             "dev.to": ("devto", "DEV"),
             "notion.site": ("notion", "Notion"),
             "notion.so": ("notion", "Notion"),
             "wordpress.com": ("wordpress", "WordPress"),
-            "blogspot.com": ("blogger", "Blogger"),
+            "blogspot.com": ("github", "Blog"),  # Use github as generic
             "hashnode.dev": ("hashnode", "Hashnode"),
             "hashnode.com": ("hashnode", "Hashnode"),
-            "substack.com": ("substack", "Substack"),
-            "about.me": ("aboutme", "About.me"),
+            "substack.com": ("github", "Website"),  # Use github as generic
+            "about.me": ("github", "Website"),  # Use github as generic
         }
-        icon_name = icons.get("website", "chrome")
+        # Use github icon as generic website icon (widely available and recognizable)
+        icon_name = "github"
         alt = "Website"
         for domain, (icon, alt_text) in site_icon_map.items():
             if host.endswith(domain):
@@ -443,19 +444,21 @@ def build_social_links(username: str, user: Any, token: str) -> str:
 
     if email:
         domain = email.split("@")[-1].lower()
+        # Use gmail icon as generic email icon (widely recognized and available)
+        # skillicons.dev has gmail icon which works well as a generic email icon
         email_icons = {
             "gmail.com": ("gmail", "Gmail"),
             "googlemail.com": ("gmail", "Gmail"),
-            "outlook.com": ("outlook", "Outlook"),
-            "hotmail.com": ("outlook", "Outlook"),
-            "live.com": ("outlook", "Outlook"),
-            "office365.com": ("outlook", "Outlook"),
-            "yahoo.com": ("yahoo", "Yahoo Mail"),
-            "proton.me": ("proton", "Proton"),
-            "protonmail.com": ("proton", "Proton"),
-            "icloud.com": ("icloud", "iCloud Mail"),
-            "me.com": ("icloud", "iCloud Mail"),
-            "mac.com": ("icloud", "iCloud Mail"),
+            "outlook.com": ("gmail", "Email"),  # Use gmail icon as generic
+            "hotmail.com": ("gmail", "Email"),
+            "live.com": ("gmail", "Email"),
+            "office365.com": ("gmail", "Email"),
+            "yahoo.com": ("gmail", "Email"),
+            "proton.me": ("gmail", "Email"),  # Use gmail icon as generic
+            "protonmail.com": ("gmail", "Email"),
+            "icloud.com": ("gmail", "Email"),
+            "me.com": ("gmail", "Email"),
+            "mac.com": ("gmail", "Email"),
         }
         icon_name, alt = email_icons.get(domain, ("gmail", "Email"))
         links.append(create_social_icon_link(f"mailto:{email}", icon_name, alt))
