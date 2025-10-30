@@ -16,9 +16,8 @@ MAX_REPOS_FETCH = 200
 REPOS_PER_PAGE = 100
 DEFAULT_PR_DAYS = 30
 ICON_SIZE = 32  # Larger default size for better visibility
-SOCIAL_ICON_SIZE = 40  # Larger size for social icons
+SOCIAL_ICON_SIZE = 48  # Larger size for social icons with better visibility
 SKILLICONS_BASE = "https://skillicons.dev/icons"
-SIMPLICONS_BASE = "https://cdn.simpleicons.org"
 
 
 # Curated language-to-skillicon slug mapping (mainstream only)
@@ -162,12 +161,11 @@ def normalize_lang_name(lang_name: str) -> str | None:
     return None
 
 
-def create_icon_link(url: str, slug: str, color: str, alt: str, size: int = None) -> str:
-    """Create HTML link with colorful icon image."""
-    icon_size = size or ICON_SIZE
+def create_social_icon_link(url: str, icon_name: str, alt: str) -> str:
+    """Create HTML link with skillicons.dev icon (colorful and consistent)."""
     return (
-        f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 10px;">'
-        f'<img alt="{alt}" src="{SIMPLICONS_BASE}/{slug}/{color}" width="{icon_size}" height="{icon_size}" style="transition: transform 0.2s;" />'
+        f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 12px; display: inline-block;">'
+        f'<img alt="{alt}" src="{SKILLICONS_BASE}?i={icon_name}" width="{SOCIAL_ICON_SIZE}" height="{SOCIAL_ICON_SIZE}" style="transition: transform 0.2s;" />'
         "</a>"
     )
 
@@ -293,7 +291,7 @@ def build_top_languages(username: str, token: str, limit: int = 8) -> str:
             continue
     
     if not language_bytes:
-        return "<p align=\"left\">No language data available</p>"
+        return '<div align="center"><p>No language data available</p></div>'
     
     # Sort by bytes and get top languages
     sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)
@@ -308,11 +306,11 @@ def build_top_languages(username: str, token: str, limit: int = 8) -> str:
                 break
     
     if not icon_names:
-        return "<p align=\"left\">No languages found</p>"
+        return '<div align="center"><p>No languages found</p></div>'
     
-    # Use skillicons.dev combined format
+    # Use skillicons.dev combined format, centered
     icon_list = ",".join(icon_names)
-    return f'<p align="left"><img src="{SKILLICONS_BASE}?i={icon_list}" alt="Top Languages" /></p>'
+    return f'<div align="center"><img src="{SKILLICONS_BASE}?i={icon_list}" alt="Top Languages" /></div>'
 
 
 def build_social_links(username: str, user: Any, token: str) -> str:
@@ -324,25 +322,25 @@ def build_social_links(username: str, user: Any, token: str) -> str:
     twitter = (user.get("twitter_username") or "").strip()
     show_github = env_bool("SHOW_GITHUB_LINK", False)
 
-    # Social platform icons configuration: (slug, color_hex, alt_text)
+    # Social platform icons using skillicons.dev (consistent with language icons)
+    # Format: provider_name -> skillicons.dev icon name
     icons = {
-        "x": ("x", "000000", "X"),
-        "twitter": ("x", "000000", "X"),
-        "instagram": ("instagram", "E4405F", "Instagram"),
-        "linkedin": ("linkedin", "0A66C2", "LinkedIn"),
-        "youtube": ("youtube", "FF0000", "YouTube"),
-        "twitch": ("twitch", "9146FF", "Twitch"),
-        "facebook": ("facebook", "1877F2", "Facebook"),
-        "mastodon": ("mastodon", "6364FF", "Mastodon"),
-        "reddit": ("reddit", "FF4500", "Reddit"),
-        "stackoverflow": ("stackoverflow", "F48024", "Stack Overflow"),
-        "dev.to": ("devdotto", "0A0A0A", "DEV"),
-        "devto": ("devdotto", "0A0A0A", "DEV"),
-        "medium": ("medium", "12100E", "Medium"),
-        "bluesky": ("bluesky", "0285FF", "Bluesky"),
-        # default website fallback icon uses Google Chrome brand
-        "website": ("googlechrome", "4285F4", "Website"),
-        "github": ("github", "181717", "GitHub"),
+        "x": "twitter",
+        "twitter": "twitter",
+        "instagram": "instagram",
+        "linkedin": "linkedin",
+        "youtube": "youtube",
+        "twitch": "twitch",
+        "facebook": "facebook",
+        "mastodon": "mastodon",
+        "reddit": "reddit",
+        "stackoverflow": "stackoverflow",
+        "dev.to": "devto",
+        "devto": "devto",
+        "medium": "medium",
+        "bluesky": "bluesky",
+        "website": "chrome",  # Chrome icon for generic websites
+        "github": "github",
     }
 
     domain_to_provider = {
@@ -387,29 +385,29 @@ def build_social_links(username: str, user: Any, token: str) -> str:
         except Exception:
             host = ""
         site_icon_map = {
-            "github.io": ("github", "181717", "GitHub Pages"),
-            "github.com": ("github", "181717", "GitHub"),
-            "gitlab.com": ("gitlab", "FC6D26", "GitLab"),
-            "vercel.app": ("vercel", "000000", "Vercel"),
-            "netlify.app": ("netlify", "00C7B7", "Netlify"),
-            "pages.dev": ("cloudflare", "F38020", "Cloudflare Pages"),
-            "medium.com": ("medium", "12100E", "Medium"),
-            "dev.to": ("devdotto", "0A0A0A", "DEV"),
-            "notion.site": ("notion", "000000", "Notion"),
-            "notion.so": ("notion", "000000", "Notion"),
-            "wordpress.com": ("wordpress", "21759B", "WordPress"),
-            "blogspot.com": ("blogger", "FF5722", "Blogger"),
-            "hashnode.dev": ("hashnode", "2962FF", "Hashnode"),
-            "hashnode.com": ("hashnode", "2962FF", "Hashnode"),
-            "substack.com": ("substack", "FF6719", "Substack"),
-            "about.me": ("aboutdotme", "00A98F", "About.me"),
+            "github.io": ("github", "GitHub Pages"),
+            "github.com": ("github", "GitHub"),
+            "gitlab.com": ("gitlab", "GitLab"),
+            "vercel.app": ("vercel", "Vercel"),
+            "netlify.app": ("netlify", "Netlify"),
+            "pages.dev": ("cloudflare", "Cloudflare Pages"),
+            "medium.com": ("medium", "Medium"),
+            "dev.to": ("devto", "DEV"),
+            "notion.site": ("notion", "Notion"),
+            "notion.so": ("notion", "Notion"),
+            "wordpress.com": ("wordpress", "WordPress"),
+            "blogspot.com": ("blogger", "Blogger"),
+            "hashnode.dev": ("hashnode", "Hashnode"),
+            "hashnode.com": ("hashnode", "Hashnode"),
+            "substack.com": ("substack", "Substack"),
+            "about.me": ("aboutme", "About.me"),
         }
-        slug, color, alt = icons["website"]
-        for domain, icon in site_icon_map.items():
+        icon_name, alt = icons.get("website", ("chrome", "Website"))
+        for domain, (icon, alt_text) in site_icon_map.items():
             if host.endswith(domain):
-                slug, color, alt = icon
+                icon_name, alt = icon, alt_text
                 break
-        links.append(create_icon_link(website, slug, color, alt, SOCIAL_ICON_SIZE))
+        links.append(create_social_icon_link(website, icon_name, alt))
 
     # Build icons from socials
     for s in socials:
@@ -425,8 +423,9 @@ def build_social_links(username: str, user: Any, token: str) -> str:
             except Exception:
                 pass
         if provider in icons:
-            slug, color, alt = icons[provider]
-            links.append(create_icon_link(url, slug, color, alt, SOCIAL_ICON_SIZE))
+            icon_name = icons[provider]
+            alt_text = provider.replace(".", " ").title()
+            links.append(create_social_icon_link(url, icon_name, alt_text))
 
     # Email (public or primary for self)
     email = (user.get("email") or "").strip()
@@ -444,25 +443,24 @@ def build_social_links(username: str, user: Any, token: str) -> str:
     if email:
         domain = email.split("@")[-1].lower()
         email_icons = {
-            "gmail.com": ("gmail", "EA4335", "Gmail"),
-            "googlemail.com": ("gmail", "EA4335", "Gmail"),
-            "outlook.com": ("microsoftoutlook", "0078D4", "Outlook"),
-            "hotmail.com": ("microsoftoutlook", "0078D4", "Outlook"),
-            "live.com": ("microsoftoutlook", "0078D4", "Outlook"),
-            "office365.com": ("microsoftoutlook", "0078D4", "Outlook"),
-            "yahoo.com": ("yahoo", "6001D2", "Yahoo Mail"),
-            "proton.me": ("protonmail", "6D4AFF", "Proton"),
-            "protonmail.com": ("protonmail", "6D4AFF", "Proton"),
-            "icloud.com": ("icloud", "3693F3", "iCloud Mail"),
-            "me.com": ("icloud", "3693F3", "iCloud Mail"),
-            "mac.com": ("icloud", "3693F3", "iCloud Mail"),
+            "gmail.com": ("gmail", "Gmail"),
+            "googlemail.com": ("gmail", "Gmail"),
+            "outlook.com": ("outlook", "Outlook"),
+            "hotmail.com": ("outlook", "Outlook"),
+            "live.com": ("outlook", "Outlook"),
+            "office365.com": ("outlook", "Outlook"),
+            "yahoo.com": ("yahoo", "Yahoo Mail"),
+            "proton.me": ("proton", "Proton"),
+            "protonmail.com": ("proton", "Proton"),
+            "icloud.com": ("icloud", "iCloud Mail"),
+            "me.com": ("icloud", "iCloud Mail"),
+            "mac.com": ("icloud", "iCloud Mail"),
         }
-        slug, color, alt = email_icons.get(domain, ("minutemailer", "0EA5E9", "Email"))
-        links.append(create_icon_link(f"mailto:{email}", slug, color, alt, SOCIAL_ICON_SIZE))
+        icon_name, alt = email_icons.get(domain, ("gmail", "Email"))
+        links.append(create_social_icon_link(f"mailto:{email}", icon_name, alt))
 
     if show_github:
-        slug, color, alt = icons["github"]
-        links.append(create_icon_link(f"https://github.com/{username}", slug, color, alt, SOCIAL_ICON_SIZE))
+        links.append(create_social_icon_link(f"https://github.com/{username}", "github", "GitHub"))
 
     if not links:
         return ""
