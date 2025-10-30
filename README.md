@@ -7,7 +7,7 @@
 
 ### 💻 Top Languages
 
-<p align="left"><img src="https://skillicons.dev/icons?i=ts,csharp,svelte,html,css,go,php,unity" alt="Top Languages" /></p>
+<p align="left"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,unity" alt="Top Languages" /></p>
 
 ### 📊 Metrics
 
