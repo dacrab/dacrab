@@ -33,6 +33,6 @@
 
 {{RECENT_STARS}}
 
-### Connect
+### 💬 Connect with me
 
 {{SOCIAL_LINKS}}
