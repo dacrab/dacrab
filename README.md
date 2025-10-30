@@ -33,7 +33,7 @@
 
 ### 💻 Top Languages
 
-<p align="left"><img src="https://skillicons.dev/icons?i=typescript,csharp,svelte,html5,css3,go,php,shaderlab" alt="Top Languages" /></p>
+<p align="left"><img src="https://skillicons.dev/icons?i=typescript,csharp,svelte,html5,css3,go,php,unity" alt="Top Languages" /></p>
 
 ### 📊 Metrics
 
