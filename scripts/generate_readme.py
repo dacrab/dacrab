@@ -23,13 +23,12 @@ SIMPLICONS_BASE = "https://cdn.simpleicons.org"
 # Language mapping for skillicons.dev
 LANGUAGE_MAPPING = {
     "JavaScript": "javascript",
-    # Use official skillicons slugs per https://github.com/tandpfun/skill-icons#readme
     "TypeScript": "ts",
     "Python": "python",
     "Java": "java",
     "C++": "cpp",
     "C": "c",
-    "C#": "csharp",
+    "C#": "cs",
     "Go": "go",
     "Rust": "rust",
     "PHP": "php",
