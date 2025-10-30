@@ -15,8 +15,7 @@ MAX_REPOS_FOR_LANGUAGES = 100
 MAX_REPOS_FETCH = 200
 REPOS_PER_PAGE = 100
 DEFAULT_PR_DAYS = 30
-ICON_SIZE = 32  # Larger default size for better visibility
-SOCIAL_ICON_SIZE = 48  # Larger size for social icons with better visibility
+SOCIAL_ICON_SIZE = 48
 SKILLICONS_BASE = "https://skillicons.dev/icons"
 
 
@@ -88,7 +87,6 @@ LANGUAGE_MAPPING = {
     "shaderlab": "unity",  # Unity's shader language (lowercase variant)
     "HLSL": "hlsl",
     "GLSL": "glsl",
-    "ShaderLab": "unity",
     
     # Frontend meta-languages frequently reported by Linguist
     "Svelte": "svelte",
@@ -143,21 +141,18 @@ def limit_text(text: str, max_len: int) -> str:
 
 def normalize_lang_name(lang_name: str) -> str | None:
     """Convert GitHub language name to skillicons.dev format.
-    
     Returns None if the language doesn't have a valid icon mapping.
-    Handles case-insensitive matching.
     """
     # Try exact match first
-    mapped = LANGUAGE_MAPPING.get(lang_name)
-    if mapped:
-        return mapped
+    if lang_name in LANGUAGE_MAPPING:
+        return LANGUAGE_MAPPING[lang_name]
     
     # Try case-insensitive match
+    lang_lower = lang_name.lower()
     for key, value in LANGUAGE_MAPPING.items():
-        if key.lower() == lang_name.lower():
+        if key.lower() == lang_lower:
             return value
     
-    # Return None for unmapped languages to filter them out
     return None
 
 
@@ -223,19 +218,16 @@ def build_recent_prs(prs_payload: Any, token: str) -> str:
         repo_name = api_repo_url.split("/")[-1] if api_repo_url else "repo"
         
         # Skip private repositories
-        try:
-            if api_repo_url:
+        if api_repo_url:
+            try:
                 path = api_repo_url.replace("https://api.github.com", "")
                 repo_meta = gh_get(path, token) or {}
                 if repo_meta.get("private"):
                     continue
-        except Exception:
-            pass
+            except Exception:
+                pass
         
-        # Convert API repo URL to github.com URL for nicer display links
-        repo_html_url = (
-            api_repo_url.replace("api.github.com/repos", "github.com") if api_repo_url else ""
-        )
+        repo_html_url = api_repo_url.replace("api.github.com/repos", "github.com") if api_repo_url else ""
         lines.append(f"* [{title}]({item.get('html_url')}) on [{repo_name}]({repo_html_url})")
     
     return "\n".join(lines) if lines else "* No recent pull requests - time to contribute! 🔀"
@@ -293,10 +285,8 @@ def build_top_languages(username: str, token: str, limit: int = 8) -> str:
     if not language_bytes:
         return '<div align="center"><p>No language data available</p></div>'
     
-    # Sort by bytes and get top languages
+    # Sort by bytes and map to skillicons.dev format
     sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)
-    
-    # Map to skillicons.dev format, filtering out unmapped languages
     icon_names = []
     for lang_name, _ in sorted_langs:
         icon_name = normalize_lang_name(lang_name)
@@ -308,7 +298,6 @@ def build_top_languages(username: str, token: str, limit: int = 8) -> str:
     if not icon_names:
         return '<div align="center"><p>No languages found</p></div>'
     
-    # Use skillicons.dev combined format, centered
     icon_list = ",".join(icon_names)
     return f'<div align="center"><img src="{SKILLICONS_BASE}?i={icon_list}" alt="Top Languages" /></div>'
 
@@ -316,48 +305,44 @@ def build_top_languages(username: str, token: str, limit: int = 8) -> str:
 def build_social_links(username: str, user: Any, token: str) -> str:
     """Build social links section with icons."""
     website = (user.get("blog") or "").strip()
-    # Normalize website to include scheme for correct linking in README
-    if website and not (website.startswith("http://") or website.startswith("https://")):
+    if website and not website.startswith(("http://", "https://")):
         website = f"https://{website}"
     twitter = (user.get("twitter_username") or "").strip()
     show_github = env_bool("SHOW_GITHUB_LINK", False)
 
-    # Social platform icons using skillicons.dev (consistent with language icons)
-    # Format: provider_name -> skillicons.dev icon name
-    icons = {
-        "x": "twitter",
-        "twitter": "twitter",
-        "instagram": "instagram",
-        "linkedin": "linkedin",
-        "youtube": "youtube",
-        "twitch": "twitch",
-        "facebook": "facebook",
-        "mastodon": "mastodon",
-        "reddit": "reddit",
-        "stackoverflow": "stackoverflow",
-        "dev.to": "devto",
-        "devto": "devto",
-        "medium": "medium",
-        "bluesky": "bluesky",
-        "website": "chrome",  # Chrome icon for generic websites
-        "github": "github",
+    # Provider to icon mapping
+    provider_icons = {
+        "x": "twitter", "twitter": "twitter", "instagram": "instagram", "linkedin": "linkedin",
+        "youtube": "youtube", "twitch": "twitch", "facebook": "facebook", "mastodon": "mastodon",
+        "reddit": "reddit", "stackoverflow": "stackoverflow", "dev.to": "devto", "devto": "devto",
+        "medium": "medium", "bluesky": "bluesky", "github": "github",
     }
 
     domain_to_provider = {
-        "x.com": "x",
-        "twitter.com": "x",
-        "instagram.com": "instagram",
-        "linkedin.com": "linkedin",
-        "twitch.tv": "twitch",
-        "youtube.com": "youtube",
-        "youtu.be": "youtube",
-        "facebook.com": "facebook",
-        "mastodon.social": "mastodon",
-        "medium.com": "medium",
-        "dev.to": "dev.to",
-        "stackoverflow.com": "stackoverflow",
-        "bsky.app": "bluesky",
+        "x.com": "x", "twitter.com": "x", "instagram.com": "instagram", "linkedin.com": "linkedin",
+        "twitch.tv": "twitch", "youtube.com": "youtube", "youtu.be": "youtube",
+        "facebook.com": "facebook", "mastodon.social": "mastodon", "medium.com": "medium",
+        "dev.to": "dev.to", "stackoverflow.com": "stackoverflow", "bsky.app": "bluesky",
         "bluesky.social": "bluesky",
+    }
+
+    site_icon_map = {
+        "github.io": ("github", "GitHub Pages"), "github.com": ("github", "GitHub"),
+        "gitlab.com": ("gitlab", "GitLab"), "vercel.app": ("vercel", "Vercel"),
+        "netlify.app": ("netlify", "Netlify"), "pages.dev": ("cloudflare", "Website"),
+        "medium.com": ("medium", "Medium"), "dev.to": ("devto", "DEV"),
+        "notion.site": ("notion", "Notion"), "notion.so": ("notion", "Notion"),
+        "wordpress.com": ("wordpress", "WordPress"), "hashnode.dev": ("hashnode", "Hashnode"),
+        "hashnode.com": ("hashnode", "Hashnode"),
+    }
+
+    email_icons = {
+        "gmail.com": ("gmail", "Gmail"), "googlemail.com": ("gmail", "Gmail"),
+        "outlook.com": ("gmail", "Email"), "hotmail.com": ("gmail", "Email"),
+        "live.com": ("gmail", "Email"), "office365.com": ("gmail", "Email"),
+        "yahoo.com": ("gmail", "Email"), "proton.me": ("gmail", "Email"),
+        "protonmail.com": ("gmail", "Email"), "icloud.com": ("gmail", "Email"),
+        "me.com": ("gmail", "Email"), "mac.com": ("gmail", "Email"),
     }
 
     # Collect socials from GitHub API
@@ -378,38 +363,18 @@ def build_social_links(username: str, user: Any, token: str) -> str:
 
     links: list[str] = []
 
-    # Website from profile (choose icon by domain, fallback to Chrome)
+    # Website from profile
     if website:
         try:
             host = urlparse(website).netloc.lower().lstrip("www.")
+            icon_name, alt = "github", "Website"
+            for domain, (icon, alt_text) in site_icon_map.items():
+                if host.endswith(domain):
+                    icon_name, alt = icon, alt_text
+                    break
+            links.append(create_social_icon_link(website, icon_name, alt))
         except Exception:
-            host = ""
-        site_icon_map = {
-            "github.io": ("github", "GitHub Pages"),
-            "github.com": ("github", "GitHub"),
-            "gitlab.com": ("gitlab", "GitLab"),
-            "vercel.app": ("vercel", "Vercel"),
-            "netlify.app": ("netlify", "Netlify"),
-            "pages.dev": ("cloudflare", "Website"),
-            "medium.com": ("medium", "Medium"),
-            "dev.to": ("devto", "DEV"),
-            "notion.site": ("notion", "Notion"),
-            "notion.so": ("notion", "Notion"),
-            "wordpress.com": ("wordpress", "WordPress"),
-            "blogspot.com": ("github", "Blog"),  # Use github as generic
-            "hashnode.dev": ("hashnode", "Hashnode"),
-            "hashnode.com": ("hashnode", "Hashnode"),
-            "substack.com": ("github", "Website"),  # Use github as generic
-            "about.me": ("github", "Website"),  # Use github as generic
-        }
-        # Use github icon as generic website icon (widely available and recognizable)
-        icon_name = "github"
-        alt = "Website"
-        for domain, (icon, alt_text) in site_icon_map.items():
-            if host.endswith(domain):
-                icon_name, alt = icon, alt_text
-                break
-        links.append(create_social_icon_link(website, icon_name, alt))
+            pass
 
     # Build icons from socials
     for s in socials:
@@ -417,15 +382,14 @@ def build_social_links(username: str, user: Any, token: str) -> str:
         url = s.get("url", "")
         if not url:
             continue
-        # Infer provider from domain if unknown
-        if provider not in icons:
+        if provider not in provider_icons:
             try:
                 host = urlparse(url).netloc.lower()
                 provider = domain_to_provider.get(host, provider)
             except Exception:
                 pass
-        if provider in icons:
-            icon_name = icons[provider]
+        if provider in provider_icons:
+            icon_name = provider_icons[provider]
             alt_text = provider.replace(".", " ").title()
             links.append(create_social_icon_link(url, icon_name, alt_text))
 
@@ -444,22 +408,6 @@ def build_social_links(username: str, user: Any, token: str) -> str:
 
     if email:
         domain = email.split("@")[-1].lower()
-        # Use gmail icon as generic email icon (widely recognized and available)
-        # skillicons.dev has gmail icon which works well as a generic email icon
-        email_icons = {
-            "gmail.com": ("gmail", "Gmail"),
-            "googlemail.com": ("gmail", "Gmail"),
-            "outlook.com": ("gmail", "Email"),  # Use gmail icon as generic
-            "hotmail.com": ("gmail", "Email"),
-            "live.com": ("gmail", "Email"),
-            "office365.com": ("gmail", "Email"),
-            "yahoo.com": ("gmail", "Email"),
-            "proton.me": ("gmail", "Email"),  # Use gmail icon as generic
-            "protonmail.com": ("gmail", "Email"),
-            "icloud.com": ("gmail", "Email"),
-            "me.com": ("gmail", "Email"),
-            "mac.com": ("gmail", "Email"),
-        }
         icon_name, alt = email_icons.get(domain, ("gmail", "Email"))
         links.append(create_social_icon_link(f"mailto:{email}", icon_name, alt))
 
@@ -469,15 +417,8 @@ def build_social_links(username: str, user: Any, token: str) -> str:
     if not links:
         return ""
     
-    # Professional centered layout with better spacing
     icons_html = "".join(links)
-    return (
-        '<div align="center">\n'
-        '  <p>\n'
-        f'    {icons_html}\n'
-        '  </p>\n'
-        '</div>'
-    )
+    return f'<div align="center">\n  <p>\n    {icons_html}\n  </p>\n</div>'
 
 
 def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:

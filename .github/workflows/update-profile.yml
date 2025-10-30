@@ -32,11 +32,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
           
       - name: Generate GitHub metrics
         uses: lowlighter/metrics@latest
@@ -70,18 +65,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_readme.py
           
-      - name: Check for changes
-        id: git-check
-        run: |
-          git add README.md assets/github-metrics.svg || true
-          if git diff --cached --exit-code; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
       - name: Commit changes
-        if: steps.git-check.outputs.changed == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -91,7 +75,6 @@ jobs:
             exit 0
           fi
           git commit -m "🔄 Auto-update profile content" || exit 0
-          # Rebase onto latest remote to avoid non-fast-forward push failures
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
         env:
