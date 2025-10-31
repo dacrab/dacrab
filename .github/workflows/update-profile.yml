@@ -1,7 +1,7 @@
 name: Update Profile Metrics & README
 
 on:
-  schedule: 
+  schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
@@ -11,28 +11,26 @@ jobs:
   update-profile:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env:
-      GH_USERNAME: ${{ github.repository_owner }}
-      GH_TIMEZONE: Europe/Athens
-    
     permissions:
       contents: write
-      
     concurrency:
       group: profile-update-${{ github.ref }}
       cancel-in-progress: true
-      
+    env:
+      GH_USERNAME: ${{ github.repository_owner }}
+      GH_TIMEZONE: Europe/Athens
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-          
+          python-version: "3.x"
+
       - name: Generate GitHub metrics
         uses: lowlighter/metrics@latest
         with:
@@ -64,8 +62,10 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_readme.py
-          
+
       - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -77,5 +77,3 @@ jobs:
           git commit -m "🔄 Auto-update profile content" || exit 0
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
