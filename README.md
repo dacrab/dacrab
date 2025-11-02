@@ -2,7 +2,7 @@
 <div align="center">
   <h1 style="margin: 0; font-size: 2.2rem;">
     <img alt="👋" src="https://camo.githubusercontent.com/d552948e7884c41fde2d32b9221d79f0df2076c7d824aaab954ca93f53d95884/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6876524a434c467a6361737252346961377a2f67697068792e676966" width="36" height="36" style="vertical-align: -6px; margin-right: 6px;" />
-    Hey, I'm Vaggelis
+    Hey, I'm VKavouras
   </h1>
 </div>
 
@@ -46,7 +46,6 @@
 * [CI: Copr automation + Nix build fix + Wayland compatibility](https://github.com/MalpenZibo/ashell/pull/297) on [ashell](https://github.com/MalpenZibo/ashell)
 * [Copr build automation: SRPM build + Copr trigger](https://github.com/MalpenZibo/ashell/pull/296) on [ashell](https://github.com/MalpenZibo/ashell)
 * [Feature/configurable user](https://github.com/dacrab/dacrab/pull/1) on [dacrab](https://github.com/dacrab/dacrab)
-* [UI: Remove window gaps, compact input, shrink-to-fit bar](https://github.com/iamsrikanthnani/pluely/pull/83) on [pluely](https://github.com/iamsrikanthnani/pluely)
 
 <div align="center">
   <h3>⭐ Recent stars</h3>
