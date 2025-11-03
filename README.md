@@ -28,7 +28,6 @@
 
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 * [dacrab](https://github.com/dacrab/dacrab) - My custom fully dynamic README
-* [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
