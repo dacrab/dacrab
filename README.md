@@ -27,7 +27,6 @@
 </div>
 
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
