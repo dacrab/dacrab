@@ -26,7 +26,7 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* No active projects
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
