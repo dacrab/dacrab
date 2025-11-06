@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,javascript" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
@@ -26,7 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* No active projects
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
+* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
