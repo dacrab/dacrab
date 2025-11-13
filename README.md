@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
