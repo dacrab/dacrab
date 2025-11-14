@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
