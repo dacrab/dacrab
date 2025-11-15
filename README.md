@@ -27,7 +27,6 @@
 </div>
 
 * [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
-* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
