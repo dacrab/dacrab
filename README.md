@@ -43,7 +43,6 @@
 
 * [CI: Copr automation + Nix build fix + Wayland compatibility](https://github.com/MalpenZibo/ashell/pull/297) on [ashell](https://github.com/MalpenZibo/ashell)
 * [Copr build automation: SRPM build + Copr trigger](https://github.com/MalpenZibo/ashell/pull/296) on [ashell](https://github.com/MalpenZibo/ashell)
-* [Feature/configurable user](https://github.com/dacrab/dacrab/pull/1) on [dacrab](https://github.com/dacrab/dacrab)
 
 <div align="center">
   <h3>⭐ Recent stars</h3>
