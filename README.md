@@ -26,8 +26,10 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [vicinae](https://github.com/vicinaehq/vicinae) - A focused launcher for your desktop — native, fast, extensible
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
+* [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 * [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
-* [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -41,6 +43,7 @@
   <h3>🔨 Recent pull requests</h3>
 </div>
 
+* [Add COPR packaging and automation for vicinae](https://github.com/vicinaehq/vicinae/pull/733) on [vicinae](https://github.com/vicinaehq/vicinae)
 * [CI: Copr automation + Nix build fix + Wayland compatibility](https://github.com/MalpenZibo/ashell/pull/297) on [ashell](https://github.com/MalpenZibo/ashell)
 * [Copr build automation: SRPM build + Copr trigger](https://github.com/MalpenZibo/ashell/pull/296) on [ashell](https://github.com/MalpenZibo/ashell)
 
