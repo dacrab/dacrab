@@ -26,6 +26,7 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
 * [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 
 <div align="center">
