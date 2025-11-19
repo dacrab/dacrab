@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 * [vicinae](https://github.com/vicinaehq/vicinae) - A focused launcher for your desktop — native, fast, extensible
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
