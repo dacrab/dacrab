@@ -26,8 +26,9 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
+* [gemini-cli](https://github.com/dacrab/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
 * [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
-* [vicinae](https://github.com/vicinaehq/vicinae) - A focused launcher for your desktop — native, fast, extensible
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -35,12 +36,12 @@
 
 * [**perfly**](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [**beauty-salon-scheduling-api**](https://github.com/dacrab/beauty-salon-scheduling-api) - Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: slots, book, cancel. Bearer auth. Seeders + tests.
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
 </div>
 
+* [feat(cli): restart CLI automatically after auto-update](https://github.com/google-gemini/gemini-cli/pull/13404) on [gemini-cli](https://github.com/google-gemini/gemini-cli)
 * [Add COPR packaging and automation for vicinae](https://github.com/vicinaehq/vicinae/pull/733) on [vicinae](https://github.com/vicinaehq/vicinae)
 * [CI: Copr automation + Nix build fix + Wayland compatibility](https://github.com/MalpenZibo/ashell/pull/297) on [ashell](https://github.com/MalpenZibo/ashell)
 * [Copr build automation: SRPM build + Copr trigger](https://github.com/MalpenZibo/ashell/pull/296) on [ashell](https://github.com/MalpenZibo/ashell)
