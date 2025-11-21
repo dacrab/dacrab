@@ -27,7 +27,6 @@
 </div>
 
 * [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
-* [gemini-cli](https://github.com/dacrab/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -35,6 +34,7 @@
 
 * [**perfly**](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [**beauty-salon-scheduling-api**](https://github.com/dacrab/beauty-salon-scheduling-api) - Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: slots, book, cancel. Bearer auth. Seeders + tests.
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
