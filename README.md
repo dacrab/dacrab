@@ -26,7 +26,7 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
+* No active projects
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
