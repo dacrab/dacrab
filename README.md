@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [dragon-blaze](https://github.com/dacrab/dragon-blaze) - Simple 2D Platformer Game made in Unity for a school project.
 * [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
+* [dragon-blaze](https://github.com/dacrab/dragon-blaze) - Simple 2D Platformer Game made in Unity for a school project.
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
