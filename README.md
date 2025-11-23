@@ -26,7 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* No active projects
+* [dragon-blaze](https://github.com/dacrab/dragon-blaze) - Simple 2D Platformer Game made in Unity for a school project.
+* [ashell](https://github.com/dacrab/ashell) - A ready to go Wayland status bar for Hyprland
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -42,7 +43,6 @@
 
 * [feat(cli): restart CLI automatically after auto-update](https://github.com/google-gemini/gemini-cli/pull/13404) on [gemini-cli](https://github.com/google-gemini/gemini-cli)
 * [Add COPR packaging and automation for vicinae](https://github.com/vicinaehq/vicinae/pull/733) on [vicinae](https://github.com/vicinaehq/vicinae)
-* [CI: Copr automation + Nix build fix + Wayland compatibility](https://github.com/MalpenZibo/ashell/pull/297) on [ashell](https://github.com/MalpenZibo/ashell)
 
 <div align="center">
   <h3>⭐ Recent stars</h3>
