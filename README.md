@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,javascript" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,javascript,php" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
