@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,javascript,php" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,cs,svelte,html,css,go,php,javascript" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - Portfolio built using Astro and LightningCSS
-* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
+* [ioannislo](https://github.com/dacrab/ioannislo) - Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
