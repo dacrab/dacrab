@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,svelte,html,go,css,php,javascript" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,svelte,html,ts,php,go,javascript,unity" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
@@ -26,16 +26,16 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
-* [ioannislo](https://github.com/dacrab/ioannislo) - Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
 </div>
 
 * [**email-scraper**](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV output; Docker & Railway ready.
-* [**perfly**](https://github.com/dacrab/perfly) - Perfly - Website Performance Testing Platform
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [**beauty-salon-scheduling-api**](https://github.com/dacrab/beauty-salon-scheduling-api) - Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: slots, book, cancel. Bearer auth. Seeders + tests.
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
