@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [dragon-blaze](https://github.com/dacrab/dragon-blaze) - Simple 2D Platformer Game made in Unity for a school project.
 * [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
