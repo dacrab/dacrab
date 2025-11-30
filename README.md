@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [email-scraper](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV outpu...
 * [dragon-blaze](https://github.com/dacrab/dragon-blaze) - Simple 2D Platformer Game made in Unity for a school project.
-* [craftops](https://github.com/dacrab/craftops) - 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
