@@ -41,6 +41,7 @@
   <h3>🔨 Recent pull requests</h3>
 </div>
 
+* [feat: Add Swagger/OpenAPI documentation](https://github.com/dacrab/beauty-salon-scheduling-api/pull/1) on [beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)
 * [feat(cli): restart CLI automatically after auto-update](https://github.com/google-gemini/gemini-cli/pull/13404) on [gemini-cli](https://github.com/google-gemini/gemini-cli)
 * [Add COPR packaging and automation for vicinae](https://github.com/vicinaehq/vicinae/pull/733) on [vicinae](https://github.com/vicinaehq/vicinae)
 
