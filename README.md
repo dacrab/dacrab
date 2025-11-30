@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api) - Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
 * [email-scraper](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV outpu...
-* [dragon-blaze](https://github.com/dacrab/dragon-blaze) - Simple 2D Platformer Game made in Unity for a school project.
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
