@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,svelte,html,ts,php,go,javascript,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,html,ts,svelte,php,javascript,go,unity" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
@@ -26,7 +26,9 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
+* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [Bonjourr](https://github.com/victrme/Bonjourr) - Minimalist & lightweight startpage inspired by iOS
+* [Bonjourr](https://github.com/dacrab/Bonjourr) - Minimalist & lightweight startpage inspired by iOS
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -40,9 +42,11 @@
   <h3>🔨 Recent pull requests</h3>
 </div>
 
+* [refactor: structure and runes migration](https://github.com/dacrab/clubOS/pull/28) on [clubOS](https://github.com/dacrab/clubOS)
+* [Add weekly and monthly background frequency options](https://github.com/victrme/Bonjourr/pull/723) on [Bonjourr](https://github.com/victrme/Bonjourr)
+* [Fix link groups turning on when importing settings with o...](https://github.com/victrme/Bonjourr/pull/722) on [Bonjourr](https://github.com/victrme/Bonjourr)
+* [Fix empty todo/list lines persisting after deletion](https://github.com/victrme/Bonjourr/pull/721) on [Bonjourr](https://github.com/victrme/Bonjourr)
 * [feat: Add Swagger/OpenAPI documentation](https://github.com/dacrab/beauty-salon-scheduling-api/pull/1) on [beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)
-* [feat(cli): restart CLI automatically after auto-update](https://github.com/google-gemini/gemini-cli/pull/13404) on [gemini-cli](https://github.com/google-gemini/gemini-cli)
-* [Add COPR packaging and automation for vicinae](https://github.com/vicinaehq/vicinae/pull/733) on [vicinae](https://github.com/vicinaehq/vicinae)
 
 <div align="center">
   <h3>⭐ Recent stars</h3>
