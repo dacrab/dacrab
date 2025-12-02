@@ -27,7 +27,6 @@
 </div>
 
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
-* [email-scraper](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV outpu...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
