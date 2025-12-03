@@ -27,8 +27,6 @@
 </div>
 
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [Bonjourr](https://github.com/victrme/Bonjourr) - Minimalist & lightweight startpage inspired by iOS
-* [Bonjourr](https://github.com/dacrab/Bonjourr) - Minimalist & lightweight startpage inspired by iOS
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
