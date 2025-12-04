@@ -26,7 +26,9 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [vicinae](https://github.com/vicinaehq/vicinae) - A focused launcher for your desktop — native, fast, extensible
+* [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
+* [Bonjourr](https://github.com/victrme/Bonjourr) - Minimalist & lightweight startpage inspired by iOS
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -39,11 +41,11 @@
   <h3>🔨 Recent pull requests</h3>
 </div>
 
+* [feat: add COPR packaging and automation for vicinae](https://github.com/vicinaehq/vicinae/pull/808) on [vicinae](https://github.com/vicinaehq/vicinae)
+* [feat: add duplicate link feature](https://github.com/victrme/Bonjourr/pull/728) on [Bonjourr](https://github.com/victrme/Bonjourr)
+* [Auto-switch to imperial units based on user locale](https://github.com/victrme/Bonjourr/pull/727) on [Bonjourr](https://github.com/victrme/Bonjourr)
+* [Add line break support in quotes for poems and multi-line...](https://github.com/victrme/Bonjourr/pull/726) on [Bonjourr](https://github.com/victrme/Bonjourr)
 * [refactor: structure and runes migration](https://github.com/dacrab/clubOS/pull/28) on [clubOS](https://github.com/dacrab/clubOS)
-* [Add weekly and monthly background frequency options](https://github.com/victrme/Bonjourr/pull/723) on [Bonjourr](https://github.com/victrme/Bonjourr)
-* [Fix link groups turning on when importing settings with o...](https://github.com/victrme/Bonjourr/pull/722) on [Bonjourr](https://github.com/victrme/Bonjourr)
-* [Fix empty todo/list lines persisting after deletion](https://github.com/victrme/Bonjourr/pull/721) on [Bonjourr](https://github.com/victrme/Bonjourr)
-* [feat: Add Swagger/OpenAPI documentation](https://github.com/dacrab/beauty-salon-scheduling-api/pull/1) on [beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)
 
 <div align="center">
   <h3>⭐ Recent stars</h3>
