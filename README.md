@@ -27,7 +27,6 @@
 </div>
 
 * [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
-* [ioannislo](https://github.com/dacrab/ioannislo) - Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
