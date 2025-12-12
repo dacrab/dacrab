@@ -27,7 +27,6 @@
 </div>
 
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
