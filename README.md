@@ -27,7 +27,7 @@
 </div>
 
 * [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
-* [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
+* [ioannislo](https://github.com/dacrab/ioannislo) - Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
