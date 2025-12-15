@@ -26,6 +26,7 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 * [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 * [ioannislo](https://github.com/dacrab/ioannislo) - Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 
