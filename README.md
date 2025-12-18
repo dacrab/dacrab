@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,html,ts,svelte,php,javascript,go,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,javascript,go,unity" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
@@ -26,6 +26,7 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [recipeswap-v2](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
 * [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 
 <div align="center">
@@ -34,7 +35,6 @@
 
 * [**email-scraper**](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV output; Docker & Railway ready.
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [**beauty-salon-scheduling-api**](https://github.com/dacrab/beauty-salon-scheduling-api) - Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: slots, book, cancel. Bearer auth. Seeders + tests.
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
