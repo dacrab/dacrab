@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 * [clubOS](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
-* [dacrab.github.io](https://github.com/dacrab/dacrab.github.io) - A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
