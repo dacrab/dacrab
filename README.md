@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 * [recipeswap-v2](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
+* [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
