@@ -26,13 +26,14 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 * [recipeswap-v2](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
-* [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
 </div>
 
+* [**recipeswap-v2**](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social interactions, R2 media storage, and high-performance hybrid rendering.
 * [**email-scraper**](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV output; Docker & Railway ready.
 * [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 
