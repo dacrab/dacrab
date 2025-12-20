@@ -26,8 +26,8 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [recipeswap-v2](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
 * [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+* [cursor-id-modifier](https://github.com/dacrab/cursor-id-modifier) - A simple script-based tool to reset Cursor machine IDs and bypass trial limit...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -35,7 +35,6 @@
 
 * [**recipeswap-v2**](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social interactions, R2 media storage, and high-performance hybrid rendering.
 * [**email-scraper**](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV output; Docker & Railway ready.
-* [**clubOS**](https://github.com/dacrab/clubOS) - clubOS built using Svelte(Kit) & Supabase
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
@@ -51,7 +50,7 @@
   <h3>⭐ Recent stars</h3>
 </div>
 
-* [vicinaehq/vicinae](https://github.com/vicinaehq/vicinae) - A focused launcher for your desktop — native, fast, extensible
+* [Achno/gowall](https://github.com/Achno/gowall) - A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 * [imputnet/helium-linux](https://github.com/imputnet/helium-linux) - Helium Browser for Linux
 * [neondatabase/neon](https://github.com/neondatabase/neon) - Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 * [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your te...
