@@ -10,7 +10,7 @@
   <h3>💻 Top Languages</h3>
 </div>
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,javascript,go,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,javascript,unity" alt="Top Languages" /></div>
 
 <div align="center">
   <h3>📊 Metrics</h3>
@@ -26,15 +26,15 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl) - A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 * [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
-* [cursor-id-modifier](https://github.com/dacrab/cursor-id-modifier) - A simple script-based tool to reset Cursor machine IDs and bypass trial limit...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
 </div>
 
+* [**reddit-gallery-dl**](https://github.com/dacrab/reddit-gallery-dl) - A high-performance Reddit Gallery Downloader written in Go (Golang). Streams downloads on-the-fly for minimal memory usage.
 * [**recipeswap-v2**](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social interactions, R2 media storage, and high-performance hybrid rendering.
-* [**email-scraper**](https://github.com/dacrab/email-scraper) - Google Maps email scraper in Python using Playwright; config-driven CSV output; Docker & Railway ready.
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
