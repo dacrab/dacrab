@@ -26,8 +26,9 @@
   <h3>👷 Active projects</h3>
 </div>
 
-* [reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl) - A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 * [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+* [maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper) - A straightforward tool to scrape business leads from Google Maps and extract ...
+* [ioannislo](https://github.com/dacrab/ioannislo) - Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
