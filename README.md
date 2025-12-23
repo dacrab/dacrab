@@ -26,9 +26,9 @@
   <h3>👷 Active projects</h3>
 </div>
 
+* [reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl) - A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 * [vicinae](https://github.com/dacrab/vicinae) - A focused launcher for your desktop — native, fast, extensible
 * [mybash](https://github.com/dacrab/mybash) - My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
-* [maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper) - A straightforward tool to scrape business leads from Google Maps and extract ...
 
 <div align="center">
   <h3>🌱 Latest repositories</h3>
@@ -36,6 +36,7 @@
 
 * [**reddit-gallery-dl**](https://github.com/dacrab/reddit-gallery-dl) - A high-performance Reddit Gallery Downloader written in Go (Golang). Streams downloads on-the-fly for minimal memory usage.
 * [**recipeswap-v2**](https://github.com/dacrab/recipeswap-v2) - A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social interactions, R2 media storage, and high-performance hybrid rendering.
+* [**maps-lead-scraper**](https://github.com/dacrab/maps-lead-scraper) - A straightforward tool to scrape business leads from Google Maps and extract contact details from their websites.
 
 <div align="center">
   <h3>🔨 Recent pull requests</h3>
