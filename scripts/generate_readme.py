@@ -1,391 +1,375 @@
 #!/usr/bin/env python3
 """Generate README.md from template using GitHub API data."""
+import json
 import os
 import sys
-import json
+from datetime import datetime, timedelta, timezone
+from urllib.error import URLError
 from urllib.request import Request, urlopen
 from urllib.parse import urlparse
-from datetime import datetime, timedelta, timezone
-from typing import Any
+from typing import Any, Dict, List, Optional, Set
 
+# --- Configuration ---
 GITHUB_API = "https://api.github.com"
 SKILLICONS_BASE = "https://skillicons.dev/icons"
 
-# Language to skillicon mapping
 LANG_MAP = {
     "TypeScript": "ts", "JavaScript": "javascript", "Python": "python", "PHP": "php",
     "HTML": "html", "CSS": "css", "C": "c", "C++": "cpp", "C#": "cs", "Go": "go",
     "Rust": "rust", "Java": "java", "Svelte": "svelte", "ShaderLab": "unity",
-    "shaderlab": "unity", "Shell": "bash", "SCSS": "sass", "Sass": "sass",
+    "Shell": "bash", "SCSS": "sass", "Sass": "sass", "Vue": "vue", "Kotlin": "kotlin",
+    "Swift": "swift", "Dart": "dart", "Ruby": "ruby", "Lua": "lua",
 }
 
-# Social provider to icon mapping
 SOCIAL_ICONS = {
     "x": "twitter", "twitter": "twitter", "instagram": "instagram", "linkedin": "linkedin",
     "youtube": "youtube", "twitch": "twitch", "facebook": "facebook", "mastodon": "mastodon",
     "reddit": "reddit", "stackoverflow": "stackoverflow", "dev.to": "devto", "medium": "medium",
-    "bluesky": "bluesky", "github": "github",
+    "bluesky": "bluesky", "github": "github", "gitlab": "gitlab", "vercel": "vercel",
+    "netlify": "netlify", "discord": "discord",
 }
 
 DOMAIN_MAP = {
     "x.com": "x", "twitter.com": "x", "instagram.com": "instagram", "linkedin.com": "linkedin",
     "youtube.com": "youtube", "youtu.be": "youtube", "twitch.tv": "twitch",
     "mastodon.social": "mastodon", "medium.com": "medium", "dev.to": "devto",
-    "bsky.app": "bluesky", "bluesky.social": "bluesky",
+    "bsky.app": "bluesky", "bluesky.social": "bluesky", "github.com": "github",
+    "gitlab.com": "gitlab", "vercel.app": "vercel", "netlify.app": "netlify",
 }
 
+# --- Helpers ---
 
-def env(name: str, default: str = "") -> str:
-    """Get environment variable."""
-    return os.getenv(name) or default
-
-
-def env_int(name: str, default: int) -> int:
-    """Get integer environment variable."""
-    try:
-        return int(os.getenv(name, "").strip() or default)
-    except ValueError:
+def get_env(name: str, default: Any = "") -> Any:
+    """Get environment variable with type conversion."""
+    val = os.getenv(name, "")
+    if not val:
         return default
+    if isinstance(default, bool):
+        return val.lower() in {"1", "true", "yes", "y", "on"}
+    if isinstance(default, int):
+        try:
+            return int(val)
+        except ValueError:
+            return default
+    return val
 
-
-def env_bool(name: str, default: bool = False) -> bool:
-    """Get boolean environment variable."""
-    val = os.getenv(name, "").strip().lower()
-    return val in {"1", "true", "yes", "y", "on"} if val else default
-
-
-def gh_get(path: str, token: str) -> Any:
-    """Fetch from GitHub API."""
+def gh_fetch(url: str, token: str) -> Optional[Any]:
+    """Fetch data from GitHub API."""
+    if not url.startswith("http"):
+        url = f"{GITHUB_API}{url}"
+    
     req = Request(
-        f"{GITHUB_API}{path}",
+        url,
         headers={
             "Authorization": f"token {token}",
             "Accept": "application/vnd.github+json",
             "User-Agent": "readme-generator",
         },
     )
-    with urlopen(req, timeout=30) as resp:
-        return json.load(resp)
-
+    try:
+        with urlopen(req, timeout=30) as resp:
+            return json.load(resp)
+    except (URLError, json.JSONDecodeError) as e:
+        print(f"Warning: Failed to fetch {url}: {e}", file=sys.stderr)
+        return None
 
 def truncate(text: str, max_len: int) -> str:
-    """Truncate text with ellipsis."""
-    return text if len(text) <= max_len else text[:max_len - 3] + "..."
+    """Truncate text to max length."""
+    return text if len(text) <= max_len else f"{text[:max_len-3]}..."
 
+def get_icon_slug(name: str, mapping: Dict[str, str]) -> Optional[str]:
+    """Case-insensitive icon lookup."""
+    if name in mapping:
+        return mapping[name]
+    name_lower = name.lower()
+    return next((v for k, v in mapping.items() if k.lower() == name_lower), None)
 
-def get_lang_icon(lang: str) -> str | None:
-    """Convert language name to skillicon slug."""
-    if lang in LANG_MAP:
-        return LANG_MAP[lang]
-    lang_lower = lang.lower()
-    for key, value in LANG_MAP.items():
-        if key.lower() == lang_lower:
-            return value
-    return None
+def guess_provider_from_url(url: str) -> Optional[str]:
+    """Guess social provider from URL domain."""
+    try:
+        host = urlparse(url).netloc.lower().lstrip("www.")
+        return DOMAIN_MAP.get(host) or DOMAIN_MAP.get(".".join(host.split(".")[-2:]))
+    except Exception:
+        return None
 
+# --- Content Builders ---
 
-def build_top_languages(username: str, token: str, limit: int = 8) -> str:
+def build_top_languages(username: str, token: str) -> str:
     """Build top languages section."""
     repos = []
     page = 1
-    
-    # Fetch repositories
     while len(repos) < 200:
-        try:
-            page_repos = gh_get(
-                f"/users/{username}/repos?sort=updated&per_page=100&page={page}",
-                token
-            )
-            if not page_repos:
-                break
-            repos.extend([r for r in page_repos if not r.get("fork") and not r.get("private")])
-            if len(page_repos) < 100:
-                break
-            page += 1
-        except Exception:
+        data = gh_fetch(f"/users/{username}/repos?sort=updated&per_page=100&page={page}", token)
+        if not data:
             break
-    
-    # Aggregate languages
-    lang_bytes: dict[str, int] = {}
-    for repo in repos[:100]:
-        try:
-            langs = gh_get(f"/repos/{repo.get('full_name')}/languages", token) or {}
-            for lang, bytes_count in langs.items():
-                lang_bytes[lang] = lang_bytes.get(lang, 0) + bytes_count
-        except Exception:
-            continue
-    
-    if not lang_bytes:
+        repos.extend([r for r in data if not r.get("fork") and not r.get("private")])
+        if len(data) < 100:
+            break
+        page += 1
+
+    lang_stats: Dict[str, int] = {}
+    for repo in repos[:50]:  # Limit to save API calls
+        langs = gh_fetch(f"/repos/{repo['full_name']}/languages", token)
+        if langs:
+            for lang, count in langs.items():
+                lang_stats[lang] = lang_stats.get(lang, 0) + count
+
+    if not lang_stats:
         return '<div align="center"><p>No language data available</p></div>'
-    
-    # Map to icons
+
+    limit = get_env("TOP_LANGUAGES_LIMIT", 8)
+    sorted_langs = sorted(lang_stats.items(), key=lambda x: x[1], reverse=True)
     icons = []
-    for lang, _ in sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True):
-        icon = get_lang_icon(lang)
-        if icon:
-            icons.append(icon)
-            if len(icons) >= limit:
-                break
-    
+    for lang, _ in sorted_langs:
+        slug = get_icon_slug(lang, LANG_MAP)
+        if slug:
+            icons.append(slug)
+        if len(icons) >= limit:
+            break
+
     if not icons:
         return '<div align="center"><p>No languages found</p></div>'
     
-    icon_list = ",".join(icons)
-    return f'<div align="center"><img src="{SKILLICONS_BASE}?i={icon_list}" alt="Top Languages" /></div>'
+    icons_str = ",".join(icons)
+    return f'<div align="center"><img src="{SKILLICONS_BASE}?i={icons_str}" alt="Top Languages" /></div>'
 
-
-def build_social_links(username: str, user: Any, token: str) -> str:
+def build_social_links(username: str, user_data: Dict[str, Any], token: str) -> str:
     """Build social links section."""
-    links = []
-    
-    # Get social accounts from API
-    socials = []
-    try:
-        api_socials = gh_get(f"/users/{username}/social_accounts", token) or []
-        for s in api_socials:
-            provider = (s.get("provider") or "").strip().lower()
-            url = (s.get("url") or "").strip()
-            if provider and url:
-                socials.append({"provider": provider, "url": url})
-    except Exception:
-        pass
-    
-    # Add Twitter fallback
-    twitter = (user.get("twitter_username") or "").strip()
-    if twitter and all(s.get("provider") not in {"twitter", "x"} for s in socials):
-        socials.append({"provider": "twitter", "url": f"https://x.com/{twitter}"})
-    
-    # Build social links
-    for s in socials:
-        provider = s.get("provider", "").lower()
-        url = s.get("url", "")
-        if not url:
-            continue
+    links: List[str] = []
+    seen_providers: Set[str] = set()
+
+    def add_link(provider: str, url: str):
+        if not url or provider in seen_providers:
+            return
         
-        # Try domain mapping if provider not found
-        if provider not in SOCIAL_ICONS:
-            try:
-                host = urlparse(url).netloc.lower()
-                provider = DOMAIN_MAP.get(host, provider)
-            except Exception:
-                pass
+        slug = get_icon_slug(provider, SOCIAL_ICONS)
+        if not slug:
+            guessed = guess_provider_from_url(url)
+            if guessed:
+                slug = SOCIAL_ICONS.get(guessed)
+                provider = guessed
         
-        if provider in SOCIAL_ICONS:
-            icon = SOCIAL_ICONS[provider]
-            alt = provider.replace(".", " ").title()
+        if slug:
+            seen_providers.add(provider)
+            name = provider.replace(".", " ").title()
             links.append(
-                f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 24px; display: inline-block;">'
-                f'<img alt="{alt}" src="{SKILLICONS_BASE}?i={icon}" width="48" height="48" style="transition: transform 0.2s;" />'
-                "</a>"
+                f'<a href="{url}" target="_blank" rel="noopener noreferrer" '
+                f'style="margin: 0 12px; display: inline-block;">'
+                f'<img alt="{name}" src="{SKILLICONS_BASE}?i={slug}" width="48" height="48" '
+                f'style="transition: transform 0.2s;" /></a>'
             )
-    
-    # Add website
-    website = (user.get("blog") or "").strip()
+
+    # Fetch social accounts from API
+    socials = gh_fetch(f"/users/{username}/social_accounts", token) or []
+    for s in socials:
+        add_link(s.get("provider", ""), s.get("url", ""))
+
+    # Twitter/X fallback
+    twitter = user_data.get("twitter_username")
+    if twitter and "twitter" not in seen_providers and "x" not in seen_providers:
+        add_link("x", f"https://x.com/{twitter}")
+
+    # Blog/Website
+    website = user_data.get("blog", "").strip()
     if website:
         if not website.startswith(("http://", "https://")):
             website = f"https://{website}"
-        try:
-            host = urlparse(website).netloc.lower().lstrip("www.")
-            icon = "github"
-            if "github.io" in host:
-                icon = "github"
-            elif "gitlab.com" in host:
-                icon = "gitlab"
-            elif "vercel.app" in host:
-                icon = "vercel"
-            elif "netlify.app" in host:
-                icon = "netlify"
-            links.append(
-                f'<a href="{website}" target="_blank" rel="noopener noreferrer" style="margin: 0 24px; display: inline-block;">'
-                f'<img alt="Website" src="{SKILLICONS_BASE}?i={icon}" width="48" height="48" style="transition: transform 0.2s;" />'
-                "</a>"
-            )
-        except Exception:
-            pass
-    
-    # Add email
-    email = (user.get("email") or "").strip()
+        add_link("website", website)
+
+    # Email
+    email = user_data.get("email")
     if not email:
-        try:
-            me = gh_get("/user", token) or {}
-            if (me.get("login") or "").lower() == username.lower():
-                emails = gh_get("/user/emails", token) or []
-                email = next((e.get("email") for e in emails if e.get("primary")), None) or \
-                        next((e.get("email") for e in emails if e.get("verified")), None) or \
-                        (emails[0].get("email") if emails else "")
-        except Exception:
-            pass
+        me = gh_fetch("/user", token)
+        if me and me.get("login", "").lower() == username.lower():
+            emails = gh_fetch("/user/emails", token) or []
+            email = (
+                next((e["email"] for e in emails if e.get("primary")), None) or
+                next((e["email"] for e in emails if e.get("verified")), None) or
+                (emails[0]["email"] if emails else None)
+            )
     
     if email:
         links.append(
-            f'<a href="mailto:{email}" target="_blank" rel="noopener noreferrer" style="margin: 0 24px; display: inline-block;">'
-            f'<img alt="Email" src="{SKILLICONS_BASE}?i=gmail" width="48" height="48" style="transition: transform 0.2s;" />'
-            "</a>"
+            f'<a href="mailto:{email}" target="_blank" rel="noopener noreferrer" '
+            f'style="margin: 0 12px; display: inline-block;">'
+            f'<img alt="Email" src="{SKILLICONS_BASE}?i=gmail" width="48" height="48" '
+            f'style="transition: transform 0.2s;" /></a>'
         )
-    
-    # Add GitHub link if enabled
-    if env_bool("SHOW_GITHUB_LINK", False):
-        links.append(
-            f'<a href="https://github.com/{username}" target="_blank" rel="noopener noreferrer" style="margin: 0 24px; display: inline-block;">'
-            f'<img alt="GitHub" src="{SKILLICONS_BASE}?i=github" width="48" height="48" style="transition: transform 0.2s;" />'
-            "</a>"
-        )
-    
+
+    # GitHub link (optional)
+    if get_env("SHOW_GITHUB_LINK", False):
+        add_link("github", f"https://github.com/{username}")
+
     if not links:
-        return ""
+        return "<p align=\"center\"><em>No social links available</em></p>"
     
-    icons_html = "".join(links)
-    return f'<div align="center">\n  <p>\n    {icons_html}\n  </p>\n</div>'
+    links_html = "".join(links)
+    return f'<div align="center">\n  <p>\n    {links_html}\n  </p>\n</div>'
 
+def build_active_projects(username: str, token: str) -> str:
+    """Build active projects section."""
+    events = gh_fetch(f"/users/{username}/events?per_page=50", token) or []
+    active_repos = []
+    seen = set()
+    limit = get_env("WORKING_ON_LIMIT", 4)
 
-def build_working_on(events: Any, token: str, limit: int = 4) -> str:
-    """Build active projects list."""
-    repos = []
     for event in events:
+        if len(active_repos) >= limit:
+            break
         if event.get("type") in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
-            repo_name = event.get("repo", {}).get("name")
-            if repo_name and repo_name not in repos:
-                repos.append(repo_name)
-                if len(repos) >= limit:
-                    break
-    
-    lines = []
-    for repo in repos:
-        name = repo.split("/")[-1]
-        try:
-            data = gh_get(f"/repos/{repo}", token) or {}
-            if data.get("private"):
-                continue
-            desc = truncate(data.get("description") or "No description available", 80)
-            lines.append(f"* [{name}](https://github.com/{repo}) - {desc}")
-        except Exception:
-            lines.append(f"* [{name}](https://github.com/{repo})")
-    
-    return "\n".join(lines) if lines else "* No active projects"
+            repo_name = event.get("repo", {}).get("name", "")
+            if repo_name and repo_name not in seen:
+                seen.add(repo_name)
+                repo_data = gh_fetch(f"/repos/{repo_name}", token)
+                if repo_data and not repo_data.get("private"):
+                    desc = truncate(repo_data.get("description") or "No description available", 80)
+                    name = repo_name.split("/")[-1]
+                    stars = repo_data.get("stargazers_count", 0)
+                    stars_badge = f"⭐ {stars}" if stars > 0 else ""
+                    active_repos.append(
+                        f"<div align=\"left\">\n"
+                        f"  <h4>🔹 <a href=\"{repo_data['html_url']}\">{name}</a> {stars_badge}</h4>\n"
+                        f"  <p>{desc}</p>\n"
+                        f"</div>"
+                    )
 
+    if not active_repos:
+        return "<p><em>No active projects at the moment</em></p>"
+    return "\n\n".join(active_repos)
 
-def build_latest_projects(repos: Any, limit: int = 3) -> str:
-    """Build latest repositories list."""
-    items = [
-        r for r in repos
-        if not r.get("fork") and not r.get("private") and r.get("size", 0) > 0
-    ][:limit]
+def build_latest_repos(username: str, token: str) -> str:
+    """Build latest repositories section."""
+    repos = gh_fetch(f"/users/{username}/repos?sort=created&direction=desc&per_page=10", token) or []
+    items = [r for r in repos if not r.get("fork") and not r.get("private")][:get_env("LATEST_PROJECTS_LIMIT", 3)]
     
     if not items:
-        return "* No repositories found"
+        return "<p><em>No repositories found</em></p>"
+
+    lines = []
+    for r in items:
+        stars = r.get("stargazers_count", 0)
+        language = r.get("language", "")
+        lang_badge = f"<code>{language}</code>" if language else ""
+        stars_badge = f"⭐ {stars}" if stars > 0 else ""
+        badges = " ".join(filter(None, [lang_badge, stars_badge]))
+        desc = truncate(r.get("description") or "No description", 100)
+        lines.append(
+            f"<div align=\"left\">\n"
+            f"  <h4>🔹 <a href=\"{r['html_url']}\"><strong>{r['name']}</strong></a></h4>\n"
+            f"  <p>{desc}</p>\n"
+            f"  <p>{badges}</p>\n"
+            f"</div>"
+        )
+    return "\n\n".join(lines)
+
+def build_recent_prs(username: str, token: str) -> str:
+    """Build recent pull requests section."""
+    days = get_env("PRS_DAYS", 30)
+    date_cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
     
-    return "\n".join(
-        f"* [**{r['name']}**]({r['html_url']}) - {r.get('description') or 'No description available'}"
-        for r in items
+    data = gh_fetch(
+        f"/search/issues?q=author:{username}+type:pr+created:>={date_cutoff}"
+        f"&sort=created&order=desc&per_page=5",
+        token
     )
+    items = data.get("items", []) if data else []
 
-
-def build_recent_prs(prs: Any, token: str) -> str:
-    """Build recent pull requests list."""
-    items = (prs or {}).get("items", [])
-    if not items:
-        return "* No recent pull requests - time to contribute! 🔀"
-    
     lines = []
-    for item in items[:5]:
-        title = truncate(item.get("title", "Untitled"), 60)
-        api_repo_url = item.get("repository_url", "")
-        
-        # Skip private repos
-        if api_repo_url:
-            try:
-                path = api_repo_url.replace("https://api.github.com", "")
-                repo_meta = gh_get(path, token) or {}
-                if repo_meta.get("private"):
-                    continue
-            except Exception:
-                pass
-        
-        repo_name = api_repo_url.split("/")[-1] if api_repo_url else "repo"
-        repo_html_url = api_repo_url.replace("api.github.com/repos", "github.com") if api_repo_url else ""
-        lines.append(f"* [{title}]({item.get('html_url')}) on [{repo_name}]({repo_html_url})")
+    for item in items:
+        repo_url = item.get("repository_url", "")
+        if repo_url:
+            repo_meta = gh_fetch(repo_url.replace("https://api.github.com", ""), token)
+            if repo_meta and not repo_meta.get("private"):
+                repo_name = repo_meta.get("full_name", "repo")
+                title = truncate(item.get("title", "Untitled"), 60)
+                state = item.get("state", "open")
+                state_emoji = "✅" if state == "merged" else "🔀" if state == "open" else "❌"
+                lines.append(
+                    f"<div align=\"left\">\n"
+                    f"  <p>{state_emoji} <a href=\"{item['html_url']}\"><strong>{title}</strong></a><br/>\n"
+                    f"  <sub>in <a href=\"{repo_meta['html_url']}\">{repo_name}</a></sub></p>\n"
+                    f"</div>"
+                )
+
+    if not lines:
+        return "<p><em>No recent pull requests - time to contribute! 🔀</em></p>"
+    return "\n".join(lines)
+
+def build_recent_stars(username: str, token: str) -> str:
+    """Build recent stars section."""
+    stars = gh_fetch(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token) or []
     
-    return "\n".join(lines) if lines else "* No recent pull requests - time to contribute! 🔀"
-
-
-def build_recent_stars(stars: Any) -> str:
-    """Build recently starred repositories list."""
     if not stars:
-        return "* No recent stars - discover some awesome repos! ⭐"
+        return "<p><em>No recent stars - discover some awesome repos! ⭐</em></p>"
     
-    return "\n".join(
-        f"* [{star.get('owner', {}).get('login', 'owner')}/{star.get('name', 'repo')}]"
-        f"({star.get('html_url')}) - {truncate(star.get('description') or 'No description available', 80)}"
-        for star in stars[:5]
-    )
+    lines = []
+    for star in stars:
+        repo_name = star.get("full_name", "Unknown")
+        desc = truncate(star.get("description") or "No description", 80)
+        star_count = star.get("stargazers_count", 0)
+        stars_badge = f"⭐ {star_count:,}" if star_count > 0 else ""
+        lines.append(
+            f"<div align=\"left\">\n"
+            f"  <p>⭐ <a href=\"{star.get('html_url')}\"><strong>{repo_name}</strong></a> {stars_badge}<br/>\n"
+            f"  <sub>{desc}</sub></p>\n"
+            f"</div>"
+        )
+    return "\n".join(lines)
 
-
-def generate_readme(template_path: str, output_path: str, username: str, token: str) -> None:
-    """Generate README.md from template."""
-    # Fetch data
-    user = gh_get(f"/users/{username}", token)
-    events = gh_get(f"/users/{username}/events?per_page=50", token)
-    repos_newest = gh_get(
-        f"/users/{username}/repos?sort=created&direction=desc&per_page=5", token
-    )
-    stars = gh_get(
-        f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token
-    )
-    
-    # Get recent PRs
-    prs_days = env_int("PRS_DAYS", 30)
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=prs_days)).strftime("%Y-%m-%d")
-    prs = gh_get(
-        f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5",
-        token,
-    )
-    
-    # Extract first name
-    full_name = user.get("name") or env("FALLBACK_NAME", username)
-    user_name = full_name.split()[0] if full_name else username
-    
-    # Build replacements
-    replacements = {
-        "{{USER_NAME}}": user_name,
-        "{{TOP_LANGUAGES}}": build_top_languages(username, token, env_int("TOP_LANGUAGES_LIMIT", 8)),
-        "{{SOCIAL_LINKS}}": build_social_links(username, user, token),
-        "{{WORKING_ON}}": build_working_on(events, token, env_int("WORKING_ON_LIMIT", 4)),
-        "{{LATEST_PROJECTS}}": build_latest_projects(repos_newest, env_int("LATEST_PROJECTS_LIMIT", 3)),
-        "{{RECENT_PRS}}": build_recent_prs(prs, token),
-        "{{RECENT_STARS}}": build_recent_stars(stars),
-    }
-    
-    # Generate README
-    with open(template_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    
-    for placeholder, value in replacements.items():
-        content = content.replace(placeholder, value)
-    
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(content)
-
+# --- Main ---
 
 def main() -> int:
-    """Main entry point."""
-    username = env("GH_USERNAME") or env("GITHUB_ACTOR")
-    token = env("GH_PAT") or env("GITHUB_TOKEN")
-    
-    if not username:
-        print("Missing username: set GH_USERNAME or GITHUB_ACTOR", file=sys.stderr)
-        return 2
-    
-    if not token:
-        print("Missing GitHub token: set GH_PAT or GITHUB_TOKEN", file=sys.stderr)
-        return 2
-    
-    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    template_path = os.path.join(root, "README.gtpl")
-    output_path = os.path.join(root, "README.md")
-    
-    generate_readme(template_path, output_path, username, token)
-    return 0
+    """Main execution."""
+    username = get_env("GH_USERNAME") or get_env("GITHUB_ACTOR")
+    token = get_env("GH_PAT") or get_env("GITHUB_TOKEN")
 
+    if not username or not token:
+        print("Error: GH_USERNAME and GH_PAT (or GITHUB_TOKEN) are required.", file=sys.stderr)
+        return 1
+
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    template_path = os.path.join(root_dir, "README.gtpl")
+    output_path = os.path.join(root_dir, "README.md")
+
+    if not os.path.exists(template_path):
+        print(f"Error: Template not found at {template_path}", file=sys.stderr)
+        return 1
+
+    print(f"Generating README for {username}...")
+
+    user_data = gh_fetch(f"/users/{username}", token)
+    if not user_data:
+        print("Error: Could not fetch user data.", file=sys.stderr)
+        return 1
+
+    full_name = user_data.get("name") or get_env("FALLBACK_NAME", username)
+    display_name = full_name.split()[0] if full_name else username
+
+    replacements = {
+        "{{USER_NAME}}": display_name,
+        "{{TOP_LANGUAGES}}": build_top_languages(username, token),
+        "{{SOCIAL_LINKS}}": build_social_links(username, user_data, token),
+        "{{WORKING_ON}}": build_active_projects(username, token),
+        "{{LATEST_PROJECTS}}": build_latest_repos(username, token),
+        "{{RECENT_PRS}}": build_recent_prs(username, token),
+        "{{RECENT_STARS}}": build_recent_stars(username, token),
+    }
+
+    try:
+        with open(template_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        
+        for key, value in replacements.items():
+            content = content.replace(key, value)
+            
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(content)
+            
+        print(f"Successfully generated {output_path}")
+        return 0
+    except Exception as e:
+        print(f"Error writing README: {e}", file=sys.stderr)
+        return 1
 
 if __name__ == "__main__":
     sys.exit(main())
