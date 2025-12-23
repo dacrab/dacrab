@@ -55,5 +55,6 @@ jobs:
           git add README.md assets/github-metrics.svg
           if ! git diff --cached --quiet; then
             git commit -m "🔄 Auto-update profile"
-            git push
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin "${{ github.ref_name }}"
           fi
