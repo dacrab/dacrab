@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
   <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
 </div>
@@ -32,11 +37,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
   <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
 
 <div align="left">
@@ -104,15 +104,15 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,517<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,521<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,375<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,401<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,843<br/>
+  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,842<br/>
   <sub>Things to do after installing Fedora 43</sub></p>
 </div>
 
