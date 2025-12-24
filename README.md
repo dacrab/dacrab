@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/dragon-blaze">dragon-blaze</a> ⭐ 2</h4>
+  <p>2D action platformer built with Unity 6 featuring fluid movement, combat syst...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
   <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
@@ -37,11 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
   <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/vicinae">vicinae</a> </h4>
-  <p>A focused launcher for your desktop — native, fast, extensible</p>
 </div>
 
 <br/>
@@ -71,6 +71,10 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>🔀 <a href="https://github.com/dacrab/dragon-blaze/pull/1"><strong>Refactor/architecture and player</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/dragon-blaze">dacrab/dragon-blaze</a></sub></p>
+</div>
+<div align="left">
   <p>🔀 <a href="https://github.com/vicinaehq/vicinae/pull/808"><strong>feat: add COPR packaging and automation for vicinae</strong></a><br/>
   <sub>in <a href="https://github.com/vicinaehq/vicinae">vicinaehq/vicinae</a></sub></p>
 </div>
@@ -86,10 +90,6 @@
   <p>❌ <a href="https://github.com/victrme/Bonjourr/pull/726"><strong>Add line break support in quotes for poems and multi-line...</strong></a><br/>
   <sub>in <a href="https://github.com/victrme/Bonjourr">victrme/Bonjourr</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/28"><strong>refactor: structure and runes migration</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
-</div>
 
 <br/>
 
@@ -100,19 +100,19 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 423<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 424<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,525<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,527<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,475<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,520<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,841<br/>
+  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,843<br/>
   <sub>Things to do after installing Fedora 43</sub></p>
 </div>
 
