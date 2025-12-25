@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/nord-background">nord-background</a> </h4>
+  <p>A curated collection of Nord-themed wallpapers.</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
   <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
@@ -39,14 +44,15 @@
   <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
-  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/nord-background"><strong>nord-background</strong></a></h4>
+  <p>A curated collection of Nord-themed wallpapers.</p>
+  <p></p>
+</div>
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl"><strong>reddit-gallery-dl</strong></a></h4>
@@ -58,12 +64,6 @@
   <h4>🔹 <a href="https://github.com/dacrab/recipeswap-v2"><strong>recipeswap-v2</strong></a></h4>
   <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social i...</p>
   <p><code>Astro</code></p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper"><strong>maps-lead-scraper</strong></a></h4>
-  <p>A straightforward tool to scrape business leads from Google Maps and extract contact details from...</p>
-  <p><code>HTML</code></p>
 </div>
 
 <br/>
@@ -104,15 +104,15 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,529<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,534<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,606<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,619<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,845<br/>
+  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,849<br/>
   <sub>Things to do after installing Fedora 43</sub></p>
 </div>
 
