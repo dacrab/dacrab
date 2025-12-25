@@ -25,13 +25,13 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dragon-blaze">dragon-blaze</a> ⭐ 2</h4>
-  <p>2D action platformer built with Unity 6 featuring fluid movement, combat syst...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dragon-blaze">dragon-blaze</a> ⭐ 2</h4>
+  <p>2D action platformer built with Unity 6 featuring fluid movement, combat syst...</p>
 </div>
 
 <div align="left">
@@ -51,7 +51,7 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl"><strong>reddit-gallery-dl</strong></a></h4>
   <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams downloads on-the-fly...</p>
-  <p><code>Go</code></p>
+  <p><code>HTML</code></p>
 </div>
 
 <div align="left">
@@ -96,11 +96,11 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,962<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,963<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 424<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 425<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
@@ -108,11 +108,11 @@
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,520<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,539<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,843<br/>
+  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,844<br/>
   <sub>Things to do after installing Fedora 43</sub></p>
 </div>
 
