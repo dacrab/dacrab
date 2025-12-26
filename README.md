@@ -25,8 +25,8 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/nord-background">nord-background</a> </h4>
-  <p>A curated collection of Nord-themed wallpapers.</p>
+  <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
+  <p>A curated collection of high-quality wallpapers optimized for performance and...</p>
 </div>
 
 <div align="left">
@@ -49,8 +49,8 @@
 ## 🌱 Latest Projects
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/nord-background"><strong>nord-background</strong></a></h4>
-  <p>A curated collection of Nord-themed wallpapers.</p>
+  <h4>🔹 <a href="https://github.com/dacrab/wallpapers"><strong>wallpapers</strong></a></h4>
+  <p>A curated collection of high-quality wallpapers optimized for performance and 4K resolution.</p>
   <p></p>
 </div>
 
@@ -100,7 +100,7 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 425<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 426<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
@@ -108,7 +108,7 @@
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,619<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,640<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
