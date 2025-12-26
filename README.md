@@ -26,7 +26,12 @@
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
-  <p>A curated collection of high-quality wallpapers optimized for performance and...</p>
+  <p>Optimized Nord-themed wallpaper collection (1080p, WebP format)</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/mybash">mybash</a> ⭐ 1</h4>
+  <p>My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...</p>
 </div>
 
 <div align="left">
@@ -39,18 +44,13 @@
   <p>2D action platformer built with Unity 6 featuring fluid movement, combat syst...</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
-  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/wallpapers"><strong>wallpapers</strong></a></h4>
-  <p>A curated collection of high-quality wallpapers optimized for performance and 4K resolution.</p>
+  <p>Optimized Nord-themed wallpaper collection (1080p, WebP format)</p>
   <p></p>
 </div>
 
@@ -104,15 +104,15 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,535<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,536<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,669<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,703<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,849<br/>
+  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,851<br/>
   <sub>Things to do after installing Fedora 43</sub></p>
 </div>
 
