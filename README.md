@@ -25,6 +25,16 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
+  <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/cursor-id-modifier">cursor-id-modifier</a> </h4>
+  <p>A simple script-based tool to reset Cursor machine IDs and bypass trial limit...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
   <p>Optimized Nord-themed wallpaper collection (1080p, WebP format)</p>
 </div>
@@ -32,16 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/mybash">mybash</a> ⭐ 1</h4>
   <p>My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dragon-blaze">dragon-blaze</a> ⭐ 2</h4>
-  <p>2D action platformer built with Unity 6 featuring fluid movement, combat syst...</p>
 </div>
 
 <br/>
@@ -96,11 +96,11 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 31<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 308<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,964<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,965<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
@@ -108,11 +108,11 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,542<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,545<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,798<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,817<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
