@@ -104,15 +104,15 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,536<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,538<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,738<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,749<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,851<br/>
+  <p>⭐ <a href="https://github.com/devangshekhawat/Fedora-43-Post-Install-Guide"><strong>devangshekhawat/Fedora-43-Post-Install-Guide</strong></a> ⭐ 1,852<br/>
   <sub>Things to do after installing Fedora 43</sub></p>
 </div>
 
