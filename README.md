@@ -25,23 +25,23 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
-  <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in W...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
+  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/recipeswap-v2">recipeswap-v2</a> </h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper">maps-lead-scraper</a> </h4>
+  <p>A straightforward tool to scrape business leads from Google Maps and extract ...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
-  <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cursor-id-modifier">cursor-id-modifier</a> </h4>
-  <p>A simple script-based tool to reset Cursor machine IDs and bypass trial limit...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
 <br/>
@@ -51,7 +51,7 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/wallpapers"><strong>wallpapers</strong></a></h4>
   <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in WebP format.</p>
-  <p><code>Shell</code></p>
+  <p></p>
 </div>
 
 <div align="left">
@@ -71,6 +71,10 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>❌ <a href="https://github.com/dacrab/craftops/pull/27"><strong>fix: complete dependabot.yml github-actions config</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/craftops">dacrab/craftops</a></sub></p>
+</div>
+<div align="left">
   <p>🔀 <a href="https://github.com/dacrab/dragon-blaze/pull/1"><strong>Refactor/architecture and player</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/dragon-blaze">dacrab/dragon-blaze</a></sub></p>
 </div>
@@ -86,17 +90,13 @@
   <p>❌ <a href="https://github.com/victrme/Bonjourr/pull/727"><strong>Auto-switch to imperial units based on user locale</strong></a><br/>
   <sub>in <a href="https://github.com/victrme/Bonjourr">victrme/Bonjourr</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/victrme/Bonjourr/pull/726"><strong>Add line break support in quotes for poems and multi-line...</strong></a><br/>
-  <sub>in <a href="https://github.com/victrme/Bonjourr">victrme/Bonjourr</a></sub></p>
-</div>
 
 <br/>
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 558<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 622<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -108,11 +108,11 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,548<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,549<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,878<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,909<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
