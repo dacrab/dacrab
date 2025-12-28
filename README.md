@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
+  <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in W...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/recipeswap-v2">recipeswap-v2</a> </h4>
   <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
@@ -39,19 +44,14 @@
   <p>A simple script-based tool to reset Cursor machine IDs and bypass trial limit...</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
-  <p>Optimized Nord-themed wallpaper collection (1080p, WebP format)</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/wallpapers"><strong>wallpapers</strong></a></h4>
-  <p>Optimized Nord-themed wallpaper collection (1080p, WebP format)</p>
-  <p></p>
+  <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in WebP format.</p>
+  <p><code>Shell</code></p>
 </div>
 
 <div align="left">
@@ -96,15 +96,15 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 478<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 558<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,967<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,968<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 433<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 434<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,845<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 88,878<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
