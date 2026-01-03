@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/RookieEnough/Orion-Store">Orion-Store</a> ⭐ 747</h4>
+  <p>The ultimate home for modded apps. OrionStore offers instant access to YouTub...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/Orion-Store">Orion-Store</a> </h4>
   <p>The ultimate home for modded apps. OrionStore offers instant access to YouTub...</p>
 </div>
@@ -37,11 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
   <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
-  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
 </div>
 
 <br/>
@@ -71,6 +71,10 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>🔀 <a href="https://github.com/RookieEnough/Orion-Store/pull/11"><strong>UI/UX improvements, code cleanup, and animation overhaul</strong></a><br/>
+  <sub>in <a href="https://github.com/RookieEnough/Orion-Store">RookieEnough/Orion-Store</a></sub></p>
+</div>
+<div align="left">
   <p>❌ <a href="https://github.com/dacrab/craftops/pull/27"><strong>fix: complete dependabot.yml github-actions config</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/craftops">dacrab/craftops</a></sub></p>
 </div>
@@ -78,29 +82,17 @@
   <p>🔀 <a href="https://github.com/dacrab/dragon-blaze/pull/1"><strong>Refactor/architecture and player</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/dragon-blaze">dacrab/dragon-blaze</a></sub></p>
 </div>
-<div align="left">
-  <p>🔀 <a href="https://github.com/vicinaehq/vicinae/pull/808"><strong>feat: add COPR packaging and automation for vicinae</strong></a><br/>
-  <sub>in <a href="https://github.com/vicinaehq/vicinae">vicinaehq/vicinae</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/victrme/Bonjourr/pull/728"><strong>feat: add duplicate link feature</strong></a><br/>
-  <sub>in <a href="https://github.com/victrme/Bonjourr">victrme/Bonjourr</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/victrme/Bonjourr/pull/727"><strong>Auto-switch to imperial units based on user locale</strong></a><br/>
-  <sub>in <a href="https://github.com/victrme/Bonjourr">victrme/Bonjourr</a></sub></p>
-</div>
 
 <br/>
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 901<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 907<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,969<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,968<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
@@ -108,11 +100,11 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,576<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,577<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 89,445<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 89,469<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
