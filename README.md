@@ -8,7 +8,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,javascript,unity,css" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,html,ts,svelte,php,javascript,unity,css" alt="Top Languages" /></div>
 
 <br/>
 
@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
+  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
   <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
@@ -32,11 +37,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
   <p>clubOS built using Svelte(Kit) & Supabase</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/recipeswap-v2">recipeswap-v2</a> </h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
 
 <div align="left">
@@ -61,7 +61,7 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/recipeswap-v2"><strong>recipeswap-v2</strong></a></h4>
+  <h4>🔹 <a href="https://github.com/dacrab/mise"><strong>mise</strong></a></h4>
   <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social i...</p>
   <p><code>Astro</code></p>
 </div>
@@ -96,15 +96,15 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 465<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 466<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,629<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,634<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 90,011<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 90,045<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
