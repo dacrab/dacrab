@@ -25,13 +25,13 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
-  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
-  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
+  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
 </div>
 
 <div align="left">
@@ -88,7 +88,7 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,208<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,219<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -96,15 +96,15 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 469<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 470<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,651<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,656<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 90,400<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 90,424<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
