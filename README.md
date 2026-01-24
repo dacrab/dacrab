@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
   <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
 </div>
@@ -37,11 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
   <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
 
 <br/>
@@ -78,33 +78,29 @@
   <p>❌ <a href="https://github.com/dacrab/craftops/pull/27"><strong>fix: complete dependabot.yml github-actions config</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/craftops">dacrab/craftops</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/dragon-blaze/pull/1"><strong>Refactor/architecture and player</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/dragon-blaze">dacrab/dragon-blaze</a></sub></p>
-</div>
 
 <br/>
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,630<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,634<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,984<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 1,985<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 493<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 492<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,763<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,764<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 92,266<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 92,277<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
