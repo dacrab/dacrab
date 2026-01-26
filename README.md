@@ -8,7 +8,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,html,ts,svelte,php,javascript,unity,css" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,javascript,css,unity" alt="Top Languages" /></div>
 
 <br/>
 
@@ -25,6 +25,16 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
+  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
+  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
   <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
@@ -34,36 +44,26 @@
   <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
-  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
-  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/solid-studio"><strong>solid-studio</strong></a></h4>
+  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS</p>
+  <p><code>TypeScript</code></p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow"><strong>cryptoflow</strong></a></h4>
+  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
+  <p><code>TypeScript</code></p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/wallpapers"><strong>wallpapers</strong></a></h4>
   <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in WebP format.</p>
   <p></p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl"><strong>reddit-gallery-dl</strong></a></h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams downloads on-the-fly...</p>
-  <p><code>HTML</code></p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise"><strong>mise</strong></a></h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflare. Features social i...</p>
-  <p><code>Astro</code></p>
 </div>
 
 <br/>
@@ -84,7 +84,7 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,650<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,654<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -96,11 +96,11 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,776<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,775<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 92,474<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 92,493<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
