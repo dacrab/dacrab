@@ -25,23 +25,23 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
-  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
-  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
-</div>
-
-<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
   <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
-  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
+  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
+  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
 </div>
 
 <br/>
@@ -85,7 +85,7 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 522<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 521<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
@@ -93,7 +93,7 @@
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 93,617<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 93,653<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
