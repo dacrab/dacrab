@@ -30,18 +30,18 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
+  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
-  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
+  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
-  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
 <br/>
@@ -70,14 +70,29 @@
 
 ## 🔨 Recent Contributions
 
-<p><em>No recent pull requests - time to contribute! 🔀</em></p>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/dacrab.github.io/pull/51"><strong>fix: add pages permissions to ci job</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/dacrab.github.io">dacrab/dacrab.github.io</a></sub></p>
+</div>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/2"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
+</div>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/ioannislo/pull/17"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/ioannislo">dacrab/ioannislo</a></sub></p>
+</div>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/solid-studio/pull/4"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/solid-studio">dacrab/solid-studio</a></sub></p>
+</div>
 
 <br/>
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,710<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,709<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -89,11 +104,11 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,908<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,909<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 94,126<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 94,159<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
