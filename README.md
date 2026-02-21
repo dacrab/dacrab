@@ -108,11 +108,11 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,979<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,981<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 95,092<br/>
+  <p>⭐ <a href="https://github.com/google-gemini/gemini-cli"><strong>google-gemini/gemini-cli</strong></a> ⭐ 95,114<br/>
   <sub>An open-source AI agent that brings the power of Gemini directly into your te...</sub></p>
 </div>
 
