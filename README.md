@@ -25,13 +25,13 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper">maps-lead-scraper</a> </h4>
-  <p>A straightforward tool to scrape business leads from Google Maps and extract ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper">maps-lead-scraper</a> </h4>
+  <p>A straightforward tool to scrape business leads from Google Maps and extract ...</p>
 </div>
 
 <div align="left">
@@ -96,15 +96,15 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 82<br/>
-  <sub>Fedora Workstation/GNOME setup🐧</sub></p>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 84<br/>
+  <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
   <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,722<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,022<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,023<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,994<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 20,996<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
