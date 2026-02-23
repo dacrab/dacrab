@@ -8,7 +8,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,css,javascript,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,javascript" alt="Top Languages" /></div>
 
 <br/>
 
@@ -25,6 +25,16 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
+  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
   <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
@@ -32,16 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper">maps-lead-scraper</a> </h4>
   <p>A straightforward tool to scrape business leads from Google Maps and extract ...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
-  <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
-  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
 
 <br/>
@@ -71,6 +71,10 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/59"><strong>chore(deps-dev): bump eslint from 9.39.2 to 10.0.1</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+</div>
+<div align="left">
   <p>❌ <a href="https://github.com/dacrab/maps-lead-scraper/pull/1"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/maps-lead-scraper">dacrab/maps-lead-scraper</a></sub></p>
 </div>
@@ -86,21 +90,17 @@
   <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/2"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/ioannislo/pull/17"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/ioannislo">dacrab/ioannislo</a></sub></p>
-</div>
 
 <br/>
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 88<br/>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 90<br/>
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,723<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,724<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,001<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,007<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
