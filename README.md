@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
   <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
@@ -37,11 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
   <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
-  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
 </div>
 
 <br/>
@@ -104,7 +104,7 @@
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,026<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,027<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,058<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,059<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
