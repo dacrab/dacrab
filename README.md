@@ -25,13 +25,18 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
-  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
+  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
-  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
+  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 2</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
 </div>
 
 <div align="left">
@@ -39,14 +44,15 @@
   <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
-  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/casa-serena"><strong>casa-serena</strong></a></h4>
+  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
+  <p><code>Astro</code></p>
+</div>
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/solid-studio"><strong>solid-studio</strong></a></h4>
@@ -58,12 +64,6 @@
   <h4>🔹 <a href="https://github.com/dacrab/cryptoflow"><strong>cryptoflow</strong></a></h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
   <p><code>TypeScript</code></p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/wallpapers"><strong>wallpapers</strong></a></h4>
-  <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in WebP format.</p>
-  <p></p>
 </div>
 
 <br/>
@@ -100,7 +100,7 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,735<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,734<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,097<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,101<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
