@@ -25,23 +25,23 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/beauty-salon-scheduling-api">beauty-salon-scheduling-api</a> </h4>
-  <p>Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper">maps-lead-scraper</a> </h4>
-  <p>A straightforward tool to scrape business leads from Google Maps and extract ...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
-</div>
-
-<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
   <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
+  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
+  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
 
 <br/>
@@ -100,7 +100,7 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,734<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,735<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,094<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,097<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
