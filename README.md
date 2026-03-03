@@ -25,8 +25,13 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/beauty-salon-scheduling-api">beauty-salon-scheduling-api</a> </h4>
+  <p>Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/maps-lead-scraper">maps-lead-scraper</a> </h4>
+  <p>A straightforward tool to scrape business leads from Google Maps and extract ...</p>
 </div>
 
 <div align="left">
@@ -35,13 +40,8 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/wallpapers">wallpapers</a> </h4>
-  <p>A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in W...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
-  <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
+  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
 
 <br/>
@@ -108,11 +108,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 572<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 573<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,089<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,093<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
