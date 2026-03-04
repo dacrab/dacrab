@@ -30,7 +30,7 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> ⭐ 1</h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
 
@@ -63,7 +63,7 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/cryptoflow"><strong>cryptoflow</strong></a></h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
-  <p><code>TypeScript</code></p>
+  <p><code>TypeScript</code> ⭐ 1</p>
 </div>
 
 <br/>
@@ -96,7 +96,7 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 102<br/>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 103<br/>
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
@@ -108,11 +108,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 575<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 576<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,106<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,109<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
