@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
+  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
@@ -32,11 +37,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
   <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
-  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
 </div>
 
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,105<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,106<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
