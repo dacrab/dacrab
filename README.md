@@ -30,12 +30,12 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> ⭐ 1</h4>
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> </h4>
+  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> ⭐ 1</h4>
   <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
 </div>
 
@@ -57,13 +57,13 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/solid-studio"><strong>solid-studio</strong></a></h4>
   <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS</p>
-  <p><code>TypeScript</code></p>
+  <p><code>TypeScript</code> ⭐ 1</p>
 </div>
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/cryptoflow"><strong>cryptoflow</strong></a></h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
-  <p><code>TypeScript</code> ⭐ 1</p>
+  <p><code>TypeScript</code></p>
 </div>
 
 <br/>
@@ -108,11 +108,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 578<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 577<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,112<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,115<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
