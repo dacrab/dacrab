@@ -30,8 +30,8 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
-  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
 <div align="left">
@@ -40,8 +40,8 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
-  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
+  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
 
 <br/>
@@ -100,7 +100,7 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,737<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,738<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
