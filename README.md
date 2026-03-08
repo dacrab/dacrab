@@ -25,8 +25,13 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
-  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
+  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
+  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
 
 <div align="left">
@@ -35,13 +40,8 @@
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> ⭐ 1</h4>
-  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> </h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/beauty-salon-scheduling-api">beauty-salon-scheduling-api</a> </h4>
+  <p>Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...</p>
 </div>
 
 <br/>
@@ -71,6 +71,14 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/7"><strong>chore: sync bun.lock</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
+</div>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/ioannislo/pull/24"><strong>chore: sync bun.lock</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/ioannislo">dacrab/ioannislo</a></sub></p>
+</div>
+<div align="left">
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/59"><strong>chore(deps-dev): bump eslint from 9.39.2 to 10.0.1</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
@@ -82,14 +90,6 @@
   <p>❌ <a href="https://github.com/dacrab/reddit-gallery-dl/pull/6"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/reddit-gallery-dl">dacrab/reddit-gallery-dl</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/dacrab.github.io/pull/51"><strong>fix: add pages permissions to ci job</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/dacrab.github.io">dacrab/dacrab.github.io</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/2"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
-</div>
 
 <br/>
 
@@ -100,7 +100,7 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,738<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,737<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -108,11 +108,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 579<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 580<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,141<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,140<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
