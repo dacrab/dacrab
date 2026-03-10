@@ -96,7 +96,7 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 103<br/>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 104<br/>
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
@@ -104,7 +104,7 @@
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,033<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,032<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,152<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,153<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
