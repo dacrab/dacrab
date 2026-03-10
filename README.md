@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
+  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
   <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
 </div>
@@ -37,11 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
   <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/beauty-salon-scheduling-api">beauty-salon-scheduling-api</a> </h4>
-  <p>Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...</p>
 </div>
 
 <br/>
@@ -108,11 +108,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 583<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 584<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,155<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,156<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
