@@ -8,7 +8,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,javascript" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,unity" alt="Top Languages" /></div>
 
 <br/>
 
@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
+  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
   <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
 </div>
@@ -37,11 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
-  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
 <br/>
@@ -100,19 +100,19 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,736<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,738<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,033<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,034<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 585<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 587<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,163<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,167<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
