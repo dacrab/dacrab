@@ -25,6 +25,16 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
+  <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/mybash">mybash</a> ⭐ 1</h4>
+  <p>My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
@@ -32,16 +42,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> ⭐ 1</h4>
   <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
-  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
-  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
 </div>
 
 <br/>
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,173<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,175<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
