@@ -25,23 +25,23 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dotfiles">dotfiles</a> </h4>
-  <p>🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/casa-serena">casa-serena</a> </h4>
+  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/solid-studio">solid-studio</a> ⭐ 1</h4>
-  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mybash">mybash</a> ⭐ 1</h4>
-  <p>My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
+  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
-  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
 </div>
 
 <br/>
@@ -100,11 +100,11 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,742<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,743<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,036<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,035<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,203<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,206<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
