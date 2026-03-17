@@ -8,7 +8,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,css,go,unity" alt="Top Languages" /></div>
 
 <br/>
 
@@ -25,6 +25,16 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/voidhaus">voidhaus</a> </h4>
+  <p>Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarke...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
   <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
@@ -34,19 +44,15 @@
   <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> ⭐ 1</h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
-  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/voidhaus"><strong>voidhaus</strong></a></h4>
+  <p>Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarked against Rick Owens...</p>
+  <p><code>Astro</code></p>
+</div>
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/casa-serena"><strong>casa-serena</strong></a></h4>
@@ -60,16 +66,18 @@
   <p><code>TypeScript</code> ⭐ 1</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow"><strong>cryptoflow</strong></a></h4>
-  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
-  <p><code>TypeScript</code></p>
-</div>
-
 <br/>
 
 ## 🔨 Recent Contributions
 
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/70"><strong>refactor: eliminate workarounds, replace with idiomatic p...</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+</div>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/69"><strong>Refactor/codebase cleanup</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+</div>
 <div align="left">
   <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/7"><strong>chore: sync bun.lock</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
@@ -82,25 +90,17 @@
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/59"><strong>chore(deps-dev): bump eslint from 9.39.2 to 10.0.1</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/maps-lead-scraper/pull/1"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/maps-lead-scraper">dacrab/maps-lead-scraper</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/reddit-gallery-dl/pull/6"><strong>fix: auto-merge workflow permissions and PR detection</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/reddit-gallery-dl">dacrab/reddit-gallery-dl</a></sub></p>
-</div>
 
 <br/>
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 107<br/>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 108<br/>
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,748<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,749<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -112,7 +112,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,221<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,223<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
