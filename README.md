@@ -8,7 +8,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,css,go,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,unity" alt="Top Languages" /></div>
 
 <br/>
 
@@ -23,6 +23,11 @@
 ---
 
 ## 🚀 What I'm Working On
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
+  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
+</div>
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
@@ -90,7 +95,7 @@
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,749<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,750<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -102,7 +107,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,232<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,234<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
