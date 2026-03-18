@@ -34,16 +34,6 @@
   <p>Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarke...</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
-  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/cryptoflow">cryptoflow</a> </h4>
-  <p>Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API</p>
-</div>
-
 <br/>
 
 ## 🌱 Latest Projects
@@ -71,6 +61,14 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/72"><strong>Refactor/workarounds and patterns</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+</div>
+<div align="left">
+  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/71"><strong>Refactor/workarounds and patterns</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+</div>
+<div align="left">
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/70"><strong>refactor: eliminate workarounds, replace with idiomatic p...</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
@@ -81,14 +79,6 @@
 <div align="left">
   <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/7"><strong>chore: sync bun.lock</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/ioannislo/pull/24"><strong>chore: sync bun.lock</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/ioannislo">dacrab/ioannislo</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/59"><strong>chore(deps-dev): bump eslint from 9.39.2 to 10.0.1</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
 
 <br/>
@@ -108,11 +98,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 608<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 609<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,223<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,225<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
