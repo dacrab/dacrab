@@ -25,6 +25,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
   <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
 </div>
@@ -99,15 +104,15 @@
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,042<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,043<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 611<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 612<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,264<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,265<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
