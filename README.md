@@ -2,25 +2,58 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=header&text=dacrab&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35" alt="Header" />
 </div>
 
-<br/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=500&lines=Full-stack+developer;Go+%7C+TypeScript+%7C+C%23+%7C+Svelte;Building+fast%2C+clean+software" alt="Typing SVG" />
+</p>
+
+---
 
 ## 💻 Tech Stack
 
 <div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,unity" alt="Top Languages" /></div>
 
-<br/>
+---
 
 ## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.demolab.com?user=dacrab&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight&hide_border=true&border_radius=8&langs_count=8" alt="Top Languages" />
+</div>
 
 <div align="center">
   <img src="./assets/github-metrics.svg" alt="GitHub Metrics" />
 </div>
 
-<br/>
+---
+
+## 🐍 Contributions
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/snake.svg" />
+    <img alt="contribution snake" src="./assets/snake.svg" />
+  </picture>
+</div>
 
 ---
 
 ## 🚀 What I'm Working On
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
+  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
+</div>
+
+<div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
+  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
+</div>
 
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
@@ -32,12 +65,7 @@
   <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
 </div>
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
-  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
-</div>
-
-<br/>
+---
 
 ## 🌱 Latest Projects
 
@@ -59,7 +87,7 @@
   <p><code>TypeScript</code> ⭐ 1</p>
 </div>
 
-<br/>
+---
 
 ## 🔨 Recent Contributions
 
@@ -84,7 +112,7 @@
   <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
 </div>
 
-<br/>
+---
 
 ## ⭐ Recently Starred
 
@@ -109,19 +137,15 @@
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
-<br/>
-
 ---
 
 ## 💬 Let's Connect
 
 <div align="center">
   <p>
-    <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer" style="margin: 0 12px; display: inline-block;"><img alt="Instagram" src="https://skillicons.dev/icons?i=instagram" width="48" height="48" style="transition: transform 0.2s;" /></a><a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer" style="margin: 0 12px; display: inline-block;"><img alt="Email" src="https://skillicons.dev/icons?i=gmail" width="48" height="48" style="transition: transform 0.2s;" /></a>
+    <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;"><img alt="Instagram" src="https://skillicons.dev/icons?i=instagram" width="48" height="48" /></a><a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;"><img alt="Email" src="https://skillicons.dev/icons?i=gmail" width="48" height="48" /></a>
   </p>
 </div>
-
-<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=footer" alt="Footer" />
