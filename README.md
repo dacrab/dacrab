@@ -46,18 +46,18 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
-  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
+  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/ioannislo">ioannislo</a> </h4>
-  <p>Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
+  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> ⭐ 1</h4>
+  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
 </div>
 
 <div align="left">
@@ -92,6 +92,10 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/77"><strong>refactor: eliminate workarounds, magic numbers and improv...</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+</div>
+<div align="left">
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/72"><strong>Refactor/workarounds and patterns</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
@@ -107,21 +111,17 @@
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/69"><strong>Refactor/codebase cleanup</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/cryptoflow/pull/7"><strong>chore: sync bun.lock</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/cryptoflow">dacrab/cryptoflow</a></sub></p>
-</div>
 
 ---
 
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 118<br/>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 124<br/>
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,752<br/>
+  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,753<br/>
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
@@ -129,11 +129,11 @@
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 610<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 611<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,275<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,277<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
