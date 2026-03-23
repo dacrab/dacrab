@@ -17,7 +17,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.demolab.com?user={{USER_LOGIN}}&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user={{USER_LOGIN}}&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
 </div>
 
 <div align="center">
