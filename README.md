@@ -10,7 +10,7 @@
 
 ## 💻 Tech Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,unity" alt="Top Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,javascript" alt="Top Languages" /></div>
 
 ---
 
@@ -46,6 +46,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> ⭐ 1</h4>
+  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
   <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
 </div>
@@ -53,16 +58,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
   <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> ⭐ 1</h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/craftops">craftops</a> </h4>
-  <p>🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...</p>
 </div>
 
 ---
@@ -92,6 +87,10 @@
 ## 🔨 Recent Contributions
 
 <div align="left">
+  <p>🔀 <a href="https://github.com/dacrab/mise/pull/31"><strong>feat: migrate from Astro to TanStack Start</strong></a><br/>
+  <sub>in <a href="https://github.com/dacrab/mise">dacrab/mise</a></sub></p>
+</div>
+<div align="left">
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/77"><strong>refactor: eliminate workarounds, magic numbers and improv...</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
@@ -105,10 +104,6 @@
 </div>
 <div align="left">
   <p>❌ <a href="https://github.com/dacrab/clubOS/pull/70"><strong>refactor: eliminate workarounds, replace with idiomatic p...</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/69"><strong>Refactor/codebase cleanup</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
 
@@ -125,15 +120,15 @@
   <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,045<br/>
+  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,046<br/>
   <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 611<br/>
+  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 612<br/>
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,277<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,276<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
