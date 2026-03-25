@@ -46,6 +46,11 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+</div>
+
+<div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
   <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
 </div>
@@ -58,11 +63,6 @@
 <div align="left">
   <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
   <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab.github.io">dacrab.github.io</a> ⭐ 1</h4>
-  <p>A cinematic, high-performance personal portfolio built with Astro, Tailwind C...</p>
 </div>
 
 ---
@@ -133,7 +133,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,317<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,321<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
