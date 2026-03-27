@@ -4,40 +4,54 @@ import json
 import os
 import sys
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from urllib.error import URLError
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 GITHUB_API = "https://api.github.com"
-SKILLICONS_BASE = "https://skillicons.dev/icons"
+SHIELDS = "https://img.shields.io/badge"
+SKILLICONS = "https://skillicons.dev/icons"
 
-LANG_MAP = {
-    "TypeScript": "ts", "JavaScript": "javascript", "Python": "python", "PHP": "php",
-    "HTML": "html", "CSS": "css", "C": "c", "C++": "cpp", "C#": "cs", "Go": "go",
-    "Rust": "rust", "Java": "java", "Svelte": "svelte", "ShaderLab": "unity",
-    "Shell": "bash", "SCSS": "sass", "Sass": "sass", "Vue": "vue", "Kotlin": "kotlin",
-    "Swift": "swift", "Dart": "dart", "Ruby": "ruby", "Lua": "lua",
+LANG_MAP: dict[str, str] = {
+    "C#": "cs", "C++": "cpp", "C": "c",
+    "CSS": "css", "Dart": "dart", "Go": "go",
+    "HTML": "html", "Java": "java", "JavaScript": "javascript",
+    "Kotlin": "kotlin", "Lua": "lua", "PHP": "php",
+    "Python": "python", "Ruby": "ruby", "Rust": "rust",
+    "Sass": "sass", "SCSS": "sass", "ShaderLab": "unity",
+    "Shell": "bash", "Svelte": "svelte", "Swift": "swift",
+    "TypeScript": "ts", "Vue": "vue",
 }
 
-SOCIAL_ICONS = {
-    "x": "twitter", "twitter": "twitter", "instagram": "instagram", "linkedin": "linkedin",
-    "youtube": "youtube", "twitch": "twitch", "facebook": "facebook", "mastodon": "mastodon",
-    "reddit": "reddit", "stackoverflow": "stackoverflow", "dev.to": "devto", "medium": "medium",
-    "bluesky": "bluesky", "github": "github", "gitlab": "gitlab", "vercel": "vercel",
-    "netlify": "netlify", "discord": "discord",
+# Maps provider name → skillicons slug
+SOCIAL_ICONS: dict[str, str] = {
+    "bluesky": "bluesky", "dev.to": "devto", "discord": "discord",
+    "facebook": "facebook", "github": "github", "gitlab": "gitlab",
+    "instagram": "instagram", "linkedin": "linkedin", "mastodon": "mastodon",
+    "medium": "medium", "netlify": "netlify", "reddit": "reddit",
+    "stackoverflow": "stackoverflow", "twitch": "twitch", "twitter": "twitter",
+    "vercel": "vercel", "x": "twitter", "youtube": "youtube",
 }
 
-DOMAIN_MAP = {
-    "x.com": "x", "twitter.com": "x", "instagram.com": "instagram", "linkedin.com": "linkedin",
-    "youtube.com": "youtube", "youtu.be": "youtube", "twitch.tv": "twitch",
-    "mastodon.social": "mastodon", "medium.com": "medium", "dev.to": "devto",
-    "bsky.app": "bluesky", "bluesky.social": "bluesky", "github.com": "github",
-    "gitlab.com": "gitlab", "vercel.app": "vercel", "netlify.app": "netlify",
+# Maps URL domain → provider key in SOCIAL_ICONS
+DOMAIN_MAP: dict[str, str] = {
+    "bsky.app": "bluesky", "bluesky.social": "bluesky",
+    "dev.to": "dev.to", "github.com": "github", "gitlab.com": "gitlab",
+    "instagram.com": "instagram", "linkedin.com": "linkedin",
+    "mastodon.social": "mastodon", "medium.com": "medium",
+    "netlify.app": "netlify", "twitch.tv": "twitch",
+    "twitter.com": "x", "vercel.app": "vercel",
+    "x.com": "x", "youtu.be": "youtube", "youtube.com": "youtube",
 }
 
 
-def gh_fetch(url: str, token: str) -> object:
-    if not url.startswith("http"):
-        url = f"{GITHUB_API}{url}"
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+def gh_fetch(path: str, token: str) -> object:
+    url = path if path.startswith("http") else f"{GITHUB_API}{path}"
     req = Request(url, headers={
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github+json",
@@ -52,90 +66,92 @@ def gh_fetch(url: str, token: str) -> object:
 
 
 def truncate(text: str, max_len: int) -> str:
-    return text if len(text) <= max_len else f"{text[:max_len-3]}..."
+    return text if len(text) <= max_len else f"{text[:max_len - 3]}..."
 
 
-def icon_slug(name: str, mapping: dict) -> str | None:
-    return mapping.get(name) or mapping.get(name.lower()) or next(
-        (v for k, v in mapping.items() if k.lower() == name.lower()), None
-    )
+def domain_to_provider(url: str) -> str | None:
+    host = urlparse(url).netloc.lower().removeprefix("www.")
+    return DOMAIN_MAP.get(host) or DOMAIN_MAP.get(".".join(host.split(".")[-2:]))
 
+
+def flat_badge(label: str, color: str) -> str:
+    label = label.replace(" ", "%20").replace("-", "--")
+    return f"![](https://img.shields.io/badge/{label}-{color}?style=flat-square&labelColor=0d0d1a)"
+
+
+def lang_badge(lang: str, color: str = "5865F2") -> str:
+    return flat_badge(f"-{lang}", color)
+
+
+def stars_badge(count: int, color: str = "555") -> str:
+    return flat_badge(f"stars-{count:,}", color)
+
+
+def repo_card(name: str, url: str, desc: str, lang: str = "", star_count: int = 0, lang_color: str = "5865F2") -> str:
+    badges = (lang_badge(lang, lang_color) + " " if lang else "") + \
+             (stars_badge(star_count) + " " if star_count > 0 else "")
+    return f'<div align="left">\n\n**[{name}]({url})**&nbsp; {badges}\n\n{desc}\n\n</div>'
+
+
+# ---------------------------------------------------------------------------
+# Section builders
+# ---------------------------------------------------------------------------
 
 def build_top_languages(username: str, token: str) -> str:
     repos, page = [], 1
     while len(repos) < 200:
-        data = gh_fetch(f"/users/{username}/repos?sort=updated&per_page=100&page={page}", token)
-        if not data:
+        batch = gh_fetch(f"/users/{username}/repos?sort=updated&per_page=100&page={page}", token)
+        if not batch:
             break
-        repos.extend(r for r in data if not r.get("fork") and not r.get("private"))
-        if len(data) < 100:
+        repos.extend(r for r in batch if not r.get("fork") and not r.get("private"))
+        if len(batch) < 100:
             break
         page += 1
 
-    lang_stats: dict[str, int] = {}
+    lang_bytes: dict[str, int] = {}
     for repo in repos[:50]:
-        langs = gh_fetch(f"/repos/{repo['full_name']}/languages", token)
-        if langs:
-            for lang, count in langs.items():
-                lang_stats[lang] = lang_stats.get(lang, 0) + count
+        for lang, count in (gh_fetch(f"/repos/{repo['full_name']}/languages", token) or {}).items():
+            lang_bytes[lang] = lang_bytes.get(lang, 0) + count
 
-    if not lang_stats:
-        return '<div align="center"><p>No language data available</p></div>'
-
-    icons = []
-    for lang, _ in sorted(lang_stats.items(), key=lambda x: x[1], reverse=True):
-        slug = icon_slug(lang, LANG_MAP)
-        if slug:
-            icons.append(slug)
-        if len(icons) >= 8:
-            break
+    icons = [
+        LANG_MAP[lang]
+        for lang, _ in sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True)
+        if lang in LANG_MAP
+    ][:8]
 
     if not icons:
-        return '<div align="center"><p>No languages found</p></div>'
-
-    return f'<div align="center"><img src="{SKILLICONS_BASE}?i={",".join(icons)}" alt="Top Languages" /></div>'
+        return '<div align="center"><p>No language data available</p></div>'
+    return f'<div align="center"><img src="{SKILLICONS}?i={",".join(icons)}" alt="Top Languages" /></div>'
 
 
 def build_social_links(username: str, user_data: dict, token: str) -> str:
     links: list[str] = []
     seen: set[str] = set()
 
-    def add_link(provider: str, url: str):
+    def add_link(provider: str, url: str) -> None:
         if not url or provider in seen:
             return
-        slug = icon_slug(provider, SOCIAL_ICONS)
-        if not slug:
-            # try to guess from URL domain
-            try:
-                from urllib.parse import urlparse
-                host = urlparse(url).netloc.lower().lstrip("www.")
-                guessed = DOMAIN_MAP.get(host) or DOMAIN_MAP.get(".".join(host.split(".")[-2:]))
-                slug = SOCIAL_ICONS.get(guessed) if guessed else None
-                if guessed:
-                    provider = guessed
-            except Exception:
-                return
+        slug = SOCIAL_ICONS.get(provider) or SOCIAL_ICONS.get(domain_to_provider(url) or "")
         if slug:
             seen.add(provider)
-            name = provider.replace(".", " ").title()
+            label = provider.replace(".", " ").title()
             links.append(
                 f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;">'
-                f'<img alt="{name}" src="{SKILLICONS_BASE}?i={slug}" width="48" height="48" /></a>'
+                f'<img alt="{label}" src="{SKILLICONS}?i={slug}" width="48" height="48" /></a>'
             )
 
     for s in gh_fetch(f"/users/{username}/social_accounts", token) or []:
         add_link(s.get("provider", ""), s.get("url", ""))
 
-    twitter = user_data.get("twitter_username")
-    if twitter and "twitter" not in seen and "x" not in seen:
-        add_link("x", f"https://x.com/{twitter}")
+    if twitter := user_data.get("twitter_username"):
+        if "twitter" not in seen and "x" not in seen:
+            add_link("x", f"https://x.com/{twitter}")
 
-    website = user_data.get("blog", "").strip()
-    if website:
-        if not website.startswith(("http://", "https://")):
-            website = f"https://{website}"
-        add_link("website", website)
+    if blog := user_data.get("blog", "").strip():
+        blog = blog if blog.startswith("http") else f"https://{blog}"
+        add_link(domain_to_provider(blog) or "website", blog)
 
+    # Fetch email (only works when token belongs to this user)
     email = user_data.get("email")
     if not email:
         me = gh_fetch("/user", token)
@@ -146,26 +162,23 @@ def build_social_links(username: str, user_data: dict, token: str) -> str:
                 or next((e["email"] for e in emails if e.get("verified")), None)
                 or (emails[0]["email"] if emails else None)
             )
-
     if email:
         links.append(
             f'<a href="mailto:{email}" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;">'
-            f'<img alt="Email" src="{SKILLICONS_BASE}?i=gmail" width="48" height="48" /></a>'
+            f'<img alt="Email" src="{SKILLICONS}?i=gmail" width="48" height="48" /></a>'
         )
 
     if not links:
         return '<p align="center"><em>No social links available</em></p>'
-
     return f'<div align="center">\n  <p>\n    {"".join(links)}\n  </p>\n</div>'
 
 
 def build_active_projects(username: str, token: str) -> str:
-    events = gh_fetch(f"/users/{username}/events?per_page=50", token) or []
-    active_repos = []
     seen: set[str] = set()
+    cards: list[str] = []
 
-    for event in events:
-        if len(active_repos) >= 4:
+    for event in gh_fetch(f"/users/{username}/events?per_page=50", token) or []:
+        if len(cards) >= 4:
             break
         if event.get("type") not in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
             continue
@@ -175,25 +188,15 @@ def build_active_projects(username: str, token: str) -> str:
         seen.add(repo_name)
         repo = gh_fetch(f"/repos/{repo_name}", token)
         if repo and not repo.get("private"):
-            desc = truncate(repo.get("description") or "No description available", 80)
-            name = repo_name.split("/")[-1]
-            stars = repo.get("stargazers_count", 0)
-            lang = repo.get("language", "")
-            badges = ""
-            if lang:
-                badges += f'![](https://img.shields.io/badge/-{lang.replace(" ", "%20")}-5865F2?style=flat-square&labelColor=0d0d1a) '
-            if stars > 0:
-                badges += f'![](https://img.shields.io/badge/stars-{stars}-555?style=flat-square&labelColor=0d0d1a) '
-            active_repos.append(
-                f'<div align="left">\n\n'
-                f'**[{name}]({repo["html_url"]})**&nbsp; {badges}\n\n'
-                f'{desc}\n\n'
-                f'</div>'
-            )
+            cards.append(repo_card(
+                name=repo_name.split("/")[-1],
+                url=repo["html_url"],
+                desc=truncate(repo.get("description") or "No description available", 80),
+                lang=repo.get("language", ""),
+                star_count=repo.get("stargazers_count", 0),
+            ))
 
-    if not active_repos:
-        return "<p><em>No active projects at the moment</em></p>"
-    return "\n\n".join(active_repos)
+    return "\n\n".join(cards) if cards else "<p><em>No active projects at the moment</em></p>"
 
 
 def build_latest_repos(username: str, token: str) -> str:
@@ -203,88 +206,73 @@ def build_latest_repos(username: str, token: str) -> str:
     if not items:
         return "<p><em>No repositories found</em></p>"
 
-    lines = []
-    for r in items:
-        stars = r.get("stargazers_count", 0)
-        language = r.get("language", "")
-        desc = truncate(r.get("description") or "No description", 100)
-        badges = ""
-        if language:
-            badges += f'![](https://img.shields.io/badge/-{language.replace(" ", "%20")}-5865F2?style=flat-square&labelColor=0d0d1a) '
-        if stars > 0:
-            badges += f'![](https://img.shields.io/badge/stars-{stars}-555?style=flat-square&labelColor=0d0d1a) '
-        lines.append(
-            f'<div align="left">\n\n'
-            f'**[{r["name"]}]({r["html_url"]})**&nbsp; {badges}\n\n'
-            f'{desc}\n\n'
-            f'</div>'
+    return "\n\n".join(
+        repo_card(
+            name=r["name"],
+            url=r["html_url"],
+            desc=truncate(r.get("description") or "No description", 100),
+            lang=r.get("language", ""),
+            star_count=r.get("stargazers_count", 0),
         )
-    return "\n\n".join(lines)
+        for r in items
+    )
 
 
 def build_recent_prs(username: str, token: str) -> str:
-    date_cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
     data = gh_fetch(
-        f"/search/issues?q=author:{username}+type:pr+created:>={date_cutoff}"
-        f"&sort=created&order=desc&per_page=5",
+        f"/search/issues?q=author:{username}+type:pr+created:>={cutoff}&sort=created&order=desc&per_page=5",
         token,
     )
-    items = data.get("items", []) if data else []
+    items = (data or {}).get("items", [])
 
     lines = []
     for item in items:
-        repo_url = item.get("repository_url", "")
-        parts = repo_url.rstrip("/").rsplit("/", 2)
+        parts = item.get("repository_url", "").rstrip("/").rsplit("/", 2)
         if len(parts) < 3:
             continue
         repo_name = f"{parts[-2]}/{parts[-1]}"
-        repo_html_url = f"https://github.com/{repo_name}"
-        title = truncate(item.get("title", "Untitled"), 60)
-        state = item.get("state", "open")
         is_merged = bool(item.get("pull_request", {}).get("merged_at"))
+        state = item.get("state", "open")
         if is_merged:
-            badge = "![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a)"
+            badge = flat_badge("merged", "5865F2")
         elif state == "open":
-            badge = "![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a)"
+            badge = flat_badge("open", "238636")
         else:
-            badge = "![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a)"
+            badge = flat_badge("closed", "555")
+        title = truncate(item.get("title", "Untitled"), 60)
         lines.append(
             f'<div align="left">\n\n'
             f'{badge} **[{title}]({item["html_url"]})**\\\n'
-            f'<sub>[{repo_name}]({repo_html_url})</sub>\n\n'
+            f'<sub>[{repo_name}](https://github.com/{repo_name})</sub>\n\n'
             f'</div>'
         )
 
-    if not lines:
-        return "<p><em>No recent pull requests.</em></p>"
-    return "\n\n".join(lines)
+    return "\n\n".join(lines) if lines else "<p><em>No recent pull requests.</em></p>"
 
 
 def build_recent_stars(username: str, token: str) -> str:
-    stars = gh_fetch(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token) or []
+    items = gh_fetch(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token) or []
 
-    if not stars:
+    if not items:
         return "<p><em>No recent stars.</em></p>"
 
-    lines = []
-    for star in stars:
-        repo_name = star.get("full_name", "Unknown")
-        desc = truncate(star.get("description") or "No description", 80)
-        star_count = star.get("stargazers_count", 0)
-        lang = star.get("language", "")
-        badges = ""
-        if lang:
-            badges += f'![](https://img.shields.io/badge/-{lang.replace(" ", "%20")}-555?style=flat-square&labelColor=0d0d1a) '
-        if star_count > 0:
-            badges += f'![](https://img.shields.io/badge/stars-{star_count:,}-555?style=flat-square&labelColor=0d0d1a) '
-        lines.append(
-            f'<div align="left">\n\n'
-            f'**[{repo_name}]({star.get("html_url")})**&nbsp; {badges}\n\n'
-            f'{desc}\n\n'
-            f'</div>'
+    return "\n\n".join(
+        repo_card(
+            name=s.get("full_name", "Unknown"),
+            url=s.get("html_url", ""),
+            desc=truncate(s.get("description") or "No description", 80),
+            lang=s.get("language", ""),
+            star_count=s.get("stargazers_count", 0),
+            lang_color="555",
         )
-    return "\n\n".join(lines)
+        for s in items
+    )
 
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
 
 def main() -> int:
     username = os.getenv("GH_USERNAME") or os.getenv("GITHUB_ACTOR", "")
@@ -294,11 +282,11 @@ def main() -> int:
         print("Error: GH_USERNAME and GH_PAT (or GITHUB_TOKEN) are required.", file=sys.stderr)
         return 1
 
-    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    template_path = os.path.join(root_dir, "README.gtpl")
-    output_path = os.path.join(root_dir, "README.md")
+    root = Path(__file__).parent.parent
+    template_path = root / "README.gtpl"
+    output_path = root / "README.md"
 
-    if not os.path.exists(template_path):
+    if not template_path.exists():
         print(f"Error: Template not found at {template_path}", file=sys.stderr)
         return 1
 
@@ -309,27 +297,25 @@ def main() -> int:
         print("Error: Could not fetch user data.", file=sys.stderr)
         return 1
 
-    full_name = user_data.get("name") or username
-    display_name = full_name.split()[0]
+    display_name = (user_data.get("name") or username).split()[0]
 
     replacements = {
-        "{{USER_NAME}}": display_name,
-        "{{USER_LOGIN}}": username,
-        "{{TOP_LANGUAGES}}": build_top_languages(username, token),
-        "{{SOCIAL_LINKS}}": build_social_links(username, user_data, token),
-        "{{WORKING_ON}}": build_active_projects(username, token),
+        "{{USER_NAME}}":       display_name,
+        "{{USER_LOGIN}}":      username,
+        "{{TOP_LANGUAGES}}":   build_top_languages(username, token),
+        "{{SOCIAL_LINKS}}":    build_social_links(username, user_data, token),
+        "{{WORKING_ON}}":      build_active_projects(username, token),
         "{{LATEST_PROJECTS}}": build_latest_repos(username, token),
-        "{{RECENT_PRS}}": build_recent_prs(username, token),
-        "{{RECENT_STARS}}": build_recent_stars(username, token),
+        "{{RECENT_PRS}}":      build_recent_prs(username, token),
+        "{{RECENT_STARS}}":    build_recent_stars(username, token),
     }
 
+    content = template_path.read_text(encoding="utf-8")
+    for key, value in replacements.items():
+        content = content.replace(key, value)
+
     try:
-        with open(template_path, encoding="utf-8") as f:
-            content = f.read()
-        for key, value in replacements.items():
-            content = content.replace(key, value)
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(content)
+        output_path.write_text(content, encoding="utf-8")
         print(f"Successfully generated {output_path}")
         return 0
     except OSError as e:
