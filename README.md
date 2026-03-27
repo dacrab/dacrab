@@ -21,11 +21,6 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dacrab&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&include_all_commits=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dacrab&layout=compact&theme=tokyonight&hide_border=true&border_radius=8&langs_count=8" alt="Top Languages" />
-</div>
-
-<div align="center">
   <img src="./assets/github-metrics.svg" alt="GitHub Metrics" />
 </div>
 
