@@ -1,23 +1,29 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=header&text=dacrab&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35" alt="Header" />
+
+# dacrab
+
+<p>Full-stack engineer &nbsp;·&nbsp; Go &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; C# &nbsp;·&nbsp; Svelte</p>
+
+![](https://img.shields.io/badge/Focus-Clean%20Software-1a1a2e?style=flat-square&labelColor=0d0d1a)
+![](https://img.shields.io/badge/Stack-Full--Stack-5865F2?style=flat-square&labelColor=0d0d1a)
+![](https://img.shields.io/badge/Based_in-Greece-white?style=flat-square&labelColor=0d0d1a)
+
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=500&lines=Full-stack+developer;Go+%7C+TypeScript+%7C+C%23+%7C+Svelte;Building+fast%2C+clean+software" alt="Typing SVG" />
-</p>
+<br/>
 
 ---
 
-## 💻 Tech Stack
+### Stack
 
 <div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,javascript" alt="Top Languages" /></div>
 
 ---
 
-## 📊 GitHub Stats
+### Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=dacrab&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=dacrab&theme=transparent&hide_border=true&border_radius=6&ring=5865F2&fire=5865F2&currStreakLabel=5865F2&sideLabels=888&dates=555" alt="Streak Stats" />
 </div>
 
 <div align="center">
@@ -26,115 +32,166 @@
 
 ---
 
-## 🐍 Contributions
+### Contributions
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/snake.svg" />
-    <img alt="contribution snake" src="./assets/snake.svg" />
+    <img alt="Contribution Graph" src="./assets/snake.svg" />
   </picture>
 </div>
 
 ---
 
-## 🚀 What I'm Working On
+### Active Work
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
-  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
+
+**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/-Python-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
+
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+
+**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/-Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
+
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/mise">mise</a> ⭐ 1</h4>
-  <p>A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...</p>
+
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-1-555?style=flat-square&labelColor=0d0d1a) 
+
+A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
+
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/clubOS">clubOS</a> ⭐ 4</h4>
-  <p>Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...</p>
-</div>
 
----
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-4-555?style=flat-square&labelColor=0d0d1a) 
 
-## 🌱 Latest Projects
+Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
 
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/voidhaus"><strong>voidhaus</strong></a></h4>
-  <p>Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarked against Rick Owens...</p>
-  <p><code>Astro</code></p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/casa-serena"><strong>casa-serena</strong></a></h4>
-  <p>Luxury beachfront estate website — Astro 5, GSAP, scoped CSS</p>
-  <p><code>Astro</code></p>
-</div>
-
-<div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/solid-studio"><strong>solid-studio</strong></a></h4>
-  <p>Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS</p>
-  <p><code>TypeScript</code> ⭐ 1</p>
 </div>
 
 ---
 
-## 🔨 Recent Contributions
+### Recent Projects
 
 <div align="left">
-  <p>🔀 <a href="https://github.com/dacrab/mise/pull/31"><strong>feat: migrate from Astro to TanStack Start</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/mise">dacrab/mise</a></sub></p>
-</div>
-<div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/77"><strong>refactor: eliminate workarounds, magic numbers and improv...</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
-</div>
-<div align="left">
-  <p>✅ <a href="https://github.com/dacrab/clubOS/pull/72"><strong>Refactor/workarounds and patterns</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
-</div>
-<div align="left">
-  <p>✅ <a href="https://github.com/dacrab/clubOS/pull/71"><strong>Refactor/workarounds and patterns</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
-</div>
-<div align="left">
-  <p>✅ <a href="https://github.com/dacrab/clubOS/pull/70"><strong>refactor: eliminate workarounds, replace with idiomatic p...</strong></a><br/>
-  <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
+
+**[voidhaus](https://github.com/dacrab/voidhaus)**&nbsp; ![](https://img.shields.io/badge/-Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarked against Rick Owens...
+
 </div>
 
----
+<div align="left">
 
-## ⭐ Recently Starred
+**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/-Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Luxury beachfront estate website — Astro 5, GSAP, scoped CSS
+
+</div>
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 134<br/>
-  <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
-</div>
-<div align="left">
-  <p>⭐ <a href="https://github.com/abusoww/tuxmate"><strong>abusoww/tuxmate</strong></a> ⭐ 1,756<br/>
-  <sub>THE MISSING BULK APP INSTALLER FOR LINUX</sub></p>
-</div>
-<div align="left">
-  <p>⭐ <a href="https://github.com/Achno/gowall"><strong>Achno/gowall</strong></a> ⭐ 2,052<br/>
-  <sub>A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...</sub></p>
-</div>
-<div align="left">
-  <p>⭐ <a href="https://github.com/imputnet/helium-linux"><strong>imputnet/helium-linux</strong></a> ⭐ 620<br/>
-  <sub>Helium Browser for Linux</sub></p>
-</div>
-<div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,343<br/>
-  <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
+
+**[solid-studio](https://github.com/dacrab/solid-studio)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-1-555?style=flat-square&labelColor=0d0d1a) 
+
+Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS
+
 </div>
 
 ---
 
-## 💬 Let's Connect
+### Pull Requests
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat: migrate from Astro to TanStack Start](https://github.com/dacrab/mise/pull/31)**\
+<sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[refactor: eliminate workarounds, magic numbers and improv...](https://github.com/dacrab/clubOS/pull/77)**\
+<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Refactor/workarounds and patterns](https://github.com/dacrab/clubOS/pull/72)**\
+<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Refactor/workarounds and patterns](https://github.com/dacrab/clubOS/pull/71)**\
+<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[refactor: eliminate workarounds, replace with idiomatic p...](https://github.com/dacrab/clubOS/pull/70)**\
+<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
+
+</div>
+
+---
+
+### Recently Starred
+
+<div align="left">
+
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/-CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-134-555?style=flat-square&labelColor=0d0d1a) 
+
+Fedora Workstation | Gnome & Niri setup🐧
+
+</div>
+
+<div align="left">
+
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-1,756-555?style=flat-square&labelColor=0d0d1a) 
+
+THE MISSING BULK APP INSTALLER FOR LINUX
+
+</div>
+
+<div align="left">
+
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/-Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-2,052-555?style=flat-square&labelColor=0d0d1a) 
+
+A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
+
+</div>
+
+<div align="left">
+
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/-C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-620-555?style=flat-square&labelColor=0d0d1a) 
+
+Helium Browser for Linux
+
+</div>
+
+<div align="left">
+
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/-Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-21,343-555?style=flat-square&labelColor=0d0d1a) 
+
+Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
+
+</div>
+
+---
+
+### Connect
 
 <div align="center">
   <p>
@@ -142,6 +199,4 @@
   </p>
 </div>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=footer" alt="Footer" />
-</div>
+<br/>
