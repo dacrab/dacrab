@@ -48,7 +48,7 @@
 
 <div align="left">
 
-**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/-Python-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
 
@@ -56,7 +56,7 @@
 
 <div align="left">
 
-**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/-Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
@@ -64,7 +64,7 @@ A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 <div align="left">
 
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-1-555?style=flat-square&labelColor=0d0d1a) 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
 
@@ -72,7 +72,7 @@ A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
 
 <div align="left">
 
-**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-4-555?style=flat-square&labelColor=0d0d1a) 
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
 
 Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
 
@@ -84,7 +84,7 @@ Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
 
 <div align="left">
 
-**[voidhaus](https://github.com/dacrab/voidhaus)**&nbsp; ![](https://img.shields.io/badge/-Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[voidhaus](https://github.com/dacrab/voidhaus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarked against Rick Owens...
 
@@ -92,7 +92,7 @@ Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarked
 
 <div align="left">
 
-**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/-Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Luxury beachfront estate website — Astro 5, GSAP, scoped CSS
 
@@ -100,7 +100,7 @@ Luxury beachfront estate website — Astro 5, GSAP, scoped CSS
 
 <div align="left">
 
-**[solid-studio](https://github.com/dacrab/solid-studio)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-1-555?style=flat-square&labelColor=0d0d1a) 
+**[solid-studio](https://github.com/dacrab/solid-studio)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS
 
@@ -151,7 +151,7 @@ Modern portfolio/agency website template built with SolidJS, TypeScript, and Tai
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/-CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-134-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--134-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
@@ -159,7 +159,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/-TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-1,756-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,756-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
@@ -167,7 +167,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/-Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-2,052-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,052-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
@@ -175,7 +175,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/-C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-620-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--620-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -183,7 +183,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/-Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars-21,343-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,343-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
