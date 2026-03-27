@@ -4,7 +4,6 @@ import json, os, sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import URLError
-from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 API = "https://api.github.com"
@@ -17,21 +16,6 @@ LANG_ICONS = {
     "Ruby": "ruby", "Rust": "rust", "Sass": "sass", "SCSS": "sass",
     "ShaderLab": "unity", "Shell": "bash", "Svelte": "svelte",
     "Swift": "swift", "TypeScript": "ts", "Vue": "vue",
-}
-
-SOCIAL_ICONS = {
-    "bluesky": "bluesky", "dev.to": "devto", "discord": "discord",
-    "facebook": "facebook", "github": "github", "gitlab": "gitlab",
-    "instagram": "instagram", "linkedin": "linkedin", "mastodon": "mastodon",
-    "medium": "medium", "reddit": "reddit", "stackoverflow": "stackoverflow",
-    "twitch": "twitch", "x": "twitter", "youtube": "youtube",
-}
-
-DOMAINS = {
-    "bsky.app": "bluesky", "dev.to": "dev.to", "github.com": "github",
-    "gitlab.com": "gitlab", "instagram.com": "instagram", "linkedin.com": "linkedin",
-    "mastodon.social": "mastodon", "medium.com": "medium", "twitch.tv": "twitch",
-    "twitter.com": "x", "x.com": "x", "youtu.be": "youtube", "youtube.com": "youtube",
 }
 
 
@@ -64,11 +48,6 @@ def card(name: str, url: str, desc: str, lang: str = "", stars: int = 0, lang_co
     return f'<div align="left">\n\n**[{name}]({url})**&nbsp; {b}\n\n{desc}\n\n</div>'
 
 
-def provider_from_url(url: str) -> str | None:
-    host = urlparse(url).netloc.lower().removeprefix("www.")
-    return DOMAINS.get(host) or DOMAINS.get(".".join(host.split(".")[-2:]))
-
-
 # --- Section builders ---
 
 def top_languages(username: str, token: str) -> str:
@@ -89,45 +68,6 @@ def top_languages(username: str, token: str) -> str:
     return f'<div align="center"><img src="{ICONS}?i={",".join(icons)}" alt="Languages" /></div>' if icons \
         else "<p>No language data.</p>"
 
-
-def social_links(username: str, user: dict, token: str) -> str:
-    links, seen = [], set()
-
-    def add(provider: str, url: str):
-        if not url or provider in seen: return
-        slug = SOCIAL_ICONS.get(provider) or SOCIAL_ICONS.get(provider_from_url(url) or "")
-        if slug:
-            seen.add(provider)
-            links.append(
-                f'<a href="{url}" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;">'
-                f'<img alt="{provider.title()}" src="{ICONS}?i={slug}" width="48" height="48" /></a>'
-            )
-
-    for s in fetch(f"/users/{username}/social_accounts", token) or []:
-        add(s.get("provider", ""), s.get("url", ""))
-
-    if (t := user.get("twitter_username")) and "x" not in seen:
-        add("x", f"https://x.com/{t}")
-
-    if blog := user.get("blog", "").strip():
-        add(provider_from_url(blog) or "website", blog if blog.startswith("http") else f"https://{blog}")
-
-    # email (only works when token owner == username)
-    email = user.get("email")
-    if not email:
-        me = fetch("/user", token)
-        if me and me.get("login", "").lower() == username.lower():
-            emails = fetch("/user/emails", token) or []
-            email = next((e["email"] for e in emails if e.get("primary")), None) \
-                or next((e["email"] for e in emails if e.get("verified")), None)
-    if email:
-        links.append(
-            f'<a href="mailto:{email}" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;">'
-            f'<img alt="Email" src="{ICONS}?i=gmail" width="48" height="48" /></a>'
-        )
-
-    return f'<div align="center">\n  <p>\n    {"".join(links)}\n  </p>\n</div>' if links \
-        else '<p align="center"><em>No social links available</em></p>'
 
 
 def active_projects(username: str, token: str) -> str:
@@ -214,7 +154,6 @@ def main() -> int:
         "{{USER_NAME}}":       name,
         "{{USER_LOGIN}}":      username,
         "{{TOP_LANGUAGES}}":   top_languages(username, token),
-        "{{SOCIAL_LINKS}}":    social_links(username, user, token),
         "{{WORKING_ON}}":      active_projects(username, token),
         "{{LATEST_PROJECTS}}": latest_repos(username, token),
         "{{RECENT_PRS}}":      recent_prs(username, token),
