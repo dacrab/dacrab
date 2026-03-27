@@ -236,7 +236,8 @@ def build_recent_prs(username: str, token: str) -> str:
         repo_html_url = f"https://github.com/{repo_name}"
         title = truncate(item.get("title", "Untitled"), 60)
         state = item.get("state", "open")
-        state_emoji = "✅" if state == "merged" else "🔀" if state == "open" else "❌"
+        is_merged = bool(item.get("pull_request", {}).get("merged_at"))
+        state_emoji = "✅" if is_merged else "🔀" if state == "open" else "❌"
         lines.append(
             f'<div align="left">\n'
             f'  <p>{state_emoji} <a href="{item["html_url"]}"><strong>{title}</strong></a><br/>\n'
