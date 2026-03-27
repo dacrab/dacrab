@@ -41,13 +41,13 @@
 ## 🚀 What I'm Working On
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
-  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
+  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
 </div>
 
 <div align="left">
-  <h4>🔹 <a href="https://github.com/dacrab/dacrab">dacrab</a> </h4>
-  <p>🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...</p>
+  <h4>🔹 <a href="https://github.com/dacrab/reddit-gallery-dl">reddit-gallery-dl</a> </h4>
+  <p>A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...</p>
 </div>
 
 <div align="left">
@@ -95,15 +95,15 @@
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
 <div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/72"><strong>Refactor/workarounds and patterns</strong></a><br/>
+  <p>✅ <a href="https://github.com/dacrab/clubOS/pull/72"><strong>Refactor/workarounds and patterns</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
 <div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/71"><strong>Refactor/workarounds and patterns</strong></a><br/>
+  <p>✅ <a href="https://github.com/dacrab/clubOS/pull/71"><strong>Refactor/workarounds and patterns</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
 <div align="left">
-  <p>❌ <a href="https://github.com/dacrab/clubOS/pull/70"><strong>refactor: eliminate workarounds, replace with idiomatic p...</strong></a><br/>
+  <p>✅ <a href="https://github.com/dacrab/clubOS/pull/70"><strong>refactor: eliminate workarounds, replace with idiomatic p...</strong></a><br/>
   <sub>in <a href="https://github.com/dacrab/clubOS">dacrab/clubOS</a></sub></p>
 </div>
 
@@ -112,7 +112,7 @@
 ## ⭐ Recently Starred
 
 <div align="left">
-  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 133<br/>
+  <p>⭐ <a href="https://github.com/EbadShelby/dotfiles"><strong>EbadShelby/dotfiles</strong></a> ⭐ 134<br/>
   <sub>Fedora Workstation | Gnome & Niri setup🐧</sub></p>
 </div>
 <div align="left">
@@ -128,7 +128,7 @@
   <sub>Helium Browser for Linux</sub></p>
 </div>
 <div align="left">
-  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,340<br/>
+  <p>⭐ <a href="https://github.com/neondatabase/neon"><strong>neondatabase/neon</strong></a> ⭐ 21,343<br/>
   <sub>Neon: Serverless Postgres. We separated storage and compute to offer autoscal...</sub></p>
 </div>
 
