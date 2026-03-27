@@ -178,12 +178,17 @@ def build_active_projects(username: str, token: str) -> str:
             desc = truncate(repo.get("description") or "No description available", 80)
             name = repo_name.split("/")[-1]
             stars = repo.get("stargazers_count", 0)
-            stars_badge = f"⭐ {stars}" if stars > 0 else ""
+            lang = repo.get("language", "")
+            badges = ""
+            if lang:
+                badges += f'![](https://img.shields.io/badge/-{lang.replace(" ", "%20")}-5865F2?style=flat-square&labelColor=0d0d1a) '
+            if stars > 0:
+                badges += f'![](https://img.shields.io/badge/stars-{stars}-555?style=flat-square&labelColor=0d0d1a) '
             active_repos.append(
-                f'<div align="left">\n'
-                f'  <h4>🔹 <a href="{repo["html_url"]}">{name}</a> {stars_badge}</h4>\n'
-                f"  <p>{desc}</p>\n"
-                f"</div>"
+                f'<div align="left">\n\n'
+                f'**[{name}]({repo["html_url"]})**&nbsp; {badges}\n\n'
+                f'{desc}\n\n'
+                f'</div>'
             )
 
     if not active_repos:
@@ -202,16 +207,17 @@ def build_latest_repos(username: str, token: str) -> str:
     for r in items:
         stars = r.get("stargazers_count", 0)
         language = r.get("language", "")
-        lang_badge = f"<code>{language}</code>" if language else ""
-        stars_badge = f"⭐ {stars}" if stars > 0 else ""
-        badges = " ".join(filter(None, [lang_badge, stars_badge]))
         desc = truncate(r.get("description") or "No description", 100)
+        badges = ""
+        if language:
+            badges += f'![](https://img.shields.io/badge/-{language.replace(" ", "%20")}-5865F2?style=flat-square&labelColor=0d0d1a) '
+        if stars > 0:
+            badges += f'![](https://img.shields.io/badge/stars-{stars}-555?style=flat-square&labelColor=0d0d1a) '
         lines.append(
-            f'<div align="left">\n'
-            f'  <h4>🔹 <a href="{r["html_url"]}"><strong>{r["name"]}</strong></a></h4>\n'
-            f"  <p>{desc}</p>\n"
-            f"  <p>{badges}</p>\n"
-            f"</div>"
+            f'<div align="left">\n\n'
+            f'**[{r["name"]}]({r["html_url"]})**&nbsp; {badges}\n\n'
+            f'{desc}\n\n'
+            f'</div>'
         )
     return "\n\n".join(lines)
 
@@ -227,7 +233,6 @@ def build_recent_prs(username: str, token: str) -> str:
 
     lines = []
     for item in items:
-        # repo name is embedded in repository_url: .../repos/{owner}/{repo}
         repo_url = item.get("repository_url", "")
         parts = repo_url.rstrip("/").rsplit("/", 2)
         if len(parts) < 3:
@@ -237,38 +242,48 @@ def build_recent_prs(username: str, token: str) -> str:
         title = truncate(item.get("title", "Untitled"), 60)
         state = item.get("state", "open")
         is_merged = bool(item.get("pull_request", {}).get("merged_at"))
-        state_emoji = "✅" if is_merged else "🔀" if state == "open" else "❌"
+        if is_merged:
+            badge = "![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a)"
+        elif state == "open":
+            badge = "![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a)"
+        else:
+            badge = "![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a)"
         lines.append(
-            f'<div align="left">\n'
-            f'  <p>{state_emoji} <a href="{item["html_url"]}"><strong>{title}</strong></a><br/>\n'
-            f'  <sub>in <a href="{repo_html_url}">{repo_name}</a></sub></p>\n'
-            f"</div>"
+            f'<div align="left">\n\n'
+            f'{badge} **[{title}]({item["html_url"]})**\\\n'
+            f'<sub>[{repo_name}]({repo_html_url})</sub>\n\n'
+            f'</div>'
         )
 
     if not lines:
-        return "<p><em>No recent pull requests - time to contribute! 🔀</em></p>"
-    return "\n".join(lines)
+        return "<p><em>No recent pull requests.</em></p>"
+    return "\n\n".join(lines)
 
 
 def build_recent_stars(username: str, token: str) -> str:
     stars = gh_fetch(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token) or []
 
     if not stars:
-        return "<p><em>No recent stars - discover some awesome repos! ⭐</em></p>"
+        return "<p><em>No recent stars.</em></p>"
 
     lines = []
     for star in stars:
         repo_name = star.get("full_name", "Unknown")
         desc = truncate(star.get("description") or "No description", 80)
         star_count = star.get("stargazers_count", 0)
-        stars_badge = f"⭐ {star_count:,}" if star_count > 0 else ""
+        lang = star.get("language", "")
+        badges = ""
+        if lang:
+            badges += f'![](https://img.shields.io/badge/-{lang.replace(" ", "%20")}-555?style=flat-square&labelColor=0d0d1a) '
+        if star_count > 0:
+            badges += f'![](https://img.shields.io/badge/stars-{star_count:,}-555?style=flat-square&labelColor=0d0d1a) '
         lines.append(
-            f'<div align="left">\n'
-            f'  <p>⭐ <a href="{star.get("html_url")}"><strong>{repo_name}</strong></a> {stars_badge}<br/>\n'
-            f"  <sub>{desc}</sub></p>\n"
-            f"</div>"
+            f'<div align="left">\n\n'
+            f'**[{repo_name}]({star.get("html_url")})**&nbsp; {badges}\n\n'
+            f'{desc}\n\n'
+            f'</div>'
         )
-    return "\n".join(lines)
+    return "\n\n".join(lines)
 
 
 def main() -> int:
