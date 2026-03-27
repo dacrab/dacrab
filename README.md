@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
+
+</div>
+
+<div align="left">
+
 **[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
@@ -59,14 +67,6 @@
 **[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
-
-</div>
-
-<div align="left">
-
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
 
 </div>
 
@@ -112,7 +112,7 @@ Modern portfolio/agency website template built with SolidJS, TypeScript, and Tai
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat: migrate from Astro to TanStack Start](https://github.com/dacrab/mise/pull/31)**\
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[feat: migrate from Astro to TanStack Start](https://github.com/dacrab/mise/pull/31)**\
 <sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
 
 </div>
@@ -183,7 +183,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,343-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,345-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
