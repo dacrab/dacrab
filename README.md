@@ -189,14 +189,4 @@ Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
 </div>
 
----
-
-### Connect
-
-<div align="center">
-  <p>
-    <a href="https://www.instagram.com/killcrb/" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;"><img alt="Instagram" src="https://skillicons.dev/icons?i=instagram" width="48" height="48" /></a><a href="mailto:vkavouras@proton.me" target="_blank" rel="noopener noreferrer" style="margin: 0 12px;"><img alt="Email" src="https://skillicons.dev/icons?i=gmail" width="48" height="48" /></a>
-  </p>
-</div>
-
 <br/>

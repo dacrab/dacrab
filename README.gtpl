@@ -66,10 +66,4 @@
 
 {{RECENT_STARS}}
 
----
-
-### Connect
-
-{{SOCIAL_LINKS}}
-
 <br/>
