@@ -1,23 +1,29 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=header&text={{USER_NAME}}&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35" alt="Header" />
+
+# {{USER_NAME}}
+
+<p>Full-stack engineer &nbsp;·&nbsp; Go &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; C# &nbsp;·&nbsp; Svelte</p>
+
+![](https://img.shields.io/badge/Focus-Clean%20Software-1a1a2e?style=flat-square&labelColor=0d0d1a)
+![](https://img.shields.io/badge/Stack-Full--Stack-5865F2?style=flat-square&labelColor=0d0d1a)
+![](https://img.shields.io/badge/Based_in-Greece-white?style=flat-square&labelColor=0d0d1a)
+
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=500&lines=Full-stack+developer;Go+%7C+TypeScript+%7C+C%23+%7C+Svelte;Building+fast%2C+clean+software" alt="Typing SVG" />
-</p>
+<br/>
 
 ---
 
-## 💻 Tech Stack
+### Stack
 
 {{TOP_LANGUAGES}}
 
 ---
 
-## 📊 GitHub Stats
+### Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user={{USER_LOGIN}}&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user={{USER_LOGIN}}&theme=transparent&hide_border=true&border_radius=6&ring=5865F2&fire=5865F2&currStreakLabel=5865F2&sideLabels=888&dates=555" alt="Streak Stats" />
 </div>
 
 <div align="center">
@@ -26,46 +32,44 @@
 
 ---
 
-## 🐍 Contributions
+### Contributions
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/snake.svg" />
-    <img alt="contribution snake" src="./assets/snake.svg" />
+    <img alt="Contribution Graph" src="./assets/snake.svg" />
   </picture>
 </div>
 
 ---
 
-## 🚀 What I'm Working On
+### Active Work
 
 {{WORKING_ON}}
 
 ---
 
-## 🌱 Latest Projects
+### Recent Projects
 
 {{LATEST_PROJECTS}}
 
 ---
 
-## 🔨 Recent Contributions
+### Pull Requests
 
 {{RECENT_PRS}}
 
 ---
 
-## ⭐ Recently Starred
+### Recently Starred
 
 {{RECENT_STARS}}
 
 ---
 
-## 💬 Let's Connect
+### Connect
 
 {{SOCIAL_LINKS}}
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=footer" alt="Footer" />
-</div>
+<br/>
