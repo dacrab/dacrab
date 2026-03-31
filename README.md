@@ -48,17 +48,17 @@
 
 <div align="left">
 
-**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-Luxury beachfront estate website — Astro 5, GSAP, scoped CSS
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
 <div align="left">
 
-**[voidhaus](https://github.com/dacrab/voidhaus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarke...
+Luxury beachfront estate website — Astro 5, GSAP, scoped CSS
 
 </div>
 
@@ -70,25 +70,9 @@ A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 </div>
 
-<div align="left">
-
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-A premium full-stack recipe platform built with Astro 5, React, and Cloudflar...
-
-</div>
-
 ---
 
 ### Recent Projects
-
-<div align="left">
-
-**[voidhaus](https://github.com/dacrab/voidhaus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Production-ready luxury fashion website — Astro 6, Svelte 5, GSAP. Benchmarked against Rick Owens...
-
-</div>
 
 <div align="left">
 
@@ -103,6 +87,14 @@ Luxury beachfront estate website — Astro 5, GSAP, scoped CSS
 **[solid-studio](https://github.com/dacrab/solid-studio)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS
+
+</div>
+
+<div align="left">
+
+**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
 
 </div>
 
@@ -159,7 +151,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,760-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,759-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
@@ -183,7 +175,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,369-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,370-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
