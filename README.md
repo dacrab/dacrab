@@ -151,7 +151,7 @@ Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--138-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--140-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
@@ -175,7 +175,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--629-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--630-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
