@@ -159,7 +159,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,076-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,078-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
