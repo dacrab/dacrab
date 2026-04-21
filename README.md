@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,go,css,javascript" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=cs,ts,html,svelte,php,css,go,java" alt="Languages" /></div>
 
 ---
 
@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[ClinicMS](https://github.com/dacrab/ClinicMS)**&nbsp; ![](https://img.shields.io/badge/--Java-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+No description
+
+</div>
+
+<div align="left">
+
 **[GoFileDownloader](https://github.com/dacrab/GoFileDownloader)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Efficient downloader for GoFile
@@ -70,17 +78,17 @@ A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
-<div align="left">
-
-**[GoFileDownloader](https://github.com/Lysagxra/GoFileDownloader)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--60-555?style=flat-square&labelColor=0d0d1a) 
-
-Efficient downloader for GoFile
-
-</div>
-
 ---
 
 ### Recent Projects
+
+<div align="left">
+
+**[ClinicMS](https://github.com/dacrab/ClinicMS)**&nbsp; ![](https://img.shields.io/badge/--Java-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+No description
+
+</div>
 
 <div align="left">
 
@@ -95,14 +103,6 @@ Luxury beachfront estate website — Astro, GSAP, scoped CSS
 **[solid-studio](https://github.com/dacrab/solid-studio)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 Modern portfolio/agency website template built with SolidJS, TypeScript, and TailwindCSS
-
-</div>
-
-<div align="left">
-
-**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
 
 </div>
 
@@ -175,7 +175,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--680-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--682-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -183,7 +183,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,574-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,575-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
