@@ -137,7 +137,7 @@ Modern portfolio/agency website template built with SolidJS, TypeScript, and Tai
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--149-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--150-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
@@ -161,7 +161,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--699-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--700-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -169,7 +169,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,628-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,630-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
