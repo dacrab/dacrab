@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,css,go,java,html,unity" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,go,css,java,html,unity" alt="Languages" /></div>
 
 ---
 
@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
+
+</div>
+
+<div align="left">
+
 **[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--ShaderLab-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3-555?style=flat-square&labelColor=0d0d1a) 
 
 2D action platformer built with Unity 6 featuring fluid movement, combat syst...
@@ -67,14 +75,6 @@ Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 **[ClinicMS](https://github.com/dacrab/ClinicMS)**&nbsp; ![](https://img.shields.io/badge/--Java-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 No description
-
-</div>
-
-<div align="left">
-
-**[GoFileDownloader](https://github.com/dacrab/GoFileDownloader)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Efficient downloader for GoFile
 
 </div>
 
@@ -161,7 +161,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--715-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--717-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -169,7 +169,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,641-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,644-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
