@@ -110,7 +110,26 @@ Modern portfolio/agency website template built with SolidJS, TypeScript, and Tai
 
 ### Pull Requests
 
-<p><em>No recent pull requests.</em></p>
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: update Go to 1.25.9 to address stdlib vulnerabilities](https://github.com/dacrab/craftops/pull/44)**\
+<sub>[dacrab/craftops](https://github.com/dacrab/craftops)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[fix: name build-check step to match branch protection](https://github.com/dacrab/craftops/pull/43)**\
+<sub>[dacrab/craftops](https://github.com/dacrab/craftops)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[Fix mypy type errors and update gitignore](https://github.com/Lysagxra/GoFileDownloader/pull/5)**\
+<sub>[Lysagxra/GoFileDownloader](https://github.com/Lysagxra/GoFileDownloader)</sub>
+
+</div>
 
 ---
 
@@ -142,7 +161,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--709-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--712-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -150,7 +169,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,635-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,638-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
