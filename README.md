@@ -48,9 +48,9 @@
 
 <div align="left">
 
-**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A straightforward tool to scrape business leads from Google Maps and extract ...
+🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
 
 </div>
 
@@ -64,9 +64,9 @@ A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 <div align="left">
 
-**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
+A straightforward tool to scrape business leads from Google Maps and extract ...
 
 </div>
 
@@ -169,7 +169,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,709-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,714-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
