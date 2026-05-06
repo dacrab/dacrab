@@ -72,9 +72,9 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space,...
 
 <div align="left">
 
-**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[GoFileDownloader](https://github.com/dacrab/GoFileDownloader)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
+Efficient downloader for GoFile
 
 </div>
 
@@ -169,7 +169,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,736-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,740-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
