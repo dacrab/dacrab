@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
+
+</div>
+
+<div align="left">
+
 **[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 A straightforward tool to scrape business leads from Google Maps and extract ...
@@ -67,14 +75,6 @@ Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
 **[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 🛠️ A Go-based automation tool for Minecraft servers, handling mod updates, ba...
-
-</div>
-
-<div align="left">
-
-**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 </div>
 
@@ -161,7 +161,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--761-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--763-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -169,7 +169,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,818-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,820-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
