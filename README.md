@@ -48,39 +48,47 @@
 
 <div align="left">
 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
+
+</div>
+
+<div align="left">
+
+**[.github-workflows](https://github.com/dacrab/.github-workflows)**&nbsp; 
+
+Centralized reusable GitHub Actions workflows for dacrab repositories
+
+</div>
+
+<div align="left">
+
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
+
+Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
+
+</div>
+
+<div align="left">
+
 **[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
 
 </div>
 
-<div align="left">
-
-**[fastfetch-config](https://github.com/dacrab/fastfetch-config)**&nbsp; ![](https://img.shields.io/badge/stars--63-555?style=flat-square&labelColor=0d0d1a) 
-
-My FastFetch config
-
-</div>
-
-<div align="left">
-
-**[wallpapers](https://github.com/dacrab/wallpapers)**&nbsp; 
-
-A curated collection of 4K AI-upscaled Nord-themed wallpapers, optimized in W...
-
-</div>
-
-<div align="left">
-
-**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
-
-</div>
-
 ---
 
 ### Recent Projects
+
+<div align="left">
+
+**[.github-workflows](https://github.com/dacrab/.github-workflows)**&nbsp; 
+
+Centralized reusable GitHub Actions workflows for dacrab repositories
+
+</div>
 
 <div align="left">
 
@@ -98,17 +106,16 @@ Luxury beachfront estate website — Astro, GSAP, scoped CSS
 
 </div>
 
-<div align="left">
-
-**[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-Real-time global event monitoring dashboard - Track earthquakes, news, space, weather, crypto, an...
-
-</div>
-
 ---
 
 ### Pull Requests
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(ci): migrate to central reusable workflows](https://github.com/dacrab/mise/pull/68)**\
+<sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
+
+</div>
 
 <div align="left">
 
@@ -161,7 +168,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--770-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--771-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -169,7 +176,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,962-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,964-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
