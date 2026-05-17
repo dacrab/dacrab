@@ -48,17 +48,17 @@
 
 <div align="left">
 
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A modern recipe sharing platform built with TanStack Start, React, and Convex...
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
 
 </div>
 
 <div align="left">
 
-**[.github-workflows](https://github.com/dacrab/.github-workflows)**&nbsp; 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-Centralized reusable GitHub Actions workflows for dacrab repositories
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
@@ -72,23 +72,15 @@ Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
+A straightforward tool to scrape business leads from Google Maps and extract ...
 
 </div>
 
 ---
 
 ### Recent Projects
-
-<div align="left">
-
-**[.github-workflows](https://github.com/dacrab/.github-workflows)**&nbsp; 
-
-Centralized reusable GitHub Actions workflows for dacrab repositories
-
-</div>
 
 <div align="left">
 
@@ -106,35 +98,50 @@ Luxury beachfront estate website — Astro, GSAP, scoped CSS
 
 </div>
 
+<div align="left">
+
+**[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+Real-time global event monitoring dashboard - Track earthquakes, news, space, weather, crypto, an...
+
+</div>
+
 ---
 
 ### Pull Requests
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(ci): migrate to central reusable workflows](https://github.com/dacrab/mise/pull/68)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: add Nitro for Vercel SSR deployment (fixes 404)](https://github.com/dacrab/mise/pull/71)**\
 <sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: update Go to 1.25.9 to address stdlib vulnerabilities](https://github.com/dacrab/craftops/pull/44)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(ci): inline auto-merge job](https://github.com/dacrab/maps-lead-scraper/pull/13)**\
+<sub>[dacrab/maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(ci): inline auto-merge job](https://github.com/dacrab/craftops/pull/50)**\
 <sub>[dacrab/craftops](https://github.com/dacrab/craftops)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[fix: name build-check step to match branch protection](https://github.com/dacrab/craftops/pull/43)**\
-<sub>[dacrab/craftops](https://github.com/dacrab/craftops)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(ci): ultra-simplify — inline ci.yml, drop sync-lock...](https://github.com/dacrab/fade-in/pull/27)**\
+<sub>[dacrab/fade-in](https://github.com/dacrab/fade-in)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[Fix mypy type errors and update gitignore](https://github.com/Lysagxra/GoFileDownloader/pull/5)**\
-<sub>[Lysagxra/GoFileDownloader](https://github.com/Lysagxra/GoFileDownloader)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(ci): ultra-simplify — inline ci.yml, drop sync-lock...](https://github.com/dacrab/casa-serena/pull/21)**\
+<sub>[dacrab/casa-serena](https://github.com/dacrab/casa-serena)</sub>
 
 </div>
 
@@ -168,7 +175,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--771-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--772-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -176,7 +183,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,964-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,969-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
