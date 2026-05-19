@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
+
+</div>
+
+<div align="left">
+
 **[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
@@ -67,14 +75,6 @@ My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 **[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 A modern recipe sharing platform built with TanStack Start, React, and Convex...
-
-</div>
-
-<div align="left">
-
-**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
-
-Modern POS system for clubs & venues built with SvelteKit, Svelte 5, and Supa...
 
 </div>
 
@@ -112,6 +112,13 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[refactor: use proper SolidJS primitives instead of workar...](https://github.com/dacrab/cryptoflow/pull/24)**\
+<sub>[dacrab/cryptoflow](https://github.com/dacrab/cryptoflow)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: add Nitro for Vercel SSR deployment (fixes 404)](https://github.com/dacrab/mise/pull/71)**\
 <sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
 
@@ -138,13 +145,6 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(ci): ultra-simplify — inline ci.yml, drop sync-lock...](https://github.com/dacrab/casa-serena/pull/21)**\
-<sub>[dacrab/casa-serena](https://github.com/dacrab/casa-serena)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
@@ -167,7 +167,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,231-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,232-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
@@ -175,7 +175,7 @@ A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
 <div align="left">
 
-**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--778-555?style=flat-square&labelColor=0d0d1a) 
+**[imputnet/helium-linux](https://github.com/imputnet/helium-linux)**&nbsp; ![](https://img.shields.io/badge/--C++-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--779-555?style=flat-square&labelColor=0d0d1a) 
 
 Helium Browser for Linux
 
@@ -183,7 +183,7 @@ Helium Browser for Linux
 
 <div align="left">
 
-**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,995-555?style=flat-square&labelColor=0d0d1a) 
+**[neondatabase/neon](https://github.com/neondatabase/neon)**&nbsp; ![](https://img.shields.io/badge/--Rust-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--21,998-555?style=flat-square&labelColor=0d0d1a) 
 
 Neon: Serverless Postgres. We separated storage and compute to offer autoscal...
 
