@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+Real-time global event monitoring dashboard - Track earthquakes, news, space,...
+
+</div>
+
+<div align="left">
+
 **[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
@@ -67,14 +75,6 @@ A curated collection of 4K wallpapers in Nord and Catppuccin Mocha themes, op...
 **[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3-555?style=flat-square&labelColor=0d0d1a) 
 
 2D action platformer built with Unity 6 featuring fluid movement, combat syst...
-
-</div>
-
-<div align="left">
-
-**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
 
 </div>
 
@@ -151,7 +151,7 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,190-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,194-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,642-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,643-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
