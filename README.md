@@ -48,6 +48,22 @@
 
 <div align="left">
 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--942-555?style=flat-square&labelColor=0d0d1a) 
+
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
+**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
 **[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 Real-time global event monitoring dashboard - Track earthquakes, news, space,...
@@ -59,22 +75,6 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space,...
 **[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
-
-</div>
-
-<div align="left">
-
-**[wallpapers](https://github.com/dacrab/wallpapers)**&nbsp; 
-
-A curated collection of 4K wallpapers in Nord and Catppuccin Mocha themes, op...
-
-</div>
-
-<div align="left">
-
-**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3-555?style=flat-square&labelColor=0d0d1a) 
-
-2D action platformer built with Unity 6 featuring fluid movement, combat syst...
 
 </div>
 
@@ -112,6 +112,13 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: simplify COPR workflow and fix make install](https://github.com/MalpenZibo/ashell/pull/764)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[refactor: use proper SolidJS primitives instead of workar...](https://github.com/dacrab/cryptoflow/pull/24)**\
 <sub>[dacrab/cryptoflow](https://github.com/dacrab/cryptoflow)</sub>
 
@@ -138,20 +145,13 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(ci): ultra-simplify — inline ci.yml, drop sync-lock...](https://github.com/dacrab/fade-in/pull/27)**\
-<sub>[dacrab/fade-in](https://github.com/dacrab/fade-in)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,200-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,203-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,652-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,658-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -183,7 +183,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,232-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,233-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
