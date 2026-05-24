@@ -48,33 +48,33 @@
 
 <div align="left">
 
-**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[ghostty-config](https://github.com/dacrab/ghostty-config)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--15-555?style=flat-square&labelColor=0d0d1a) 
 
-🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
-
-</div>
-
-<div align="left">
-
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
+Ghostty Theme Collection
 
 </div>
 
 <div align="left">
 
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--949-555?style=flat-square&labelColor=0d0d1a) 
+**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A ready to go Wayland status bar for Hyprland and Niri
+A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 </div>
 
 <div align="left">
 
-**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[ClinicMS](https://github.com/dacrab/ClinicMS)**&nbsp; ![](https://img.shields.io/badge/--Java-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A ready to go Wayland status bar for Hyprland and Niri
+JavaFX clinic management system – Doctors, Patients & Appointments with CSV p...
+
+</div>
+
+<div align="left">
+
+**[fastfetch-config](https://github.com/dacrab/fastfetch-config)**&nbsp; ![](https://img.shields.io/badge/stars--64-555?style=flat-square&labelColor=0d0d1a) 
+
+My FastFetch config
 
 </div>
 
@@ -112,36 +112,36 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[refactor: code cleanup and streamlining](https://github.com/MalpenZibo/ashell/pull/767)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/ghostty-config/pull/1)**\
+<sub>[dacrab/ghostty-config](https://github.com/dacrab/ghostty-config)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: replace panicking code paths with graceful error han...](https://github.com/MalpenZibo/ashell/pull/766)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/reddit-gallery-dl/pull/21)**\
+<sub>[dacrab/reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: simplify COPR workflow and fix make install](https://github.com/MalpenZibo/ashell/pull/764)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/ClinicMS/pull/1)**\
+<sub>[dacrab/ClinicMS](https://github.com/dacrab/ClinicMS)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[refactor: use proper SolidJS primitives instead of workar...](https://github.com/dacrab/cryptoflow/pull/24)**\
-<sub>[dacrab/cryptoflow](https://github.com/dacrab/cryptoflow)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/fastfetch-config/pull/2)**\
+<sub>[dacrab/fastfetch-config](https://github.com/dacrab/fastfetch-config)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: add Nitro for Vercel SSR deployment (fixes 404)](https://github.com/dacrab/mise/pull/71)**\
-<sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/GoFileDownloader/pull/2)**\
+<sub>[dacrab/GoFileDownloader](https://github.com/dacrab/GoFileDownloader)</sub>
 
 </div>
 
@@ -151,7 +151,7 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,255-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,257-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,688-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,689-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
