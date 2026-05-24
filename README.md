@@ -48,33 +48,33 @@
 
 <div align="left">
 
-**[ghostty-config](https://github.com/dacrab/ghostty-config)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--15-555?style=flat-square&labelColor=0d0d1a) 
+**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-Ghostty Theme Collection
-
-</div>
-
-<div align="left">
-
-**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
+🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
 
 </div>
 
 <div align="left">
 
-**[ClinicMS](https://github.com/dacrab/ClinicMS)**&nbsp; ![](https://img.shields.io/badge/--Java-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-JavaFX clinic management system – Doctors, Patients & Appointments with CSV p...
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
 
 </div>
 
 <div align="left">
 
-**[fastfetch-config](https://github.com/dacrab/fastfetch-config)**&nbsp; ![](https://img.shields.io/badge/stars--64-555?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-My FastFetch config
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
+**[wallpapers](https://github.com/dacrab/wallpapers)**&nbsp; 
+
+A curated collection of 4K wallpapers in Nord and Catppuccin Mocha themes, op...
 
 </div>
 
@@ -112,36 +112,36 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/ghostty-config/pull/1)**\
-<sub>[dacrab/ghostty-config](https://github.com/dacrab/ghostty-config)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dacrab/pull/3)**\
+<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/reddit-gallery-dl/pull/21)**\
-<sub>[dacrab/reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dotfiles/pull/2)**\
+<sub>[dacrab/dotfiles](https://github.com/dacrab/dotfiles)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/ClinicMS/pull/1)**\
-<sub>[dacrab/ClinicMS](https://github.com/dacrab/ClinicMS)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/ashell/pull/2)**\
+<sub>[dacrab/ashell](https://github.com/dacrab/ashell)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/fastfetch-config/pull/2)**\
-<sub>[dacrab/fastfetch-config](https://github.com/dacrab/fastfetch-config)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/wallpapers/pull/2)**\
+<sub>[dacrab/wallpapers](https://github.com/dacrab/wallpapers)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: add auto-merge workflow for dependabot PRs](https://github.com/dacrab/GoFileDownloader/pull/2)**\
-<sub>[dacrab/GoFileDownloader](https://github.com/dacrab/GoFileDownloader)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dragon-blaze/pull/3)**\
+<sub>[dacrab/dragon-blaze](https://github.com/dacrab/dragon-blaze)</sub>
 
 </div>
 
