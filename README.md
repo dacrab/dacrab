@@ -48,17 +48,9 @@
 
 <div align="left">
 
-**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--949-555?style=flat-square&labelColor=0d0d1a) 
 
-🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
-
-</div>
-
-<div align="left">
-
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
+A ready to go Wayland status bar for Hyprland and Niri
 
 </div>
 
@@ -72,9 +64,17 @@ A ready to go Wayland status bar for Hyprland and Niri
 
 <div align="left">
 
-**[wallpapers](https://github.com/dacrab/wallpapers)**&nbsp; 
+**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A curated collection of 4K wallpapers in Nord and Catppuccin Mocha themes, op...
+🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
+
+</div>
+
+<div align="left">
+
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, and Rofi con...
 
 </div>
 
@@ -112,36 +112,36 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dacrab/pull/3)**\
-<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[ci: upgrade to Node.js 24 and fix GitHub Pages deployment](https://github.com/MalpenZibo/ashell/pull/775)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dotfiles/pull/2)**\
-<sub>[dacrab/dotfiles](https://github.com/dacrab/dotfiles)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Migrate from Next.js to Astro 6](https://github.com/dacrab/argicon/pull/16)**\
+<sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/ashell/pull/2)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: force Node.js 24 for all actions](https://github.com/dacrab/ashell/pull/4)**\
 <sub>[dacrab/ashell](https://github.com/dacrab/ashell)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/wallpapers/pull/2)**\
-<sub>[dacrab/wallpapers](https://github.com/dacrab/wallpapers)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix GitHub Pages deployment and upgrade to Node 24](https://github.com/dacrab/ashell/pull/3)**\
+<sub>[dacrab/ashell](https://github.com/dacrab/ashell)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dragon-blaze/pull/3)**\
-<sub>[dacrab/dragon-blaze](https://github.com/dacrab/dragon-blaze)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix auto-merge workflow trigger](https://github.com/dacrab/dacrab/pull/3)**\
+<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
 
 </div>
 
@@ -151,7 +151,7 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,257-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,259-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,689-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,690-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
