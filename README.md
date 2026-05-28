@@ -48,7 +48,7 @@
 
 <div align="left">
 
-**[vicinae](https://github.com/dacrab/vicinae)**&nbsp; ![](https://img.shields.io/badge/--C++-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[vicinae](https://github.com/vicinaehq/vicinae)**&nbsp; ![](https://img.shields.io/badge/--C++-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--7,826-555?style=flat-square&labelColor=0d0d1a) 
 
 A focused launcher for your desktop - native, fast, extensible
 
@@ -112,6 +112,27 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[fix: use relative GNUInstallDirs paths, remove configure-...](https://github.com/vicinaehq/vicinae/pull/1453)**\
+<sub>[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[chore: remove rang, clean dead code, push_back → emplace_...](https://github.com/vicinaehq/vicinae/pull/1452)**\
+<sub>[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[fix: RPM spec and CMake install for COPR builds](https://github.com/vicinaehq/vicinae/pull/1451)**\
+<sub>[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: upgrade dorny/paths-filter v3 → v4 (node24)](https://github.com/MalpenZibo/ashell/pull/777)**\
 <sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
@@ -124,34 +145,13 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: upgrade to Node.js 24 and fix GitHub Pages deployment](https://github.com/MalpenZibo/ashell/pull/775)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Migrate from Next.js to Astro 6](https://github.com/dacrab/argicon/pull/16)**\
-<sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: force Node.js 24 for all actions](https://github.com/dacrab/ashell/pull/4)**\
-<sub>[dacrab/ashell](https://github.com/dacrab/ashell)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,311-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,315-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,750-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,751-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
