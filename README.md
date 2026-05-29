@@ -48,7 +48,7 @@
 
 <div align="left">
 
-**[vicinae](https://github.com/vicinaehq/vicinae)**&nbsp; ![](https://img.shields.io/badge/--C++-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--7,826-555?style=flat-square&labelColor=0d0d1a) 
+**[vicinae](https://github.com/vicinaehq/vicinae)**&nbsp; ![](https://img.shields.io/badge/--C++-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--7,830-555?style=flat-square&labelColor=0d0d1a) 
 
 A focused launcher for your desktop - native, fast, extensible
 
@@ -72,7 +72,7 @@ Luxury beachfront estate website — Astro, GSAP, scoped CSS
 
 <div align="left">
 
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--951-555?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--952-555?style=flat-square&labelColor=0d0d1a) 
 
 A ready to go Wayland status bar for Hyprland and Niri
 
@@ -151,7 +151,7 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,315-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,321-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,751-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,755-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -183,7 +183,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,236-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,237-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
