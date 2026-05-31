@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A clean, modern client portal for freelancers and studios. Built with SvelteK...
+
+</div>
+
+<div align="left">
+
 **[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
@@ -70,17 +78,17 @@ A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 </div>
 
-<div align="left">
-
-**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
-
-</div>
-
 ---
 
 ### Recent Projects
+
+<div align="left">
+
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A clean, modern client portal for freelancers and studios. Built with SvelteKit 5, Supabase, and ...
+
+</div>
 
 <div align="left">
 
@@ -95,14 +103,6 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 **[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 Luxury beachfront estate website — Astro, GSAP, Tailwind CSS
-
-</div>
-
-<div align="left">
-
-**[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-Real-time global event monitoring dashboard - Track earthquakes, news, space, weather, crypto, an...
 
 </div>
 
@@ -151,7 +151,7 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,360-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,364-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,793-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,800-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -183,7 +183,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,239-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,240-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
