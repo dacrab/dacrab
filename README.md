@@ -72,7 +72,7 @@ A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 <div align="left">
 
-**[vicinae](https://github.com/vicinaehq/vicinae)**&nbsp; ![](https://img.shields.io/badge/--C++-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--7,849-555?style=flat-square&labelColor=0d0d1a) 
+**[vicinae](https://github.com/vicinaehq/vicinae)**&nbsp; ![](https://img.shields.io/badge/--C++-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--7,852-555?style=flat-square&labelColor=0d0d1a) 
 
 A focused launcher for your desktop - native, fast, extensible
 
@@ -151,7 +151,7 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space, we
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,355-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,356-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,787-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,789-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
