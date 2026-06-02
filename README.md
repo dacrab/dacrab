@@ -48,17 +48,17 @@
 
 <div align="left">
 
-**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A clean, modern client portal for freelancers and studios. Built with SvelteK...
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, Niri and Way...
 
 </div>
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, Niri and Way...
+A clean, modern client portal for freelancers and studios. Built with SvelteK...
 
 </div>
 
@@ -151,7 +151,7 @@ Luxury beachfront estate website — Astro, GSAP, Tailwind CSS
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,375-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,378-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,823-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,827-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
