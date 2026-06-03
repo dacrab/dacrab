@@ -151,7 +151,7 @@ Luxury beachfront estate website — Astro, GSAP, Tailwind CSS
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,397-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,399-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,844-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,845-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -167,7 +167,7 @@ morphe patches for twitter
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--155-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--154-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
