@@ -48,6 +48,22 @@
 
 <div align="left">
 
+**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--979-555?style=flat-square&labelColor=0d0d1a) 
+
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
 **[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A clean, modern client portal for freelancers and studios. Built with SvelteK...
@@ -59,14 +75,6 @@ A clean, modern client portal for freelancers and studios. Built with SvelteK...
 **[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
 
 Modern POS system for clubs & venues built with SvelteKit, Svelte, and Supabase
-
-</div>
-
-<div align="left">
-
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
@@ -104,6 +112,13 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[refactor: modularize codebase structure](https://github.com/MalpenZibo/ashell/pull/811)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[fix: use relative GNUInstallDirs paths, remove configure-...](https://github.com/vicinaehq/vicinae/pull/1453)**\
 <sub>[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)</sub>
 
@@ -130,20 +145,13 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[ci(copr): replace cargo-rpm with cargo-generate-rpm, add ...](https://github.com/MalpenZibo/ashell/pull/776)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,482-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,484-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -151,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,946-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,953-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
