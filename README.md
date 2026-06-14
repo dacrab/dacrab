@@ -48,17 +48,9 @@
 
 <div align="left">
 
-**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-A ready to go Wayland status bar for Hyprland and Niri
-
-</div>
-
-<div align="left">
-
-**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A clean, modern client portal for freelancers and studios. Built with SvelteK...
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
@@ -72,9 +64,17 @@ Modern POS system for clubs & venues built with SvelteKit, Svelte, and Supabase
 
 <div align="left">
 
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-A modern recipe sharing platform built with TanStack Start, React, and Convex...
+Real-time global event monitoring dashboard - Track earthquakes, news, space,...
+
+</div>
+
+<div align="left">
+
+**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
 
 </div>
 
@@ -151,7 +151,7 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,516-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,521-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,966-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,969-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
