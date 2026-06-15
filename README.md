@@ -72,7 +72,7 @@ A clean, modern client portal for freelancers and studios. Built with SvelteK...
 
 <div align="left">
 
-**[awesome-free-models](https://github.com/12britz/awesome-free-models)**&nbsp; ![](https://img.shields.io/badge/stars--277-555?style=flat-square&labelColor=0d0d1a) 
+**[awesome-free-models](https://github.com/12britz/awesome-free-models)**&nbsp; ![](https://img.shields.io/badge/stars--282-555?style=flat-square&labelColor=0d0d1a) 
 
 A curated list of free AI models, APIs, and tools you can use without paying ...
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,974-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,973-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -167,7 +167,7 @@ morphe patches for twitter
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--158-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--159-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
@@ -183,7 +183,7 @@ THE MISSING BULK APP INSTALLER FOR LINUX
 
 <div align="left">
 
-**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,252-555?style=flat-square&labelColor=0d0d1a) 
+**[Achno/gowall](https://github.com/Achno/gowall)**&nbsp; ![](https://img.shields.io/badge/--Go-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,253-555?style=flat-square&labelColor=0d0d1a) 
 
 A tool to convert a Wallpaper's color scheme / palette, OCR with VLM's Tradit...
 
