@@ -48,7 +48,7 @@
 
 <div align="left">
 
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--980-555?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A ready to go Wayland status bar for Hyprland and Niri
 
@@ -56,7 +56,7 @@ A ready to go Wayland status bar for Hyprland and Niri
 
 <div align="left">
 
-**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--980-555?style=flat-square&labelColor=0d0d1a) 
 
 A ready to go Wayland status bar for Hyprland and Niri
 
@@ -112,6 +112,13 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[refactor(tempo): split monolithic module into submodules](https://github.com/MalpenZibo/ashell/pull/822)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[feat(services): extract common D-Bus utilities](https://github.com/MalpenZibo/ashell/pull/821)**\
 <sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
@@ -138,20 +145,13 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[chore: remove rang, clean dead code, push_back → emplace_...](https://github.com/vicinaehq/vicinae/pull/1452)**\
-<sub>[vicinaehq/vicinae](https://github.com/vicinaehq/vicinae)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,541-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,542-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -159,7 +159,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,975-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,976-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -175,7 +175,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,781-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,782-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
