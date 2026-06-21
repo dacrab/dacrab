@@ -48,9 +48,9 @@
 
 <div align="left">
 
-**[wallpapers](https://github.com/dacrab/wallpapers)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
 
-A curated collection of wallpapers in Nord and Catppuccin Mocha themes, optim...
+Shared Renovate preset configuration for dacrab repos
 
 </div>
 
@@ -64,23 +64,31 @@ A curated collection of wallpapers in Nord and Catppuccin Mocha themes, optim...
 
 <div align="left">
 
-**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
-A ready to go Wayland status bar for Hyprland and Niri
+Luxury beachfront estate website — Astro, GSAP, Tailwind CSS
 
 </div>
 
 <div align="left">
 
-**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
-A clean, modern client portal for freelancers and studios. Built with SvelteK...
+A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 </div>
 
 ---
 
 ### Recent Projects
+
+<div align="left">
+
+**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
+
+Shared Renovate preset configuration for dacrab repos
+
+</div>
 
 <div align="left">
 
@@ -95,14 +103,6 @@ PARDUS — An avant-garde natural wine project landing page. Brutalist editorial
 **[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A clean, modern client portal for freelancers and studios. Built with SvelteKit 5, Supabase, and ...
-
-</div>
-
-<div align="left">
-
-**[ClinicMS](https://github.com/dacrab/ClinicMS)**&nbsp; ![](https://img.shields.io/badge/--Java-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-JavaFX clinic management system – Doctors, Patients & Appointments with CSV persistence (CN5004 A...
 
 </div>
 
@@ -151,7 +151,7 @@ JavaFX clinic management system – Doctors, Patients & Appointments with CSV pe
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--81-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--82-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,607-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,609-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -183,7 +183,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,784-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,785-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
