@@ -48,15 +48,23 @@
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--992-555?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, Niri and Way...
+A ready to go Wayland status bar for Hyprland and Niri
 
 </div>
 
 <div align="left">
 
-**[wayle](https://github.com/dacrab/wayle)**&nbsp; 
+**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
+**[wayle](https://github.com/dacrab/wayle)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Wayland Elements -  A compositor agnostic shell with extensive customization
 
@@ -64,17 +72,9 @@ Wayland Elements -  A compositor agnostic shell with extensive customization
 
 <div align="left">
 
-**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-Shared Renovate preset configuration for dacrab repos
-
-</div>
-
-<div align="left">
-
-**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
-
-Luxury beachfront estate website — Astro, GSAP, Tailwind CSS
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, Hyprpanel, Niri and Way...
 
 </div>
 
@@ -112,6 +112,13 @@ A clean, modern client portal for freelancers and studios. Built with SvelteKit 
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix(copr): update container to fedora:latest and add prop...](https://github.com/MalpenZibo/ashell/pull/840)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat: add source-build RPM spec for COPR](https://github.com/wayle-rs/wayle/pull/295)**\
 <sub>[wayle-rs/wayle](https://github.com/wayle-rs/wayle)</sub>
 
@@ -138,20 +145,13 @@ A clean, modern client portal for freelancers and studios. Built with SvelteKit 
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[refactor(network): rename AccessPoint to AccessPointData](https://github.com/MalpenZibo/ashell/pull/828)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--84-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--85-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,613-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,616-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,051-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,057-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
@@ -175,7 +175,7 @@ morphe patches for twitter
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--178-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--179-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
