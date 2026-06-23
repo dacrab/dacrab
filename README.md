@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
+
+</div>
+
+<div align="left">
+
 **[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 Scrape business leads from Google Maps (Places API) and extract emails from t...
@@ -67,14 +75,6 @@ A clean, modern client portal for freelancers and studios. Built with SvelteK...
 **[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--996-555?style=flat-square&labelColor=0d0d1a) 
 
 A ready to go Wayland status bar for Hyprland and Niri
-
-</div>
-
-<div align="left">
-
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,630-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,633-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,076-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,077-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
