@@ -48,9 +48,9 @@
 
 <div align="left">
 
-**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
+**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-Scrape business leads from Google Maps (Places API) and extract emails from t...
+🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
 
 </div>
 
@@ -64,17 +64,17 @@ PARDUS — An avant-garde natural wine project landing page. Brutalist editoria.
 
 <div align="left">
 
-**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
-A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
+Scrape business leads from Google Maps (Places API) and extract emails from t...
 
 </div>
 
 <div align="left">
 
-**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
+A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 </div>
 
