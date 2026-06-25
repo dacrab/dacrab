@@ -48,33 +48,33 @@
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
-
-</div>
-
-<div align="left">
-
-**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
+A ready to go Wayland status bar for Hyprland and Niri
 
 </div>
 
 <div align="left">
 
-**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3-555?style=flat-square&labelColor=0d0d1a) 
+**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
 
-2D action platformer built with Unity featuring fluid movement, combat system...
+Shared Renovate preset configuration for dacrab repos
 
 </div>
 
 <div align="left">
 
-**[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
+**[pardus](https://github.com/dacrab/pardus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
+PARDUS — An avant-garde natural wine project landing page. Brutalist editoria...
+
+</div>
+
+<div align="left">
+
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A clean, modern client portal for freelancers and studios. Built with SvelteK...
 
 </div>
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,652-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,653-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -175,7 +175,7 @@ morphe patches for twitter
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--183-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--184-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
