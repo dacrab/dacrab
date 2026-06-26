@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,001-555?style=flat-square&labelColor=0d0d1a) 
+
+A ready to go Wayland status bar for Hyprland and Niri
+
+</div>
+
+<div align="left">
+
 **[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 A modern recipe sharing platform built with TanStack Start, React, and Convex...
@@ -64,17 +72,9 @@ Modern POS system for clubs & venues built with SvelteKit, Svelte, and Supabase
 
 <div align="left">
 
-**[wayle](https://github.com/wayle-rs/wayle)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--675-555?style=flat-square&labelColor=0d0d1a) 
+**[wayle](https://github.com/wayle-rs/wayle)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--676-555?style=flat-square&labelColor=0d0d1a) 
 
 Wayland Elements -  A compositor agnostic shell with extensive customization
-
-</div>
-
-<div align="left">
-
-**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A ready to go Wayland status bar for Hyprland and Niri
 
 </div>
 
@@ -133,7 +133,7 @@ A clean, modern client portal for freelancers and studios. Built with SvelteKit 
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: remove dead code and unused items](https://github.com/MalpenZibo/ashell/pull/831)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: remove dead code and unused items](https://github.com/MalpenZibo/ashell/pull/831)**\
 <sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
 </div>
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,659-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,662-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,099-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,101-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
