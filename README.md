@@ -64,7 +64,7 @@ A ready to go Wayland status bar for Hyprland and Niri
 
 <div align="left">
 
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,004-555?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,005-555?style=flat-square&labelColor=0d0d1a) 
 
 A ready to go Wayland status bar for Hyprland and Niri
 
@@ -151,7 +151,7 @@ A clean, modern client portal for freelancers and studios. Built with SvelteKit 
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--96-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--97-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -175,7 +175,7 @@ morphe patches for twitter
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--185-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--184-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
@@ -183,7 +183,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,788-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,787-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
