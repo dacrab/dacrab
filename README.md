@@ -48,17 +48,17 @@
 
 <div align="left">
 
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,018-555?style=flat-square&labelColor=0d0d1a) 
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A ready to go status bar for Wayland compositors
+A clean, modern client portal for freelancers and studios. Built with SvelteK...
 
 </div>
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
@@ -72,9 +72,9 @@ Modern POS system for clubs & venues built with SvelteKit, Svelte, and Supabase
 
 <div align="left">
 
-**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
-A clean, modern client portal for freelancers and studios. Built with SvelteK...
+A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 </div>
 
@@ -112,6 +112,20 @@ A clean, modern client portal for freelancers and studios. Built with SvelteKit 
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(typescript): bump to v7 and replace astro check wit...](https://github.com/dacrab/dacrab.github.io/pull/96)**\
+<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: bump Go to 1.25.12 to resolve GO-2026-5856](https://github.com/dacrab/craftops/pull/54)**\
+<sub>[dacrab/craftops](https://github.com/dacrab/craftops)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Aegean editorial redesign + lint/knip cleanup](https://github.com/dacrab/topos/pull/67)**\
 <sub>[dacrab/topos](https://github.com/dacrab/topos)</sub>
 
@@ -131,20 +145,6 @@ A clean, modern client portal for freelancers and studios. Built with SvelteKit 
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[chore: remove dead annotations, fix stale comments, minor...](https://github.com/MalpenZibo/ashell/pull/850)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[refactor(widget): replace bare unwrap with expect in layo...](https://github.com/MalpenZibo/ashell/pull/849)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,822-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,824-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,283-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,287-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter
 
