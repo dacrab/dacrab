@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
+
+</div>
+
+<div align="left">
+
 **[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 Real-time global event monitoring dashboard - Track earthquakes, news, space,...
@@ -67,14 +75,6 @@ Luxury beachfront estate website — Astro, Tailwind CSS, Leaflet, with native .
 **[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
-
-</div>
-
-<div align="left">
-
-**[ghostty-config](https://github.com/dacrab/ghostty-config)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--15-555?style=flat-square&labelColor=0d0d1a) 
-
-Ghostty Theme Collection
 
 </div>
 
@@ -130,7 +130,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--255-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--256-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -138,7 +138,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,275-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,280-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -146,7 +146,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,756-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,757-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
@@ -162,7 +162,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,833-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,834-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
