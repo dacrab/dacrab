@@ -56,6 +56,14 @@
 
 <div align="left">
 
+**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+
+</div>
+
+<div align="left">
+
 **[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 Real-time global event monitoring dashboard - Track earthquakes, news, space,...
@@ -67,14 +75,6 @@ Real-time global event monitoring dashboard - Track earthquakes, news, space,...
 **[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 Luxury beachfront estate website — Astro, Tailwind CSS, Leaflet, with native ...
-
-</div>
-
-<div align="left">
-
-**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
 
 </div>
 
@@ -130,7 +130,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--257-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--261-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -146,7 +146,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,773-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,776-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
@@ -154,7 +154,7 @@ morphe patches for twitter and instagram
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--219-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--218-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
