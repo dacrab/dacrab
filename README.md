@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,go,css,cs,unity,html" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,go,cs,css,unity,html" alt="Languages" /></div>
 
 ---
 
@@ -48,33 +48,33 @@
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
-
-</div>
-
-<div align="left">
-
-**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3-555?style=flat-square&labelColor=0d0d1a) 
-
-2D action platformer built in Unity featuring fluid movement, combat systems,...
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
 <div align="left">
 
-**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[ioannislo](https://github.com/dacrab/ioannislo)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 
 </div>
 
 <div align="left">
 
-**[planet-pulse](https://github.com/dacrab/planet-pulse)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-Real-time global event monitoring dashboard - Track earthquakes, news, space,...
+Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
+
+</div>
+
+<div align="left">
+
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A clean, modern client portal for freelancers and studios — projects, time tr...
 
 </div>
 
@@ -130,7 +130,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--267-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--270-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -138,7 +138,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,337-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,340-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -146,7 +146,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,821-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,823-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
