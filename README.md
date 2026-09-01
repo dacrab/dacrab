@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[pardus](https://github.com/dacrab/pardus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+PARDUS — An avant-garde natural wine project landing page. Brutalist editoria...
+
+</div>
+
+<div align="left">
+
 **[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 A modern recipe sharing platform built with TanStack Start, React, and Convex...
@@ -67,14 +75,6 @@ Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
 **[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
-
-</div>
-
-<div align="left">
-
-**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A clean, modern client portal for freelancers and studios — projects, time tr...
 
 </div>
 
@@ -112,6 +112,27 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: migrate to @tanstack/react-table v9 API](https://github.com/dacrab/fade-in/pull/50)**\
+<sub>[dacrab/fade-in](https://github.com/dacrab/fade-in)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: downgrade typescript to ^6.0.0 for astro check](https://github.com/dacrab/pardus/pull/8)**\
+<sub>[dacrab/pardus](https://github.com/dacrab/pardus)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: downgrade typescript to ^6.0.0 for astro check](https://github.com/dacrab/ligne-plus-portfolio/pull/17)**\
+<sub>[dacrab/ligne-plus-portfolio](https://github.com/dacrab/ligne-plus-portfolio)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Delete .github/workflows/keep-alive.yml](https://github.com/dacrab/clubOS/pull/112)**\
 <sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
 
@@ -131,7 +152,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,458-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,464-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -139,7 +160,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,023-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,027-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
