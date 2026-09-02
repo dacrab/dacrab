@@ -48,6 +48,22 @@
 
 <div align="left">
 
+**[Integrity-Box](https://github.com/MeowDump/Integrity-Box)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,614-555?style=flat-square&labelColor=0d0d1a) 
+
+A toolkit for managing Play Integrity & System Environment
+
+</div>
+
+<div align="left">
+
+**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+
+</div>
+
+<div align="left">
+
 **[pardus](https://github.com/dacrab/pardus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 PARDUS — An avant-garde natural wine project landing page. Brutalist editoria...
@@ -59,22 +75,6 @@ PARDUS — An avant-garde natural wine project landing page. Brutalist editoria.
 **[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 A modern recipe sharing platform built with TanStack Start, React, and Convex...
-
-</div>
-
-<div align="left">
-
-**[ioannislo](https://github.com/dacrab/ioannislo)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
-
-</div>
-
-<div align="left">
-
-**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
 
 </div>
 
@@ -109,6 +109,13 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 ---
 
 ### Pull Requests
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: remove dead code, dedupe, fix latent bugs (−2099...](https://github.com/MeowDump/Integrity-Box/pull/15)**\
+<sub>[MeowDump/Integrity-Box](https://github.com/MeowDump/Integrity-Box)</sub>
+
+</div>
 
 <div align="left">
 
@@ -152,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,476-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,477-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -160,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,047-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,054-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
