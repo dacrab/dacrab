@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
+
+</div>
+
+<div align="left">
+
 **[Integrity-Box](https://github.com/dacrab/Integrity-Box)**&nbsp; 
 
 A toolkit for managing Play Integrity & System Environment
@@ -67,14 +75,6 @@ A toolkit for managing Play Integrity & System Environment
 **[ioannislo](https://github.com/dacrab/ioannislo)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Minimalist portfolio for Ioannis Lo - Web Enthusiast & Creative Professional
-
-</div>
-
-<div align="left">
-
-**[pardus](https://github.com/dacrab/pardus)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-PARDUS — An avant-garde natural wine project landing page. Brutalist editoria...
 
 </div>
 
@@ -151,7 +151,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--307-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--308-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,500-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,505-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,081-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,088-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
