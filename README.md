@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,go,cs,css,unity,html" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,cs,go,css,unity,html" alt="Languages" /></div>
 
 ---
 
@@ -48,14 +48,6 @@
 
 <div align="left">
 
-**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
-
-Shared Renovate preset configuration for dacrab repos
-
-</div>
-
-<div align="left">
-
 **[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
 
 Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
@@ -64,9 +56,9 @@ Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
 
 <div align="left">
 
-**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5-555?style=flat-square&labelColor=0d0d1a) 
 
-A modern recipe sharing platform built with TanStack Start, React, and Convex...
+2D action platformer built in Unity featuring fluid movement, combat systems,...
 
 </div>
 
@@ -75,6 +67,14 @@ A modern recipe sharing platform built with TanStack Start, React, and Convex...
 **[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
+
+</div>
+
+<div align="left">
+
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A clean, modern client portal for freelancers and studios — projects, time tr...
 
 </div>
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,538-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,540-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,149-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,156-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
