@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,cs,go,css,unity,html" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,php,go,cs,css,unity,html" alt="Languages" /></div>
 
 ---
 
@@ -48,33 +48,33 @@
 
 <div align="left">
 
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
+
+Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
+
+</div>
+
+<div align="left">
+
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
+
+</div>
+
+<div align="left">
+
+**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
+
+</div>
+
+<div align="left">
+
 **[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
 My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
-
-</div>
-
-<div align="left">
-
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Lua-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
-
-</div>
-
-<div align="left">
-
-**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
-
-Shared Renovate preset configuration for dacrab repos
-
-</div>
-
-<div align="left">
-
-**[Integrity-Box](https://github.com/dacrab/Integrity-Box)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A toolkit for managing Play Integrity & System Environment
 
 </div>
 
@@ -151,7 +151,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--320-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--321-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,138-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,144-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
