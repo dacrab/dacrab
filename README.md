@@ -48,33 +48,33 @@
 
 <div align="left">
 
-**[ashell](https://github.com/dacrab/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[mise](https://github.com/dacrab/mise)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
 
-A ready to go Wayland status bar for Hyprland and Niri
-
-</div>
-
-<div align="left">
-
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,116-555?style=flat-square&labelColor=0d0d1a) 
-
-A ready to go status bar for Wayland compositors
+A modern recipe sharing platform built with TanStack Start, React, and Convex...
 
 </div>
 
 <div align="left">
 
-**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5-555?style=flat-square&labelColor=0d0d1a) 
 
-My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+2D action platformer built in Unity featuring fluid movement, combat systems,...
 
 </div>
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
+A clean, modern client portal for freelancers and studios — projects, time tr...
+
+</div>
+
+<div align="left">
+
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
+
+Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
 
 </div>
 
@@ -112,6 +112,13 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: type root error component against router's ErrorComp...](https://github.com/dacrab/mise/pull/90)**\
+<sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: compositor dispatch edge cases, workspace scroll mon...](https://github.com/MalpenZibo/ashell/pull/965)**\
 <sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
@@ -138,13 +145,6 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: upgrade AI SDK stack to v4 generation (ai@7 + @ai-sd...](https://github.com/dacrab/feedbackflow-ai/pull/65)**\
-<sub>[dacrab/feedbackflow-ai](https://github.com/dacrab/feedbackflow-ai)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,693-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,696-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,299-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,303-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
