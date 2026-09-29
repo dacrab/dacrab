@@ -48,7 +48,7 @@
 
 <div align="left">
 
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,126-555?style=flat-square&labelColor=0d0d1a) 
+**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,127-555?style=flat-square&labelColor=0d0d1a) 
 
 A ready to go status bar for Wayland compositors
 
@@ -151,7 +151,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--383-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--385-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,825-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,830-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,448-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,451-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
