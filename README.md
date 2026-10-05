@@ -48,6 +48,22 @@
 
 <div align="left">
 
+**[BreZygisk](https://github.com/rrr333nnn333/BreZygisk)**&nbsp; ![](https://img.shields.io/badge/--C-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--176-555?style=flat-square&labelColor=0d0d1a) 
+
+A ReZygisk Fork - Transparent implementation of Zygisk.
+
+</div>
+
+<div align="left">
+
+**[BreZygisk](https://github.com/dacrab/BreZygisk)**&nbsp; 
+
+A ReZygisk Fork - Transparent implementation of Zygisk.
+
+</div>
+
+<div align="left">
+
 **[Integrity-Box](https://github.com/dacrab/Integrity-Box)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A toolkit for managing Play Integrity & System Environment
@@ -59,22 +75,6 @@ A toolkit for managing Play Integrity & System Environment
 **[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
-
-</div>
-
-<div align="left">
-
-**[ashell](https://github.com/MalpenZibo/ashell)**&nbsp; ![](https://img.shields.io/badge/--Rust-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,133-555?style=flat-square&labelColor=0d0d1a) 
-
-A ready to go status bar for Wayland compositors
-
-</div>
-
-<div align="left">
-
-**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
-
-My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
 
 </div>
 
@@ -109,6 +109,13 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 ---
 
 ### Pull Requests
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[customize/verify: check webroot integrity, drop dead clea...](https://github.com/rrr333nnn333/BreZygisk/pull/6)**\
+<sub>[rrr333nnn333/BreZygisk](https://github.com/rrr333nnn333/BreZygisk)</sub>
+
+</div>
 
 <div align="left">
 
@@ -152,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,923-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,933-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -160,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,540-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,542-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
