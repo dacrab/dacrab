@@ -48,7 +48,7 @@
 
 <div align="left">
 
-**[BreZygisk](https://github.com/rrr333nnn333/BreZygisk)**&nbsp; ![](https://img.shields.io/badge/--C-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--177-555?style=flat-square&labelColor=0d0d1a) 
+**[BreZygisk](https://github.com/rrr333nnn333/BreZygisk)**&nbsp; ![](https://img.shields.io/badge/--C-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--178-555?style=flat-square&labelColor=0d0d1a) 
 
 A ReZygisk Fork - Transparent implementation of Zygisk.
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,943-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,946-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,549-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,551-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
