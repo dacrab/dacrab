@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,go,php,cs,css,unity,html" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,go,cs,css,unity,html,javascript" alt="Languages" /></div>
 
 ---
 
@@ -48,33 +48,33 @@
 
 <div align="left">
 
+**[beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)**&nbsp; ![](https://img.shields.io/badge/--PHP-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
+
+</div>
+
+<div align="left">
+
+**[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
+
+</div>
+
+<div align="left">
+
+**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
+
+</div>
+
+<div align="left">
+
 **[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 Scrape business leads from Google Maps (Places API) and extract emails from t...
-
-</div>
-
-<div align="left">
-
-**[BreZygisk](https://github.com/rrr333nnn333/BreZygisk)**&nbsp; ![](https://img.shields.io/badge/--C-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--178-555?style=flat-square&labelColor=0d0d1a) 
-
-A ReZygisk Fork - Transparent implementation of Zygisk.
-
-</div>
-
-<div align="left">
-
-**[BreZygisk](https://github.com/dacrab/BreZygisk)**&nbsp; 
-
-A ReZygisk Fork - Transparent implementation of Zygisk.
-
-</div>
-
-<div align="left">
-
-**[Integrity-Box](https://github.com/dacrab/Integrity-Box)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A toolkit for managing Play Integrity & System Environment
 
 </div>
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,990-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,995-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -167,7 +167,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,578-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,584-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
@@ -183,7 +183,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,839-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,840-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
