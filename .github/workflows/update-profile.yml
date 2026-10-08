@@ -7,25 +7,26 @@ on:
   push:
     branches: [main]
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    permissions:
-      contents: write
-    concurrency:
-      group: profile-update
-      cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: actions/setup-python@v7
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.x"
 
       - name: Generate metrics
-        uses: lowlighter/metrics@latest
-        continue-on-error: true
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           user: ${{ github.repository_owner }}
@@ -44,8 +45,7 @@ jobs:
           plugin_stars_limit: 3
 
       - name: Generate snake
-        uses: Platane/snk@v3
-        continue-on-error: true
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -66,6 +66,6 @@ jobs:
           git add README.md assets/
           if ! git diff --cached --quiet; then
             git commit -m "🔄 Auto-update profile"
-            git pull --rebase origin ${{ github.ref_name }}
+            git pull --rebase origin "$GITHUB_REF_NAME"
             git push
           fi
