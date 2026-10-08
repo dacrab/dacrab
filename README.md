@@ -48,7 +48,15 @@
 
 <div align="left">
 
-**[BreZygisk](https://github.com/rrr333nnn333/BreZygisk)**&nbsp; ![](https://img.shields.io/badge/--C-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--179-555?style=flat-square&labelColor=0d0d1a) 
+**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
+
+Scrape business leads from Google Maps (Places API) and extract emails from t...
+
+</div>
+
+<div align="left">
+
+**[BreZygisk](https://github.com/rrr333nnn333/BreZygisk)**&nbsp; ![](https://img.shields.io/badge/--C-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--178-555?style=flat-square&labelColor=0d0d1a) 
 
 A ReZygisk Fork - Transparent implementation of Zygisk.
 
@@ -67,14 +75,6 @@ A ReZygisk Fork - Transparent implementation of Zygisk.
 **[Integrity-Box](https://github.com/dacrab/Integrity-Box)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A toolkit for managing Play Integrity & System Environment
-
-</div>
-
-<div align="left">
-
-**[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 </div>
 
@@ -159,7 +159,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,989-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--3,990-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
