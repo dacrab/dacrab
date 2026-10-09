@@ -48,6 +48,22 @@
 
 <div align="left">
 
+**[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+A clean, modern client portal for freelancers and studios — projects, time tr...
+
+</div>
+
+<div align="left">
+
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
+
+Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
+
+</div>
+
+<div align="left">
+
 **[beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)**&nbsp; ![](https://img.shields.io/badge/--PHP-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
@@ -59,22 +75,6 @@ Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
 **[cryptoflow](https://github.com/dacrab/cryptoflow)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Real-time crypto dashboard built with SolidJS, TypeScript, and Binance API
-
-</div>
-
-<div align="left">
-
-**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
-
-</div>
-
-<div align="left">
-
-**[maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)**&nbsp; ![](https://img.shields.io/badge/--HTML-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
-
-Scrape business leads from Google Maps (Places API) and extract emails from t...
 
 </div>
 
@@ -131,20 +131,6 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[refactor: dead code removal + CI/CD streamlining](https://github.com/dacrab/ashell/pull/6)**\
-<sub>[dacrab/ashell](https://github.com/dacrab/ashell)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[ci: fix Copr build workflow for RPM 6 / drop cargo-rpm](https://github.com/dacrab/ashell/pull/5)**\
-<sub>[dacrab/ashell](https://github.com/dacrab/ashell)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
@@ -167,7 +153,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,584-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,585-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
