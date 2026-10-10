@@ -48,17 +48,17 @@
 
 <div align="left">
 
-**[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
+**[beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)**&nbsp; ![](https://img.shields.io/badge/--PHP-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
+Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
 
 </div>
 
 <div align="left">
 
-**[beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)**&nbsp; ![](https://img.shields.io/badge/--PHP-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
-Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
+A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 </div>
 
@@ -145,7 +145,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,007-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,011-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
