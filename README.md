@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
+
+</div>
+
+<div align="left">
+
 **[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
@@ -67,14 +75,6 @@ Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
 **[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
 
 A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
-
-</div>
-
-<div align="left">
-
-**[dacrab](https://github.com/dacrab/dacrab)**&nbsp; ![](https://img.shields.io/badge/--Python-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-🚀 Dynamic GitHub profile README with auto-updating metrics, projects, and con...
 
 </div>
 
@@ -130,7 +130,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--419-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--420-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -138,7 +138,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,054-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,065-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -146,7 +146,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,637-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,643-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
