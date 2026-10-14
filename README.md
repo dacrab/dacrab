@@ -48,6 +48,14 @@
 
 <div align="left">
 
+**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+
+My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+
+</div>
+
+<div align="left">
+
 **[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
@@ -67,14 +75,6 @@ Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D.
 **[beauty-salon-scheduling-api](https://github.com/dacrab/beauty-salon-scheduling-api)**&nbsp; ![](https://img.shields.io/badge/--PHP-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Beauty Salon Scheduling API (Laravel 12, Docker, Nginx, SQLite). Endpoints: s...
-
-</div>
-
-<div align="left">
-
-**[dacrab.github.io](https://github.com/dacrab/dacrab.github.io)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
-
-A cinematic, high-performance personal portfolio built with Astro, Tailwind C...
 
 </div>
 
@@ -130,7 +130,7 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--420-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--422-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -138,7 +138,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,078-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,083-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -146,7 +146,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,653-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,655-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
@@ -154,7 +154,7 @@ morphe patches for twitter and instagram
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--255-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--254-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
@@ -162,7 +162,7 @@ Fedora Workstation | Gnome & Niri setup🐧
 
 <div align="left">
 
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,842-555?style=flat-square&labelColor=0d0d1a) 
+**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,843-555?style=flat-square&labelColor=0d0d1a) 
 
 THE MISSING BULK APP INSTALLER FOR LINUX
 
