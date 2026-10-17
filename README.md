@@ -128,6 +128,13 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat: lead Featured Work with TeleStash, show all six, st...](https://github.com/dacrab/dacrab/pull/9)**\
+<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
 <sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
 
