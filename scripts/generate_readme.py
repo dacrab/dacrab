@@ -9,6 +9,18 @@ from urllib.request import Request, urlopen
 API = "https://api.github.com"
 ICONS = "https://skillicons.dev/icons"
 
+# Curated showcase order. Anything private, archived, forked or missing is
+# skipped, so this is safe to list optimistically — the section falls back to
+# recent activity for whatever is left over.
+FEATURED = [
+    "clubOS",
+    "craftops",
+    "reddit-gallery-dl",
+    "telestash",
+    "dragon-blaze",
+    "topos",
+]
+
 LANG_ICONS = {
     "C": "c", "C#": "cs", "C++": "cpp", "CSS": "css", "Dart": "dart",
     "Go": "go", "HTML": "html", "Java": "java", "JavaScript": "javascript",
@@ -70,24 +82,48 @@ def top_languages(username: str, token: str) -> str:
 
 
 
-def active_projects(username: str, token: str) -> str:
+def active_projects(username: str, token: str, limit: int = 4) -> str:
+    """Show curated work first, then whatever was pushed to recently.
+
+    Recency alone surfaces dotfiles, forks and config repos, which says nothing
+    about the quality of the work — so FEATURED drives the section.
+    """
     seen, cards = set(), []
-    for event in fetch(f"/users/{username}/events?per_page=50", token) or []:
-        if len(cards) >= 4: break
-        if event.get("type") not in {"PushEvent", "PullRequestEvent", "CreateEvent"}: continue
-        name = event.get("repo", {}).get("name", "")
-        if not name or name in seen: continue
+
+    def add(repo):
+        if not repo or repo.get("private") or repo.get("archived") or repo.get("fork"):
+            return
+        name = repo.get("name")
+        if not name or name in seen:
+            return
         seen.add(name)
-        if (r := fetch(f"/repos/{name}", token)) and not r.get("private"):
-            cards.append(card(name.split("/")[-1], r["html_url"],
-                              cut(r.get("description") or "No description", 80),
-                              r.get("language", ""), r.get("stargazers_count", 0)))
+        cards.append(card(name, repo["html_url"],
+                          cut(repo.get("description") or "No description", 80),
+                          repo.get("language", ""), repo.get("stargazers_count", 0)))
+
+    for name in FEATURED:
+        if len(cards) >= limit:
+            break
+        add(fetch(f"/repos/{username}/{name}", token))
+
+    for event in fetch(f"/users/{username}/events?per_page=50", token) or []:
+        if len(cards) >= limit:
+            break
+        if event.get("type") not in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
+            continue
+        name = event.get("repo", {}).get("name", "")
+        if name:
+            add(fetch(f"/repos/{name}", token))
+
     return "\n\n".join(cards) or "<p><em>No active projects.</em></p>"
 
 
 def latest_repos(username: str, token: str) -> str:
     repos = fetch(f"/users/{username}/repos?sort=created&direction=desc&per_page=10", token) or []
-    items = [r for r in repos if not r.get("fork") and not r.get("private")][:3]
+    # Skip forks, private, archived and language-less repos — the latter are
+    # config/asset dumps and read as filler in a "Recent Projects" section.
+    items = [r for r in repos if not r.get("fork") and not r.get("private")
+             and not r.get("archived") and r.get("language")][:3]
     return "\n\n".join(card(r["name"], r["html_url"],
                             cut(r.get("description") or "No description", 100),
                             r.get("language", ""), r.get("stargazers_count", 0))
