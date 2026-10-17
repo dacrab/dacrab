@@ -44,7 +44,7 @@
 
 ---
 
-### Active Work
+### Featured Work
 
 {{WORKING_ON}}
 
