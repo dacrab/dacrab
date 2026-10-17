@@ -112,7 +112,7 @@ Luxury beachfront estate website — Astro, Tailwind CSS, Leaflet, with native a
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
 <sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
 
 </div>
