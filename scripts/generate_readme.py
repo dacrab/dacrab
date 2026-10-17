@@ -14,11 +14,11 @@ ICONS = "https://skillicons.dev/icons"
 # recent activity for whatever is left over.
 FEATURED = [
     "clubOS",
-    "craftops",
-    "reddit-gallery-dl",
     "telestash",
-    "dragon-blaze",
+    "craftops",
     "topos",
+    "reddit-gallery-dl",
+    "dragon-blaze",
 ]
 
 LANG_ICONS = {
@@ -82,7 +82,7 @@ def top_languages(username: str, token: str) -> str:
 
 
 
-def active_projects(username: str, token: str, limit: int = 4) -> str:
+def active_projects(username: str, token: str, limit: int = 6) -> str:
     """Show curated work first, then whatever was pushed to recently.
 
     Recency alone surfaces dotfiles, forks and config repos, which says nothing
@@ -120,10 +120,11 @@ def active_projects(username: str, token: str, limit: int = 4) -> str:
 
 def latest_repos(username: str, token: str) -> str:
     repos = fetch(f"/users/{username}/repos?sort=created&direction=desc&per_page=10", token) or []
-    # Skip forks, private, archived and language-less repos — the latter are
-    # config/asset dumps and read as filler in a "Recent Projects" section.
+    # Skip forks, private, archived, language-less repos (config/asset dumps) and
+    # anything already in FEATURED, so the two sections never repeat a project.
     items = [r for r in repos if not r.get("fork") and not r.get("private")
-             and not r.get("archived") and r.get("language")][:3]
+             and not r.get("archived") and r.get("language")
+             and r.get("name") not in FEATURED][:3]
     return "\n\n".join(card(r["name"], r["html_url"],
                             cut(r.get("description") or "No description", 100),
                             r.get("language", ""), r.get("stargazers_count", 0))
