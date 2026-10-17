@@ -112,6 +112,13 @@ Luxury beachfront estate website — Astro, Tailwind CSS, Leaflet, with native a
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
+<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[customize/verify: check webroot integrity, drop dead clea...](https://github.com/rrr333nnn333/BreZygisk/pull/6)**\
 <sub>[rrr333nnn333/BreZygisk](https://github.com/rrr333nnn333/BreZygisk)</sub>
 
