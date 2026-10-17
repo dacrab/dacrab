@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,kotlin,svelte,go,css,cs,unity,html" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,kotlin,svelte,go,cs,unity,css,java" alt="Languages" /></div>
 
 ---
 
@@ -56,9 +56,25 @@ Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
 
 <div align="left">
 
+**[telestash](https://github.com/dacrab/telestash)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Google Photos-style gallery that uses Telegram as free, unlimited photo storage
+
+</div>
+
+<div align="left">
+
 **[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
+
+</div>
+
+<div align="left">
+
+**[topos](https://github.com/dacrab/topos)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+High-performance Multi-Tenant SaaS for Real Estate Agencies built with Next.j...
 
 </div>
 
@@ -72,23 +88,15 @@ A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 <div align="left">
 
-**[telestash](https://github.com/dacrab/telestash)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5-555?style=flat-square&labelColor=0d0d1a) 
 
-Google Photos-style gallery that uses Telegram as free, unlimited photo storage
+2D action platformer built in Unity featuring fluid movement, combat systems,...
 
 </div>
 
 ---
 
 ### Recent Projects
-
-<div align="left">
-
-**[telestash](https://github.com/dacrab/telestash)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-5865F2?style=flat-square&labelColor=0d0d1a) 
-
-Google Photos-style gallery that uses Telegram as free, unlimited photo storage
-
-</div>
 
 <div align="left">
 
@@ -103,6 +111,14 @@ PARDUS — An avant-garde natural wine project landing page. Brutalist editorial
 **[portlane](https://github.com/dacrab/portlane)**&nbsp; ![](https://img.shields.io/badge/--Svelte-5865F2?style=flat-square&labelColor=0d0d1a) 
 
 A clean, modern client portal for freelancers and studios — projects, time tracking, and invoicin...
+
+</div>
+
+<div align="left">
+
+**[fade-in](https://github.com/dacrab/fade-in)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) 
+
+Modern barbershop booking platform — TanStack Start + Convex + React
 
 </div>
 
