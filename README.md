@@ -16,7 +16,7 @@
 
 ### Stack
 
-<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,go,cs,css,unity,html,javascript" alt="Languages" /></div>
+<div align="center"><img src="https://skillicons.dev/icons?i=ts,svelte,go,cs,unity,css,html,java" alt="Languages" /></div>
 
 ---
 
@@ -44,21 +44,21 @@
 
 ---
 
-### Active Work
+### Featured Work
 
 <div align="left">
 
-**[dotfiles](https://github.com/dacrab/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[clubOS](https://github.com/dacrab/clubOS)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4-555?style=flat-square&labelColor=0d0d1a) 
 
-🎨 Personal dotfiles managed with GNU Stow - Hyprland, wayle, Niri and Waybar ...
+Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, an...
 
 </div>
 
 <div align="left">
 
-**[mybash](https://github.com/dacrab/mybash)**&nbsp; ![](https://img.shields.io/badge/--Shell-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1-555?style=flat-square&labelColor=0d0d1a) 
+**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
 
-My Bash profile - Highly customized Starship Theme - Just imagine Powerlevel1...
+Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
 
 </div>
 
@@ -72,23 +72,15 @@ A high-performance Reddit Gallery Downloader written in Go (Golang). Streams ...
 
 <div align="left">
 
-**[craftops](https://github.com/dacrab/craftops)**&nbsp; ![](https://img.shields.io/badge/--Go-5865F2?style=flat-square&labelColor=0d0d1a) 
+**[dragon-blaze](https://github.com/dacrab/dragon-blaze)**&nbsp; ![](https://img.shields.io/badge/--C#-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5-555?style=flat-square&labelColor=0d0d1a) 
 
-Go CLI for Minecraft server operations — Modrinth mod updates, backups, and D...
+2D action platformer built in Unity featuring fluid movement, combat systems,...
 
 </div>
 
 ---
 
 ### Recent Projects
-
-<div align="left">
-
-**[renovate-config](https://github.com/dacrab/renovate-config)**&nbsp; 
-
-Shared Renovate preset configuration for dacrab repos
-
-</div>
 
 <div align="left">
 
@@ -106,9 +98,24 @@ A clean, modern client portal for freelancers and studios — projects, time tra
 
 </div>
 
+<div align="left">
+
+**[casa-serena](https://github.com/dacrab/casa-serena)**&nbsp; ![](https://img.shields.io/badge/--Astro-5865F2?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2-555?style=flat-square&labelColor=0d0d1a) 
+
+Luxury beachfront estate website — Astro, Tailwind CSS, Leaflet, with native animations and no an...
+
+</div>
+
 ---
 
 ### Pull Requests
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
+<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
+
+</div>
 
 <div align="left">
 
