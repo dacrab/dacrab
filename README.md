@@ -128,6 +128,27 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: add Doppler setup file](https://github.com/dacrab/argicon/pull/41)**\
+<sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: use the Vercel deployment URL instead of the unresol...](https://github.com/dacrab/argicon/pull/40)**\
+<sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: point canonical, sitemap and JSON-LD at the real domain](https://github.com/dacrab/dacrab.github.io/pull/117)**\
+<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat: lead Featured Work with TeleStash, show all six, st...](https://github.com/dacrab/dacrab/pull/9)**\
 <sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
 
@@ -137,20 +158,6 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
 <sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[customize/verify: check webroot integrity, drop dead clea...](https://github.com/rrr333nnn333/BreZygisk/pull/6)**\
-<sub>[rrr333nnn333/BreZygisk](https://github.com/rrr333nnn333/BreZygisk)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: type root error component against router's ErrorComp...](https://github.com/dacrab/mise/pull/90)**\
-<sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
 
 </div>
 
@@ -168,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,120-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,125-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -176,7 +183,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,683-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,684-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
@@ -184,7 +191,7 @@ morphe patches for twitter and instagram
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--257-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--258-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
