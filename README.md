@@ -128,6 +128,13 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: link Mise to its live demo again](https://github.com/dacrab/dacrab.github.io/pull/119)**\
+<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: add Doppler setup file](https://github.com/dacrab/argicon/pull/41)**\
 <sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
 
@@ -154,13 +161,6 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat: curate Featured Work instead of recency-based Activ...](https://github.com/dacrab/dacrab/pull/8)**\
-<sub>[dacrab/dacrab](https://github.com/dacrab/dacrab)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
@@ -175,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,125-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,131-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -183,7 +183,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,684-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,686-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
