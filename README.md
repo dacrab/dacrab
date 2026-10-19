@@ -128,36 +128,36 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/maps-lead-scraper/pull/55)**\
-<sub>[dacrab/maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(deps): update vitest to v5 and jsdom to v30](https://github.com/dacrab/clubOS/pull/116)**\
+<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/cryptoflow/pull/46)**\
-<sub>[dacrab/cryptoflow](https://github.com/dacrab/cryptoflow)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(deps): update stripe to v23](https://github.com/dacrab/voidhaus/pull/32)**\
+<sub>[dacrab/voidhaus](https://github.com/dacrab/voidhaus)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/reddit-gallery-dl/pull/31)**\
-<sub>[dacrab/reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(deps): update vitest to v5, stripe to v23, actions/...](https://github.com/dacrab/portlane/pull/4)**\
+<sub>[dacrab/portlane](https://github.com/dacrab/portlane)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/ioannislo/pull/61)**\
-<sub>[dacrab/ioannislo](https://github.com/dacrab/ioannislo)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(ci): update actions/setup-node to v7](https://github.com/dacrab/apex-construction/pull/58)**\
+<sub>[dacrab/apex-construction](https://github.com/dacrab/apex-construction)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/casa-serena/pull/44)**\
-<sub>[dacrab/casa-serena](https://github.com/dacrab/casa-serena)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore(ci): update actions/setup-node to v7](https://github.com/dacrab/aureus-argent/pull/78)**\
+<sub>[dacrab/aureus-argent](https://github.com/dacrab/aureus-argent)</sub>
 
 </div>
 
@@ -167,7 +167,7 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--429-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--430-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -175,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,141-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,142-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
