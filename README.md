@@ -128,36 +128,36 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: dropped pipewire receiver and a blocking IPC read](https://github.com/MalpenZibo/ashell/pull/1070)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/maps-lead-scraper/pull/55)**\
+<sub>[dacrab/maps-lead-scraper](https://github.com/dacrab/maps-lead-scraper)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix(compositor): make compositor dispatch robust](https://github.com/MalpenZibo/ashell/pull/1069)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/cryptoflow/pull/46)**\
+<sub>[dacrab/cryptoflow](https://github.com/dacrab/cryptoflow)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix(notifications): harden the notification daemon](https://github.com/MalpenZibo/ashell/pull/1068)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/reddit-gallery-dl/pull/31)**\
+<sub>[dacrab/reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix(config): make config hot reload robust](https://github.com/MalpenZibo/ashell/pull/1067)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/ioannislo/pull/61)**\
+<sub>[dacrab/ioannislo](https://github.com/dacrab/ioannislo)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[docs(agents): sync the project layout with the current so...](https://github.com/MalpenZibo/ashell/pull/1066)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: simplify Renovate config](https://github.com/dacrab/casa-serena/pull/44)**\
+<sub>[dacrab/casa-serena](https://github.com/dacrab/casa-serena)</sub>
 
 </div>
 
@@ -175,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,140-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,141-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -183,7 +183,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,698-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,700-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
