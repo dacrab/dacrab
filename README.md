@@ -128,36 +128,36 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(deps): update @sentry/nextjs to v11, svix to v2, vi...](https://github.com/dacrab/feedbackflow-ai/pull/80)**\
-<sub>[dacrab/feedbackflow-ai](https://github.com/dacrab/feedbackflow-ai)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: Vercel Renovate ignore rule](https://github.com/dacrab/ioannislo/pull/62)**\
+<sub>[dacrab/ioannislo](https://github.com/dacrab/ioannislo)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(deps): update @sentry/nextjs to v11, svix to v2, vi...](https://github.com/dacrab/topos/pull/68)**\
-<sub>[dacrab/topos](https://github.com/dacrab/topos)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: analytics deps + idle cursor loop](https://github.com/dacrab/ligne-plus-portfolio/pull/21)**\
+<sub>[dacrab/ligne-plus-portfolio](https://github.com/dacrab/ligne-plus-portfolio)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(deps): update typescript to v6](https://github.com/dacrab/planet-pulse/pull/35)**\
-<sub>[dacrab/planet-pulse](https://github.com/dacrab/planet-pulse)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: dead classes + duplicate CI build](https://github.com/dacrab/dacrab.github.io/pull/123)**\
+<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(deps): update @sentry/vite-plugin to v11](https://github.com/dacrab/mise/pull/101)**\
-<sub>[dacrab/mise](https://github.com/dacrab/mise)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: remove unused hero assets/component](https://github.com/dacrab/apex-construction/pull/59)**\
+<sub>[dacrab/apex-construction](https://github.com/dacrab/apex-construction)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore(deps): update vitest to v5 and jsdom to v30](https://github.com/dacrab/clubOS/pull/116)**\
-<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: project data JSON + hero preload](https://github.com/dacrab/designdash/pull/85)**\
+<sub>[dacrab/designdash](https://github.com/dacrab/designdash)</sub>
 
 </div>
 
@@ -175,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,158-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,160-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -183,7 +183,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,705-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,708-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
@@ -191,7 +191,7 @@ morphe patches for twitter and instagram
 
 <div align="left">
 
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--257-555?style=flat-square&labelColor=0d0d1a) 
+**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--258-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
 
