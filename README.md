@@ -128,36 +128,36 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: Vercel Renovate ignore rule](https://github.com/dacrab/ioannislo/pull/62)**\
-<sub>[dacrab/ioannislo](https://github.com/dacrab/ioannislo)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Harden navigation, cursor, scroll, and metadata](https://github.com/dacrab/pardus/pull/12)**\
+<sub>[dacrab/pardus](https://github.com/dacrab/pardus)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: analytics deps + idle cursor loop](https://github.com/dacrab/ligne-plus-portfolio/pull/21)**\
-<sub>[dacrab/ligne-plus-portfolio](https://github.com/dacrab/ligne-plus-portfolio)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Improve menu, metadata, and static fallbacks](https://github.com/dacrab/emerald-construction/pull/51)**\
+<sub>[dacrab/emerald-construction](https://github.com/dacrab/emerald-construction)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: dead classes + duplicate CI build](https://github.com/dacrab/dacrab.github.io/pull/123)**\
-<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Make page scripts ClientRouter-safe and finish accessibil...](https://github.com/dacrab/casa-serena/pull/45)**\
+<sub>[dacrab/casa-serena](https://github.com/dacrab/casa-serena)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: remove unused hero assets/component](https://github.com/dacrab/apex-construction/pull/59)**\
-<sub>[dacrab/apex-construction](https://github.com/dacrab/apex-construction)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Harden stores, calculator, navigation, and SEO](https://github.com/dacrab/aureus-argent/pull/79)**\
+<sub>[dacrab/aureus-argent](https://github.com/dacrab/aureus-argent)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Cleanup: project data JSON + hero preload](https://github.com/dacrab/designdash/pull/85)**\
-<sub>[dacrab/designdash](https://github.com/dacrab/designdash)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Clean up project modal, carousel, metadata, and video assets](https://github.com/dacrab/argicon/pull/43)**\
+<sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
 
 </div>
 
@@ -175,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,171-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,176-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
