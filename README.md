@@ -128,35 +128,35 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Harden navigation, cursor, scroll, and metadata](https://github.com/dacrab/pardus/pull/12)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Harden navigation, cursor, scroll, and metadata](https://github.com/dacrab/pardus/pull/12)**\
 <sub>[dacrab/pardus](https://github.com/dacrab/pardus)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Improve menu, metadata, and static fallbacks](https://github.com/dacrab/emerald-construction/pull/51)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Improve menu, metadata, and static fallbacks](https://github.com/dacrab/emerald-construction/pull/51)**\
 <sub>[dacrab/emerald-construction](https://github.com/dacrab/emerald-construction)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Make page scripts ClientRouter-safe and finish accessibil...](https://github.com/dacrab/casa-serena/pull/45)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Make page scripts ClientRouter-safe and finish accessibil...](https://github.com/dacrab/casa-serena/pull/45)**\
 <sub>[dacrab/casa-serena](https://github.com/dacrab/casa-serena)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Harden stores, calculator, navigation, and SEO](https://github.com/dacrab/aureus-argent/pull/79)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Harden stores, calculator, navigation, and SEO](https://github.com/dacrab/aureus-argent/pull/79)**\
 <sub>[dacrab/aureus-argent](https://github.com/dacrab/aureus-argent)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Clean up project modal, carousel, metadata, and video assets](https://github.com/dacrab/argicon/pull/43)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Clean up project modal, carousel, metadata, and video assets](https://github.com/dacrab/argicon/pull/43)**\
 <sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
 
 </div>
@@ -167,7 +167,7 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--432-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--433-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -175,7 +175,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,179-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,181-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -183,7 +183,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,712-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,715-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
