@@ -128,6 +128,20 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[refactor: dedupe scroll handling and identical match arms](https://github.com/MalpenZibo/ashell/pull/1084)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[refactor(modules): unify module press handling](https://github.com/MalpenZibo/ashell/pull/1083)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Harden navigation, cursor, scroll, and metadata](https://github.com/dacrab/pardus/pull/12)**\
 <sub>[dacrab/pardus](https://github.com/dacrab/pardus)</sub>
 
@@ -147,27 +161,21 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 </div>
 
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Harden stores, calculator, navigation, and SEO](https://github.com/dacrab/aureus-argent/pull/79)**\
-<sub>[dacrab/aureus-argent](https://github.com/dacrab/aureus-argent)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Clean up project modal, carousel, metadata, and video assets](https://github.com/dacrab/argicon/pull/43)**\
-<sub>[dacrab/argicon](https://github.com/dacrab/argicon)</sub>
-
-</div>
-
 ---
 
 ### Recently Starred
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--433-555?style=flat-square&labelColor=0d0d1a) 
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--224-555?style=flat-square&labelColor=0d0d1a) 
+
+Native Android client for Spotify, built with Jetpack Compose
+
+</div>
+
+<div align="left">
+
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--434-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -175,7 +183,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,182-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,187-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -194,14 +202,6 @@ morphe patches for twitter and instagram
 **[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--258-555?style=flat-square&labelColor=0d0d1a) 
 
 Fedora Workstation | Gnome & Niri setup🐧
-
-</div>
-
-<div align="left">
-
-**[abusoww/tuxmate](https://github.com/abusoww/tuxmate)**&nbsp; ![](https://img.shields.io/badge/--TypeScript-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,843-555?style=flat-square&labelColor=0d0d1a) 
-
-THE MISSING BULK APP INSTALLER FOR LINUX
 
 </div>
 
