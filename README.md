@@ -128,36 +128,36 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat(ui): animate the bar and refresh the calendar and no...](https://github.com/MalpenZibo/ashell/pull/1107)**\
+<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[Launcher: play without a Microsoft account, from Settings](https://github.com/horizon-rust/horizon/pull/3681)**\
+<sub>[horizon-rust/horizon](https://github.com/horizon-rust/horizon)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[Docs: the plan for Ely.by and other Yggdrasil sign-in pro...](https://github.com/horizon-rust/horizon/pull/3680)**\
+<sub>[horizon-rust/horizon](https://github.com/horizon-rust/horizon)</sub>
+
+</div>
+
+<div align="left">
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Launcher: a Linux AppImage that updates in place](https://github.com/horizon-rust/horizon/pull/3670)**\
+<sub>[horizon-rust/horizon](https://github.com/horizon-rust/horizon)</sub>
+
+</div>
+
+<div align="left">
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/topos/pull/69)**\
 <sub>[dacrab/topos](https://github.com/dacrab/topos)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/emerald-construction/pull/54)**\
-<sub>[dacrab/emerald-construction](https://github.com/dacrab/emerald-construction)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/clubOS/pull/117)**\
-<sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/dacrab.github.io/pull/126)**\
-<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
-
-</div>
-
-<div align="left">
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: actually disable automerge](https://github.com/dacrab/dragon-blaze/pull/16)**\
-<sub>[dacrab/dragon-blaze](https://github.com/dacrab/dragon-blaze)</sub>
 
 </div>
 
@@ -167,7 +167,7 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--75-555?style=flat-square&labelColor=0d0d1a) 
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--77-555?style=flat-square&labelColor=0d0d1a) 
 
 Ad-free Spotify clone with spotify sync for android
 
@@ -175,7 +175,7 @@ Ad-free Spotify clone with spotify sync for android
 
 <div align="left">
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--709-555?style=flat-square&labelColor=0d0d1a) 
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--738-555?style=flat-square&labelColor=0d0d1a) 
 
 Native Android client for Spotify, built with Jetpack Compose
 
@@ -183,7 +183,7 @@ Native Android client for Spotify, built with Jetpack Compose
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--448-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--449-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -191,7 +191,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,411-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,419-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -199,7 +199,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,837-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,844-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
