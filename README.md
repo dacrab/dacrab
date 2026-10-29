@@ -167,7 +167,7 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--72-555?style=flat-square&labelColor=0d0d1a) 
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--75-555?style=flat-square&labelColor=0d0d1a) 
 
 Ad-free Spotify clone with spotify sync for android
 
@@ -175,7 +175,7 @@ Ad-free Spotify clone with spotify sync for android
 
 <div align="left">
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--663-555?style=flat-square&labelColor=0d0d1a) 
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--709-555?style=flat-square&labelColor=0d0d1a) 
 
 Native Android client for Spotify, built with Jetpack Compose
 
@@ -183,7 +183,7 @@ Native Android client for Spotify, built with Jetpack Compose
 
 <div align="left">
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--447-555?style=flat-square&labelColor=0d0d1a) 
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--448-555?style=flat-square&labelColor=0d0d1a) 
 
 This repository is a Morphe patch source for TikTok.  It continues the work f...
 
@@ -191,7 +191,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,403-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,411-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -199,7 +199,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,833-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,837-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
