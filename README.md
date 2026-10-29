@@ -128,35 +128,35 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/topos/pull/69)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/topos/pull/69)**\
 <sub>[dacrab/topos](https://github.com/dacrab/topos)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/emerald-construction/pull/54)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/emerald-construction/pull/54)**\
 <sub>[dacrab/emerald-construction](https://github.com/dacrab/emerald-construction)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/clubOS/pull/117)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/clubOS/pull/117)**\
 <sub>[dacrab/clubOS](https://github.com/dacrab/clubOS)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/dacrab.github.io/pull/126)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[chore: drop stale major update block](https://github.com/dacrab/dacrab.github.io/pull/126)**\
 <sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix: actually disable automerge](https://github.com/dacrab/dragon-blaze/pull/16)**\
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix: actually disable automerge](https://github.com/dacrab/dragon-blaze/pull/16)**\
 <sub>[dacrab/dragon-blaze](https://github.com/dacrab/dragon-blaze)</sub>
 
 </div>
@@ -167,7 +167,15 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--630-555?style=flat-square&labelColor=0d0d1a) 
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--72-555?style=flat-square&labelColor=0d0d1a) 
+
+Ad-free Spotify clone with spotify sync for android
+
+</div>
+
+<div align="left">
+
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--663-555?style=flat-square&labelColor=0d0d1a) 
 
 Native Android client for Spotify, built with Jetpack Compose
 
@@ -183,7 +191,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,400-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,403-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -191,17 +199,9 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,831-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,833-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
-
-</div>
-
-<div align="left">
-
-**[EbadShelby/dotfiles](https://github.com/EbadShelby/dotfiles)**&nbsp; ![](https://img.shields.io/badge/--CSS-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--262-555?style=flat-square&labelColor=0d0d1a) 
-
-Fedora Workstation | Gnome & Niri setup🐧
 
 </div>
 
