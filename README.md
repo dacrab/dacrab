@@ -128,36 +128,36 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Per-frame work moved out of composition in the player, ly...](https://github.com/kota-zo/myspoti/pull/141)**\
-<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[docs: simplify README](https://github.com/dacrab/ioannislo/pull/64)**\
+<sub>[dacrab/ioannislo](https://github.com/dacrab/ioannislo)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Dead code, unused imports and leftovers removed across th...](https://github.com/kota-zo/myspoti/pull/140)**\
-<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[docs: simplify README](https://github.com/dacrab/dacrab.github.io/pull/128)**\
+<sub>[dacrab/dacrab.github.io](https://github.com/dacrab/dacrab.github.io)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Repeat one survives ads: the song's end stays with the ad...](https://github.com/kota-zo/myspoti/pull/139)**\
-<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[docs: simplify README](https://github.com/dacrab/ligne-plus-portfolio/pull/24)**\
+<sub>[dacrab/ligne-plus-portfolio](https://github.com/dacrab/ligne-plus-portfolio)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[Verify the Neon preview workflow](https://github.com/dacrab/proteas/pull/76)**\
-<sub>[dacrab/proteas](https://github.com/dacrab/proteas)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[docs: simplify README](https://github.com/dacrab/dragon-blaze/pull/18)**\
+<sub>[dacrab/dragon-blaze](https://github.com/dacrab/dragon-blaze)</sub>
 
 </div>
 
 <div align="left">
 
-![](https://img.shields.io/badge/closed-555?style=flat-square&labelColor=0d0d1a) **[Launcher: the AppImage test on Windows, and less plumbing...](https://github.com/horizon-rust/horizon/pull/5507)**\
-<sub>[horizon-rust/horizon](https://github.com/horizon-rust/horizon)</sub>
+![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[docs: simplify README](https://github.com/dacrab/designdash/pull/89)**\
+<sub>[dacrab/designdash](https://github.com/dacrab/designdash)</sub>
 
 </div>
 
@@ -167,7 +167,7 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 <div align="left">
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--101-555?style=flat-square&labelColor=0d0d1a) 
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--102-555?style=flat-square&labelColor=0d0d1a) 
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
@@ -175,7 +175,7 @@ Ad-free fork of MySpoti with better UI and a refined download engine
 
 <div align="left">
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,080-555?style=flat-square&labelColor=0d0d1a) 
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/--Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,124-555?style=flat-square&labelColor=0d0d1a) 
 
 Native Android client for Spotify, built with Jetpack Compose
 
@@ -191,7 +191,7 @@ This repository is a Morphe patch source for TikTok.  It continues the work f...
 
 <div align="left">
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,528-555?style=flat-square&labelColor=0d0d1a) 
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,533-555?style=flat-square&labelColor=0d0d1a) 
 
 Morphe Patches
 
@@ -199,7 +199,7 @@ Morphe Patches
 
 <div align="left">
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,886-555?style=flat-square&labelColor=0d0d1a) 
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/--Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,887-555?style=flat-square&labelColor=0d0d1a) 
 
 morphe patches for twitter and instagram
 
