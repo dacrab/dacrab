@@ -46,28 +46,46 @@ def fetch(path: str, token: str):
         return None
 
 
+def is_public(repo) -> bool:
+    return bool(repo) and not any(
+        repo.get(key) for key in ("private", "archived", "fork")
+    )
+
+
 def cut(text: str, n: int) -> str:
-    return text if len(text) <= n else text[:n - 3] + "..."
+    """Truncate to n chars, but on a word boundary and with a proper ellipsis."""
+    text = " ".join(text.split())
+    if len(text) <= n:
+        return text
+    head = text[:n - 1]
+    if " " in head:
+        head = head.rsplit(" ", 1)[0]
+    return head + "…"
 
 
 def badge(label: str, color: str) -> str:
     return f"![](https://img.shields.io/badge/{label.replace(' ', '%20').replace('-', '--')}-{color}?style=flat-square&labelColor=0d0d1a)"
 
 
-def card(name: str, url: str, desc: str, lang: str = "", stars: int = 0, lang_color: str = "5865F2") -> str:
-    b = (f"{badge(f'-{lang}', lang_color)} " if lang else "") + \
-        (f"{badge(f'stars-{stars:,}', '555')} " if stars else "")
-    return f'<div align="left">\n\n**[{name}]({url})**&nbsp; {b}\n\n{desc}\n\n</div>'
+def card(name: str, url: str, desc: str, lang: str = "", stars: int = 0,
+         lang_color: str = "5865F2") -> str:
+    meta = []
+    if lang:
+        meta.append(badge(lang, lang_color))
+    if stars:
+        meta.append(badge(f"stars-{stars:,}", "555"))
+    meta = (f"&nbsp; {' '.join(meta)}" if meta else "")
+    return f"**[{name}]({url})**{meta}\n\n{desc}"
 
 
 # --- Section builders ---
 
 def top_languages(username: str, token: str) -> str:
     repos, page = [], 1
-    while len(repos) < 200:
+    while len(repos) < 50:
         batch = fetch(f"/users/{username}/repos?sort=updated&per_page=100&page={page}", token)
         if not batch: break
-        repos += [r for r in batch if not r.get("fork") and not r.get("private")]
+        repos += [r for r in batch if is_public(r)]
         if len(batch) < 100: break
         page += 1
 
@@ -81,7 +99,6 @@ def top_languages(username: str, token: str) -> str:
         else "<p>No language data.</p>"
 
 
-
 def active_projects(username: str, token: str, limit: int = 6) -> str:
     """Show curated work first, then whatever was pushed to recently.
 
@@ -91,7 +108,7 @@ def active_projects(username: str, token: str, limit: int = 6) -> str:
     seen, cards = set(), []
 
     def add(repo):
-        if not repo or repo.get("private") or repo.get("archived") or repo.get("fork"):
+        if not is_public(repo):
             return
         name = repo.get("name")
         if not name or name in seen:
@@ -120,10 +137,10 @@ def active_projects(username: str, token: str, limit: int = 6) -> str:
 
 def latest_repos(username: str, token: str) -> str:
     repos = fetch(f"/users/{username}/repos?sort=created&direction=desc&per_page=10", token) or []
-    # Skip forks, private, archived, language-less repos (config/asset dumps) and
-    # anything already in FEATURED, so the two sections never repeat a project.
-    items = [r for r in repos if not r.get("fork") and not r.get("private")
-             and not r.get("archived") and r.get("language")
+    # Skip language-less repos (config/asset dumps) and anything already in
+    # FEATURED, so the two sections never repeat a project.
+    items = [r for r in repos if is_public(r)
+             and r.get("language")
              and r.get("name") not in FEATURED][:3]
     return "\n\n".join(card(r["name"], r["html_url"],
                             cut(r.get("description") or "No description", 100),
@@ -145,9 +162,8 @@ def recent_prs(username: str, token: str) -> str:
         state = item.get("state", "open")
         b = badge("merged", "5865F2") if is_merged else badge("open", "238636") if state == "open" else badge("closed", "555")
         lines.append(
-            f'<div align="left">\n\n'
             f'{b} **[{cut(item.get("title", "Untitled"), 60)}]({item["html_url"]})**\\\n'
-            f'<sub>[{repo}](https://github.com/{repo})</sub>\n\n</div>'
+            f'<sub>[{repo}](https://github.com/{repo})</sub>'
         )
     return "\n\n".join(lines) or "<p><em>No recent pull requests.</em></p>"
 
@@ -164,15 +180,15 @@ def recent_stars(username: str, token: str) -> str:
 
 def main() -> int:
     username = os.getenv("GH_USERNAME") or os.getenv("GITHUB_ACTOR", "")
-    token    = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN", "")
+    token = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN", "")
 
     if not username or not token:
         print("Error: GH_USERNAME and GH_PAT/GITHUB_TOKEN required.", file=sys.stderr)
         return 1
 
     root = Path(__file__).parent.parent
-    tpl  = root / "README.gtpl"
-    out  = root / "README.md"
+    tpl = root / "README.gtpl"
+    out = root / "README.md"
 
     if not tpl.exists():
         print(f"Error: {tpl} not found.", file=sys.stderr)
@@ -180,7 +196,7 @@ def main() -> int:
 
     user = fetch(f"/users/{username}", token)
     if not user:
-        print("Error: Could not fetch user data.", file=sys.stderr)
+        print(f"Error: Could not fetch user data for {username}.", file=sys.stderr)
         return 1
 
     print(f"Generating README for {username}...")
