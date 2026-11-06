@@ -3,7 +3,7 @@
   <img src="assets/banner-light.svg" alt="dacrab — full-stack engineer based in Greece" width="100%">
 </picture>
 
-Full-stack engineer based in Greece.<br><sub>Building products end to end across TypeScript, Kotlin, Svelte, Go, C#, and Java.</sub>
+Full-stack engineer based in Greece.<br><sub>Working across TypeScript, Kotlin, Svelte, Go, C#, and Java.</sub>
 
 ## Selected work
 
@@ -22,13 +22,13 @@ Full-stack engineer based in Greece.<br><sub>Building products end to end across
 - [portlane](https://github.com/dacrab/portlane) — A clean, modern client portal for freelancers and studios — projects, time tracking, and invoicing. Built with SvelteKit, Drizzle, and Neon. <sub>Svelte</sub>
 - [fade-in](https://github.com/dacrab/fade-in) — Modern barbershop booking platform — TanStack Start + Convex + React <sub>TypeScript</sub>
 
-## Open source
+## Recent pull requests
 
-- [**Redesign the interface around a warm paper palette and brass accent**](https://github.com/dacrab/proteas/pull/79) — <sub>Merged · dacrab/proteas</sub>
-- [**fix(power): fall back to loginctl when a built-in command is missing**](https://github.com/MalpenZibo/ashell/pull/1132) — <sub>Open · MalpenZibo/ashell</sub>
-- [**feat(ipc): allow forcing a state on the toggle commands**](https://github.com/MalpenZibo/ashell/pull/1128) — <sub>Open · MalpenZibo/ashell</sub>
-- [**fix(brightness): stop step changes at the lowest usable level**](https://github.com/MalpenZibo/ashell/pull/1127) — <sub>Open · MalpenZibo/ashell</sub>
-- [**feat(settings): compact the quick-settings menu and tooltips**](https://github.com/MalpenZibo/ashell/pull/1126) — <sub>Open · MalpenZibo/ashell</sub>
+- [Redesign the interface around a warm paper palette and brass accent](https://github.com/dacrab/proteas/pull/79) — <sub>Merged · dacrab/proteas</sub>
+- [fix(power): fall back to loginctl when a built-in command is missing](https://github.com/MalpenZibo/ashell/pull/1132) — <sub>Open · MalpenZibo/ashell</sub>
+- [feat(ipc): allow forcing a state on the toggle commands](https://github.com/MalpenZibo/ashell/pull/1128) — <sub>Open · MalpenZibo/ashell</sub>
+- [fix(brightness): stop step changes at the lowest usable level](https://github.com/MalpenZibo/ashell/pull/1127) — <sub>Open · MalpenZibo/ashell</sub>
+- [feat(settings): compact the quick-settings menu and tooltips](https://github.com/MalpenZibo/ashell/pull/1126) — <sub>Open · MalpenZibo/ashell</sub>
 
 ## Stack
 
@@ -36,7 +36,3 @@ Full-stack engineer based in Greece.<br><sub>Building products end to end across
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=83a487af">
   <img src="assets/stack-light.svg?v=83a487af" alt="Language mix: TypeScript 54%, Kotlin 10%, Svelte 9%, Go 5%, C# 4%, Other 18%." width="100%">
 </picture>
-
----
-
-<sub>README generated from live GitHub data — see <a href="https://github.com/dacrab/dacrab/blob/main/scripts/generate_readme.py">scripts/generate_readme.py</a>.</sub>
