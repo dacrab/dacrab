@@ -9,12 +9,12 @@ Full-stack engineer based in Greece.<br><sub>Building products end to end across
 
 | Project | About |
 | :--- | :--- |
-| **[clubOS](https://github.com/dacrab/clubOS)**<br><sub>TypeScript</sub> | Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, and Neon. |
+| **[clubOS](https://github.com/dacrab/clubOS)**<br><sub>TypeScript · ★ 4</sub> | Modern POS system for clubs & venues built with SvelteKit, Clerk, Drizzle, and Neon. |
 | **[telestash](https://github.com/dacrab/telestash)**<br><sub>Kotlin</sub> | Google Photos-style gallery that uses Telegram as free, unlimited photo storage |
 | **[craftops](https://github.com/dacrab/craftops)**<br><sub>Go</sub> | Go CLI for Minecraft server operations — Modrinth mod updates, backups, and Discord alerts. |
 | **[topos](https://github.com/dacrab/topos)**<br><sub>TypeScript</sub> | High-performance Multi-Tenant SaaS for Real Estate Agencies built with Next.js, Neon, and Bun. |
-| **[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**<br><sub>Go</sub> | A high-performance Reddit Gallery Downloader written in Go (Golang). Streams downloads on-the-fly for minimal memory… |
-| **[dragon-blaze](https://github.com/dacrab/dragon-blaze)**<br><sub>C#</sub> | 2D action platformer built in Unity featuring fluid movement, combat systems, and modular architecture |
+| **[reddit-gallery-dl](https://github.com/dacrab/reddit-gallery-dl)**<br><sub>Go</sub> | A high-performance Reddit Gallery Downloader written in Go (Golang). Streams downloads on-the-fly for… |
+| **[dragon-blaze](https://github.com/dacrab/dragon-blaze)**<br><sub>C# · ★ 5</sub> | 2D action platformer built in Unity featuring fluid movement, combat systems, and modular architecture |
 
 ## Other projects
 
