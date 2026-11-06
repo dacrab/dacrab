@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="{{USER_NAME}} — full-stack engineer based in Greece" width="100%">
-</picture>
+# {{USER_NAME}}
 
 Full-stack engineer based in Greece, working across {{TOP_LANGUAGES}}.
 
@@ -16,10 +13,3 @@ Full-stack engineer based in Greece, working across {{TOP_LANGUAGES}}.
 ## Recent pull requests
 
 {{RECENT_PRS}}
-
-## Stack
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v={{STACK_VERSION}}">
-  <img src="assets/stack-light.svg?v={{STACK_VERSION}}" alt="{{LANGUAGE_ALT}}" width="100%">
-</picture>
