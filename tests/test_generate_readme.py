@@ -116,13 +116,10 @@ class RenderingTests(unittest.TestCase):
             }
         ]
         table = gen.render_featured_table(repos)
-        self.assertIn("| Project | About |", table)
-        self.assertIn(
-            "**[clubOS](https://github.com/dacrab/clubOS)**"
-            "<br><sub>TypeScript</sub>",
-            table,
-        )
+        self.assertIn("| Project | Description | Language |", table)
+        self.assertIn("[clubOS](https://github.com/dacrab/clubOS)", table)
         self.assertIn("A POS for clubs \\| venues", table)
+        self.assertIn("| TypeScript |", table)
 
     def test_render_featured_table_truncates(self) -> None:
         repos = [
@@ -149,8 +146,7 @@ class RenderingTests(unittest.TestCase):
         ]
         self.assertEqual(
             gen.render_project_list(repos),
-            "- [pardus](https://github.com/dacrab/pardus) — A landing page "
-            "<sub>CSS</sub>",
+            "- [pardus](https://github.com/dacrab/pardus) — A landing page (CSS)",
         )
         self.assertEqual(gen.render_project_list([]), "_No recent projects._")
 
@@ -179,9 +175,9 @@ class RenderingTests(unittest.TestCase):
             },
         ]
         html = gen.render_pull_requests(items)
-        self.assertIn("— <sub>Merged · a/b</sub>", html)
-        self.assertIn("— <sub>Open · a/b</sub>", html)
-        self.assertIn("— <sub>Closed · a/b</sub>", html)
+        self.assertIn("— Merged · `a/b`", html)
+        self.assertIn("— Open · `a/b`", html)
+        self.assertIn("— Closed · `a/b`", html)
 
     def test_render_pull_requests_skips_malformed_repos(self) -> None:
         items = [{"repository_url": "", "html_url": "x", "title": "Broken"}]
