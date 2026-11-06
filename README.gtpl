@@ -3,7 +3,7 @@
   <img src="assets/banner-light.svg" alt="{{USER_NAME}} — full-stack engineer based in Greece" width="100%">
 </picture>
 
-Full-stack engineer based in Greece, working across {{TOP_LANGUAGES}}.
+Full-stack engineer based in Greece.<br><sub>Working across {{TOP_LANGUAGES}}.</sub>
 
 ## Selected work
 

@@ -370,15 +370,16 @@ def render_featured_table(repos: list[dict]) -> str:
         return "_No projects to show._"
 
     rows = [
-        "| Project | Description | Language |",
-        "| :--- | :--- | :--- |",
+        "| Project | About |",
+        "| :--- | :--- |",
     ]
     for repo in repos:
         description = truncate(repo.get("description") or "No description", 120)
+        language = repo.get("language")
+        meta = f"<br><sub>{escape_xml(language)}</sub>" if language else ""
         rows.append(
-            f"| [{repo.get('name', '?')}]({repo.get('html_url', '')}) "
-            f"| {escape_markdown(description)} "
-            f"| {escape_markdown(repo.get('language') or '—')} |"
+            f"| **[{repo.get('name', '?')}]({repo.get('html_url', '')})**{meta} "
+            f"| {escape_markdown(description)} |"
         )
     return "\n".join(rows)
 
@@ -391,7 +392,7 @@ def render_project_list(repos: list[dict]) -> str:
     for repo in repos:
         description = truncate(repo.get("description") or "No description", 180)
         language = repo.get("language")
-        meta = f" ({escape_markdown(language)})" if language else ""
+        meta = f" <sub>{escape_xml(language)}</sub>" if language else ""
         lines.append(
             f"- [{repo.get('name', '?')}]({repo.get('html_url', '')}) — "
             f"{escape_markdown(description)}{meta}"
@@ -414,9 +415,8 @@ def render_pull_requests(items: list[dict]) -> str:
             status = "Closed"
 
         title = escape_markdown(truncate(item.get("title", "Untitled"), 90))
-        lines.append(
-            f"- [{title}]({item.get('html_url', '')}) — {status} · `{repo}`"
-        )
+        meta = f"<sub>{status} · {escape_xml(repo)}</sub>"
+        lines.append(f"- [{title}]({item.get('html_url', '')}) — {meta}")
     return "\n".join(lines) or "_No recent pull requests._"
 
 
