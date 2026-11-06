@@ -1,5 +1,6 @@
 import sys
 import unittest
+import xml.etree.ElementTree as ET
 from collections import Counter
 from contextlib import redirect_stderr
 from io import StringIO
@@ -42,6 +43,68 @@ class RenderingTests(unittest.TestCase):
     def test_format_languages_skips_markup_and_shell(self) -> None:
         counts = Counter({"CSS": 100, "Shell": 80, "Go": 10})
         self.assertEqual(gen.format_languages(counts), "Go")
+
+    def test_percentages_sum_to_100(self) -> None:
+        self.assertEqual(gen._percentages([50, 30, 20]), [50, 30, 20])
+        self.assertEqual(gen._percentages([0, 0]), [0, 0])
+        self.assertEqual(sum(gen._percentages([100, 1, 1])), 100)
+
+    def test_language_distribution_folds_the_tail_into_other(self) -> None:
+        counts = Counter(
+            {
+                "TypeScript": 60,
+                "Kotlin": 20,
+                "Go": 10,
+                "C#": 5,
+                "Java": 3,
+                "Rust": 2,
+            }
+        )
+        slices = gen.language_distribution(counts)
+
+        self.assertEqual(
+            [name for name, _, _ in slices],
+            ["TypeScript", "Kotlin", "Go", "C#", "Java", "Other"],
+        )
+        self.assertEqual(slices[-1][1], 2)
+        self.assertEqual(sum(percentage for _, _, percentage in slices), 100)
+
+    def test_language_distribution_empty(self) -> None:
+        self.assertEqual(gen.language_distribution(Counter()), [])
+
+    def test_describe_language_mix(self) -> None:
+        slices = [("Go", 60, 60), ("Rust", 40, 40)]
+        self.assertEqual(
+            gen.describe_language_mix(slices),
+            "Language mix: Go 60%, Rust 40%.",
+        )
+        self.assertEqual(
+            gen.describe_language_mix([]),
+            "No language data available.",
+        )
+
+    def test_render_language_bar_light_and_dark(self) -> None:
+        counts = Counter({"TypeScript": 60, "Go": 40})
+        light = gen.render_language_bar(counts)
+        dark = gen.render_language_bar(counts, dark=True)
+
+        self.assertIn('fill="#A07D48"', light)
+        self.assertIn('fill="#C9A66B"', dark)
+        self.assertIn("TypeScript", light)
+        self.assertIn("60%", light)
+        self.assertEqual(ET.fromstring(light).tag, "{http://www.w3.org/2000/svg}svg")
+        self.assertEqual(ET.fromstring(dark).tag, "{http://www.w3.org/2000/svg}svg")
+        self.assertNotEqual(light, dark)
+
+    def test_render_language_bar_empty(self) -> None:
+        svg = gen.render_language_bar(Counter())
+        self.assertIn("LANGUAGE DATA UNAVAILABLE", svg)
+        ET.fromstring(svg)
+
+    def test_render_language_bar_escapes_names(self) -> None:
+        svg = gen.render_language_bar(Counter({"A&B": 1}))
+        self.assertIn("A&amp;B", svg)
+        ET.fromstring(svg)
 
     def test_render_featured_table(self) -> None:
         repos = [

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate README.md from README.gtpl using GitHub API data."""
 
+import hashlib
 import json
 import os
 import sys
@@ -10,6 +11,7 @@ from pathlib import Path
 from typing import Any
 from urllib.error import URLError
 from urllib.request import Request, urlopen
+from xml.sax.saxutils import escape as escape_xml
 
 API = "https://api.github.com"
 GRAPHQL_API = f"{API}/graphql"
@@ -31,6 +33,34 @@ DISPLAY_LANGUAGES = {
     "C", "C#", "C++", "Dart", "Go", "Java", "JavaScript", "Kotlin", "Lua",
     "PHP", "Python", "Ruby", "Rust", "Svelte", "Swift", "TypeScript", "Vue",
 }
+
+# The language bar keeps the chart readable by folding the long tail into one
+# neutral slice.
+LANGUAGE_BAR_LIMIT = 5
+OTHER_LANGUAGE = "Other"
+
+BAR_THEMES = {
+    False: {
+        "text": "#1B1A17",
+        "muted": "#7B7569",
+        "track": "#E4DCCD",
+        "colors": (
+            "#A07D48", "#8D8475", "#C6BCAB", "#6C665B", "#A9A090", "#D6CEC0",
+        ),
+    },
+    True: {
+        "text": "#F2EDE3",
+        "muted": "#8B8478",
+        "track": "#2A2824",
+        "colors": (
+            "#C9A66B", "#A9A090", "#6F685D", "#C2B9A9", "#8A8276", "#5A564D",
+        ),
+    },
+}
+
+FONT_MONO = (
+    "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+)
 
 ACTIVITY_EVENTS = {"PushEvent", "PullRequestEvent", "CreateEvent"}
 
@@ -211,6 +241,130 @@ def format_languages(counts: Counter[str]) -> str:
     return f"{', '.join(languages[:-1])}, and {languages[-1]}"
 
 
+def _percentages(sizes: list[int]) -> list[int]:
+    """Split sizes into whole percentages that always add up to 100."""
+    total = sum(sizes)
+    if total <= 0:
+        return [0] * len(sizes)
+
+    raw = [size * 100 / total for size in sizes]
+    percentages = [int(value) for value in raw]
+    leftover = 100 - sum(percentages)
+    ranked = sorted(
+        range(len(sizes)),
+        key=lambda index: (-(raw[index] - percentages[index]), -sizes[index], index),
+    )
+    for index in ranked[:leftover]:
+        percentages[index] += 1
+
+    # A visible slice should never read as zero percent in the legend.
+    for index, percentage in enumerate(percentages):
+        if percentage:
+            continue
+        donor = max(range(len(percentages)), key=lambda i: percentages[i])
+        if percentages[donor] > 1:
+            percentages[donor] -= 1
+            percentages[index] = 1
+    return percentages
+
+
+def language_distribution(
+    counts: Counter[str],
+) -> list[tuple[str, int, int]]:
+    """Return the largest languages plus an Other slice, with percentages."""
+    ranked = sorted(
+        ((name, size) for name, size in counts.items() if size > 0),
+        key=lambda item: (-item[1], item[0]),
+    )
+    if not ranked:
+        return []
+
+    if len(ranked) > LANGUAGE_BAR_LIMIT:
+        rest = sum(size for _, size in ranked[LANGUAGE_BAR_LIMIT:])
+        ranked = ranked[:LANGUAGE_BAR_LIMIT] + [(OTHER_LANGUAGE, rest)]
+
+    percentages = _percentages([size for _, size in ranked])
+    return [
+        (name, size, percentage)
+        for (name, size), percentage in zip(ranked, percentages)
+    ]
+
+
+def describe_language_mix(slices: list[tuple[str, int, int]]) -> str:
+    if not slices:
+        return "No language data available."
+    details = ", ".join(f"{name} {percentage}%" for name, _, percentage in slices)
+    return f"Language mix: {details}."
+
+
+def render_language_bar(counts: Counter[str], *, dark: bool = False) -> str:
+    """Render a compact, theme-aware SVG bar for the public language mix."""
+    theme = BAR_THEMES[dark]
+    track = theme["track"]
+    text_color = theme["text"]
+    muted = theme["muted"]
+    colors = theme["colors"]
+    slices = language_distribution(counts)
+    description = escape_xml(describe_language_mix(slices))
+    common = (
+        'xmlns="http://www.w3.org/2000/svg" width="1200" height="64" '
+        'viewBox="0 0 1200 64" role="img" aria-labelledby="bar-title bar-desc"'
+    )
+    title = '<title id="bar-title">Language mix</title>'
+    desc = f'<desc id="bar-desc">{description}</desc>'
+
+    if not slices:
+        return (
+            f"<svg {common}>"
+            f"{title}{desc}"
+            '<rect x="0" y="4" width="1200" height="16" rx="8" '
+            f'fill="{track}"/>'
+            f'<text x="0" y="48" font-family="{FONT_MONO}" font-size="15" '
+            f'letter-spacing="1.4" fill="{muted}">'
+            "LANGUAGE DATA UNAVAILABLE</text>"
+            "</svg>"
+        )
+
+    gap = 3
+    available = 1200 - gap * (len(slices) - 1)
+    bar = [
+        '<rect x="0" y="4" width="1200" height="16" rx="8" '
+        f'fill="{track}"/>'
+    ]
+    legend = []
+    x = 0.0
+    for index, (name, _, percentage) in enumerate(slices):
+        width = available * percentage / 100
+        if index:
+            x += gap
+        color = colors[index % len(colors)]
+        bar.append(
+            f'<rect x="{x:.2f}" y="4" width="{width:.2f}" height="16" '
+            f'fill="{color}"/>'
+        )
+
+        label_x = index * (1200 / len(slices))
+        legend.append(
+            f'<rect x="{label_x:.2f}" y="37" width="8" height="8" rx="1.5" '
+            f'fill="{color}"/>'
+            f'<text x="{label_x + 14:.2f}" y="48" font-family="{FONT_MONO}" '
+            f'font-size="15" fill="{text_color}">{escape_xml(name)} '
+            f'<tspan fill="{muted}">{percentage}%</tspan></text>'
+        )
+        x += width
+
+    return (
+        f"<svg {common}>"
+        f"{title}{desc}"
+        '<defs><clipPath id="bar-clip">'
+        '<rect x="0" y="4" width="1200" height="16" rx="8"/>'
+        "</clipPath></defs>"
+        f'<g clip-path="url(#bar-clip)">{"".join(bar)}</g>'
+        f'{"".join(legend)}'
+        "</svg>"
+    )
+
+
 def render_featured_table(repos: list[dict]) -> str:
     if not repos:
         return "_No projects to show._"
@@ -294,19 +448,34 @@ def main() -> int:
     latest = fetch_latest_repos(username, token)
     pulls = fetch_recent_prs(username, token)
 
+    stack_light = render_language_bar(languages)
+    stack_dark = render_language_bar(languages, dark=True)
+    stack_version = hashlib.sha256(
+        f"{stack_light}{stack_dark}".encode("utf-8")
+    ).hexdigest()[:8]
+    language_alt = escape_xml(
+        describe_language_mix(language_distribution(languages))
+    )
+
     sections = {
         "{{USER_NAME}}": (user.get("name") or username).split()[0],
         "{{TOP_LANGUAGES}}": format_languages(languages),
         "{{FEATURED_WORK}}": render_featured_table(active),
         "{{RECENT_PRS}}": render_pull_requests(pulls),
         "{{LATEST_PROJECTS}}": render_project_list(latest),
+        "{{LANGUAGE_ALT}}": language_alt,
+        "{{STACK_VERSION}}": stack_version,
     }
 
     content = template.read_text(encoding="utf-8")
     for placeholder, value in sections.items():
         content = content.replace(placeholder, value)
 
+    assets = root / "assets"
     try:
+        assets.mkdir(parents=True, exist_ok=True)
+        (assets / "stack-light.svg").write_text(stack_light, encoding="utf-8")
+        (assets / "stack-dark.svg").write_text(stack_dark, encoding="utf-8")
         output.write_text(content, encoding="utf-8")
     except OSError as error:
         print(f"Error: {error}", file=sys.stderr)

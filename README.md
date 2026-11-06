@@ -1,4 +1,7 @@
-# dacrab
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="dacrab — full-stack engineer based in Greece" width="100%">
+</picture>
 
 Full-stack engineer based in Greece, working across TypeScript, Kotlin, Svelte, Go, C#, and Java.
 
@@ -26,3 +29,10 @@ Full-stack engineer based in Greece, working across TypeScript, Kotlin, Svelte, 
 - [feat(ipc): allow forcing a state on the toggle commands](https://github.com/MalpenZibo/ashell/pull/1128) — Open · `MalpenZibo/ashell`
 - [fix(brightness): stop step changes at the lowest usable level](https://github.com/MalpenZibo/ashell/pull/1127) — Open · `MalpenZibo/ashell`
 - [feat(settings): compact the quick-settings menu and tooltips](https://github.com/MalpenZibo/ashell/pull/1126) — Open · `MalpenZibo/ashell`
+
+## Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=83a487af">
+  <img src="assets/stack-light.svg?v=83a487af" alt="Language mix: TypeScript 54%, Kotlin 10%, Svelte 9%, Go 5%, C# 4%, Other 18%." width="100%">
+</picture>
