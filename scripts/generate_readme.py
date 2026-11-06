@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
 """Generate README.md from README.gtpl using GitHub API data."""
-import json, os, sys
+
+import json
+import os
+import sys
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 
 API = "https://api.github.com"
-ICONS = "https://skillicons.dev/icons"
+GRAPHQL_API = f"{API}/graphql"
 
-# Curated showcase order. Anything private, archived, forked or missing is
-# skipped, so this is safe to list optimistically — the section falls back to
-# recent activity for whatever is left over.
+# Curated showcase order. Repos that are private, archived, forked or missing
+# are skipped, so the section can safely fall back to recent activity.
 FEATURED = [
     "clubOS",
     "telestash",
@@ -21,161 +25,262 @@ FEATURED = [
     "dragon-blaze",
 ]
 
-LANG_ICONS = {
-    "C": "c", "C#": "cs", "C++": "cpp", "CSS": "css", "Dart": "dart",
-    "Go": "go", "HTML": "html", "Java": "java", "JavaScript": "javascript",
-    "Kotlin": "kotlin", "Lua": "lua", "PHP": "php", "Python": "python",
-    "Ruby": "ruby", "Rust": "rust", "Sass": "sass", "SCSS": "sass",
-    "ShaderLab": "unity", "Shell": "bash", "Svelte": "svelte",
-    "Swift": "swift", "TypeScript": "ts", "Vue": "vue",
+# Markup and shell languages say little about the stack, so leave them out of
+# the intro sentence.
+DISPLAY_LANGUAGES = {
+    "C", "C#", "C++", "Dart", "Go", "Java", "JavaScript", "Kotlin", "Lua",
+    "PHP", "Python", "Ruby", "Rust", "Svelte", "Swift", "TypeScript", "Vue",
 }
 
+ACTIVITY_EVENTS = {"PushEvent", "PullRequestEvent", "CreateEvent"}
 
-def fetch(path: str, token: str):
-    url = path if path.startswith("http") else f"{API}{path}"
-    req = Request(url, headers={
+# One GraphQL request replaces the two REST pages plus the per-repo language
+# requests the previous implementation made.
+LANGUAGES_QUERY = """
+query TopLanguages($login: String!) {
+  user(login: $login) {
+    repositories(
+      first: 50
+      ownerAffiliations: OWNER
+      privacy: PUBLIC
+      isFork: false
+      orderBy: {field: PUSHED_AT, direction: DESC}
+    ) {
+      nodes {
+        languages(first: 20, orderBy: {field: SIZE, direction: DESC}) {
+          edges {
+            size
+            node {
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
+
+# --- GitHub API ---
+
+def request_json(url: str, token: str, payload: dict[str, Any] | None = None) -> Any:
+    headers = {
         "Authorization": f"token {token}",
         "Accept": "application/vnd.github+json",
         "User-Agent": "readme-gen",
-    })
+    }
+    body = None
+    if payload is not None:
+        headers["Content-Type"] = "application/json"
+        body = json.dumps(payload).encode("utf-8")
+
+    request = Request(url, data=body, headers=headers)
     try:
-        with urlopen(req, timeout=30) as r:
-            return json.load(r)
-    except (URLError, json.JSONDecodeError) as e:
-        print(f"Warning: {url} — {e}", file=sys.stderr)
+        with urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except (URLError, TimeoutError, json.JSONDecodeError) as error:
+        print(f"Warning: {url} — {error}", file=sys.stderr)
         return None
 
 
-def cut(text: str, n: int) -> str:
-    return text if len(text) <= n else text[:n - 3] + "..."
+def fetch(path: str, token: str) -> Any:
+    url = path if path.startswith("http") else f"{API}{path}"
+    return request_json(url, token)
 
 
-def badge(label: str, color: str) -> str:
-    return f"![](https://img.shields.io/badge/{label.replace(' ', '%20').replace('-', '--')}-{color}?style=flat-square&labelColor=0d0d1a)"
+def is_public_repo(repo: dict | None) -> bool:
+    return bool(repo) and not any(
+        repo.get(key) for key in ("private", "archived", "fork")
+    )
 
 
-def card(name: str, url: str, desc: str, lang: str = "", stars: int = 0, lang_color: str = "5865F2") -> str:
-    b = (f"{badge(f'-{lang}', lang_color)} " if lang else "") + \
-        (f"{badge(f'stars-{stars:,}', '555')} " if stars else "")
-    return f'<div align="left">\n\n**[{name}]({url})**&nbsp; {b}\n\n{desc}\n\n</div>'
+def fetch_top_languages(username: str, token: str) -> Counter[str]:
+    data = request_json(
+        GRAPHQL_API, token, {"query": LANGUAGES_QUERY, "variables": {"login": username}}
+    )
+    if not data:
+        return Counter()
+    if errors := data.get("errors"):
+        print(f"Warning: GraphQL — {errors}", file=sys.stderr)
+        return Counter()
+
+    payload = data.get("data") or {}
+    user = payload.get("user") or {}
+    repositories = user.get("repositories") or {}
+    repos = repositories.get("nodes") or []
+
+    counts: Counter[str] = Counter()
+    for repo in repos:
+        for edge in (repo.get("languages") or {}).get("edges") or []:
+            language = (edge.get("node") or {}).get("name")
+            if language:
+                counts[language] += edge.get("size", 0)
+    return counts
 
 
-# --- Section builders ---
+def fetch_active_repos(username: str, token: str, limit: int = 6) -> list[dict]:
+    """Return curated work first, then recently used repos, without duplicates."""
+    repos: list[dict] = []
+    seen: set[str] = set()
 
-def top_languages(username: str, token: str) -> str:
-    repos, page = [], 1
-    while len(repos) < 200:
-        batch = fetch(f"/users/{username}/repos?sort=updated&per_page=100&page={page}", token)
-        if not batch: break
-        repos += [r for r in batch if not r.get("fork") and not r.get("private")]
-        if len(batch) < 100: break
-        page += 1
-
-    counts: dict[str, int] = {}
-    for repo in repos[:50]:
-        for lang, n in (fetch(f"/repos/{repo['full_name']}/languages", token) or {}).items():
-            counts[lang] = counts.get(lang, 0) + n
-
-    icons = [LANG_ICONS[l] for l, _ in sorted(counts.items(), key=lambda x: -x[1]) if l in LANG_ICONS][:8]
-    return f'<div align="center"><img src="{ICONS}?i={",".join(icons)}" alt="Languages" /></div>' if icons \
-        else "<p>No language data.</p>"
-
-
-
-def active_projects(username: str, token: str, limit: int = 6) -> str:
-    """Show curated work first, then whatever was pushed to recently.
-
-    Recency alone surfaces dotfiles, forks and config repos, which says nothing
-    about the quality of the work — so FEATURED drives the section.
-    """
-    seen, cards = set(), []
-
-    def add(repo):
-        if not repo or repo.get("private") or repo.get("archived") or repo.get("fork"):
+    def add(repo: dict | None) -> None:
+        if not is_public_repo(repo):
             return
         name = repo.get("name")
         if not name or name in seen:
             return
         seen.add(name)
-        cards.append(card(name, repo["html_url"],
-                          cut(repo.get("description") or "No description", 80),
-                          repo.get("language", ""), repo.get("stargazers_count", 0)))
+        repos.append(repo)
 
     for name in FEATURED:
-        if len(cards) >= limit:
+        if len(repos) >= limit:
             break
         add(fetch(f"/repos/{username}/{name}", token))
 
-    for event in fetch(f"/users/{username}/events?per_page=50", token) or []:
-        if len(cards) >= limit:
-            break
-        if event.get("type") not in {"PushEvent", "PullRequestEvent", "CreateEvent"}:
-            continue
-        name = event.get("repo", {}).get("name", "")
-        if name:
-            add(fetch(f"/repos/{name}", token))
+    if len(repos) < limit:
+        events = fetch(f"/users/{username}/events?per_page=50", token) or []
+        for event in events:
+            if len(repos) >= limit:
+                break
+            if event.get("type") not in ACTIVITY_EVENTS:
+                continue
+            full_name = (event.get("repo") or {}).get("name", "")
+            if not full_name or full_name.rsplit("/", 1)[-1] in seen:
+                continue
+            add(fetch(f"/repos/{full_name}", token))
 
-    return "\n\n".join(cards) or "<p><em>No active projects.</em></p>"
+    return repos
 
 
-def latest_repos(username: str, token: str) -> str:
-    repos = fetch(f"/users/{username}/repos?sort=created&direction=desc&per_page=10", token) or []
+def fetch_latest_repos(username: str, token: str) -> list[dict]:
+    repos = fetch(
+        f"/users/{username}/repos?sort=created&direction=desc&per_page=10", token
+    ) or []
     # Skip forks, private, archived, language-less repos (config/asset dumps) and
     # anything already in FEATURED, so the two sections never repeat a project.
-    items = [r for r in repos if not r.get("fork") and not r.get("private")
-             and not r.get("archived") and r.get("language")
-             and r.get("name") not in FEATURED][:3]
-    return "\n\n".join(card(r["name"], r["html_url"],
-                            cut(r.get("description") or "No description", 100),
-                            r.get("language", ""), r.get("stargazers_count", 0))
-                       for r in items) or "<p><em>No repositories found.</em></p>"
+    return [
+        repo
+        for repo in repos
+        if is_public_repo(repo)
+        and repo.get("language")
+        and repo.get("name") not in FEATURED
+    ][:3]
 
 
-def recent_prs(username: str, token: str) -> str:
+def fetch_recent_prs(username: str, token: str) -> list[dict]:
     since = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
-    data = fetch(f"/search/issues?q=author:{username}+type:pr+created:>={since}&sort=created&order=desc&per_page=5", token)
-    items = (data or {}).get("items", [])
+    data = fetch(
+        f"/search/issues?q=author:{username}+type:pr+created:>={since}"
+        "&sort=created&order=desc&per_page=5",
+        token,
+    )
+    return (data or {}).get("items", [])
+
+
+# --- Rendering ---
+
+def truncate(text: str, limit: int) -> str:
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    head = text[: limit - 1]
+    if " " in head:
+        head = head.rsplit(" ", 1)[0]
+    return head.rstrip(" ,.;:") + "…"
+
+
+def escape_markdown(text: str) -> str:
+    for character in "\\`*_{}[]<>|":
+        text = text.replace(character, f"\\{character}")
+    return text
+
+
+def format_languages(counts: Counter[str]) -> str:
+    languages = [
+        language
+        for language, _ in counts.most_common()
+        if language in DISPLAY_LANGUAGES
+    ][:6]
+    if not languages:
+        return "a range of languages"
+    if len(languages) == 1:
+        return languages[0]
+    if len(languages) == 2:
+        return " and ".join(languages)
+    return f"{', '.join(languages[:-1])}, and {languages[-1]}"
+
+
+def render_featured_table(repos: list[dict]) -> str:
+    if not repos:
+        return "_No projects to show._"
+
+    rows = [
+        "| Project | Description | Language |",
+        "| :--- | :--- | :--- |",
+    ]
+    for repo in repos:
+        description = truncate(repo.get("description") or "No description", 120)
+        rows.append(
+            f"| [{repo.get('name', '?')}]({repo.get('html_url', '')}) "
+            f"| {escape_markdown(description)} "
+            f"| {escape_markdown(repo.get('language') or '—')} |"
+        )
+    return "\n".join(rows)
+
+
+def render_project_list(repos: list[dict]) -> str:
+    if not repos:
+        return "_No recent projects._"
 
     lines = []
-    for item in items:
-        parts = item.get("repository_url", "").rstrip("/").rsplit("/", 2)
-        if len(parts) < 3: continue
-        repo = f"{parts[-2]}/{parts[-1]}"
-        is_merged = bool(item.get("pull_request", {}).get("merged_at"))
-        state = item.get("state", "open")
-        b = badge("merged", "5865F2") if is_merged else badge("open", "238636") if state == "open" else badge("closed", "555")
+    for repo in repos:
+        description = truncate(repo.get("description") or "No description", 180)
+        language = repo.get("language")
+        meta = f" ({escape_markdown(language)})" if language else ""
         lines.append(
-            f'<div align="left">\n\n'
-            f'{b} **[{cut(item.get("title", "Untitled"), 60)}]({item["html_url"]})**\\\n'
-            f'<sub>[{repo}](https://github.com/{repo})</sub>\n\n</div>'
+            f"- [{repo.get('name', '?')}]({repo.get('html_url', '')}) — "
+            f"{escape_markdown(description)}{meta}"
         )
-    return "\n\n".join(lines) or "<p><em>No recent pull requests.</em></p>"
+    return "\n".join(lines)
 
 
-def recent_stars(username: str, token: str) -> str:
-    items = fetch(f"/users/{username}/starred?sort=created&direction=desc&per_page=5", token) or []
-    return "\n\n".join(card(s.get("full_name", "?"), s.get("html_url", ""),
-                            cut(s.get("description") or "No description", 80),
-                            s.get("language", ""), s.get("stargazers_count", 0), "555")
-                       for s in items) or "<p><em>No recent stars.</em></p>"
+def render_pull_requests(items: list[dict]) -> str:
+    lines = []
+    for item in items:
+        repo = "/".join(item.get("repository_url", "").rsplit("/", 2)[-2:])
+        if "/" not in repo:
+            continue
+
+        if (item.get("pull_request") or {}).get("merged_at"):
+            status = "Merged"
+        elif item.get("state") == "open":
+            status = "Open"
+        else:
+            status = "Closed"
+
+        title = escape_markdown(truncate(item.get("title", "Untitled"), 90))
+        lines.append(
+            f"- [{title}]({item.get('html_url', '')}) — {status} · `{repo}`"
+        )
+    return "\n".join(lines) or "_No recent pull requests._"
 
 
 # --- Main ---
 
 def main() -> int:
     username = os.getenv("GH_USERNAME") or os.getenv("GITHUB_ACTOR", "")
-    token    = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN", "")
+    token = os.getenv("GH_PAT") or os.getenv("GITHUB_TOKEN", "")
 
     if not username or not token:
         print("Error: GH_USERNAME and GH_PAT/GITHUB_TOKEN required.", file=sys.stderr)
         return 1
 
-    root = Path(__file__).parent.parent
-    tpl  = root / "README.gtpl"
-    out  = root / "README.md"
-
-    if not tpl.exists():
-        print(f"Error: {tpl} not found.", file=sys.stderr)
+    root = Path(__file__).resolve().parent.parent
+    template = root / "README.gtpl"
+    output = root / "README.md"
+    if not template.exists():
+        print(f"Error: {template} not found.", file=sys.stderr)
         return 1
 
     user = fetch(f"/users/{username}", token)
@@ -184,27 +289,31 @@ def main() -> int:
         return 1
 
     print(f"Generating README for {username}...")
+    languages = fetch_top_languages(username, token)
+    active = fetch_active_repos(username, token)
+    latest = fetch_latest_repos(username, token)
+    pulls = fetch_recent_prs(username, token)
 
-    name = (user.get("name") or username).split()[0]
-    content = tpl.read_text(encoding="utf-8")
-    for key, val in {
-        "{{USER_NAME}}":       name,
-        "{{USER_LOGIN}}":      username,
-        "{{TOP_LANGUAGES}}":   top_languages(username, token),
-        "{{WORKING_ON}}":      active_projects(username, token),
-        "{{LATEST_PROJECTS}}": latest_repos(username, token),
-        "{{RECENT_PRS}}":      recent_prs(username, token),
-        "{{RECENT_STARS}}":    recent_stars(username, token),
-    }.items():
-        content = content.replace(key, val)
+    sections = {
+        "{{USER_NAME}}": (user.get("name") or username).split()[0],
+        "{{TOP_LANGUAGES}}": format_languages(languages),
+        "{{FEATURED_WORK}}": render_featured_table(active),
+        "{{RECENT_PRS}}": render_pull_requests(pulls),
+        "{{LATEST_PROJECTS}}": render_project_list(latest),
+    }
+
+    content = template.read_text(encoding="utf-8")
+    for placeholder, value in sections.items():
+        content = content.replace(placeholder, value)
 
     try:
-        out.write_text(content, encoding="utf-8")
-        print(f"Done → {out}")
-        return 0
-    except OSError as e:
-        print(f"Error: {e}", file=sys.stderr)
+        output.write_text(content, encoding="utf-8")
+    except OSError as error:
+        print(f"Error: {error}", file=sys.stderr)
         return 1
+
+    print(f"Done → {output}")
+    return 0
 
 
 if __name__ == "__main__":
