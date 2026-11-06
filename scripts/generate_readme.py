@@ -374,11 +374,18 @@ def render_featured_table(repos: list[dict]) -> str:
         "| :--- | :--- |",
     ]
     for repo in repos:
-        description = truncate(repo.get("description") or "No description", 120)
-        language = repo.get("language")
-        meta = f"<br><sub>{escape_xml(language)}</sub>" if language else ""
+        description = truncate(repo.get("description") or "No description", 110)
+        meta = [
+            part
+            for part in (
+                repo.get("language"),
+                f"★ {repo['stargazers_count']}" if repo.get("stargazers_count") else "",
+            )
+            if part
+        ]
+        label = f"<br><sub>{' · '.join(escape_xml(part) for part in meta)}</sub>" if meta else ""
         rows.append(
-            f"| **[{repo.get('name', '?')}]({repo.get('html_url', '')})**{meta} "
+            f"| **[{repo.get('name', '?')}]({repo.get('html_url', '')})**{label} "
             f"| {escape_markdown(description)} |"
         )
     return "\n".join(rows)
@@ -416,7 +423,7 @@ def render_pull_requests(items: list[dict]) -> str:
 
         title = escape_markdown(truncate(item.get("title", "Untitled"), 90))
         meta = f"<sub>{status} · {escape_xml(repo)}</sub>"
-        lines.append(f"- [{title}]({item.get('html_url', '')}) — {meta}")
+        lines.append(f"- [**{title}**]({item.get('html_url', '')}) — {meta}")
     return "\n".join(lines) or "_No recent pull requests._"
 
 

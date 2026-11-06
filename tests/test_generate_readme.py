@@ -138,6 +138,31 @@ class RenderingTests(unittest.TestCase):
     def test_render_featured_table_empty(self) -> None:
         self.assertEqual(gen.render_featured_table([]), "_No projects to show._")
 
+    def test_render_featured_table_shows_stars_when_present(self) -> None:
+        repos = [
+            {
+                "name": "topos",
+                "html_url": "u",
+                "description": "d",
+                "language": "TypeScript",
+                "stargazers_count": 12,
+            }
+        ]
+        self.assertIn("<sub>TypeScript · ★ 12</sub>", gen.render_featured_table(repos))
+
+    def test_render_featured_table_hides_zero_stars(self) -> None:
+        repos = [
+            {
+                "name": "topos",
+                "html_url": "u",
+                "description": "d",
+                "language": "TypeScript",
+                "stargazers_count": 0,
+            }
+        ]
+        self.assertIn("<sub>TypeScript</sub>", gen.render_featured_table(repos))
+        self.assertNotIn("★", gen.render_featured_table(repos))
+
     def test_render_project_list(self) -> None:
         repos = [
             {

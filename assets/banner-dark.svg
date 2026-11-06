@@ -1,69 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
   <title id="title">dacrab — full-stack engineer based in Greece</title>
-  <desc id="desc">A dark banner with the name dacrab, a fine grid, and a technical ring motif.</desc>
-  <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#F2EDE3" stroke-opacity="0.04"/>
-    </pattern>
-    <pattern id="grid-major" width="200" height="200" patternUnits="userSpaceOnUse">
-      <path d="M200 0H0V200" fill="none" stroke="#F2EDE3" stroke-opacity="0.06"/>
-    </pattern>
-  </defs>
+  <desc id="desc">An editorial banner on dark ink: the name dacrab in large serif type between hairline rules, with crop marks and a brass accent.</desc>
 
-  <rect width="1200" height="300" fill="#121211"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
-  <rect width="1200" height="300" fill="url(#grid-major)"/>
-  <rect x="22.5" y="22.5" width="1155" height="255" fill="none" stroke="#F2EDE3" stroke-opacity="0.18"/>
+  <rect width="1200" height="280" fill="#121110"/>
 
-  <text x="72" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="4.4" fill="#C9A66B">FULL-STACK ENGINEER</text>
-  <text x="1128" y="86" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.6" fill="#8B8478">GREECE</text>
-
-  <text x="66" y="210" font-family="Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif" font-size="168" fill="#F2EDE3">dacrab</text>
-
-  <line x1="72" y1="234" x2="610" y2="234" stroke="#F2EDE3" stroke-opacity="0.18"/>
-  <line x1="72" y1="234" x2="152" y2="234" stroke="#C9A66B" stroke-width="1.5"/>
-
-  <text x="72" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#8B8478">PROFILE / 01</text>
-  <text x="1128" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#8B8478">GITHUB.COM/DACRAB</text>
-
-  <g transform="translate(944 150)">
-    <circle r="30" fill="none" stroke="#F2EDE3" stroke-opacity="0.28"/>
-    <circle r="54" fill="none" stroke="#F2EDE3" stroke-opacity="0.16"/>
-    <circle r="78" fill="none" stroke="#F2EDE3" stroke-opacity="0.12"/>
-    <circle r="102" fill="none" stroke="#F2EDE3" stroke-opacity="0.09"/>
-    <circle r="116" fill="none" stroke="#F2EDE3" stroke-opacity="0.15"/>
-
-    <path d="M 998.46 47.58 A 116 116 0 0 1 998.46 252.42" fill="none" stroke="#C9A66B" stroke-width="2.4" stroke-linecap="round"/>
-
-    <g stroke="#F2EDE3" stroke-opacity="0.16">
-      <line y1="-120" y2="-126"/>
-      <line y1="-120" y2="-126" transform="rotate(15)"/>
-      <line y1="-120" y2="-126" transform="rotate(30)"/>
-      <line y1="-120" y2="-126" transform="rotate(45)"/>
-      <line y1="-120" y2="-126" transform="rotate(60)"/>
-      <line y1="-120" y2="-126" transform="rotate(75)"/>
-      <line y1="-120" y2="-126" transform="rotate(90)"/>
-      <line y1="-120" y2="-126" transform="rotate(105)"/>
-      <line y1="-120" y2="-126" transform="rotate(120)"/>
-      <line y1="-120" y2="-126" transform="rotate(135)"/>
-      <line y1="-120" y2="-126" transform="rotate(150)"/>
-      <line y1="-120" y2="-126" transform="rotate(165)"/>
-      <line y1="-120" y2="-126" transform="rotate(180)"/>
-      <line y1="-120" y2="-126" transform="rotate(195)"/>
-      <line y1="-120" y2="-126" transform="rotate(210)"/>
-      <line y1="-120" y2="-126" transform="rotate(225)"/>
-      <line y1="-120" y2="-126" transform="rotate(240)"/>
-      <line y1="-120" y2="-126" transform="rotate(255)"/>
-      <line y1="-120" y2="-126" transform="rotate(270)"/>
-      <line y1="-120" y2="-126" transform="rotate(285)"/>
-      <line y1="-120" y2="-126" transform="rotate(300)"/>
-      <line y1="-120" y2="-126" transform="rotate(315)"/>
-      <line y1="-120" y2="-126" transform="rotate(330)"/>
-      <line y1="-120" y2="-126" transform="rotate(345)"/>
-    </g>
-
-    <line x1="-18" y1="0" x2="18" y2="0" stroke="#F2EDE3" stroke-opacity="0.24"/>
-    <line x1="0" y1="-18" x2="0" y2="18" stroke="#F2EDE3" stroke-opacity="0.24"/>
-    <circle r="3.5" fill="#C9A66B"/>
+  <g stroke="#F0EBDF" stroke-opacity="0.24" stroke-width="1" fill="none">
+    <path d="M36 60 V36 H60"/>
+    <path d="M1140 36 H1164 V60"/>
+    <path d="M36 220 V244 H60"/>
+    <path d="M1164 220 V244 H1140"/>
   </g>
+
+  <rect x="64" y="61.5" width="7" height="7" fill="#C9A66B"/>
+  <text x="86" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="4" fill="#F0EBDF">FULL-STACK ENGINEER</text>
+  <text x="1136" y="70" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="3" fill="#8A8375">GREECE</text>
+
+  <line x1="64" y1="94" x2="1136" y2="94" stroke="#F0EBDF" stroke-opacity="0.16"/>
+  <line x1="64" y1="94" x2="150" y2="94" stroke="#C9A66B" stroke-width="2.5"/>
+
+  <text x="58" y="220" font-family="Georgia, 'Iowan Old Style', 'Palatino Linotype', 'Times New Roman', serif" font-size="150" fill="#F0EBDF">dacrab</text>
+
+  <text x="1136" y="204" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#8A8375">SELECTED WORK ↓</text>
+
+  <line x1="64" y1="234" x2="1136" y2="234" stroke="#F0EBDF" stroke-opacity="0.16"/>
+
+  <text x="64" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="2.4" fill="#8A8375">GITHUB.COM/DACRAB</text>
+  <text x="1136" y="258" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="2.4" fill="#8A8375">PROFILE / 01</text>
 </svg>
