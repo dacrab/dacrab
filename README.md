@@ -84,6 +84,12 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 ### Pull Requests
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Bridge: subscribe to page messages before construction…](https://github.com/kota-zo/myspoti/pull/200)**\
+<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Immersive tab bar polish, per-frame fixes, and a cleanup…](https://github.com/kota-zo/myspoti/pull/199)**\
+<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Redesign the interface around a warm paper palette and…](https://github.com/dacrab/proteas/pull/79)**\
 <sub>[dacrab/proteas](https://github.com/dacrab/proteas)</sub>
 
@@ -93,32 +99,26 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 ![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat(ipc): allow forcing a state on the toggle commands](https://github.com/MalpenZibo/ashell/pull/1128)**\
 <sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[fix(brightness): stop step changes at the lowest usable…](https://github.com/MalpenZibo/ashell/pull/1127)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[feat(settings): compact the quick-settings menu and tooltips](https://github.com/MalpenZibo/ashell/pull/1126)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
 ---
 
 ### Recently Starred
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--116-555?style=flat-square&labelColor=0d0d1a)
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--117-555?style=flat-square&labelColor=0d0d1a)
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,555-555?style=flat-square&labelColor=0d0d1a)
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,588-555?style=flat-square&labelColor=0d0d1a)
 
 Native Android client for Spotify, built with Jetpack Compose
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--456-555?style=flat-square&labelColor=0d0d1a)
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--457-555?style=flat-square&labelColor=0d0d1a)
 
 This repository is a Morphe patch source for TikTok. It continues the work…
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,637-555?style=flat-square&labelColor=0d0d1a)
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,646-555?style=flat-square&labelColor=0d0d1a)
 
 Morphe Patches
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,911-555?style=flat-square&labelColor=0d0d1a)
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,916-555?style=flat-square&labelColor=0d0d1a)
 
 morphe patches for twitter and instagram
