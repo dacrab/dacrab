@@ -107,18 +107,18 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,826-555?style=flat-square&labelColor=0d0d1a)
+**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,843-555?style=flat-square&labelColor=0d0d1a)
 
 Native Android client for Spotify, built with Jetpack Compose
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--460-555?style=flat-square&labelColor=0d0d1a)
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--462-555?style=flat-square&labelColor=0d0d1a)
 
 This repository is a Morphe patch source for TikTok. It continues the work…
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,747-555?style=flat-square&labelColor=0d0d1a)
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,749-555?style=flat-square&labelColor=0d0d1a)
 
 Morphe Patches
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,947-555?style=flat-square&labelColor=0d0d1a)
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,951-555?style=flat-square&labelColor=0d0d1a)
 
 morphe patches for twitter and instagram
