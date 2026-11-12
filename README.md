@@ -84,6 +84,9 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 ### Pull Requests
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[A failed Jam probe is written to the log, not dropped in…](https://github.com/kota-zo/Orpheon/pull/265)**\
+<sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
+
 ![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Bridge: subscribe to page messages before construction…](https://github.com/kota-zo/Orpheon/pull/200)**\
 <sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
 
@@ -96,18 +99,15 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix(power): fall back to loginctl when a built-in command…](https://github.com/MalpenZibo/ashell/pull/1132)**\
 <sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[feat(ipc): add set-* commands for forcing a state, keep…](https://github.com/MalpenZibo/ashell/pull/1128)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
-
 ---
 
 ### Recently Starred
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--139-555?style=flat-square&labelColor=0d0d1a)
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--144-555?style=flat-square&labelColor=0d0d1a)
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
-**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,931-555?style=flat-square&labelColor=0d0d1a)
+**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,961-555?style=flat-square&labelColor=0d0d1a)
 
 Native Android client for Spotify, built with Jetpack Compose
 
@@ -115,10 +115,10 @@ Native Android client for Spotify, built with Jetpack Compose
 
 This repository is a Morphe patch source for TikTok. It continues the work…
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,784-555?style=flat-square&labelColor=0d0d1a)
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,788-555?style=flat-square&labelColor=0d0d1a)
 
 Morphe Patches
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,960-555?style=flat-square&labelColor=0d0d1a)
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,963-555?style=flat-square&labelColor=0d0d1a)
 
 morphe patches for twitter and instagram
