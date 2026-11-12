@@ -84,11 +84,11 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 ### Pull Requests
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Bridge: subscribe to page messages before construction…](https://github.com/kota-zo/myspoti/pull/200)**\
-<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Bridge: subscribe to page messages before construction…](https://github.com/kota-zo/Orpheon/pull/200)**\
+<sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
 
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Immersive tab bar polish, per-frame fixes, and a cleanup…](https://github.com/kota-zo/myspoti/pull/199)**\
-<sub>[kota-zo/myspoti](https://github.com/kota-zo/myspoti)</sub>
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Immersive tab bar polish, per-frame fixes, and a cleanup…](https://github.com/kota-zo/Orpheon/pull/199)**\
+<sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
 
 ![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Redesign the interface around a warm paper palette and…](https://github.com/dacrab/proteas/pull/79)**\
 <sub>[dacrab/proteas](https://github.com/dacrab/proteas)</sub>
@@ -107,15 +107,15 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
-**[kota-zo/myspoti](https://github.com/kota-zo/myspoti)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,919-555?style=flat-square&labelColor=0d0d1a)
+**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--1,931-555?style=flat-square&labelColor=0d0d1a)
 
 Native Android client for Spotify, built with Jetpack Compose
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--464-555?style=flat-square&labelColor=0d0d1a)
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--465-555?style=flat-square&labelColor=0d0d1a)
 
 This repository is a Morphe patch source for TikTok. It continues the work…
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,770-555?style=flat-square&labelColor=0d0d1a)
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,784-555?style=flat-square&labelColor=0d0d1a)
 
 Morphe Patches
 
