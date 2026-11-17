@@ -84,41 +84,41 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 ### Pull Requests
 
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[launcher: remove the dev_offline developer option; the…](https://github.com/gerdaroot/Horizon-Offline-Launcher/pull/30)**\
+<sub>[gerdaroot/Horizon-Offline-Launcher](https://github.com/gerdaroot/Horizon-Offline-Launcher)</sub>
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[docs: index the pages and scripts nothing linked](https://github.com/gerdaroot/Horizon-Offline-Launcher/pull/29)**\
+<sub>[gerdaroot/Horizon-Offline-Launcher](https://github.com/gerdaroot/Horizon-Offline-Launcher)</sub>
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[client: declare render-only dependencies where they are used](https://github.com/gerdaroot/Horizon-Offline-Launcher/pull/27)**\
+<sub>[gerdaroot/Horizon-Offline-Launcher](https://github.com/gerdaroot/Horizon-Offline-Launcher)</sub>
+
+![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[launcher: also release the Linux build as an AppImage](https://github.com/gerdaroot/Horizon-Offline-Launcher/pull/26)**\
+<sub>[gerdaroot/Horizon-Offline-Launcher](https://github.com/gerdaroot/Horizon-Offline-Launcher)</sub>
+
 ![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[A failed Jam probe is written to the log, not dropped in…](https://github.com/kota-zo/Orpheon/pull/265)**\
 <sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
-
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Bridge: subscribe to page messages before construction…](https://github.com/kota-zo/Orpheon/pull/200)**\
-<sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
-
-![](https://img.shields.io/badge/open-238636?style=flat-square&labelColor=0d0d1a) **[Immersive tab bar polish, per-frame fixes, and a cleanup…](https://github.com/kota-zo/Orpheon/pull/199)**\
-<sub>[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)</sub>
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[Redesign the interface around a warm paper palette and…](https://github.com/dacrab/proteas/pull/79)**\
-<sub>[dacrab/proteas](https://github.com/dacrab/proteas)</sub>
-
-![](https://img.shields.io/badge/merged-5865F2?style=flat-square&labelColor=0d0d1a) **[fix(power): fall back to loginctl when a built-in command…](https://github.com/MalpenZibo/ashell/pull/1132)**\
-<sub>[MalpenZibo/ashell](https://github.com/MalpenZibo/ashell)</sub>
 
 ---
 
 ### Recently Starred
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--160-555?style=flat-square&labelColor=0d0d1a)
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--161-555?style=flat-square&labelColor=0d0d1a)
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
-**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,207-555?style=flat-square&labelColor=0d0d1a)
+**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,232-555?style=flat-square&labelColor=0d0d1a)
 
 Native Android client for Spotify, built with Jetpack Compose
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--469-555?style=flat-square&labelColor=0d0d1a)
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--470-555?style=flat-square&labelColor=0d0d1a)
 
 This repository is a Morphe patch source for TikTok. It continues the work…
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,884-555?style=flat-square&labelColor=0d0d1a)
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--4,905-555?style=flat-square&labelColor=0d0d1a)
 
 Morphe Patches
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--6,005-555?style=flat-square&labelColor=0d0d1a)
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--6,010-555?style=flat-square&labelColor=0d0d1a)
 
 morphe patches for twitter and instagram
