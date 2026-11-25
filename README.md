@@ -103,22 +103,22 @@ Modern barbershop booking platform — TanStack Start + Convex + React
 
 ### Recently Starred
 
-**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--211-555?style=flat-square&labelColor=0d0d1a)
+**[p1di/spotifusion](https://github.com/p1di/spotifusion)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--212-555?style=flat-square&labelColor=0d0d1a)
 
 Ad-free fork of MySpoti with better UI and a refined download engine
 
-**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,345-555?style=flat-square&labelColor=0d0d1a)
+**[kota-zo/Orpheon](https://github.com/kota-zo/Orpheon)**&nbsp; ![](https://img.shields.io/badge/Kotlin-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--2,346-555?style=flat-square&labelColor=0d0d1a)
 
 No description
 
-**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--475-555?style=flat-square&labelColor=0d0d1a)
+**[icysymmetra/tiktok-patches-for-morphe](https://github.com/icysymmetra/tiktok-patches-for-morphe)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--476-555?style=flat-square&labelColor=0d0d1a)
 
 This repository is a Morphe patch source for TikTok. It continues the work…
 
-**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,119-555?style=flat-square&labelColor=0d0d1a)
+**[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--5,129-555?style=flat-square&labelColor=0d0d1a)
 
 Morphe Patches
 
-**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--6,093-555?style=flat-square&labelColor=0d0d1a)
+**[crimera/piko](https://github.com/crimera/piko)**&nbsp; ![](https://img.shields.io/badge/Java-555?style=flat-square&labelColor=0d0d1a) ![](https://img.shields.io/badge/stars--6,100-555?style=flat-square&labelColor=0d0d1a)
 
 morphe patches for twitter and instagram
